@@ -1,0 +1,2022 @@
+{
+  "unit": "04",
+  "title": "유전정보의 전달",
+  "sentences": [
+    {
+      "sid": "04-001",
+      "text": "생물은 자신과 닮은 자손을 남기는 생식을 통해 종을 유지한다.",
+      "page": 26,
+      "section": "1",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-002",
+      "text": "자손은 부모의 유전자를 물려받아 생물종으로서의 독특한 특성을 나타내고 부모를 닮게 된다.",
+      "page": 26,
+      "section": "1",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-003",
+      "text": "유성생식을 하는 생물은 감수분열을 통해 염색체 수와 DNA양이 모세포의 절반인 생식세포를 형성하고, 이러한 암수 생식세포의 결합으로 자손이 태어난다.",
+      "page": 26,
+      "section": "1",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-004",
+      "text": "무성생식은 암수 생식세포의 결합 없이 새로운 개체를 만드는 생식 방법이다.",
+      "page": 26,
+      "section": "1",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-005",
+      "text": "무성생식을 하는 생물은 세포분열을 하거나 몸의 일부를 분리하여 자손을 형성한다.",
+      "page": 26,
+      "section": "1",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-006",
+      "text": "무성생식을 할 때에는 일반적으로 체세포분열이 일어난다.",
+      "page": 26,
+      "section": "1-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-007",
+      "text": "무성생식 과정에서 모체는 자신이 가진 모든 유전자를 자손에게 전달한다.",
+      "page": 26,
+      "section": "1-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-008",
+      "text": "무성생식 결과 형성된 자손은 모체와 염색체 구성이 같고 유전적으로 동일하다.",
+      "page": 26,
+      "section": "1-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-009",
+      "text": "무성생식에서 모체는 자손에게 같은 염색체 구성을 전달한다.",
+      "page": 26,
+      "section": "1-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-010",
+      "text": "무성생식에서 자손은 모체와 같은 염색체 구성을 가진다.",
+      "page": 26,
+      "section": "1-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-011",
+      "text": "무성생식은 개체 혼자서도 부모와 동일한 유전자를 가진 자손을 만들 수 있다.",
+      "page": 26,
+      "section": "1-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-012",
+      "text": "무성생식은 생식에 소모되는 에너지가 적고 빠르게 증식할 수 있다.",
+      "page": 26,
+      "section": "1-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-013",
+      "text": "무성생식은 안정적인 환경에서 유리한 생식 방법이다.",
+      "page": 26,
+      "section": "1-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-014",
+      "text": "무성생식은 집단 내 구성원의 유전적 다양성이 낮기 때문에 환경 변화에 대응하거나 질병 등에 저항하기 어려워 생존에 불리한 조건에서 멸종할 가능성이 높다.",
+      "page": 26,
+      "section": "1-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-015",
+      "text": "무성생식을 하는 생물은 자손의 수를 빠르게 늘려 일부 개체가 살아남는 방식으로 적응해 왔다.",
+      "page": 26,
+      "section": "1-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-016",
+      "text": "해캄은 접합이라는 방법으로 유전적 다양성을 높인다.",
+      "page": 26,
+      "section": "1-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-017",
+      "text": "해캄은 두 세포의 접합 부위에서 유전물질을 교환한다.",
+      "page": 26,
+      "section": "1-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-018",
+      "text": "해캄은 환경 조건이 좋아지면 감수분열을 하여 새로운 개체를 형성할 수도 있다.",
+      "page": 26,
+      "section": "1-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-019",
+      "text": "해캄의 접합 부위에서는 유전물질 교환이 일어난다.",
+      "page": 26,
+      "section": "1-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-020",
+      "text": "무성생식의 종류에는 분열법, 출아법, 포자생식, 영양생식 등이 있다.",
+      "page": 26,
+      "section": "1",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-021",
+      "text": "분열법은 몸이 둘로 나뉘어 각각 새로운 개체가 되는 방법으로, 체세포분열이 곧 생식이다.",
+      "page": 26,
+      "section": "1",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-022",
+      "text": "출아법은 체세포분열로 생긴 작은 덩어리가 떨어져 나와 새로운 개체가 되는 방법이다.",
+      "page": 26,
+      "section": "1",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-023",
+      "text": "포자생식은 포자낭에서 만들어진 포자가 새로운 개체로 발달하는 방법이다.",
+      "page": 26,
+      "section": "1",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-024",
+      "text": "영양생식은 식물의 영양기관인 잎, 줄기, 뿌리 등에서 새로운 개체가 자라 나오는 방법이다.",
+      "page": 26,
+      "section": "1",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-025",
+      "text": "아메바는 분열법으로 무성생식을 한다.",
+      "page": 26,
+      "section": "1",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-026",
+      "text": "히드라는 출아법으로 무성생식을 한다.",
+      "page": 26,
+      "section": "1",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-027",
+      "text": "말불버섯은 포자생식으로 무성생식을 한다.",
+      "page": 26,
+      "section": "1",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-028",
+      "text": "양딸기는 영양생식으로 무성생식을 한다.",
+      "page": 26,
+      "section": "1",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-029",
+      "text": "유성생식은 암수 생식세포가 결합하여 새로운 개체를 만드는 생식 방법이다.",
+      "page": 27,
+      "section": "2",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-030",
+      "text": "사람을 비롯한 대부분의 동물과 많은 식물이 유성생식을 한다.",
+      "page": 27,
+      "section": "2",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-031",
+      "text": "유성생식을 하는 대부분의 생물에서는 감수분열이 일어나 염색체 수가 체세포의 절반인 생식세포가 형성된다.",
+      "page": 27,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-032",
+      "text": "감수분열로 형성된 암수 생식세포의 수정으로 자손이 만들어진다.",
+      "page": 27,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-033",
+      "text": "유성생식을 통해 태어난 자손의 염색체 수는 부모와 같다.",
+      "page": 27,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-034",
+      "text": "자손은 부모 양쪽에서 각각 유전자를 전달받으므로 유전적 구성이 부모나 형제자매들과 다르다.",
+      "page": 27,
+      "section": "2-(1)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-035",
+      "text": "유성생식을 통해 새로운 염색체 구성과 유전자 조합을 가진 개체가 나타난다.",
+      "page": 27,
+      "section": "2-(1)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-036",
+      "text": "사자는 유성생식을 하는 동물이다.",
+      "page": 27,
+      "section": "2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-037",
+      "text": "동물의 유성생식에서 모의 세포는 감수분열을 통해 난자를 형성한다.",
+      "page": 27,
+      "section": "2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-038",
+      "text": "동물의 유성생식에서 부의 세포는 감수분열을 통해 정자를 형성한다.",
+      "page": 27,
+      "section": "2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-039",
+      "text": "동물의 유성생식에서 난자와 정자는 수정되어 자손을 형성한다.",
+      "page": 27,
+      "section": "2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-040",
+      "text": "동물의 유성생식에서 자손은 모와 부의 염색체를 모두 가진다.",
+      "page": 27,
+      "section": "2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-041",
+      "text": "무성생식과 달리 유성생식은 생식 방법이 복잡하여 에너지가 많이 소모된다.",
+      "page": 27,
+      "section": "2-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-042",
+      "text": "유성생식은 시간이 오래 걸리며 적은 수의 자손을 만든다.",
+      "page": 27,
+      "section": "2-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-043",
+      "text": "유성생식을 하는 생물은 생식세포의 형성과 수정 과정을 거쳐 다양한 유전자 조합을 가진 자손을 생성한다.",
+      "page": 27,
+      "section": "2-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-044",
+      "text": "유성생식을 하는 생물은 집단 내 유전적 다양성이 높아진다.",
+      "page": 27,
+      "section": "2-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-045",
+      "text": "유성생식을 하면 환경 변화에 잘 적응할 수 있는 개체가 나타날 가능성이 높다.",
+      "page": 27,
+      "section": "2-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-046",
+      "text": "생물이 살아가는 온도, 수분 등의 환경은 끊임없이 변한다.",
+      "page": 27,
+      "section": "2-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-047",
+      "text": "유성생식을 하는 생물은 유전적으로 다양한 자손을 만들어 환경의 변화에 적응하며 진화해 왔다.",
+      "page": 27,
+      "section": "2-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-048",
+      "text": "생물이 자신과 닮은 새로운 개체를 만들어 종을 유지하는 현상을 생식이라고 한다.",
+      "page": 27,
+      "section": "2",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-049",
+      "text": "암수 생식세포의 결합 없이 새로운 개체를 만드는 생식 방법을 무성생식이라고 한다.",
+      "page": 27,
+      "section": "2",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-050",
+      "text": "암수 생식세포가 결합하여 새로운 개체를 만드는 생식 방법을 유성생식이라고 한다.",
+      "page": 27,
+      "section": "2",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-051",
+      "text": "무성생식은 유성생식에 비해 시간과 에너지가 많이 소모된다는 설명은 옳지 않다.",
+      "page": 27,
+      "section": "2",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-052",
+      "text": "유성생식은 종의 유전적 다양성을 높이고 환경 변화에 적응하기에 유리한 생식 방법이다.",
+      "page": 27,
+      "section": "2",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-053",
+      "text": "한 생물에서는 무성생식과 유성생식 중 한 가지 형태만 나타난다는 설명은 옳지 않다.",
+      "page": 27,
+      "section": "2",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "text": "중요 개념 체크의 정답과 해설은 156쪽에 있다.",
+      "page": 27,
+      "section": "2",
+      "source_type": "본문",
+      "deduplicated": false,
+      "sid": "04-054"
+    },
+    {
+      "sid": "04-055",
+      "text": "체세포는 일반적으로 일정한 크기가 되면 성장을 멈춘다.",
+      "page": 28,
+      "section": "2",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-056",
+      "text": "체세포는 특정한 기능을 담당하는 세포로 분화하거나 분열하여 딸세포를 만든다.",
+      "page": 28,
+      "section": "2",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-057",
+      "text": "세포분열로 만들어진 딸세포는 성장하고 다시 분열하는 과정을 반복함으로써 딸세포에 유전물질을 전달하고 세포의 수를 늘린다.",
+      "page": 28,
+      "section": "2",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-058",
+      "text": "분화는 세포가 구성하는 조직의 특성에 알맞게 모양과 기능이 서로 다른 세포로 발달하는 것이다.",
+      "page": 28,
+      "section": "2",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-059",
+      "text": "세포분열을 통해 만들어진 딸세포가 성장 과정을 거쳐 다시 분열을 마칠 때까지의 기간을 세포주기라고 한다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-060",
+      "text": "세포주기의 각 단계는 연속적으로 일어난다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-061",
+      "text": "세포주기의 각 단계에 소요되는 시간은 세포의 종류와 세포가 처한 환경에 따라 달라질 수 있다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-062",
+      "text": "세포주기에 이상이 생기면 암과 같은 질병이 발생할 수 있다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-063",
+      "text": "세포주기는 간기와 분열기(M기)로 구분한다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-064",
+      "text": "세포주기에서 간기는 G1기, S기, G2기로 이루어진다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-065",
+      "text": "세포주기에서 G1기에는 세포 성장이 일어난다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-066",
+      "text": "세포주기에서 S기에는 세포 성장과 DNA 복제가 일어난다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-067",
+      "text": "세포주기에서 G2기에는 세포 성장과 세포분열 준비가 일어난다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-068",
+      "text": "세포주기에서 분열기(M기)에는 핵분열과 세포질분열이 일어난다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-069",
+      "text": "세포주기에서 간기가 분열기보다 더 긴 구간을 차지한다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-070",
+      "text": "간기는 세포분열이 끝난 뒤부터 다음 세포분열이 일어나기 전까지의 시기이다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-071",
+      "text": "간기는 세포주기의 90 % 이상을 차지한다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-072",
+      "text": "간기에 세포는 세포를 구성하는 물질과 세포소기관을 합성하면서 성장한다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-073",
+      "text": "간기에 염색체는 핵 속에 실처럼 풀어져 있다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-074",
+      "text": "G1기는 세포분열이 끝난 직후부터 DNA 복제가 시작되기 전까지의 시기이다.",
+      "page": 28,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-075",
+      "text": "G1기에 세포는 성장에 필요한 다양한 단백질과 효소를 합성한다.",
+      "page": 28,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-076",
+      "text": "G1기에는 물질대사가 매우 활발하게 일어나고 세포소기관의 수가 증가한다.",
+      "page": 28,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-077",
+      "text": "S기는 DNA 복제가 일어나 DNA양이 2배로 증가하는 시기이다.",
+      "page": 28,
+      "section": "2-(1)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-078",
+      "text": "S기에는 세포 성장 또한 계속 일어난다.",
+      "page": 28,
+      "section": "2-(1)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-079",
+      "text": "G2기는 DNA 복제가 완료된 뒤부터 세포분열이 시작되기 전까지의 시기이다.",
+      "page": 28,
+      "section": "2-(1)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-080",
+      "text": "G2기에는 복제된 DNA의 상태를 점검하고 세포분열 준비를 마무리한다.",
+      "page": 28,
+      "section": "2-(1)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-081",
+      "text": "G2기에는 방추사와 같이 세포분열에 필요한 단백질과 세포막을 구성하는 물질이 합성된다.",
+      "page": 28,
+      "section": "2-(1)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-082",
+      "text": "G2기에는 계속해서 세포 성장이 일어나 세포는 크기를 더 키우고 에너지를 축적한다.",
+      "page": 28,
+      "section": "2-(1)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-083",
+      "text": "분열기(M기)는 세포분열이 일어나는 시기이다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-084",
+      "text": "분열기(M기)는 간기에 비해 매우 짧은 시간 동안 일어난다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-085",
+      "text": "분열기에는 응축된 형태의 염색체가 관찰된다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-086",
+      "text": "분열기에는 핵과 세포질이 나누어져 하나의 세포로부터 2개의 딸세포가 형성된다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-087",
+      "text": "분열기는 세포의 생명 주기 중 유전정보가 딸세포에게 전달되는 중요한 시기이다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-088",
+      "text": "분열기는 일반적으로 핵분열과 세포질분열 두 단계로 나뉜다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "text": "세포주기와 관련된 심화 강의는 36쪽에 있다.",
+      "page": 28,
+      "section": "2-(1)",
+      "source_type": "날개",
+      "deduplicated": false,
+      "sid": "04-089"
+    },
+    {
+      "sid": "04-090",
+      "text": "체세포가 분열하여 모세포와 유전적으로 동일한 2개의 딸세포를 형성하고 세포 수가 늘어나는 과정을 체세포분열이라고 한다.",
+      "page": 29,
+      "section": "2-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-091",
+      "text": "다세포생물은 개체의 성장, 수정란의 발생, 조직의 재생 과정에서 체세포분열이 활발하게 일어난다.",
+      "page": 29,
+      "section": "2-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-092",
+      "text": "단세포생물의 무성생식 과정에서도 체세포분열이 일어난다.",
+      "page": 29,
+      "section": "2-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-093",
+      "text": "체세포분열의 간기는 세포가 성장하며 세포분열에 필요한 물질을 합성하는 시기이다.",
+      "page": 29,
+      "section": "2-(2)-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-094",
+      "text": "체세포분열의 간기에는 DNA가 복제되어 2개의 딸세포에 동일하게 유전물질을 분배할 수 있는 준비를 마친다.",
+      "page": 29,
+      "section": "2-(2)-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-095",
+      "text": "체세포분열의 간기에는 염색체가 응축되지 않고 핵 속에 풀어져 있다.",
+      "page": 29,
+      "section": "2-(2)-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-096",
+      "text": "중심체는 세포분열 과정에서 방추사를 형성하는 세포소기관이다.",
+      "page": 29,
+      "section": "2-(2)-(1)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-097",
+      "text": "동물 세포의 중심체는 2개의 중심립(centrioles)으로 구성되어 있다.",
+      "page": 29,
+      "section": "2-(2)-(1)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-098",
+      "text": "식물 세포에는 중심체가 없다.",
+      "page": 29,
+      "section": "2-(2)-(1)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-099",
+      "text": "핵분열은 염색체의 모양과 행동에 따라 전기, 중기, 후기, 말기로 구분한다.",
+      "page": 29,
+      "section": "2-(2)-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-100",
+      "text": "전기에는 핵막과 인이 사라지면서 염색체가 세포질로 퍼지고 응축된 염색체가 나타난다.",
+      "page": 29,
+      "section": "2-(2)-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-101",
+      "text": "전기의 각 염색체는 2개의 염색분체로 이루어져 있다.",
+      "page": 29,
+      "section": "2-(2)-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-102",
+      "text": "전기에는 세포의 양극으로 이동한 중심체에서 방추사가 형성되어 동원체에 결합한다.",
+      "page": 29,
+      "section": "2-(2)-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-103",
+      "text": "방추사는 중심체에서부터 세포의 양극을 향해 형성되는 가느다란 단백질이다.",
+      "page": 29,
+      "section": "2-(2)-(2)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-104",
+      "text": "방추사는 미세소관으로 구성되어 있다.",
+      "page": 29,
+      "section": "2-(2)-(2)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-105",
+      "text": "중심체가 없는 대부분의 식물 세포는 양극에서 방추사가 뻗어 나온다.",
+      "page": 29,
+      "section": "2-(2)-(2)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-106",
+      "text": "방추사는 동원체에 있는 방추사 부착점에 부착하여 염색체가 정확하게 분리되도록 한다.",
+      "page": 29,
+      "section": "2-(2)-(2)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-107",
+      "text": "중기에는 염색체가 세포 중앙인 적도판에 배열된다.",
+      "page": 29,
+      "section": "2-(2)-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-108",
+      "text": "중기에는 염색체가 가장 응축되어 뚜렷하게 관찰되므로 핵형분석을 할 때 이 시기의 염색체를 사용한다.",
+      "page": 29,
+      "section": "2-(2)-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-109",
+      "text": "중기에는 중심체가 세포의 양극에 위치한다.",
+      "page": 29,
+      "section": "2-(2)-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-110",
+      "text": "중기에는 동원체 안쪽에 각각 양극에서 뻗어 나온 방추사가 결합한다.",
+      "page": 29,
+      "section": "2-(2)-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-111",
+      "text": "중기의 염색체 정렬은 이후 염색체가 정확히 나누어지는 데 중요한 역할을 한다.",
+      "page": 29,
+      "section": "2-(2)-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-112",
+      "text": "후기에는 각 염색체의 염색분체가 서로 분리된다.",
+      "page": 29,
+      "section": "2-(2)-(2)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-113",
+      "text": "후기에는 방추사가 짧아지면서 염색분체가 세포의 양극으로 이동한다.",
+      "page": 29,
+      "section": "2-(2)-(2)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-114",
+      "text": "말기에는 핵막과 인이 다시 나타나고 2개의 딸핵이 형성된다.",
+      "page": 29,
+      "section": "2-(2)-(2)-④",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-115",
+      "text": "말기에는 염색체가 풀어지며 방추사도 분해되어 사라지기 시작한다.",
+      "page": 29,
+      "section": "2-(2)-(2)-④",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-116",
+      "text": "말기의 두 딸핵은 유전적으로 동일하다.",
+      "page": 29,
+      "section": "2-(2)-(2)-④",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-117",
+      "text": "세포질분열은 핵분열 말기의 뒷부분에 시작하여 완전한 2개의 딸세포가 형성되는 시기이다.",
+      "page": 29,
+      "section": "2-(2)-(3)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-118",
+      "text": "세포질분열 결과 딸세포의 염색체 수, DNA양, 대립유전자 구성은 모세포와 같다.",
+      "page": 29,
+      "section": "2-(2)-(3)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-119",
+      "text": "세포벽의 유무 차이로 인해 동물 세포에서는 수축환이 형성된다.",
+      "page": 29,
+      "section": "2-(2)-(3)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-120",
+      "text": "세포벽의 유무 차이로 인해 식물 세포에서는 세포판이 형성된다.",
+      "page": 29,
+      "section": "2-(2)-(3)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-121",
+      "text": "동물 세포와 식물 세포의 세포질분열은 서로 다른 방식으로 일어난다.",
+      "page": 29,
+      "section": "2-(2)-(3)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-122",
+      "text": "동물 세포에서는 액틴과 마이오신으로 이루어진 수축환의 작용으로 세포막이 안쪽으로 함입되면서 세포가 둘로 나누어진다.",
+      "page": 29,
+      "section": "2-(2)-(3)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-123",
+      "text": "식물 세포에서는 세포판이 형성된 뒤 바깥쪽으로 성장하여 세포막에 융합되며 세포가 둘로 나누어진다.",
+      "page": 29,
+      "section": "2-(2)-(3)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-124",
+      "text": "동물 세포의 세포질분열에는 수축환이 관여한다.",
+      "page": 29,
+      "section": "2-(2)-(3)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-125",
+      "text": "식물 세포의 세포질분열에는 세포판이 형성된다.",
+      "page": 29,
+      "section": "2-(2)-(3)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-126",
+      "text": "식물 세포의 세포질분열 그림에는 세포판과 핵이 표시되어 있다.",
+      "page": 29,
+      "section": "2-(2)-(3)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-127",
+      "text": "체세포분열 과정은 간기, 핵분열, 세포질분열로 진행된다.",
+      "page": 29,
+      "section": "2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-128",
+      "text": "체세포분열 과정의 간기 그림에는 핵막과 염색분체가 표시되어 있다.",
+      "page": 29,
+      "section": "2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-129",
+      "text": "체세포분열 과정의 전기 그림에는 동원체, 방추사, 염색분체가 표시되어 있다.",
+      "page": 29,
+      "section": "2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-130",
+      "text": "체세포분열 과정의 중기에는 염색체가 세포 중앙에 배열된다.",
+      "page": 29,
+      "section": "2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-131",
+      "text": "체세포분열 과정의 후기에는 염색분체가 분리되어 세포의 양극으로 이동한다.",
+      "page": 29,
+      "section": "2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-132",
+      "text": "체세포분열 과정의 말기 이후 세포질분열을 거쳐 딸세포가 형성된다.",
+      "page": 29,
+      "section": "2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-133",
+      "text": "사람에서 암수 생식세포는 난자와 정자이다.",
+      "page": 30,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-134",
+      "text": "난자와 정자가 만들어질 때에는 염색체 수가 모세포의 절반으로 줄어드는 감수분열이 일어난다.",
+      "page": 30,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-135",
+      "text": "난자와 정자가 만들어지는 과정에서 유전물질이 다양하게 조합되어 유전적 다양성이 나타난다.",
+      "page": 30,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-136",
+      "text": "유성생식을 하는 암수 개체의 생식기관에서 생식세포를 형성한다.",
+      "page": 30,
+      "section": "3-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-137",
+      "text": "생식세포 형성 과정은 간기의 S기에 DNA가 복제된 뒤 연속 2회 분열이 일어난다.",
+      "page": 30,
+      "section": "3-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-138",
+      "text": "생식세포 형성 과정의 결과 4개의 딸세포가 만들어진다.",
+      "page": 30,
+      "section": "3-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-139",
+      "text": "생식세포의 염색체 수와 유전물질의 양은 모세포(G1기 세포)의 절반이다.",
+      "page": 30,
+      "section": "3-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-140",
+      "text": "생식세포를 만드는 세포분열을 감수분열이라고 한다.",
+      "page": 30,
+      "section": "3-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-141",
+      "text": "감수분열로 형성된 생식세포는 분화되어 다시 분열하지 않는다.",
+      "page": 30,
+      "section": "3-(1)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-142",
+      "text": "감수분열은 세포주기가 반복되지 않는다.",
+      "page": 30,
+      "section": "3-(1)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-143",
+      "text": "감수 1분열은 간기에 DNA가 복제된 후 일어난다.",
+      "page": 30,
+      "section": "3-(1)-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-144",
+      "text": "감수 1분열에서는 상동염색체가 분리되어 각각 다른 딸세포로 나뉘어 들어간다.",
+      "page": 30,
+      "section": "3-(1)-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-145",
+      "text": "감수 1분열 결과 형성된 두 딸세포의 염색체 수는 모세포의 반으로 줄어든다(2n -> n).",
+      "page": 30,
+      "section": "3-(1)-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-146",
+      "text": "감수 1분열 전기에는 염색체가 응축되고 핵막과 인이 사라져 염색체가 세포질로 퍼진다.",
+      "page": 30,
+      "section": "3-(1)-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-147",
+      "text": "감수 1분열 전기의 각 염색체는 2개의 염색분체로 이루어져 있다.",
+      "page": 30,
+      "section": "3-(1)-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-148",
+      "text": "감수 1분열 전기에는 체세포분열과 달리 상동염색체가 접합하여 2가 염색체를 형성한다.",
+      "page": 30,
+      "section": "3-(1)-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-149",
+      "text": "감수 1분열 전기에는 중심체가 양극으로 이동하고 방추사가 형성되어 2가 염색체의 동원체에 결합한다.",
+      "page": 30,
+      "section": "3-(1)-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-150",
+      "text": "2가 염색체는 감수 1분열 전기에 부계와 모계의 상동염색체가 접합한 것이다.",
+      "page": 30,
+      "section": "3-(1)-(1)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-151",
+      "text": "2가 염색체는 4개의 염색분체로 이루어져 있어 4분 염색체라고도 한다.",
+      "page": 30,
+      "section": "3-(1)-(1)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-152",
+      "text": "2가 염색체는 감수 1분열 전기부터 중기까지 관찰된다.",
+      "page": 30,
+      "section": "3-(1)-(1)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-153",
+      "text": "상동염색체에는 각각 동원체가 있다.",
+      "page": 30,
+      "section": "3-(1)-(1)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-154",
+      "text": "상동염색체가 접합하면 2가 염색체가 형성된다.",
+      "page": 30,
+      "section": "3-(1)-(1)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-155",
+      "text": "감수 1분열 중기에는 2가 염색체가 방추사에 이끌려 세포의 중앙에 배열한다.",
+      "page": 30,
+      "section": "3-(1)-(1)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-156",
+      "text": "감수 1분열 후기에는 2가 염색체의 상동염색체가 서로 분리되어 방추사에 의해 각각 세포의 양극으로 이동한다.",
+      "page": 30,
+      "section": "3-(1)-(1)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-157",
+      "text": "감수 1분열 후기에는 각 염색체를 구성하는 염색분체의 접합이 동원체 부위에서 유지된다.",
+      "page": 30,
+      "section": "3-(1)-(1)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-158",
+      "text": "감수 1분열 후기에는 두 염색분체가 하나의 단위로 움직이며 같은 극으로 끌려간다.",
+      "page": 30,
+      "section": "3-(1)-(1)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-159",
+      "text": "감수 1분열 말기에는 핵막이 다시 나타나고 세포질분열이 일어난다.",
+      "page": 30,
+      "section": "3-(1)-(1)-④",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-160",
+      "text": "일반적으로 감수 1분열 말기에는 염색체가 풀어지지 않는다.",
+      "page": 30,
+      "section": "3-(1)-(1)-④",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-161",
+      "text": "몇몇 종의 경우 감수 1분열 말기에 염색체가 풀어지고 핵막이 형성되기도 한다.",
+      "page": 30,
+      "section": "3-(1)-(1)-④",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-162",
+      "text": "감수 1분열의 세포질분열이 완료되면 2개의 홑배수체(n) 딸세포가 형성된다.",
+      "page": 30,
+      "section": "3-(1)-(1)-④",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-163",
+      "text": "감수 1분열 결과 형성된 두 딸세포의 유전자 구성은 서로 다르다.",
+      "page": 30,
+      "section": "3-(1)-(1)-④",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-164",
+      "text": "감수분열 과정의 간기에는 중심체, DNA, 핵막이 관찰된다.",
+      "page": 30,
+      "section": "3-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-165",
+      "text": "감수분열 과정의 간기에는 DNA가 복제되고 세포분열에 필요한 물질이 합성된다.",
+      "page": 30,
+      "section": "3-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-166",
+      "text": "감수 1분열 전기 I에는 염색체가 응축되고 핵막이 사라지며 2가 염색체가 만들어진다.",
+      "page": 30,
+      "section": "3-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-167",
+      "text": "감수 1분열 중기 I에는 2가 염색체가 세포 중앙에 배열한다.",
+      "page": 30,
+      "section": "3-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-168",
+      "text": "감수 1분열 후기 I에는 상동염색체가 분리되어 세포의 양극으로 이동한다.",
+      "page": 30,
+      "section": "3-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-169",
+      "text": "감수 1분열 말기 I에는 핵막이 형성되고 세포질분열이 일어나 2개의 딸세포(n)가 만들어진다.",
+      "page": 30,
+      "section": "3-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-170",
+      "text": "감수 2분열에서 감수 1분열로 형성된 2개의 딸세포는 DNA 복제와 세포질의 증가가 일어나는 간기 없이 바로 감수 2분열에 들어간다.",
+      "page": 31,
+      "section": "3-(1)-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-171",
+      "text": "감수 2분열에서는 각 염색체를 구성하고 있는 염색분체가 분리된다.",
+      "page": 31,
+      "section": "3-(1)-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-172",
+      "text": "감수 2분열에서는 세포당 DNA양은 반으로 줄어들지만 염색체 수는 변하지 않는다.",
+      "page": 31,
+      "section": "3-(1)-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-173",
+      "text": "감수 2분열 전기에는 핵막이 사라지고 양극에서 뻗어 나온 방추사가 염색체의 동원체에 붙는다.",
+      "page": 31,
+      "section": "3-(1)-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-174",
+      "text": "감수 2분열 중기에는 염색체가 방추사에 이끌려 세포의 중앙에 배열된다.",
+      "page": 31,
+      "section": "3-(1)-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-175",
+      "text": "감수 2분열 후기에는 염색분체가 분리되어 방추사에 의해 각각 세포의 양극으로 이동한다.",
+      "page": 31,
+      "section": "3-(1)-(2)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-176",
+      "text": "감수 2분열 말기에는 방추사는 사라지고 염색체가 풀어진다.",
+      "page": 31,
+      "section": "3-(1)-(2)-④",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-177",
+      "text": "감수 2분열 말기에는 핵막이 다시 나타나고 세포질분열이 일어난다.",
+      "page": 31,
+      "section": "3-(1)-(2)-④",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-178",
+      "text": "감수 2분열의 세포질분열이 완료되면 4개의 홑배수체(n) 딸세포가 형성된다.",
+      "page": 31,
+      "section": "3-(1)-(2)-④",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-179",
+      "text": "염색체수이상은 대부분 염색체비분리현상에 의해 발생한다.",
+      "page": 31,
+      "section": "3-(1)-(2)",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-180",
+      "text": "염색체비분리현상은 감수분열 과정에서 상동염색체나 염색분체가 제대로 분리되지 않아 염색체 수가 정상보다 많거나 적은 생식세포가 형성되는 현상이다.",
+      "page": 31,
+      "section": "3-(1)-(2)",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-181",
+      "text": "염색체 수가 비정상인 생식세포가 수정되면 자손에게서 염색체수이상이 나타날 수 있다.",
+      "page": 31,
+      "section": "3-(1)-(2)",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-182",
+      "text": "감수분열 과정에서 염색체의 정확한 분리는 매우 중요하다.",
+      "page": 31,
+      "section": "3-(1)-(2)",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-183",
+      "text": "감수 1분열에서 염색체비분리가 일어나면 n+1 생식세포와 n-1 생식세포가 형성될 수 있다.",
+      "page": 31,
+      "section": "3-(1)-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-184",
+      "text": "감수 2분열에서 염색분체비분리가 일어나면 n, n-1, n+1 생식세포가 형성될 수 있다.",
+      "page": 31,
+      "section": "3-(1)-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-185",
+      "text": "염색체비분리현상 그림에는 상동염색체와 염색분체가 표시되어 있다.",
+      "page": 31,
+      "section": "3-(1)-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-186",
+      "text": "감수 2분열 전기 II에는 핵막과 인이 사라지고 방추사가 형성되어 염색체의 동원체에 결합한다.",
+      "page": 31,
+      "section": "3-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-187",
+      "text": "감수 2분열 중기 II에는 염색체가 세포 중앙에 배열된다.",
+      "page": 31,
+      "section": "3-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-188",
+      "text": "감수 2분열 후기 II에는 염색분체가 분리되어 세포의 양극으로 이동한다.",
+      "page": 31,
+      "section": "3-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-189",
+      "text": "감수 2분열 말기 II에는 핵막이 형성되고 염색체가 풀어진다.",
+      "page": 31,
+      "section": "3-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-190",
+      "text": "감수 2분열 말기 II에는 세포질분열이 일어나 4개의 딸세포(n)가 만들어진다.",
+      "page": 31,
+      "section": "3-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-191",
+      "text": "체세포분열은 간기의 S기에 DNA가 복제된 뒤 1회의 핵분열이 일어난다.",
+      "page": 32,
+      "section": "3-(2)-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-192",
+      "text": "체세포분열은 분열기 후기에 염색분체가 분리된다.",
+      "page": 32,
+      "section": "3-(2)-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-193",
+      "text": "체세포분열 결과 염색체 수와 핵 1개당 DNA양이 모세포와 동일한 2개의 딸세포가 형성된다(2n -> 2n).",
+      "page": 32,
+      "section": "3-(2)-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-194",
+      "text": "체세포분열은 성장할 때나 조직을 재생할 때 활발하게 일어난다.",
+      "page": 32,
+      "section": "3-(2)-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-195",
+      "text": "감수분열은 간기의 S기에 DNA가 복제된 뒤 2회의 핵분열이 연속적으로 일어난다.",
+      "page": 32,
+      "section": "3-(2)-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-196",
+      "text": "감수분열은 감수 1분열 후기에 상동염색체가 분리된다.",
+      "page": 32,
+      "section": "3-(2)-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-197",
+      "text": "감수분열은 감수 2분열 후기에 염색분체가 분리된다.",
+      "page": 32,
+      "section": "3-(2)-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-198",
+      "text": "감수분열 결과 염색체 수와 핵 1개당 DNA양이 모세포의 절반인 4개의 딸세포가 형성된다(2n -> n).",
+      "page": 32,
+      "section": "3-(2)-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-199",
+      "text": "감수분열은 정소, 난소와 같은 생식기관에서 생식세포를 만들 때 일어난다.",
+      "page": 32,
+      "section": "3-(2)-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-200",
+      "text": "감수분열은 생식기관에서 일어난다.",
+      "page": 32,
+      "section": "3-(2)-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-201",
+      "text": "동물의 생식기관은 정소와 난소이다.",
+      "page": 32,
+      "section": "3-(2)-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-202",
+      "text": "식물의 생식기관은 꽃밥과 밑씨이다.",
+      "page": 32,
+      "section": "3-(2)-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-203",
+      "text": "꽃이 피지 않는 식물의 포자낭에서 포자가 형성될 때에도 감수분열이 일어난다.",
+      "page": 32,
+      "section": "3-(2)-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-204",
+      "text": "체세포분열과 감수분열 비교 그림의 모세포는 DNA 복제 전 2n=4 상태이다.",
+      "page": 32,
+      "section": "3-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-205",
+      "text": "체세포분열에서는 DNA 복제 뒤 염색분체가 분리되어 2n=4인 딸세포 2개가 형성된다.",
+      "page": 32,
+      "section": "3-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-206",
+      "text": "감수분열에서는 DNA 복제 뒤 2가 염색체가 형성된다.",
+      "page": 32,
+      "section": "3-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-207",
+      "text": "감수분열에서는 감수 1분열에서 상동염색체가 분리된다.",
+      "page": 32,
+      "section": "3-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-208",
+      "text": "감수분열에서는 감수 2분열에서 염색분체가 분리된다.",
+      "page": 32,
+      "section": "3-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-209",
+      "text": "감수분열 결과 n=2인 딸세포 4개가 형성된다.",
+      "page": 32,
+      "section": "3-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-210",
+      "text": "체세포분열 과정에서 핵 1개당 DNA 상대량은 G1기에 1, S기에 증가, G2기와 전기ㆍ중기ㆍ후기ㆍ말기에 2, 분열기 이후 1로 나타난다.",
+      "page": 32,
+      "section": "3-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-211",
+      "text": "감수분열 과정에서 핵 1개당 DNA 상대량은 G1기에 1, S기에 증가, G2기와 감수 1분열 전기ㆍ중기ㆍ후기ㆍ말기에 2, 감수 2분열 전기ㆍ중기ㆍ후기ㆍ말기에 1, 감수분열 이후 0.5로 나타난다.",
+      "page": 32,
+      "section": "3-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-212",
+      "text": "DNA양은 염색분체의 수로 계산한다.",
+      "page": 32,
+      "section": "3-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-213",
+      "text": "DNA양은 흔히 핵 1개당 상대량으로 나타낸다.",
+      "page": 32,
+      "section": "3-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "text": "체세포분열과 감수분열의 비교와 관련된 집중 분석은 34쪽에 있다.",
+      "page": 32,
+      "section": "3-(2)",
+      "source_type": "날개",
+      "deduplicated": false,
+      "sid": "04-214"
+    },
+    {
+      "sid": "04-215",
+      "text": "감수분열을 통해 염색체 수가 모세포의 절반인 생식세포가 형성된다.",
+      "page": 33,
+      "section": "3-(3)-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-216",
+      "text": "암수 생식세포가 결합하여 만들어진 수정란은 염색체 수와 DNA양이 부모의 체세포와 동일하다.",
+      "page": 33,
+      "section": "3-(3)-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-217",
+      "text": "유성생식을 하는 생물은 생식세포의 형성과 수정으로 생명의 연속성을 유지한다.",
+      "page": 33,
+      "section": "3-(3)-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-218",
+      "text": "2가 염색체는 감수 1분열 중기가 되면 세포 중앙에 무작위로 배열한다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-219",
+      "text": "2가 염색체는 감수 1분열 후기에 다른 상동염색체 쌍과 독립적으로 분리된다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-220",
+      "text": "2가 염색체의 배열에 따라 각 생식세포에 서로 다른 조합의 염색체가 전달된다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-221",
+      "text": "하나의 모세포로부터 다양한 염색체 조합을 가진 생식세포가 형성된다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-222",
+      "text": "감수분열로 만들어진 암수 생식세포가 무작위로 수정하므로 자손의 유전자 구성은 매우 다양해진다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-223",
+      "text": "유성생식을 하는 생물은 감수분열과 수정을 거쳐 유전적 다양성을 얻는다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-224",
+      "text": "상동염색체의 무작위 배열과 독립적 분리는 감수분열에서 유전적 다양성을 증가시키는 요인이다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-225",
+      "text": "무작위 수정은 유전적 다양성을 증가시키는 요인이다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-226",
+      "text": "돌연변이와 염색체의 교차도 유전적 다양성을 증가시키는 요인으로 작용한다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-227",
+      "text": "자손에게 나타나는 염색체 조합은 매우 다양하다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-228",
+      "text": "부(2n)와 모(2n)는 각각 감수분열로 정자(n)와 난자(n)를 형성한다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-229",
+      "text": "정자(n)와 난자(n)는 수정되어 자손(2n)을 형성한다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-230",
+      "text": "그림의 자손(2n)은 다양한 염색체 조합을 가질 수 있다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-231",
+      "text": "감수분열과 유전적 다양성 분석에서 경우 1은 유전자형 AB와 ab인 두 종류의 생식세포를 생성한다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-232",
+      "text": "감수분열과 유전적 다양성 분석에서 경우 2는 유전자형 Ab와 aB인 두 종류의 생식세포를 생성한다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-233",
+      "text": "생식기관 내에는 유전자형이 AaBb인 모세포가 여러 개 있다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-234",
+      "text": "각각의 모세포에서 상동염색체 쌍이 무작위적으로 배열한다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-235",
+      "text": "감수분열이 완료되면 생식기관 내에는 유전자형이 AB, Ab, aB, ab인 생식세포가 모두 발견될 수 있다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-236",
+      "text": "감수분열과 유전적 다양성 그림에서 경우 1의 감수 1분열 중기에는 A와 B가 같은 쪽에 배열되고 a와 b가 같은 쪽에 배열된다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-237",
+      "text": "감수분열과 유전적 다양성 그림에서 경우 1의 조합 1은 유전자형 AB이다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-238",
+      "text": "감수분열과 유전적 다양성 그림에서 경우 1의 조합 2는 유전자형 ab이다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-239",
+      "text": "감수분열과 유전적 다양성 그림에서 경우 2의 감수 1분열 중기에는 A와 b가 같은 쪽에 배열되고 a와 B가 같은 쪽에 배열된다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-240",
+      "text": "감수분열과 유전적 다양성 그림에서 경우 2의 조합 3은 유전자형 Ab이다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-241",
+      "text": "감수분열과 유전적 다양성 그림에서 경우 2의 조합 4는 유전자형 aB이다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-242",
+      "text": "n쌍의 상동염색체가 있는 모세포로부터 만들어질 수 있는 생식세포의 염색체 조합은 2^n가지이다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-243",
+      "text": "사람의 체세포에는 23쌍의 염색체가 있다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-244",
+      "text": "한 사람에게서 형성될 수 있는 생식세포의 조합 수는 2^23, 약 840만 가지이다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-245",
+      "text": "부모에게서 태어날 수 있는 자손의 염색체 조합은 2^23 x 2^23, 약 70조 가지이다.",
+      "page": 33,
+      "section": "3-(3)-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-246",
+      "text": "감수 1분열 후기에는 상동염색체가 분리된다.",
+      "page": 33,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-247",
+      "text": "감수 2분열 후기에는 염색분체가 분리된다.",
+      "page": 33,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-248",
+      "text": "체세포분열 결과 염색체 수와 DNA양이 모세포와 동일한 딸세포가 형성된다.",
+      "page": 33,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-249",
+      "text": "감수분열 결과 염색체 수와 DNA양이 모세포의 절반인 딸세포가 형성된다.",
+      "page": 33,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "04-250",
+      "text": "유성생식을 하는 생물은 감수분열로 생식세포를 형성하여 생명의 연속성과 유전적 다양성을 얻는다.",
+      "page": 33,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "text": "감수분열의 의의와 관련된 심화 강의는 37쪽에 있다.",
+      "page": 33,
+      "section": "3-(3)",
+      "source_type": "날개",
+      "deduplicated": false,
+      "sid": "04-251"
+    },
+    {
+      "text": "중요 개념 체크의 정답과 해설은 156쪽에 있다.",
+      "page": 33,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false,
+      "sid": "04-252"
+    }
+  ]
+}

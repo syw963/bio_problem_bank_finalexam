@@ -1,0 +1,1683 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1024, initial-scale=1">
+  <title>생명과학 문제은행</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #ffffff;
+      --surface: #ffffff;
+      --surface-alt: #f7f7f8;
+      --text: #151518;
+      --muted: #6f7178;
+      --border: #dedfe3;
+      --border-strong: #b8bac2;
+      --accent: #2457d6;
+      --accent-soft: #eaf0ff;
+      --good: #14783f;
+      --good-bg: #edf8f1;
+      --bad: #bf2f2f;
+      --bad-bg: #fff0f0;
+      --flag: #fff7dd;
+      --shadow: 0 16px 40px rgba(20, 22, 27, 0.08);
+      --radius: 8px;
+      --fast: 160ms ease;
+    }
+
+    [data-theme="dark"] {
+      color-scheme: dark;
+      --bg: #111214;
+      --surface: #17191c;
+      --surface-alt: #202226;
+      --text: #f0f1f3;
+      --muted: #a4a7af;
+      --border: #31343a;
+      --border-strong: #50545d;
+      --accent: #89a7ff;
+      --accent-soft: #202a46;
+      --good: #70d49d;
+      --good-bg: #17271d;
+      --bad: #ff8f8f;
+      --bad-bg: #2d1b1b;
+      --flag: #332c18;
+      --shadow: 0 16px 40px rgba(0, 0, 0, 0.28);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      min-width: 1024px;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.55;
+      transition: background var(--fast), color var(--fast);
+    }
+
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    button {
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      background: var(--surface);
+      color: var(--text);
+      min-height: 34px;
+      padding: 0 12px;
+      cursor: pointer;
+      transition: border-color var(--fast), background var(--fast), color var(--fast), transform var(--fast);
+    }
+
+    button:hover {
+      border-color: var(--border-strong);
+      background: var(--surface-alt);
+    }
+
+    button:active {
+      transform: translateY(1px);
+    }
+
+    button.primary {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #fff;
+    }
+
+    [data-theme="dark"] button.primary {
+      color: #101113;
+    }
+
+    button.ghost {
+      background: transparent;
+    }
+
+    button.icon {
+      width: 34px;
+      padding: 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 17px;
+    }
+
+    button.selected,
+    .segmented button.selected {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+
+    button:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .app-shell {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .topbar {
+      height: 58px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 28px;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: color-mix(in srgb, var(--bg) 92%, transparent);
+      backdrop-filter: blur(14px);
+    }
+
+    .brand {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      min-width: 360px;
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1;
+      font-weight: 720;
+      letter-spacing: 0;
+    }
+
+    .brand span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .top-actions,
+    .toolbar-actions,
+    .row-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .layout {
+      width: min(1180px, calc(100vw - 56px));
+      margin: 0 auto;
+      padding: 26px 0 42px;
+      flex: 1;
+    }
+
+    .home-grid {
+      display: grid;
+      grid-template-columns: 1fr 360px;
+      gap: 22px;
+      align-items: start;
+    }
+
+    .panel {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+      transition: background var(--fast), border-color var(--fast);
+    }
+
+    .panel-header {
+      padding: 18px 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .panel-title {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 720;
+      line-height: 1.2;
+    }
+
+    .panel-subtitle {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 4px;
+    }
+
+    .panel-body {
+      padding: 20px;
+    }
+
+    .section-title {
+      font-size: 13px;
+      font-weight: 720;
+      margin: 0 0 10px;
+      color: var(--muted);
+    }
+
+    .filter-block + .filter-block {
+      margin-top: 22px;
+    }
+
+    .checkbox-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .check-card,
+    .inline-check {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      min-height: 38px;
+      padding: 8px 10px;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      background: var(--surface);
+      color: var(--text);
+      cursor: pointer;
+      transition: border-color var(--fast), background var(--fast), color var(--fast);
+      user-select: none;
+    }
+
+    .check-card:hover,
+    .inline-check:hover {
+      border-color: var(--border-strong);
+    }
+
+    .check-card input,
+    .inline-check input {
+      width: 15px;
+      height: 15px;
+      accent-color: var(--accent);
+    }
+
+    .check-card.checked,
+    .inline-check.checked {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+    }
+
+    .unit-meta {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    .unit-code {
+      font-weight: 720;
+      line-height: 1.2;
+    }
+
+    .unit-title {
+      color: var(--muted);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 12px;
+    }
+
+    .mode-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .toggle-line {
+      margin-top: 18px;
+    }
+
+    .summary-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .summary-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--border);
+      color: var(--muted);
+    }
+
+    .summary-item strong {
+      color: var(--text);
+      font-size: 18px;
+    }
+
+    .status-note {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 12px;
+    }
+
+    .error-note {
+      color: var(--bad);
+      font-size: 13px;
+      margin-top: 12px;
+    }
+
+    .quiz-toolbar {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      padding: 14px 16px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 14px;
+      align-items: center;
+      position: sticky;
+      top: 72px;
+      z-index: 15;
+      box-shadow: var(--shadow);
+    }
+
+    .progress-line {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .metric {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      min-height: 28px;
+      padding: 0 9px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--muted);
+      background: var(--surface-alt);
+      font-size: 13px;
+    }
+
+    .metric strong {
+      color: var(--text);
+    }
+
+    .segmented {
+      display: inline-flex;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      overflow: hidden;
+      height: 34px;
+      background: var(--surface);
+    }
+
+    .segmented button {
+      border: 0;
+      border-radius: 0;
+      min-height: 32px;
+      background: transparent;
+      border-right: 1px solid var(--border);
+    }
+
+    .segmented button:last-child {
+      border-right: 0;
+    }
+
+    .quiz-stage {
+      margin-top: 18px;
+    }
+
+    .single-wrap {
+      display: grid;
+      gap: 14px;
+    }
+
+    .nav-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .scroll-list {
+      display: grid;
+      gap: 12px;
+      max-height: calc(100vh - 165px);
+      overflow: auto;
+      padding-right: 6px;
+    }
+
+    .question-card {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      transition: border-color var(--fast), background var(--fast), box-shadow var(--fast);
+    }
+
+    .question-card.flagged {
+      border-color: color-mix(in srgb, #d6a900 55%, var(--border));
+      background: color-mix(in srgb, var(--flag) 50%, var(--surface));
+    }
+
+    .question-card.graded.correct {
+      border-color: color-mix(in srgb, var(--good) 50%, var(--border));
+    }
+
+    .question-card.graded.incorrect {
+      border-color: color-mix(in srgb, var(--bad) 55%, var(--border));
+    }
+
+    .question-head {
+      padding: 13px 16px;
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .question-meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      min-width: 0;
+      flex-wrap: wrap;
+    }
+
+    .pid {
+      font-weight: 720;
+      color: var(--text);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      height: 24px;
+      padding: 0 8px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 12px;
+      background: var(--surface-alt);
+    }
+
+    .badge.good {
+      color: var(--good);
+      background: var(--good-bg);
+      border-color: color-mix(in srgb, var(--good) 35%, var(--border));
+    }
+
+    .badge.bad {
+      color: var(--bad);
+      background: var(--bad-bg);
+      border-color: color-mix(in srgb, var(--bad) 35%, var(--border));
+    }
+
+    .question-body {
+      padding: 20px 18px 18px;
+    }
+
+    .question-text {
+      font-size: 19px;
+      line-height: 2.25;
+      word-break: keep-all;
+    }
+
+    .blank-wrap {
+      display: inline-flex;
+      flex-direction: column;
+      vertical-align: middle;
+      gap: 4px;
+      margin: 0 4px;
+      min-width: 154px;
+    }
+
+    .blank-input {
+      width: 154px;
+      height: 36px;
+      border: 1px solid var(--border-strong);
+      border-radius: 6px;
+      padding: 0 9px;
+      background: var(--surface);
+      color: var(--text);
+      outline: none;
+      transition: border-color var(--fast), background var(--fast);
+    }
+
+    .blank-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent);
+    }
+
+    .blank-input.correct {
+      border-color: var(--good);
+      background: var(--good-bg);
+      color: var(--good);
+    }
+
+    .blank-input.incorrect {
+      border-color: var(--bad);
+      background: var(--bad-bg);
+      color: var(--bad);
+    }
+
+    .answer-hint {
+      min-height: 16px;
+      font-size: 12px;
+      line-height: 1.3;
+      color: var(--muted);
+      white-space: normal;
+    }
+
+    .answer-hint.correct {
+      color: var(--good);
+    }
+
+    .answer-hint.incorrect {
+      color: var(--bad);
+    }
+
+    .flashcard {
+      border: 1px dashed var(--border-strong);
+      border-radius: var(--radius);
+      padding: 22px;
+      min-height: 150px;
+      cursor: pointer;
+      background: var(--surface-alt);
+      transition: border-color var(--fast), background var(--fast);
+    }
+
+    .flashcard:hover {
+      border-color: var(--accent);
+    }
+
+    .blank-pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 82px;
+      height: 32px;
+      margin: 0 4px;
+      padding: 0 10px;
+      border: 1px solid var(--border-strong);
+      border-radius: 6px;
+      background: var(--surface);
+      color: var(--muted);
+      vertical-align: middle;
+    }
+
+    .flash-answers {
+      margin-top: 20px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      display: grid;
+      gap: 8px;
+    }
+
+    .answer-row {
+      display: flex;
+      gap: 10px;
+      align-items: baseline;
+    }
+
+    .answer-row strong {
+      min-width: 54px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .question-foot {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      padding: 13px 16px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .source {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      min-width: 0;
+    }
+
+    .empty-state {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 34px;
+      text-align: center;
+      color: var(--muted);
+      background: var(--surface);
+    }
+
+    .file-input {
+      display: none;
+    }
+
+    .divider {
+      width: 1px;
+      height: 28px;
+      background: var(--border);
+      margin: 0 2px;
+    }
+
+    .toast {
+      position: fixed;
+      right: 24px;
+      bottom: 24px;
+      max-width: 420px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+      padding: 12px 14px;
+      color: var(--text);
+      font-size: 13px;
+      z-index: 50;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="app" class="app-shell"></div>
+  <input id="jsonFileInput" class="file-input" type="file" accept="application/json,.json">
+
+  <script>
+    const STORAGE_KEY = "koreanBioQuestionBank.AppState.v1";
+    const UNIT_FILES = ["01", "02", "03", "04", "05", "06"];
+    const TIER_LABELS = {
+      1: "핵심개념",
+      2: "본문개념",
+      3: "심화/날개"
+    };
+    const ROMAN_MAP = {
+      I: "1",
+      II: "2",
+      III: "3",
+      IV: "4",
+      V: "5",
+      VI: "6",
+      VII: "7",
+      VIII: "8",
+      IX: "9",
+      X: "10"
+    };
+
+    const AppState = {
+      screen: "home",
+      loading: true,
+      loadErrors: [],
+      sourceBanks: [],
+      externalBanks: [],
+      allProblems: [],
+      problemMeta: {},
+      filters: {
+        units: ["01", "02", "03", "04", "05", "06"],
+        tiers: [1, 2, 3]
+      },
+      displayMode: "one",
+      inputMode: "typing",
+      shuffle: false,
+      shuffleSeed: null,
+      shuffledOrder: [],
+      sessionProblemIds: [],
+      currentIndex: 0,
+      inputs: {},
+      gradingResults: {},
+      manualOverrides: {},
+      flaggedPids: [],
+      revealed: {},
+      exportOptions: {
+        wrong: true,
+        flagged: true
+      },
+      themePreference: "system",
+      toast: ""
+    };
+
+    const app = document.getElementById("app");
+    const fileInput = document.getElementById("jsonFileInput");
+
+    function hydrateState() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
+        if (!saved || typeof saved !== "object") return;
+        Object.assign(AppState, {
+          ...saved,
+          loading: true,
+          loadErrors: [],
+          sourceBanks: [],
+          allProblems: [],
+          problemMeta: {},
+          toast: ""
+        });
+        AppState.filters = {
+          units: normalizeUnitList(saved.filters && saved.filters.units),
+          tiers: normalizeTierList(saved.filters && saved.filters.tiers)
+        };
+        AppState.externalBanks = Array.isArray(saved.externalBanks) ? saved.externalBanks : [];
+        AppState.flaggedPids = Array.isArray(saved.flaggedPids) ? saved.flaggedPids : [];
+        AppState.sessionProblemIds = Array.isArray(saved.sessionProblemIds) ? saved.sessionProblemIds : [];
+        AppState.currentIndex = Number.isInteger(saved.currentIndex) ? saved.currentIndex : 0;
+      } catch (error) {
+        console.warn("저장된 상태를 불러오지 못했습니다.", error);
+      }
+    }
+
+    function persistState() {
+      const snapshot = {
+        ...AppState,
+        loading: false,
+        loadErrors: [],
+        sourceBanks: [],
+        allProblems: [],
+        problemMeta: {},
+        toast: ""
+      };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot));
+    }
+
+    function commit(renderAfter = true) {
+      clampCurrentIndex();
+      persistState();
+      applyTheme();
+      if (renderAfter) render();
+    }
+
+    function normalizeUnitList(value) {
+      const units = Array.isArray(value) ? value.filter((unit) => UNIT_FILES.includes(String(unit))) : UNIT_FILES.slice();
+      return units.length ? Array.from(new Set(units)) : UNIT_FILES.slice();
+    }
+
+    function normalizeTierList(value) {
+      const tiers = Array.isArray(value) ? value.map(Number).filter((tier) => [1, 2, 3].includes(tier)) : [1, 2, 3];
+      return tiers.length ? Array.from(new Set(tiers)) : [1, 2, 3];
+    }
+
+    function applyTheme() {
+      const preference = AppState.themePreference || "system";
+      const systemDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+      const effective = preference === "system" ? (systemDark ? "dark" : "light") : preference;
+      document.documentElement.dataset.theme = effective;
+    }
+
+    function toggleTheme() {
+      const current = document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+      AppState.themePreference = current === "dark" ? "light" : "dark";
+      commit();
+    }
+
+    async function loadInitialBanks() {
+      const tasks = UNIT_FILES.map(async (unit) => {
+        const response = await fetch(`${unit}_problem.json`, { cache: "no-store" });
+        if (!response.ok) throw new Error(`${unit}_problem.json 없음`);
+        const json = await response.json();
+        return normalizeBank(json, `${unit}_problem.json`);
+      });
+
+      const results = await Promise.allSettled(tasks);
+      AppState.sourceBanks = [];
+      AppState.loadErrors = [];
+      results.forEach((result) => {
+        if (result.status === "fulfilled") {
+          AppState.sourceBanks.push(result.value);
+        } else {
+          AppState.loadErrors.push(result.reason && result.reason.message ? result.reason.message : "파일 로드 실패");
+        }
+      });
+      AppState.externalBanks = AppState.externalBanks
+        .map((bank, index) => {
+          try {
+            return normalizeBank(bank, bank._sourceName || `외부 JSON ${index + 1}`);
+          } catch (error) {
+            return null;
+          }
+        })
+        .filter(Boolean);
+      rebuildProblemPool();
+      AppState.loading = false;
+      clampSessionToAvailableProblems();
+      commit();
+    }
+
+    function normalizeBank(bank, sourceName) {
+      validateBankSchema(bank);
+      return {
+        unit: String(bank.unit),
+        title: String(bank.title),
+        problems: bank.problems.map((problem) => ({
+          pid: String(problem.pid),
+          sid: String(problem.sid),
+          page: Number(problem.page),
+          tier: Number(problem.tier),
+          question: String(problem.question),
+          blanks: problem.blanks.map((blank) => ({
+            blank_id: Number(blank.blank_id),
+            primary_answer: String(blank.primary_answer),
+            alt_answers: Array.isArray(blank.alt_answers) ? blank.alt_answers.map(String) : []
+          })),
+          order_flexible: Boolean(problem.order_flexible),
+          source_sentence: String(problem.source_sentence)
+        })),
+        _sourceName: sourceName
+      };
+    }
+
+    function validateBankSchema(bank) {
+      if (!bank || typeof bank !== "object") throw new Error("JSON 최상위 형식이 올바르지 않습니다.");
+      if (typeof bank.unit !== "string" && typeof bank.unit !== "number") throw new Error("unit 값이 없습니다.");
+      if (typeof bank.title !== "string") throw new Error("title 값이 없습니다.");
+      if (!Array.isArray(bank.problems)) throw new Error("problems 배열이 없습니다.");
+      bank.problems.forEach((problem, problemIndex) => {
+        const label = `${problemIndex + 1}번 문제`;
+        if (!problem || typeof problem !== "object") throw new Error(`${label} 형식이 올바르지 않습니다.`);
+        ["pid", "sid", "question", "source_sentence"].forEach((key) => {
+          if (typeof problem[key] !== "string") throw new Error(`${label}: ${key} 값이 없습니다.`);
+        });
+        if (!Number.isFinite(Number(problem.page))) throw new Error(`${label}: page 값이 올바르지 않습니다.`);
+        if (![1, 2, 3].includes(Number(problem.tier))) throw new Error(`${label}: tier 값이 올바르지 않습니다.`);
+        if (typeof problem.order_flexible !== "boolean") throw new Error(`${label}: order_flexible 값이 없습니다.`);
+        if (!Array.isArray(problem.blanks)) throw new Error(`${label}: blanks 배열이 없습니다.`);
+        problem.blanks.forEach((blank, blankIndex) => {
+          const blankLabel = `${label} 빈칸 ${blankIndex + 1}`;
+          if (!blank || typeof blank !== "object") throw new Error(`${blankLabel} 형식이 올바르지 않습니다.`);
+          if (!Number.isFinite(Number(blank.blank_id))) throw new Error(`${blankLabel}: blank_id 값이 없습니다.`);
+          if (typeof blank.primary_answer !== "string") throw new Error(`${blankLabel}: primary_answer 값이 없습니다.`);
+          if (!Array.isArray(blank.alt_answers)) throw new Error(`${blankLabel}: alt_answers 배열이 없습니다.`);
+        });
+      });
+    }
+
+    function rebuildProblemPool() {
+      const byPid = new Map();
+      const banks = [...AppState.sourceBanks, ...AppState.externalBanks];
+      banks.forEach((bank) => {
+        bank.problems.forEach((problem) => {
+          const inferredUnit = inferUnit(problem, bank.unit);
+          byPid.set(problem.pid, {
+            ...problem,
+            _unit: inferredUnit,
+            _bankUnit: bank.unit,
+            _bankTitle: bank.title,
+            _sourceName: bank._sourceName
+          });
+        });
+      });
+      AppState.allProblems = Array.from(byPid.values()).sort((a, b) => naturalCompare(a.pid, b.pid));
+      AppState.problemMeta = {};
+      AppState.allProblems.forEach((problem) => {
+        AppState.problemMeta[problem.pid] = {
+          unit: problem._unit,
+          bankUnit: problem._bankUnit,
+          bankTitle: problem._bankTitle,
+          sourceName: problem._sourceName
+        };
+      });
+    }
+
+    function inferUnit(problem, fallback) {
+      const match = String(problem.pid || "").match(/^(\d{2})-/);
+      return match ? match[1] : String(fallback);
+    }
+
+    function naturalCompare(a, b) {
+      return String(a).localeCompare(String(b), "ko", { numeric: true, sensitivity: "base" });
+    }
+
+    function clampSessionToAvailableProblems() {
+      const available = new Set(AppState.allProblems.map((problem) => problem.pid));
+      AppState.sessionProblemIds = AppState.sessionProblemIds.filter((pid) => available.has(pid));
+      AppState.shuffledOrder = AppState.shuffledOrder.filter((pid) => available.has(pid));
+      if (AppState.screen === "quiz" && AppState.sessionProblemIds.length === 0) {
+        AppState.screen = "home";
+      }
+      clampCurrentIndex();
+    }
+
+    function clampCurrentIndex() {
+      const total = getSessionProblems().length;
+      if (!Number.isInteger(AppState.currentIndex) || AppState.currentIndex < 0) AppState.currentIndex = 0;
+      if (total > 0 && AppState.currentIndex >= total) AppState.currentIndex = total - 1;
+      if (total === 0) AppState.currentIndex = 0;
+    }
+
+    function getFilteredProblems() {
+      const selectedUnits = new Set(AppState.filters.units);
+      const selectedTiers = new Set(AppState.filters.tiers.map(Number));
+      return AppState.allProblems.filter((problem) => selectedUnits.has(problem._unit) && selectedTiers.has(Number(problem.tier)));
+    }
+
+    function getSessionProblems() {
+      if (AppState.screen !== "quiz" || AppState.sessionProblemIds.length === 0) return [];
+      const byPid = new Map(AppState.allProblems.map((problem) => [problem.pid, problem]));
+      return AppState.sessionProblemIds.map((pid) => byPid.get(pid)).filter(Boolean);
+    }
+
+    function startSession() {
+      const selected = getFilteredProblems();
+      if (selected.length === 0) {
+        showToast("선택한 조건에 맞는 문제가 없습니다.");
+        return;
+      }
+      let ids = selected.map((problem) => problem.pid);
+      if (AppState.shuffle) {
+        AppState.shuffleSeed = Date.now();
+        ids = shuffleWithSeed(ids, AppState.shuffleSeed);
+        AppState.shuffledOrder = ids.slice();
+      } else {
+        AppState.shuffleSeed = null;
+        AppState.shuffledOrder = [];
+      }
+      AppState.sessionProblemIds = ids;
+      AppState.currentIndex = 0;
+      AppState.screen = "quiz";
+      commit();
+    }
+
+    function returnHome() {
+      AppState.screen = "home";
+      commit();
+    }
+
+    function shuffleWithSeed(items, seed) {
+      const result = items.slice();
+      const random = seededRandom(seed || 1);
+      for (let i = result.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(random() * (i + 1));
+        [result[i], result[j]] = [result[j], result[i]];
+      }
+      return result;
+    }
+
+    function seededRandom(seed) {
+      let value = Number(seed) % 2147483647;
+      if (value <= 0) value += 2147483646;
+      return function random() {
+        value = value * 16807 % 2147483647;
+        return (value - 1) / 2147483646;
+      };
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function parseQuestionSegments(question) {
+      return String(question).split(/\[\s{2}\]/g);
+    }
+
+    function ensureInputBucket(pid) {
+      if (!AppState.inputs[pid]) AppState.inputs[pid] = {};
+      return AppState.inputs[pid];
+    }
+
+    function getBlankValue(pid, blankId) {
+      return (AppState.inputs[pid] && AppState.inputs[pid][blankId]) || "";
+    }
+
+    function setBlankValue(pid, blankId, value) {
+      ensureInputBucket(pid)[blankId] = value;
+      delete AppState.gradingResults[pid];
+      delete AppState.manualOverrides[pid];
+      commit(false);
+      render();
+    }
+
+    function isAttempted(problem) {
+      return problem.blanks.some((blank) => getBlankValue(problem.pid, blank.blank_id).trim() !== "");
+    }
+
+    function normalizeForCompare(value) {
+      const compact = String(value || "")
+        .replace(/\s+/g, "")
+        .replace(/[·,.]/g, ".")
+        .toUpperCase();
+      return replaceRomanNumerals(compact);
+    }
+
+    function replaceRomanNumerals(value) {
+      let output = "";
+      let index = 0;
+      const numerals = Object.keys(ROMAN_MAP).sort((a, b) => b.length - a.length);
+      while (index < value.length) {
+        let matched = false;
+        for (const numeral of numerals) {
+          if (value.slice(index, index + numeral.length) !== numeral) continue;
+          const previous = index > 0 ? value[index - 1] : "";
+          const next = value[index + numeral.length] || "";
+          if (isAsciiLetter(previous) || isAsciiLetter(next)) continue;
+          output += ROMAN_MAP[numeral];
+          index += numeral.length;
+          matched = true;
+          break;
+        }
+        if (!matched) {
+          output += value[index];
+          index += 1;
+        }
+      }
+      return output;
+    }
+
+    function isAsciiLetter(character) {
+      return /^[A-Z]$/.test(character);
+    }
+
+    function getAcceptedAnswers(blank) {
+      return [blank.primary_answer, ...(blank.alt_answers || [])];
+    }
+
+    function answerMatchesBlank(answer, blank) {
+      const normalized = normalizeForCompare(answer);
+      const primary = normalizeForCompare(blank.primary_answer);
+      if (normalized === primary) return true;
+      return (blank.alt_answers || []).some((alt) => normalized === normalizeForCompare(alt));
+    }
+
+    function gradeAnswers(problem, values) {
+      const normalizedValues = problem.blanks.map((blank, index) => values[index] || "");
+      if (!problem.order_flexible) {
+        return problem.blanks.every((blank, index) => answerMatchesBlank(normalizedValues[index], blank));
+      }
+      const used = new Set();
+      function backtrack(valueIndex) {
+        if (valueIndex >= normalizedValues.length) return true;
+        for (let blankIndex = 0; blankIndex < problem.blanks.length; blankIndex += 1) {
+          if (used.has(blankIndex)) continue;
+          if (!answerMatchesBlank(normalizedValues[valueIndex], problem.blanks[blankIndex])) continue;
+          used.add(blankIndex);
+          if (backtrack(valueIndex + 1)) return true;
+          used.delete(blankIndex);
+        }
+        return false;
+      }
+      return backtrack(0);
+    }
+
+    function autoGradeProblem(problem, includeUnattempted) {
+      const attempted = isAttempted(problem);
+      if (!attempted && !includeUnattempted) return null;
+      const values = problem.blanks.map((blank) => getBlankValue(problem.pid, blank.blank_id));
+      const autoCorrect = attempted ? gradeAnswers(problem, values) : false;
+      const hasOverride = Object.prototype.hasOwnProperty.call(AppState.manualOverrides, problem.pid);
+      const correct = hasOverride ? Boolean(AppState.manualOverrides[problem.pid]) : autoCorrect;
+      return {
+        graded: true,
+        attempted,
+        autoCorrect,
+        correct,
+        gradedAt: Date.now()
+      };
+    }
+
+    function gradeSession(includeUnattempted) {
+      const problems = getSessionProblems();
+      problems.forEach((problem) => {
+        const result = autoGradeProblem(problem, includeUnattempted);
+        if (result) {
+          AppState.gradingResults[problem.pid] = result;
+        } else if (!includeUnattempted) {
+          delete AppState.gradingResults[problem.pid];
+        }
+      });
+      showToast(includeUnattempted ? "전체 문제가 채점되었습니다." : "입력한 문제가 채점되었습니다.", false);
+      commit();
+    }
+
+    function getQuestionResult(pid) {
+      const result = AppState.gradingResults[pid];
+      if (!result || !result.graded) return null;
+      const hasOverride = Object.prototype.hasOwnProperty.call(AppState.manualOverrides, pid);
+      return {
+        ...result,
+        correct: hasOverride ? Boolean(AppState.manualOverrides[pid]) : Boolean(result.autoCorrect),
+        overridden: hasOverride
+      };
+    }
+
+    function toggleManualOverride(pid) {
+      const result = getQuestionResult(pid);
+      if (!result) return;
+      AppState.manualOverrides[pid] = !result.correct;
+      AppState.gradingResults[pid] = {
+        ...AppState.gradingResults[pid],
+        correct: !result.correct
+      };
+      commit();
+    }
+
+    function setFlashcardResult(pid, correct) {
+      AppState.manualOverrides[pid] = Boolean(correct);
+      AppState.gradingResults[pid] = {
+        graded: true,
+        attempted: true,
+        autoCorrect: Boolean(correct),
+        correct: Boolean(correct),
+        gradedAt: Date.now()
+      };
+      commit();
+    }
+
+    function getBlankStatus(problem, blank, index) {
+      const result = getQuestionResult(problem.pid);
+      if (!result) return "";
+      if (problem.order_flexible) return result.correct ? "correct" : "incorrect";
+      return answerMatchesBlank(getBlankValue(problem.pid, blank.blank_id), blank) ? "correct" : "incorrect";
+    }
+
+    function toggleFlag(pid) {
+      const flags = new Set(AppState.flaggedPids);
+      if (flags.has(pid)) flags.delete(pid);
+      else flags.add(pid);
+      AppState.flaggedPids = Array.from(flags);
+      commit();
+    }
+
+    function isFlagged(pid) {
+      return AppState.flaggedPids.includes(pid);
+    }
+
+    function toggleReveal(pid) {
+      AppState.revealed[pid] = !AppState.revealed[pid];
+      commit();
+    }
+
+    function calculateScore() {
+      const problems = getSessionProblems();
+      const graded = problems.map((problem) => getQuestionResult(problem.pid)).filter(Boolean);
+      const correct = graded.filter((result) => result.correct).length;
+      const percent = graded.length ? Math.round((correct / graded.length) * 100) : null;
+      return { graded: graded.length, correct, percent };
+    }
+
+    function cleanProblem(problem) {
+      return {
+        pid: problem.pid,
+        sid: problem.sid,
+        page: problem.page,
+        tier: problem.tier,
+        question: problem.question,
+        blanks: problem.blanks.map((blank) => ({
+          blank_id: blank.blank_id,
+          primary_answer: blank.primary_answer,
+          alt_answers: blank.alt_answers.slice()
+        })),
+        order_flexible: problem.order_flexible,
+        source_sentence: problem.source_sentence
+      };
+    }
+
+    function exportSelectedQuestions() {
+      const includeWrong = AppState.exportOptions.wrong;
+      const includeFlagged = AppState.exportOptions.flagged;
+      if (!includeWrong && !includeFlagged) {
+        showToast("내보낼 기준을 하나 이상 선택하세요.");
+        return;
+      }
+      const source = AppState.screen === "quiz" ? getSessionProblems() : getFilteredProblems();
+      const selected = source.filter((problem) => {
+        const result = getQuestionResult(problem.pid);
+        const wrong = includeWrong && result && !result.correct;
+        const flagged = includeFlagged && isFlagged(problem.pid);
+        return wrong || flagged;
+      });
+      if (selected.length === 0) {
+        showToast("내보낼 문제가 없습니다.");
+        return;
+      }
+      const units = Array.from(new Set(selected.map((problem) => problem._unit))).sort();
+      const exported = {
+        unit: units.length === 1 ? units[0] : "mixed",
+        title: buildExportTitle(includeWrong, includeFlagged),
+        problems: selected.map(cleanProblem)
+      };
+      const blob = new Blob([JSON.stringify(exported, null, 2)], { type: "application/json;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `bio_export_${formatTimestamp(new Date())}.json`;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(url);
+      showToast(`${selected.length}문제를 JSON으로 내보냈습니다.`);
+    }
+
+    function buildExportTitle(includeWrong, includeFlagged) {
+      if (includeWrong && includeFlagged) return "오답 및 플래그 문제";
+      if (includeWrong) return "오답 문제";
+      return "플래그 문제";
+    }
+
+    function formatTimestamp(date) {
+      const pad = (value) => String(value).padStart(2, "0");
+      return `${date.getFullYear()}${pad(date.getMonth() + 1)}${pad(date.getDate())}_${pad(date.getHours())}${pad(date.getMinutes())}`;
+    }
+
+    function triggerFilePicker() {
+      fileInput.value = "";
+      fileInput.click();
+    }
+
+    async function handleFileLoad(file) {
+      if (!file) return;
+      try {
+        const text = await file.text();
+        const parsed = JSON.parse(text);
+        const bank = normalizeBank(parsed, file.name);
+        AppState.externalBanks.push(bank);
+        rebuildProblemPool();
+        if (AppState.screen === "quiz") appendLoadedQuestionsToSession(bank);
+        showToast(`${file.name}에서 ${bank.problems.length}문제를 불러왔습니다.`, false);
+        commit();
+      } catch (error) {
+        showToast(error.message || "JSON 파일을 불러오지 못했습니다.");
+      }
+    }
+
+    function appendLoadedQuestionsToSession(bank) {
+      const existing = new Set(AppState.sessionProblemIds);
+      const selectedUnits = new Set(AppState.filters.units);
+      const selectedTiers = new Set(AppState.filters.tiers.map(Number));
+      const additions = bank.problems
+        .map((problem) => AppState.allProblems.find((candidate) => candidate.pid === problem.pid))
+        .filter(Boolean)
+        .filter((problem) => selectedUnits.has(problem._unit) && selectedTiers.has(Number(problem.tier)))
+        .filter((problem) => !existing.has(problem.pid))
+        .map((problem) => problem.pid);
+      const ordered = AppState.shuffle ? shuffleWithSeed(additions, Date.now()) : additions;
+      AppState.sessionProblemIds.push(...ordered);
+    }
+
+    function showToast(message, renderNow = true) {
+      AppState.toast = message;
+      if (renderNow) render();
+      window.clearTimeout(showToast.timer);
+      showToast.timer = window.setTimeout(() => {
+        AppState.toast = "";
+        render();
+      }, 2600);
+    }
+
+    function unitTitle(unit) {
+      const bank = [...AppState.sourceBanks, ...AppState.externalBanks].find((item) => String(item.unit) === String(unit));
+      return bank ? bank.title : "파일 없음";
+    }
+
+    function render() {
+      applyTheme();
+      app.innerHTML = `
+        <header class="topbar">
+          <div class="brand">
+            <h1>생명과학 문제은행</h1>
+            <span>${AppState.loading ? "문제 파일 확인 중" : `${AppState.allProblems.length}문제 로드됨`}</span>
+          </div>
+          <div class="top-actions">
+            <button class="ghost" data-action="load-json">JSON 불러오기</button>
+            <button class="icon" data-action="theme" title="라이트/다크 전환" aria-label="라이트/다크 전환">${document.documentElement.dataset.theme === "dark" ? "☾" : "☼"}</button>
+          </div>
+        </header>
+        <main class="layout">
+          ${AppState.loading ? renderLoading() : (AppState.screen === "quiz" ? renderQuiz() : renderHome())}
+        </main>
+        ${AppState.toast ? `<div class="toast">${escapeHtml(AppState.toast)}</div>` : ""}
+      `;
+    }
+
+    function renderLoading() {
+      return `<div class="empty-state">같은 폴더의 문제 JSON을 불러오는 중입니다.</div>`;
+    }
+
+    function renderHome() {
+      const filtered = getFilteredProblems();
+      const loadedUnits = UNIT_FILES.filter((unit) => AppState.sourceBanks.some((bank) => String(bank.unit).padStart(2, "0") === unit));
+      return `
+        <div class="home-grid">
+          <section class="panel">
+            <div class="panel-header">
+              <div>
+                <h2 class="panel-title">학습 세션 설정</h2>
+                <div class="panel-subtitle">단원과 난이도를 선택한 뒤 문제 풀이를 시작하세요.</div>
+              </div>
+              <button class="primary" data-action="start" ${filtered.length === 0 ? "disabled" : ""}>시작</button>
+            </div>
+            <div class="panel-body">
+              <div class="filter-block">
+                <p class="section-title">단원</p>
+                <div class="checkbox-grid">
+                  ${UNIT_FILES.map((unit) => renderUnitCheckbox(unit)).join("")}
+                </div>
+              </div>
+              <div class="filter-block">
+                <p class="section-title">난이도</p>
+                <div class="checkbox-grid">
+                  ${[1, 2, 3].map((tier) => renderTierCheckbox(tier)).join("")}
+                </div>
+              </div>
+              <div class="filter-block">
+                <p class="section-title">표시 방식</p>
+                <div class="mode-grid">
+                  ${renderModeButton("display", "one", "한 문제씩")}
+                  ${renderModeButton("display", "scroll", "스크롤")}
+                </div>
+              </div>
+              <div class="filter-block">
+                <p class="section-title">입력 방식</p>
+                <div class="mode-grid">
+                  ${renderModeButton("input", "typing", "직접 입력")}
+                  ${renderModeButton("input", "flashcard", "플래시카드")}
+                </div>
+                <label class="inline-check toggle-line ${AppState.shuffle ? "checked" : ""}">
+                  <input type="checkbox" data-action="shuffle" ${AppState.shuffle ? "checked" : ""}>
+                  문제 순서 섞기
+                </label>
+              </div>
+              ${AppState.loadErrors.length ? `<div class="status-note">없는 기본 파일은 건너뜁니다: ${escapeHtml(AppState.loadErrors.join(", "))}</div>` : ""}
+            </div>
+          </section>
+
+          <aside class="panel">
+            <div class="panel-header">
+              <div>
+                <h2 class="panel-title">선택 결과</h2>
+                <div class="panel-subtitle">현재 필터 기준</div>
+              </div>
+            </div>
+            <div class="panel-body">
+              <div class="summary-list">
+                <div class="summary-item"><span>로드된 기본 단원</span><strong>${loadedUnits.length}</strong></div>
+                <div class="summary-item"><span>외부 JSON</span><strong>${AppState.externalBanks.length}</strong></div>
+                <div class="summary-item"><span>선택된 문제</span><strong>${filtered.length}</strong></div>
+                <div class="summary-item"><span>플래그</span><strong>${AppState.flaggedPids.length}</strong></div>
+              </div>
+              <div class="filter-block">
+                <p class="section-title">내보내기 기준</p>
+                ${renderExportChecks()}
+                <button data-action="export-json" style="margin-top: 10px; width: 100%;">JSON 내보내기</button>
+              </div>
+              <div class="status-note">불러온 외부 JSON은 새로고침 후에도 유지됩니다.</div>
+            </div>
+          </aside>
+        </div>
+      `;
+    }
+
+    function renderUnitCheckbox(unit) {
+      const checked = AppState.filters.units.includes(unit);
+      const count = AppState.allProblems.filter((problem) => problem._unit === unit).length;
+      return `
+        <label class="check-card ${checked ? "checked" : ""}">
+          <input type="checkbox" data-action="unit-filter" data-unit="${unit}" ${checked ? "checked" : ""}>
+          <span class="unit-meta">
+            <span class="unit-code">${unit}</span>
+            <span class="unit-title">${escapeHtml(unitTitle(unit))} · ${count}문제</span>
+          </span>
+        </label>
+      `;
+    }
+
+    function renderTierCheckbox(tier) {
+      const checked = AppState.filters.tiers.includes(tier);
+      const count = AppState.allProblems.filter((problem) => Number(problem.tier) === tier).length;
+      return `
+        <label class="check-card ${checked ? "checked" : ""}">
+          <input type="checkbox" data-action="tier-filter" data-tier="${tier}" ${checked ? "checked" : ""}>
+          <span class="unit-meta">
+            <span class="unit-code">Tier ${tier}</span>
+            <span class="unit-title">${TIER_LABELS[tier]} · ${count}문제</span>
+          </span>
+        </label>
+      `;
+    }
+
+    function renderModeButton(kind, value, label) {
+      const active = kind === "display" ? AppState.displayMode === value : AppState.inputMode === value;
+      const action = kind === "display" ? "display-mode" : "input-mode";
+      return `<button class="${active ? "selected" : ""}" data-action="${action}" data-value="${value}">${label}</button>`;
+    }
+
+    function renderExportChecks() {
+      return `
+        <label class="inline-check ${AppState.exportOptions.wrong ? "checked" : ""}">
+          <input type="checkbox" data-action="export-option" data-option="wrong" ${AppState.exportOptions.wrong ? "checked" : ""}>
+          오답
+        </label>
+        <label class="inline-check ${AppState.exportOptions.flagged ? "checked" : ""}" style="margin-top: 8px;">
+          <input type="checkbox" data-action="export-option" data-option="flagged" ${AppState.exportOptions.flagged ? "checked" : ""}>
+          플래그
+        </label>
+      `;
+    }
+
+    function renderQuiz() {
+      const problems = getSessionProblems();
+      if (problems.length === 0) {
+        return `<div class="empty-state">세션에 표시할 문제가 없습니다. <button data-action="home">설정으로 이동</button></div>`;
+      }
+      const score = calculateScore();
+      const current = Math.min(AppState.currentIndex + 1, problems.length);
+      return `
+        <section class="quiz-toolbar">
+          <div class="progress-line">
+            <span class="metric">진행 <strong>${AppState.displayMode === "one" ? `${current} / ${problems.length}` : `전체 ${problems.length}`}</strong></span>
+            <span class="metric">채점 <strong>${score.graded ? `${score.correct} / ${score.graded} (${score.percent}%)` : "대기"}</strong></span>
+            <span class="metric">방식 <strong>${AppState.inputMode === "typing" ? "직접 입력" : "플래시카드"}</strong></span>
+            <span class="metric">플래그 <strong>${problems.filter((problem) => isFlagged(problem.pid)).length}</strong></span>
+          </div>
+          <div class="toolbar-actions">
+            <div class="segmented">
+              <button data-action="display-mode" data-value="one" class="${AppState.displayMode === "one" ? "selected" : ""}">한 문제씩</button>
+              <button data-action="display-mode" data-value="scroll" class="${AppState.displayMode === "scroll" ? "selected" : ""}">스크롤</button>
+            </div>
+            <div class="segmented">
+              <button data-action="input-mode" data-value="typing" class="${AppState.inputMode === "typing" ? "selected" : ""}">입력</button>
+              <button data-action="input-mode" data-value="flashcard" class="${AppState.inputMode === "flashcard" ? "selected" : ""}">카드</button>
+            </div>
+            <span class="divider"></span>
+            <button data-action="grade-attempted">푼 문제만 채점</button>
+            <button data-action="grade-all">전체 채점</button>
+            <span class="divider"></span>
+            <button data-action="export-json">JSON 내보내기</button>
+            <button data-action="home">설정</button>
+          </div>
+        </section>
+        <div class="quiz-stage">
+          ${AppState.displayMode === "one" ? renderOneByOne(problems) : renderScrollMode(problems)}
+        </div>
+      `;
+    }
+
+    function renderOneByOne(problems) {
+      const problem = problems[AppState.currentIndex];
+      return `
+        <div class="single-wrap">
+          ${renderQuestionCard(problem, AppState.currentIndex, problems.length)}
+          <div class="nav-row">
+            <button data-action="prev" ${AppState.currentIndex === 0 ? "disabled" : ""}>이전</button>
+            <div class="row-actions">
+              ${renderExportChecks()}
+            </div>
+            <button data-action="next" ${AppState.currentIndex >= problems.length - 1 ? "disabled" : ""}>다음</button>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderScrollMode(problems) {
+      return `
+        <div class="scroll-list">
+          ${problems.map((problem, index) => renderQuestionCard(problem, index, problems.length)).join("")}
+        </div>
+      `;
+    }
+
+    function renderQuestionCard(problem, index, total) {
+      const result = getQuestionResult(problem.pid);
+      const flagged = isFlagged(problem.pid);
+      const classes = [
+        "question-card",
+        flagged ? "flagged" : "",
+        result ? "graded" : "",
+        result ? (result.correct ? "correct" : "incorrect") : ""
+      ].filter(Boolean).join(" ");
+      return `
+        <article class="${classes}" data-pid="${escapeHtml(problem.pid)}">
+          <div class="question-head">
+            <div class="question-meta">
+              <span class="pid">${escapeHtml(problem.pid)}</span>
+              <span class="badge">${index + 1} / ${total}</span>
+              <span class="badge">${escapeHtml(problem._unit)}단원</span>
+              <span class="badge">Tier ${problem.tier} · ${TIER_LABELS[problem.tier]}</span>
+              <span class="badge">${problem.page}쪽</span>
+              ${problem.order_flexible ? `<span class="badge">순서 무관</span>` : ""}
+              ${result ? `<span class="badge ${result.correct ? "good" : "bad"}">${result.correct ? "정답" : "오답"}${result.overridden ? " · 수동" : ""}</span>` : ""}
+            </div>
+            <div class="row-actions">
+              <button class="icon ${flagged ? "selected" : ""}" data-action="flag" data-pid="${escapeHtml(problem.pid)}" title="플래그" aria-label="플래그">🔖</button>
+              ${result ? `<button data-action="override" data-pid="${escapeHtml(problem.pid)}">${result.correct ? "오답 처리" : "정답 처리"}</button>` : ""}
+            </div>
+          </div>
+          <div class="question-body">
+            ${AppState.inputMode === "typing" ? renderTypingQuestion(problem) : renderFlashcardQuestion(problem)}
+          </div>
+          <div class="question-foot">
+            <span class="source">${result || AppState.revealed[problem.pid] ? `원문: ${escapeHtml(problem.source_sentence)}` : "원문은 채점 또는 정답 공개 후 표시됩니다."}</span>
+            ${AppState.inputMode === "flashcard" && AppState.revealed[problem.pid] ? `
+              <span class="row-actions">
+                <button data-action="flash-result" data-pid="${escapeHtml(problem.pid)}" data-correct="true">맞음</button>
+                <button data-action="flash-result" data-pid="${escapeHtml(problem.pid)}" data-correct="false">틀림</button>
+              </span>
+            ` : ""}
+          </div>
+        </article>
+      `;
+    }
+
+    function renderTypingQuestion(problem) {
+      const segments = parseQuestionSegments(problem.question);
+      let html = `<div class="question-text">`;
+      segments.forEach((segment, index) => {
+        html += escapeHtml(segment);
+        if (index < segments.length - 1) {
+          const blank = problem.blanks[index] || { blank_id: index + 1, primary_answer: "", alt_answers: [] };
+          const value = getBlankValue(problem.pid, blank.blank_id);
+          const status = getBlankStatus(problem, blank, index);
+          const hintClass = status || "";
+          html += `
+            <span class="blank-wrap">
+              <input class="blank-input ${status}" data-action="answer-input" data-pid="${escapeHtml(problem.pid)}" data-blank="${blank.blank_id}" value="${escapeHtml(value)}" autocomplete="off" spellcheck="false">
+              <span class="answer-hint ${hintClass}">${status ? `정답: ${escapeHtml(blank.primary_answer)}` : ""}</span>
+            </span>
+          `;
+        }
+      });
+      html += `</div>`;
+      return html;
+    }
+
+    function renderFlashcardQuestion(problem) {
+      const revealed = Boolean(AppState.revealed[problem.pid]);
+      const segments = parseQuestionSegments(problem.question);
+      let questionHtml = `<div class="question-text">`;
+      segments.forEach((segment, index) => {
+        questionHtml += escapeHtml(segment);
+        if (index < segments.length - 1) {
+          const blank = problem.blanks[index];
+          questionHtml += `<span class="blank-pill">${revealed && blank ? escapeHtml(blank.primary_answer) : "빈칸"}</span>`;
+        }
+      });
+      questionHtml += `</div>`;
+      return `
+        <div class="flashcard" data-action="reveal" data-pid="${escapeHtml(problem.pid)}">
+          ${questionHtml}
+          ${revealed ? `
+            <div class="flash-answers">
+              ${problem.blanks.map((blank) => `
+                <div class="answer-row">
+                  <strong>빈칸 ${blank.blank_id}</strong>
+                  <span>${escapeHtml(getAcceptedAnswers(blank).join(" / "))}</span>
+                </div>
+              `).join("")}
+            </div>
+          ` : `<div class="status-note">클릭하면 정답을 표시합니다.</div>`}
+        </div>
+      `;
+    }
+
+    app.addEventListener("click", (event) => {
+      const target = event.target.closest("[data-action]");
+      if (!target) return;
+      const action = target.dataset.action;
+      if (action === "theme") toggleTheme();
+      if (action === "load-json") triggerFilePicker();
+      if (action === "start") startSession();
+      if (action === "home") returnHome();
+      if (action === "display-mode") {
+        AppState.displayMode = target.dataset.value;
+        commit();
+      }
+      if (action === "input-mode") {
+        AppState.inputMode = target.dataset.value;
+        commit();
+      }
+      if (action === "prev") {
+        AppState.currentIndex = Math.max(0, AppState.currentIndex - 1);
+        commit();
+      }
+      if (action === "next") {
+        AppState.currentIndex = Math.min(getSessionProblems().length - 1, AppState.currentIndex + 1);
+        commit();
+      }
+      if (action === "grade-all") gradeSession(true);
+      if (action === "grade-attempted") gradeSession(false);
+      if (action === "flag") toggleFlag(target.dataset.pid);
+      if (action === "override") toggleManualOverride(target.dataset.pid);
+      if (action === "reveal") toggleReveal(target.dataset.pid);
+      if (action === "flash-result") setFlashcardResult(target.dataset.pid, target.dataset.correct === "true");
+      if (action === "export-json") exportSelectedQuestions();
+    });
+
+    app.addEventListener("change", (event) => {
+      const target = event.target;
+      const action = target.dataset.action;
+      if (!action) return;
+      if (action === "unit-filter") {
+        const units = new Set(AppState.filters.units);
+        if (target.checked) units.add(target.dataset.unit);
+        else units.delete(target.dataset.unit);
+        AppState.filters.units = Array.from(units).sort();
+        commit();
+      }
+      if (action === "tier-filter") {
+        const tiers = new Set(AppState.filters.tiers.map(Number));
+        const tier = Number(target.dataset.tier);
+        if (target.checked) tiers.add(tier);
+        else tiers.delete(tier);
+        AppState.filters.tiers = Array.from(tiers).sort();
+        commit();
+      }
+      if (action === "shuffle") {
+        AppState.shuffle = target.checked;
+        commit();
+      }
+      if (action === "export-option") {
+        AppState.exportOptions[target.dataset.option] = target.checked;
+        commit();
+      }
+    });
+
+    app.addEventListener("input", (event) => {
+      const target = event.target;
+      if (target.dataset.action !== "answer-input") return;
+      setBlankValue(target.dataset.pid, target.dataset.blank, target.value);
+    });
+
+    fileInput.addEventListener("change", (event) => {
+      handleFileLoad(event.target.files && event.target.files[0]);
+    });
+
+    window.addEventListener("keydown", (event) => {
+      if (AppState.screen !== "quiz" || AppState.displayMode !== "one") return;
+      if (event.target && ["INPUT", "TEXTAREA"].includes(event.target.tagName)) return;
+      if (event.key === "ArrowLeft") {
+        AppState.currentIndex = Math.max(0, AppState.currentIndex - 1);
+        commit();
+      }
+      if (event.key === "ArrowRight") {
+        AppState.currentIndex = Math.min(getSessionProblems().length - 1, AppState.currentIndex + 1);
+        commit();
+      }
+    });
+
+    if (window.matchMedia) {
+      window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+        if (AppState.themePreference === "system") {
+          applyTheme();
+          render();
+        }
+      });
+    }
+
+    hydrateState();
+    applyTheme();
+    render();
+    loadInitialBanks();
+  </script>
+</body>
+</html>

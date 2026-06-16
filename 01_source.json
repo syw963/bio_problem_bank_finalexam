@@ -1,0 +1,2862 @@
+{
+  "unit": "01",
+  "title": "병원체와 방어작용",
+  "sentences": [
+    {
+      "sid": "01-001",
+      "text": "감염성질환을 유발하는 병원체에 대해 우리 몸에서 일어나는 방어작용에는 비특이적으로 일어나는 선천면역과 특이적으로 일어나는 후천면역이 있다.",
+      "page": 90,
+      "section": "1",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-002",
+      "text": "사람의 질병은 병원체의 유무에 따라 비감염성질환과 감염성질환으로 구분할 수 있다.",
+      "page": 90,
+      "section": "1",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-003",
+      "text": "감염성질환의 원인이 되는 병원체에는 세균, 바이러스, 원생생물, 곰팡이 등이 있다.",
+      "page": 90,
+      "section": "1",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-004",
+      "text": "병원체는 인체에 침입한 뒤 증식하여 세포를 파괴하거나 해로운 독소를 분비하여 질병을 일으킨다.",
+      "page": 90,
+      "section": "1",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-005",
+      "text": "비감염성질환은 유전적 요인, 생활 방식, 환경요인 등 여러 가지 원인이 복합적으로 작용하여 발생하는 질병이다.",
+      "page": 90,
+      "section": "1-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-006",
+      "text": "비감염성질환은 병원체가 관여하지 않으므로 타인에게 전염되지 않는다.",
+      "page": 90,
+      "section": "1-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-007",
+      "text": "비감염성질환의 예에는 당뇨병, 고혈압, 뇌졸중이 있다.",
+      "page": 90,
+      "section": "1-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-008",
+      "text": "감염성질환은 병원체에 감염되어 발생하는 질병이다.",
+      "page": 90,
+      "section": "1-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-009",
+      "text": "감염성질환은 공기나 음식물, 체액 등 다양한 경로로 타인에게 전염될 수 있다.",
+      "page": 90,
+      "section": "1-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-010",
+      "text": "감염성질환의 예에는 결핵, 독감, 말라리아가 있다.",
+      "page": 90,
+      "section": "1-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-011",
+      "text": "감염은 병원체가 우리 몸에 침입하여 증식하는 것이다.",
+      "page": 90,
+      "section": "1",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-012",
+      "text": "전염은 병원체에 감염된 사람으로부터 다른 사람에게 병원체가 퍼지는 것이다.",
+      "page": 90,
+      "section": "1",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-013",
+      "text": "병원체에 감염되어도 전염성이 없다면 다른 사람에게 옮지 않는다.",
+      "page": 90,
+      "section": "1",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-014",
+      "text": "세균은 핵막과 막으로 둘러싸인 세포소기관이 없는 단세포 원핵생물이다.",
+      "page": 90,
+      "section": "2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-015",
+      "text": "세균의 크기는 0.5 μm~0.5 mm이며, 진핵세포의 1/10~1/100 크기이다.",
+      "page": 90,
+      "section": "2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-016",
+      "text": "세균은 물질대사 관련 효소가 있어 스스로 물질대사를 한다.",
+      "page": 90,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-017",
+      "text": "대부분의 세균은 세포막 바깥쪽에 펩티도글리칸 성분의 세포벽이 있다.",
+      "page": 90,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-018",
+      "text": "일부 세균은 세포벽 바깥쪽에 다당류와 단백질로 구성된 피막(점액층)이 있어서 음식물이나 피부 등에 붙거나 세포를 보호하는 데 유리하다.",
+      "page": 90,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-019",
+      "text": "세균의 라이보솜은 진핵생물에 비해 크기가 작고 단백질과 RNA 성분에 차이가 있다.",
+      "page": 90,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-020",
+      "text": "세균은 핵막이 없어 하나로 연결된 원형의 염색체(DNA)가 세포질에 있다.",
+      "page": 90,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-021",
+      "text": "세균에는 염색체보다 크기가 작고 독립적으로 복제되는 여분의 플라스미드가 있다.",
+      "page": 90,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": true
+    },
+    {
+      "sid": "01-022",
+      "text": "일부 세균은 선모가 있어서 다른 세포에 잘 달라붙을 수 있다.",
+      "page": 90,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-023",
+      "text": "일부 세균은 편모가 있어서 운동성을 가지기도 한다.",
+      "page": 90,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-024",
+      "text": "세균은 다양한 장소에 서식하며 생존에 적절한 환경이 되면 분열법으로 빠르게 증식한다.",
+      "page": 90,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-025",
+      "text": "세균은 털처럼 생긴 선모를 통해 세균끼리 서로 부착하여 DNA를 주고받는다.",
+      "page": 90,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-026",
+      "text": "세균은 세포의 구조나 영양 방식에 따라 분류한다.",
+      "page": 90,
+      "section": "2-(1)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-027",
+      "text": "세균은 모양에 따라 공 모양의 구균, 막대기 모양의 간균, 꼬인 실 모양의 나선균으로 구분한다.",
+      "page": 90,
+      "section": "2-(1)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-028",
+      "text": "세균의 구조에는 플라스미드, 선모, 편모, 라이보솜, 세포질, DNA, 세포막, 세포벽, 피막이 포함된다.",
+      "page": 90,
+      "section": "2-(1)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-029",
+      "text": "세균의 DNA는 세포질에 존재한다.",
+      "page": 90,
+      "section": "2-(1)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-030",
+      "text": "세균의 세포막은 세포질을 둘러싼다.",
+      "page": 90,
+      "section": "2-(1)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-031",
+      "text": "세균의 세포벽은 세포막 바깥쪽에 위치한다.",
+      "page": 90,
+      "section": "2-(1)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-032",
+      "text": "세균의 피막은 세포벽 바깥쪽에 위치한다.",
+      "page": 90,
+      "section": "2-(1)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-033",
+      "text": "플라스미드는 염색체 DNA와는 별개로 존재하는 작은 원형의 DNA 분자이다.",
+      "page": 90,
+      "section": "2-(1)-①",
+      "source_type": "날개",
+      "deduplicated": true
+    },
+    {
+      "sid": "01-034",
+      "text": "플라스미드는 생존에 필수적이지는 않지만 항생제 내성이나 질병 유발에 관여하는 유전자를 포함하기도 한다.",
+      "page": 90,
+      "section": "2-(1)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-035",
+      "text": "펩티도글리칸은 원핵생물의 세포벽을 구성하는 주성분이다.",
+      "page": 90,
+      "section": "2-(1)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-036",
+      "text": "펩티도글리칸은 다당류 사슬에 비교적 짧은 펩타이드 사슬이 결합한 화합물이다.",
+      "page": 90,
+      "section": "2-(1)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-037",
+      "text": "황색포도상구균은 구균이다.",
+      "page": 91,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-038",
+      "text": "황색포도상구균은 코를 포함한 호흡계와 피부 등에 항상 있다.",
+      "page": 91,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-039",
+      "text": "황색포도상구균은 면역력이 저하되면 감염되어 질병을 일으킬 수 있다.",
+      "page": 91,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-040",
+      "text": "콜레라균은 간균이다.",
+      "page": 91,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-041",
+      "text": "콜레라균은 오염된 물이나 음식을 섭취했을 때 체내에 침입하여 콜레라를 일으킬 수 있다.",
+      "page": 91,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-042",
+      "text": "헬리코박터 파일로리균은 나선균이다.",
+      "page": 91,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-043",
+      "text": "헬리코박터 파일로리균은 위나선균이라고도 한다.",
+      "page": 91,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-044",
+      "text": "헬리코박터 파일로리균은 만성 위염, 위궤양, 위암 발생의 원인균으로 알려져 있다.",
+      "page": 91,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-045",
+      "text": "대부분의 세균은 인체에 무해하다.",
+      "page": 91,
+      "section": "2-(1)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-046",
+      "text": "일부 세균은 조직을 파괴하거나 물질대사를 방해하는 독소를 방출하여 질병을 일으킨다.",
+      "page": 91,
+      "section": "2-(1)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-047",
+      "text": "세균에 감염되어 발생하는 질병에는 결핵, 콜레라, 위궤양, 세균성 폐렴, 파상풍, 세균성 식중독 등이 있다.",
+      "page": 91,
+      "section": "2-(1)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-048",
+      "text": "세균에 의한 감염성질환을 치료할 때에는 항생제를 이용하여 세균을 죽이거나 세균의 증식을 억제한다.",
+      "page": 91,
+      "section": "2-(1)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-049",
+      "text": "항생제는 사람 세포에는 없고 세균에만 있는 구조와 기능을 저해하여 세균의 증식을 억제한다.",
+      "page": 91,
+      "section": "2-(1)-③",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-050",
+      "text": "페니실린과 암피실린은 세균의 세포벽 성분인 펩티도글리칸의 합성을 방해하여 세균이 단단한 세포벽을 만들지 못하게 한다.",
+      "page": 91,
+      "section": "2-(1)-③",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-051",
+      "text": "스트렙토마이신과 에리트로마이신은 세균의 라이보솜과 결합하여 단백질합성을 저해한다.",
+      "page": 91,
+      "section": "2-(1)-③",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-052",
+      "text": "항생제 남용으로 내성이 생겨서 항생제에 죽지 않는 세균이 나타났는데, 이러한 세균을 슈퍼 박테리아라고 한다.",
+      "page": 91,
+      "section": "2-(1)-③",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-053",
+      "text": "항생제를 넣은 세균 배지에서 투명한 원형 구역이 넓을수록 항균 작용이 강한 것이다.",
+      "page": 91,
+      "section": "2-(1)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-054",
+      "text": "페니실린은 영국의 미생물학자 플레밍에 의해 발견된 항생제이다.",
+      "page": 91,
+      "section": "2-(1)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-055",
+      "text": "페니실린은 세균이 펩티도글리칸을 형성할 때 교차 연결을 촉진하는 트랜스펩티데이스(transpeptidase)에 결합하여 펩티도글리칸의 합성을 방해한다.",
+      "page": 91,
+      "section": "2-(1)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-056",
+      "text": "세포벽이 약화된 세균은 삼투압 변화를 이기지 못하고 파열되어 죽게 된다.",
+      "page": 91,
+      "section": "2-(1)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-057",
+      "text": "바이러스는 지름이 80 nm 정도로 세균보다 크기가 작다.",
+      "page": 91,
+      "section": "2-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-058",
+      "text": "바이러스는 물질대사에 관여하는 효소가 없어 숙주세포 밖에서는 생명 현상을 나타내지 않고 단백질 결정체로 존재한다.",
+      "page": 91,
+      "section": "2-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-059",
+      "text": "바이러스는 유전물질이 단백질 껍질에 싸여 있는 비세포 구조이다.",
+      "page": 91,
+      "section": "2-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-060",
+      "text": "바이러스의 단백질 껍질은 구형이나 20면체가 많으며 막대기 또는 실 모양인 것도 있다.",
+      "page": 91,
+      "section": "2-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-061",
+      "text": "바이러스 중에는 단백질 껍질 바깥쪽에 숙주세포의 세포막에서 유래한 외피가 있는 것도 있다.",
+      "page": 91,
+      "section": "2-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-062",
+      "text": "바이러스의 종류에 따라 단백질 껍질 안에 DNA 또는 RNA가 있다.",
+      "page": 91,
+      "section": "2-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-063",
+      "text": "바이러스는 숙주세포 안에서 숙주세포의 효소와 라이보솜을 이용하여 단백질 껍질을 합성한다.",
+      "page": 91,
+      "section": "2-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-064",
+      "text": "바이러스는 자신의 유전물질을 복제하여 증식할 수 있다.",
+      "page": 91,
+      "section": "2-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-065",
+      "text": "바이러스 증식 과정에서 돌연변이가 발생하기도 한다.",
+      "page": 91,
+      "section": "2-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-066",
+      "text": "바이러스의 구조에는 단백질 껍질과 유전물질이 포함된다.",
+      "page": 91,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-067",
+      "text": "바이러스는 공장에서 자동차가 조립되는 것과 매우 유사한 방식으로 증식한다.",
+      "page": 92,
+      "section": "2-(2)-①",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-068",
+      "text": "바이러스가 숙주세포 표면의 수용체에 결합하면 바이러스의 유전물질이 숙주세포 안으로 들어간다.",
+      "page": 92,
+      "section": "2-(2)-①",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-069",
+      "text": "숙주세포의 물질대사 기구를 이용하여 바이러스의 유전물질과 단백질이 합성된다.",
+      "page": 92,
+      "section": "2-(2)-①",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-070",
+      "text": "새로 합성된 단백질 껍질과 유전물질이 조립되어 새로운 바이러스가 만들어진다.",
+      "page": 92,
+      "section": "2-(2)-①",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-071",
+      "text": "새로운 바이러스가 숙주세포 밖으로 방출된다.",
+      "page": 92,
+      "section": "2-(2)-①",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-072",
+      "text": "바이러스의 단백질이 숙주세포의 표면에 있는 특정 수용체만 인식하기 때문에 바이러스는 특정한 숙주세포에만 들어가서 증식할 수 있다.",
+      "page": 92,
+      "section": "2-(2)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-073",
+      "text": "일반적으로 사람은 다른 생물이 숙주인 바이러스에는 감염되지 않는다.",
+      "page": 92,
+      "section": "2-(2)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-074",
+      "text": "바이러스의 유전물질은 DNA 또는 RNA이다.",
+      "page": 92,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-075",
+      "text": "숙주세포의 효소는 바이러스 유전물질 복제에 이용된다.",
+      "page": 92,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-076",
+      "text": "바이러스의 증식 과정에는 전사와 번역이 포함된다.",
+      "page": 92,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-077",
+      "text": "바이러스 유전물질과 단백질은 조립되어 새로운 바이러스를 형성한다.",
+      "page": 92,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-078",
+      "text": "바이러스는 숙주세포가 터지면서 방출되는 경우가 있다.",
+      "page": 92,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-079",
+      "text": "바이러스는 숙주세포를 파괴하지 않고 방출되는 경우가 있다.",
+      "page": 92,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-080",
+      "text": "바이러스는 유전물질의 종류에 따라 DNA 바이러스와 RNA 바이러스로 구분한다.",
+      "page": 92,
+      "section": "2-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-081",
+      "text": "바이러스는 숙주세포의 종류에 따라 식물성 바이러스, 동물성 바이러스, 세균성 바이러스로 구분하기도 한다.",
+      "page": 92,
+      "section": "2-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-082",
+      "text": "담배모자이크바이러스는 실 모양의 RNA 바이러스이다.",
+      "page": 92,
+      "section": "2-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-083",
+      "text": "담배모자이크바이러스는 식물성 바이러스이다.",
+      "page": 92,
+      "section": "2-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-084",
+      "text": "담배모자이크바이러스의 구조에는 RNA와 단백질 껍질이 포함된다.",
+      "page": 92,
+      "section": "2-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-085",
+      "text": "아데노바이러스는 20면체 모양의 DNA 바이러스이다.",
+      "page": 92,
+      "section": "2-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-086",
+      "text": "아데노바이러스는 동물성 바이러스이다.",
+      "page": 92,
+      "section": "2-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-087",
+      "text": "아데노바이러스의 구조에는 당단백질, 단백질 껍질, DNA가 포함된다.",
+      "page": 92,
+      "section": "2-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-088",
+      "text": "인플루엔자 바이러스는 외피가 있는 RNA 바이러스이다.",
+      "page": 92,
+      "section": "2-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-089",
+      "text": "인플루엔자 바이러스는 동물성 바이러스이다.",
+      "page": 92,
+      "section": "2-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-090",
+      "text": "인플루엔자 바이러스의 구조에는 외피, RNA, 당단백질, 단백질 껍질이 포함된다.",
+      "page": 92,
+      "section": "2-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-091",
+      "text": "박테리오파지는 머리와 꼬리로 구분되는 DNA 바이러스이다.",
+      "page": 92,
+      "section": "2-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-092",
+      "text": "박테리오파지는 세균성 바이러스이다.",
+      "page": 92,
+      "section": "2-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-093",
+      "text": "박테리오파지의 구조에는 DNA와 단백질 껍질이 포함된다.",
+      "page": 92,
+      "section": "2-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-094",
+      "text": "전사는 DNA의 유전정보가 RNA로 전달되는 과정이다.",
+      "page": 92,
+      "section": "2-(2)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-095",
+      "text": "번역은 RNA의 염기서열에 따라 아미노산을 연결하여 단백질을 합성하는 과정이다.",
+      "page": 92,
+      "section": "2-(2)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-096",
+      "text": "바이러스는 숙주세포에 침투하여 증식하는 과정에서 숙주세포를 손상시키거나 파괴하여 질병을 일으킨다.",
+      "page": 93,
+      "section": "2-(2)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-097",
+      "text": "바이러스성 질병에는 감기, 독감, 수두, 코로나바이러스감염증-19(COVID-19), 홍역, 소아마비, 후천성면역결핍증(AIDS), 수족구병, 구순포진 등이 있다.",
+      "page": 93,
+      "section": "2-(2)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-098",
+      "text": "바이러스성 질환은 인터페론과 같은 항바이러스제로 치료할 수 있다.",
+      "page": 93,
+      "section": "2-(2)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-099",
+      "text": "바이러스는 숙주세포의 물질대사 기구를 이용하므로 항생제로 치료할 수 없다.",
+      "page": 93,
+      "section": "2-(2)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-100",
+      "text": "바이러스는 돌연변이율이 높기 때문에 항바이러스제를 개발하기 어려워 치료가 쉽지 않다.",
+      "page": 93,
+      "section": "2-(2)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-101",
+      "text": "감기는 코로나바이러스를 포함한 200여 종류의 바이러스가 원인이 되어 발생하므로 백신이 없다.",
+      "page": 93,
+      "section": "2-(2)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-102",
+      "text": "독감은 인플루엔자 바이러스에 의해 발생하며 백신 접종으로 예방이 가능하다.",
+      "page": 93,
+      "section": "2-(2)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-103",
+      "text": "세균과 바이러스는 감염성질환을 일으킬 수 있으며, 단백질과 유전물질을 가지고 있다.",
+      "page": 93,
+      "section": "2-(2)-③",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-104",
+      "text": "세균은 바이러스에 비해 크기가 크다.",
+      "page": 93,
+      "section": "2-(2)-③",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-105",
+      "text": "세균은 세포 구조로 숙주세포 없이 스스로 물질대사를 할 수 있다.",
+      "page": 93,
+      "section": "2-(2)-③",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-106",
+      "text": "세균성 질환은 항생제로 치료한다.",
+      "page": 93,
+      "section": "2-(2)-③",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-107",
+      "text": "바이러스는 세균보다 작아 세균 여과기를 통과한다.",
+      "page": 93,
+      "section": "2-(2)-③",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-108",
+      "text": "바이러스는 세포 구조가 아니며, 숙주세포 안에서만 물질대사와 증식을 할 수 있다.",
+      "page": 93,
+      "section": "2-(2)-③",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-109",
+      "text": "바이러스성 질환은 항바이러스제로 치료한다.",
+      "page": 93,
+      "section": "2-(2)-③",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-110",
+      "text": "세균의 비교 그림에는 편모, 라이보솜, 유전물질, 세포막, 세포벽이 표시되어 있다.",
+      "page": 93,
+      "section": "2-(2)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-111",
+      "text": "바이러스의 비교 그림에는 외피, 단백질 껍질, 유전물질이 표시되어 있다.",
+      "page": 93,
+      "section": "2-(2)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-112",
+      "text": "원생생물은 진핵생물 중 식물계, 균계, 동물계에 해당하지 않는 생물이다.",
+      "page": 93,
+      "section": "2-(3)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-113",
+      "text": "병원성이 있는 원생생물은 주로 단세포생물이다.",
+      "page": 93,
+      "section": "2-(3)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-114",
+      "text": "병원성이 있는 원생생물은 독립적으로 생활하거나 다른 생물에 기생하면서 질병을 일으키기도 한다.",
+      "page": 93,
+      "section": "2-(3)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-115",
+      "text": "원생생물은 오염된 음식이나 쥐, 모기, 파리와 같은 매개 생물을 통해 감염된다.",
+      "page": 93,
+      "section": "2-(3)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-116",
+      "text": "원생생물에 의한 대표적인 질병으로 말라리아, 수면병, 아메바성 이질, 아메바성 수막뇌염 등이 있다.",
+      "page": 93,
+      "section": "2-(3)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-117",
+      "text": "말라리아원충은 모기를 매개로 인체에 침입하여 말라리아를 일으킨다.",
+      "page": 93,
+      "section": "2-(3)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-118",
+      "text": "말라리아의 병원충은 말라리아원충이고 매개 곤충은 중국얼룩날개모기이다.",
+      "page": 93,
+      "section": "2-(3)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-119",
+      "text": "트리파노소마는 체체파리를 매개로 인체에 침입하여 수면병을 일으킨다.",
+      "page": 93,
+      "section": "2-(3)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-120",
+      "text": "수면병의 병원충은 트리파노소마이고 매개 곤충은 체체파리이다.",
+      "page": 93,
+      "section": "2-(3)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-121",
+      "text": "원생생물은 사람과 같은 진핵생물이므로 치료제를 개발하기가 쉽지 않다.",
+      "page": 93,
+      "section": "2-(3)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-122",
+      "text": "원생생물 치료에 상용하고 있는 치료제도 부작용이 나타날 수 있으므로 주의해서 사용해야 한다.",
+      "page": 93,
+      "section": "2-(3)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-123",
+      "text": "말라리아는 말라리아원충에 감염된 모기에 물려 발생하는 급성 열성 감염병이다.",
+      "page": 93,
+      "section": "2-(3)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-124",
+      "text": "인체로 침입한 말라리아원충은 혈류를 통해 간에 들어가 분열한다.",
+      "page": 93,
+      "section": "2-(3)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-125",
+      "text": "말라리아원충은 이후 적혈구에 침범하여 적혈구를 파괴하고 독성을 퍼뜨린다.",
+      "page": 93,
+      "section": "2-(3)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-126",
+      "text": "말라리아는 춥고 떨리는 오한이 발생하다가 고열이 나타나고, 심하게 땀을 흘린 뒤 체온이 떨어지는 증상이 주기적으로 나타난다.",
+      "page": 93,
+      "section": "2-(3)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-127",
+      "text": "수면병은 트리파노소마에 감염되어 발생하는 질병이다.",
+      "page": 93,
+      "section": "2-(3)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-128",
+      "text": "수면병 초기에는 두통, 발열 등의 증상이 나타난다.",
+      "page": 93,
+      "section": "2-(3)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-129",
+      "text": "수면병은 시간이 지나면서 중추신경계에 이상이 생겨 불면증과 언어 장애, 기면증이 나타난다.",
+      "page": 93,
+      "section": "2-(3)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-130",
+      "text": "수면병은 심한 경우 혼수 상태에 빠져 사망에 이르기도 한다.",
+      "page": 93,
+      "section": "2-(3)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-131",
+      "text": "곰팡이(진균)는 진핵생물로 균계에 속한다.",
+      "page": 94,
+      "section": "2-(4)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-132",
+      "text": "곰팡이의 몸은 실 모양의 균사로 이루어져 있다.",
+      "page": 94,
+      "section": "2-(4)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-133",
+      "text": "곰팡이는 세포막 바깥쪽에 키틴질의 세포벽이 있다.",
+      "page": 94,
+      "section": "2-(4)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-134",
+      "text": "곰팡이는 양분이 있고 습한 환경에서 산다.",
+      "page": 94,
+      "section": "2-(4)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-135",
+      "text": "곰팡이는 포자로 번식한다.",
+      "page": 94,
+      "section": "2-(4)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-136",
+      "text": "공기 중의 곰팡이 포자가 호흡기관으로 들어와 폐 질환을 일으키거나 피부, 점막 등에 번식하여 염증을 일으킨다.",
+      "page": 94,
+      "section": "2-(4)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-137",
+      "text": "곰팡이에 의한 대표적인 질병으로 진균성 폐렴, 무좀, 습진, 칸디다증 등이 있다.",
+      "page": 94,
+      "section": "2-(4)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-138",
+      "text": "무좀에 걸린 발에는 무좀균이 관련된다.",
+      "page": 94,
+      "section": "2-(4)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-139",
+      "text": "칸디다균은 곰팡이에 의한 감염성질환의 원인이 될 수 있다.",
+      "page": 94,
+      "section": "2-(4)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-140",
+      "text": "곰팡이에 의한 감염성질환은 항진균제를 이용하여 치료할 수 있다.",
+      "page": 94,
+      "section": "2-(4)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-141",
+      "text": "병원체에 감염되는 경로는 병원체의 종류와 특징에 따라 다르다.",
+      "page": 95,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-142",
+      "text": "병원체의 감염 경로를 이해하고 그 경로를 차단하면 감염성질환을 예방할 수 있다.",
+      "page": 95,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-143",
+      "text": "결핵, 감기, 독감, 코로나바이러스감염증-19 등에 걸린 환자가 기침이나 재채기를 할 때 공기 중으로 병원체가 방출된다.",
+      "page": 95,
+      "section": "3-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-144",
+      "text": "병원체에 오염된 공기를 마시거나 병원체가 묻은 손과 접촉하면 호흡기관을 통해 감염될 수 있다.",
+      "page": 95,
+      "section": "3-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-145",
+      "text": "마스크를 착용하고 손을 자주 씻으면 호흡기관을 통한 질병을 예방할 수 있다.",
+      "page": 95,
+      "section": "3-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-146",
+      "text": "고기, 생선 등을 익히지 않고 먹으면 세균이나 기생충에 감염될 수 있다.",
+      "page": 95,
+      "section": "3-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-147",
+      "text": "상온에 방치한 음식물을 먹으면 식중독에 걸릴 수 있다.",
+      "page": 95,
+      "section": "3-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-148",
+      "text": "물과 음식물을 끓이면 콜레라 등 세균에 의한 질병을 어느 정도 예방할 수 있다.",
+      "page": 95,
+      "section": "3-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-149",
+      "text": "세균성 식중독은 감염형과 독소형으로 세분화된다.",
+      "page": 95,
+      "section": "3-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-150",
+      "text": "상한 음식을 끓이면 세균은 죽일 수 있지만 세균에 의해 생성된 독소는 남아 식중독을 유발할 수 있다.",
+      "page": 95,
+      "section": "3-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-151",
+      "text": "말라리아, 수면병 등은 매개 곤충을 퇴치하는 방제 작업을 통해 예방할 수 있다.",
+      "page": 95,
+      "section": "3-(3)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-152",
+      "text": "무좀과 같은 피부 질환은 감염된 피부와의 접촉을 피해서 예방할 수 있다.",
+      "page": 95,
+      "section": "3-(4)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-153",
+      "text": "후천성면역결핍증(AIDS)과 같이 혈액을 통해 감염되는 질병은 사용한 주사기를 재사용하지 않는 등의 방법으로 예방할 수 있다.",
+      "page": 95,
+      "section": "3-(4)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-154",
+      "text": "깨끗이 씻은 손, 씻지 않은 손, 휴대전화와 같이 자주 사용하는 물건을 멸균 증류수로 적신 면봉으로 문지른 뒤 각각 페트리 접시에 담긴 고체 배지에 문지르고 뚜껑을 덮는다.",
+      "page": 95,
+      "section": "3",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-155",
+      "text": "배지를 뒤집어서 37 ℃ 배양기에서 하루 이상 배양한 뒤 콜로니를 관찰한다.",
+      "page": 95,
+      "section": "3",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-156",
+      "text": "배지마다 모양과 색깔이 다양한 콜로니가 관찰된다.",
+      "page": 95,
+      "section": "3",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-157",
+      "text": "씻은 손보다 씻지 않은 손과 휴대전화에서 더 많은 콜로니가 관찰된다.",
+      "page": 95,
+      "section": "3",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-158",
+      "text": "배양된 세균이나 곰팡이 중에는 유익한 것도 있고 유해한 것도 있다.",
+      "page": 95,
+      "section": "3",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-159",
+      "text": "유해 세균과 곰팡이에 의한 감염을 예방하려면 손을 자주 씻고 물건을 소독해야 한다.",
+      "page": 95,
+      "section": "3",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-160",
+      "text": "씻은 손에서 채취한 세균과 곰팡이를 배양한 결과가 왼쪽 배지에 제시되어 있다.",
+      "page": 95,
+      "section": "3",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-161",
+      "text": "씻지 않은 손에서 채취한 세균과 곰팡이를 배양한 결과가 오른쪽 배지에 제시되어 있다.",
+      "page": 95,
+      "section": "3",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-162",
+      "text": "콜로니는 세균, 곰팡이 등을 고체 배지에서 배양할 때 육안으로 관찰되는 집단이다.",
+      "page": 95,
+      "section": "3",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-163",
+      "text": "콜로니는 하나의 세균 또는 하나의 포자가 증식하여 형성되므로 유전적으로 동일하다.",
+      "page": 95,
+      "section": "3",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-164",
+      "text": "병원체의 침입이 원인이 되어 발생하는 질병을 감염성질환이라고 한다.",
+      "page": 95,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-165",
+      "text": "항생제는 세균과 바이러스의 치료에 모두 효과가 있다는 설명은 옳지 않다.",
+      "page": 95,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-166",
+      "text": "바이러스는 숙주세포 안에서만 증식할 수 있으며 유전 현상을 나타낸다는 설명은 옳다.",
+      "page": 95,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-167",
+      "text": "세균과 바이러스는 원핵생물이고, 곰팡이와 원생생물은 진핵생물이라는 설명은 옳지 않다.",
+      "page": 95,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-168",
+      "text": "병원체에 노출된다고 해서 항상 감염성질환에 걸리는 것은 아니다.",
+      "page": 96,
+      "section": "1",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-169",
+      "text": "우리 몸은 병원체가 들어오는 것을 막거나 들어온 병원체를 제거하여 스스로를 방어한다.",
+      "page": 96,
+      "section": "1",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-170",
+      "text": "우리 몸이 병원체가 들어오는 것을 막거나 들어온 병원체를 제거하여 스스로를 방어하는 방어작용을 면역이라고 한다.",
+      "page": 96,
+      "section": "1",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-171",
+      "text": "면역은 선천면역과 후천면역의 두 가지로 구분할 수 있다.",
+      "page": 96,
+      "section": "1",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-172",
+      "text": "선천면역은 태어나면서부터 항상 기능하는 방어작용이다.",
+      "page": 96,
+      "section": "1-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-173",
+      "text": "선천면역은 모든 종류의 병원체에 대해 동일한 방식으로 일어난다.",
+      "page": 96,
+      "section": "1-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-174",
+      "text": "선천면역은 병원체를 물리적으로 차단하는 방어벽과 침입한 병원체에 대한 내부 방어로 구분할 수 있다.",
+      "page": 96,
+      "section": "1-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-175",
+      "text": "후천면역은 태어난 후 병원체에 노출되면서 후천적으로 획득하는 방어작용이다.",
+      "page": 96,
+      "section": "1-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-176",
+      "text": "후천면역은 특정 병원체에 특이적으로 작동한다.",
+      "page": 96,
+      "section": "1-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-177",
+      "text": "후천면역은 체액성면역과 세포성면역으로 구분할 수 있다.",
+      "page": 96,
+      "section": "1-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-178",
+      "text": "방어작용은 비특이적 방어작용인 선천면역과 특이적 방어작용인 후천면역으로 구분된다.",
+      "page": 96,
+      "section": "1",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-179",
+      "text": "선천면역에는 방어벽과 내부 방어가 포함된다.",
+      "page": 96,
+      "section": "1",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-180",
+      "text": "선천면역의 방어벽에는 피부와 점막이 포함된다.",
+      "page": 96,
+      "section": "1",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-181",
+      "text": "선천면역의 내부 방어에는 식세포작용과 염증 반응이 포함된다.",
+      "page": 96,
+      "section": "1",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-182",
+      "text": "후천면역에는 세포성면역과 체액성면역이 포함된다.",
+      "page": 96,
+      "section": "1",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-183",
+      "text": "선천면역은 병원체에 공통으로 존재하는 특징을 인식하여 병원체의 종류를 구분하지 않고 일어난다.",
+      "page": 96,
+      "section": "1",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-184",
+      "text": "선천면역은 비특이적 방어작용이라고도 한다.",
+      "page": 96,
+      "section": "1",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-185",
+      "text": "후천면역은 특정 병원체에만 존재하는 특정 부위를 인식하여 일어난다.",
+      "page": 96,
+      "section": "1",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-186",
+      "text": "후천면역은 특이적 방어작용이라고도 한다.",
+      "page": 96,
+      "section": "1",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-187",
+      "text": "피부는 우리 몸을 둘러싸고 있는 가장 넓은 물리적 장벽이다.",
+      "page": 96,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-188",
+      "text": "피부의 가장 바깥쪽은 죽은 세포로 이루어진 각질층으로 덮여 있어 병원체와 외부 물질의 침입을 막는다.",
+      "page": 96,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-189",
+      "text": "눈, 콧속, 소화기관, 호흡기관의 내벽은 각질층이 없고 점막으로 덮여 있다.",
+      "page": 96,
+      "section": "2-(1)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-190",
+      "text": "점막에서는 끈끈한 점액을 분비하여 미생물이나 작은 입자를 잡아 가둔다.",
+      "page": 96,
+      "section": "2-(1)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-191",
+      "text": "숨관가지의 상피세포는 섬모를 움직여서 점액에 갇힌 미생물을 내보낸다.",
+      "page": 96,
+      "section": "2-(1)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-192",
+      "text": "눈, 콧속, 소화기관, 호흡기관의 내벽은 주위 환경과 지속적으로 상호작용을 하는 부위이다.",
+      "page": 96,
+      "section": "2-(1)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-193",
+      "text": "눈, 콧속, 소화기관, 호흡기관의 내벽은 피부 대신 점막을 이루는 상피세포로 이루어져 있다.",
+      "page": 96,
+      "section": "2-(1)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-194",
+      "text": "눈물, 침, 점액 분비물은 미생물을 씻어 내 세균이 증식하는 것을 막는다.",
+      "page": 96,
+      "section": "2-(1)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-195",
+      "text": "점액에 포함되어 있는 라이소자임은 침입한 세균의 세포벽을 분해하는 작용을 하여 세균을 터트린다.",
+      "page": 96,
+      "section": "2-(1)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-196",
+      "text": "위 안쪽의 점막에서 분비되는 위산은 음식물을 통해 위로 들어온 병원체를 제거한다.",
+      "page": 96,
+      "section": "2-(1)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-197",
+      "text": "피지샘이나 땀샘에서 나오는 산성의 분비물은 세균 증식을 억제한다.",
+      "page": 96,
+      "section": "2-(1)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-198",
+      "text": "라이소자임은 세균의 번식을 억제하는 물질로 점막 세포에서 생성된다.",
+      "page": 96,
+      "section": "2-(1)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-199",
+      "text": "라이소자임은 침, 눈물, 콧물 등에 들어 있다.",
+      "page": 96,
+      "section": "2-(1)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-200",
+      "text": "라이소자임은 세균의 세포벽 성분인 펩티도글리칸을 분해하는 효소이다.",
+      "page": 96,
+      "section": "2-(1)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-201",
+      "text": "피부의 구조에는 각질층과 피부가 포함된다.",
+      "page": 96,
+      "section": "2-(1)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-202",
+      "text": "각질층은 피부의 바깥쪽에서 병원체를 차단한다.",
+      "page": 96,
+      "section": "2-(1)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-203",
+      "text": "점막의 구조에는 점액과 점막이 포함된다.",
+      "page": 96,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-204",
+      "text": "점막의 점액은 병원체를 붙잡는 역할을 한다.",
+      "page": 96,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-205",
+      "text": "피부 각질층은 병원체의 침입을 차단하고, 피지샘과 땀샘에서 분비되는 성분이 병원체의 성장을 억제한다.",
+      "page": 97,
+      "section": "2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-206",
+      "text": "눈물은 눈 표면의 병원체를 씻어 내며, 눈물 속의 라이소자임이 세균을 분해한다.",
+      "page": 97,
+      "section": "2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-207",
+      "text": "침에는 라이소자임이 들어 있어 음식물 속의 세균을 분해한다.",
+      "page": 97,
+      "section": "2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-208",
+      "text": "콧속과 숨관가지 표면의 털이나 섬모, 점액은 호흡할 때 들어오는 병원체를 붙잡아 내보낸다.",
+      "page": 97,
+      "section": "2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-209",
+      "text": "위벽의 위 안쪽 점막에서는 강한 산성의 위산을 분비하여 음식물과 함께 들어온 병원체를 제거한다.",
+      "page": 97,
+      "section": "2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-210",
+      "text": "장 속에 살고 있는 미생물은 병원체와 경쟁하여 병원체의 성장을 억제한다.",
+      "page": 97,
+      "section": "2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-211",
+      "text": "피부나 점막이 손상되어 병원체가 몸속으로 침입하면 다양한 백혈구에 의해 식세포작용과 염증 반응이 일어나 병원체가 제거된다.",
+      "page": 97,
+      "section": "2-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-212",
+      "text": "식세포작용은 세포가 병원체를 잡아 분해하는 과정이다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-213",
+      "text": "백혈구의 일종인 큰포식세포와 호중구가 병원체를 감싸서 식포를 형성한 뒤 내부로 끌어들인다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-214",
+      "text": "식포를 내부로 끌어들이면 라이소솜이 융합하여 병원체를 분해한다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-215",
+      "text": "식세포작용 이후 병원체에 대한 정보를 세포막의 수용체에 제시하여 백혈구의 일종인 림프구가 병원체(항원)를 인식하도록 함으로써 후천면역이 일어나게 한다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-216",
+      "text": "식세포작용과 항원 제시 과정에는 병원체, 항원, 식포, 라이소솜, 항원 조각이 관련된다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-217",
+      "text": "큰포식세포는 주로 비장, 림프절 등에 분포하여 병원체를 제거한다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-218",
+      "text": "호중구는 혈액을 따라 이동하다가 감염 부위로 이동하여 식세포작용을 한다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-219",
+      "text": "라이소솜은 막으로 둘러싸인 세포소기관으로 다양한 가수분해효소가 들어 있다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-220",
+      "text": "라이소솜은 식포와 결합하여 세포 안으로 들어온 외부 물질을 분해하거나 손상된 세포소기관을 분해하는 역할을 한다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-221",
+      "text": "백혈구는 과립백혈구, 비과립백혈구, 림프구로 구분한다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-222",
+      "text": "과립백혈구에는 호염구, 호산구, 호중구, 비만세포가 있다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-223",
+      "text": "비과립백혈구인 단핵구는 큰포식세포와 수지상세포로 분화할 수 있다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-224",
+      "text": "림프구에는 B림프구, T림프구 외에 바이러스에 감염된 세포와 암세포를 공격하는 자연 살해 세포가 있다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-225",
+      "text": "골수 선조 세포는 적혈구, 혈소판, 백혈구로 분화한다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-226",
+      "text": "적혈구는 산소 운반을 담당한다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-227",
+      "text": "혈소판은 혈액응고를 담당한다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-228",
+      "text": "호염구는 히스타민 분비와 T림프구 분화 촉진을 담당한다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-229",
+      "text": "호산구는 항체와 결합한 기생충을 치사시킨다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-230",
+      "text": "호중구는 항체와 결합한 병원체 제거와 염증 반응을 담당한다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-231",
+      "text": "비만세포는 히스타민을 분비한다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-232",
+      "text": "단핵구는 큰포식세포와 수지상세포로 분화한다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-233",
+      "text": "큰포식세포는 식세포작용과 항원 제시를 담당한다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-234",
+      "text": "수지상세포는 항원을 T림프구에 제시한다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-235",
+      "text": "B림프구는 형질세포와 기억세포로 분화한다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": true
+    },
+    {
+      "sid": "01-236",
+      "text": "T림프구는 감염된 세포 파괴와 다른 백혈구 활성 조절을 담당한다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-237",
+      "text": "자연 살해 세포는 바이러스에 감염된 세포나 암세포를 파괴한다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-238",
+      "text": "자연 살해 세포는 림프구의 일종으로 바이러스에 감염되어 세포막 수용체가 변형된 세포와 암세포를 공격한다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-239",
+      "text": "자연 살해 세포는 사이토카인을 방출해 감염된 세포와 암세포의 용해나 세포 자살을 유도할 수 있다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-240",
+      "text": "자연 살해 세포의 활성은 20세에 최고에 달하고 이후 점차 떨어져 80세에는 1/3로 줄어든다.",
+      "page": 97,
+      "section": "2-(2)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-241",
+      "text": "염증 반응은 피부나 점막이 손상되어 병원체가 몸속으로 들어오면 열이 오르고 상처 부위가 붉어지며 부어오르는 현상이다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-242",
+      "text": "염증 반응에서는 흔히 통증을 느끼게 된다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-243",
+      "text": "염증 반응은 상처 부위의 손상된 세포와 면역 세포가 분비하는 사이토카인, 히스타민 등의 화학 신호 물질에 의해 진행된다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-244",
+      "text": "염증 반응의 결과로 상처 부위에 백혈구, 죽은 병원체, 세포 잔해 등이 모여 고름이 생긴다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-245",
+      "text": "염증 반응 후 고름은 림프액으로 흡수되어 제거된다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-246",
+      "text": "상처 부위에서 비만세포는 히스타민을 분비한다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-247",
+      "text": "상처 부위에서 큰포식세포는 호중구를 끌어당기는 사이토카인을 분비한다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-248",
+      "text": "염증 반응에서 모세혈관 확장과 물질 투과성 증가가 일어난다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-249",
+      "text": "염증 반응에서 호중구와 항미생물 펩타이드가 포함된 혈장이 조직으로 유입된다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-250",
+      "text": "염증 반응에서 큰포식세포 등 여러 백혈구의 식세포작용으로 병원체가 제거되고 조직이 재생된다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-251",
+      "text": "비만세포는 백혈구의 일종으로 외부 환경과 접하는 말초 조직에 주로 분포한다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-252",
+      "text": "비만세포는 상처가 났을 때 히스타민 등을 분비하여 염증 반응을 유도한다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-253",
+      "text": "히스타민은 앨러지 반응과 염증 반응을 유도하는 물질이다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-254",
+      "text": "히스타민은 주변 모세혈관을 확장하여 혈장과 백혈구(호중구)가 쉽게 혈관을 통과할 수 있게 한다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-255",
+      "text": "사이토카인은 면역계의 신호 전달에 관여하는 주요 단백질을 총칭하는 용어이다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-256",
+      "text": "사이토카인은 면역 세포의 성장과 분화, 염증 반응 등을 유도하여 면역반응을 조절한다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-257",
+      "text": "급성 염증은 부상 후 감염을 예방하는 과정으로 며칠 동안 지속된다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-258",
+      "text": "만성 염증은 병원체나 독소가 계속 존재하여 몇 달 혹은 몇 년까지 지속되는 장기적인 반응이다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-259",
+      "text": "만성 염증은 류머티즘성 관절염, 잇몸 질환 등의 질병과 연결될 수 있다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-260",
+      "text": "패혈증은 심각한 조직 손상이나 감염으로 전신 염증 반응을 보이는 증상이다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-261",
+      "text": "패혈증은 심한 고열을 동반하고 저혈압과 혈액 순환 장애가 발생하여 생명을 위협할 수도 있다.",
+      "page": 98,
+      "section": "2-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-262",
+      "text": "후천면역은 선천면역이 작동한 뒤 특정 병원체에 대해서만 선택적으로 일어난다.",
+      "page": 98,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-263",
+      "text": "후천면역은 이전에 체내에 들어와 면역반응을 일으킨 적이 있는 병원체를 기억하고 인식하는 특성이 있다.",
+      "page": 98,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-264",
+      "text": "후천면역에서 중요한 역할을 하는 면역 세포는 백혈구의 한 종류인 림프구이다.",
+      "page": 98,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-265",
+      "text": "림프구는 골수에서 생성된다.",
+      "page": 98,
+      "section": "3-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-266",
+      "text": "림프구 중에서 일부는 골수에 남아 계속 성숙하고 분화하여 B림프구가 된다.",
+      "page": 98,
+      "section": "3-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-267",
+      "text": "림프구 중에서 다른 일부는 골수를 떠나 가슴샘으로 이동한 뒤 성숙하고 분화하여 T림프구가 된다.",
+      "page": 98,
+      "section": "3-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-268",
+      "text": "성숙하는 과정에서 후천면역에 효과적인 림프구만 성숙하고 효과적이지 않은 림프구는 제거된다.",
+      "page": 98,
+      "section": "3-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-269",
+      "text": "성숙한 림프구의 세포막에는 림프구의 종류에 따라 다른 수용체가 있다.",
+      "page": 98,
+      "section": "3-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-270",
+      "text": "림프구는 후천면역에서 다양한 병원체를 인식할 수 있다.",
+      "page": 98,
+      "section": "3-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-271",
+      "text": "B림프구는 항체를 생성하는 형질세포(plasma cell)와 항원을 기억하는 기억세포(memory cell)로 분화한다.",
+      "page": 98,
+      "section": "3-(1)-②",
+      "source_type": "본문",
+      "deduplicated": true
+    },
+    {
+      "sid": "01-272",
+      "text": "T림프구는 보조 T림프구(helper T cell)와 세포독성 T림프구(cytotoxic T cell)로 분화한다.",
+      "page": 98,
+      "section": "3-(1)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-273",
+      "text": "림프구의 이름은 림프구가 성숙하는 장소에 따라 붙여졌다.",
+      "page": 98,
+      "section": "3-(1)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-274",
+      "text": "골수(Bone marrow)에서 성숙하면 B림프구라고 한다.",
+      "page": 98,
+      "section": "3-(1)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-275",
+      "text": "가슴샘(Thymus gland)에서 성숙하면 T림프구라고 한다.",
+      "page": 98,
+      "section": "3-(1)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-276",
+      "text": "B림프구의 항원 수용체는 Y자형이다.",
+      "page": 98,
+      "section": "3-(1)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-277",
+      "text": "T림프구의 항원 수용체는 I자형이다.",
+      "page": 98,
+      "section": "3-(1)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-278",
+      "text": "B림프구 그림에는 Y자형 항원 수용체가 표시되어 있다.",
+      "page": 98,
+      "section": "3-(1)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-279",
+      "text": "T림프구 그림에는 I자형 항원 수용체가 표시되어 있다.",
+      "page": 98,
+      "section": "3-(1)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-280",
+      "text": "림프구의 생성 및 성숙 과정에서 조혈 모세포는 골수에서 미성숙한 림프구를 만든다.",
+      "page": 99,
+      "section": "3-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-281",
+      "text": "골수에 남은 미성숙한 림프구는 성숙하고 분화하여 B림프구가 된다.",
+      "page": 99,
+      "section": "3-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-282",
+      "text": "혈액을 따라 이동한 미성숙한 림프구는 가슴샘에서 성숙하고 분화하여 T림프구가 된다.",
+      "page": 99,
+      "section": "3-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-283",
+      "text": "항체와 결합하는 항원 부위를 항원 결정 부위라고 한다.",
+      "page": 99,
+      "section": "3-(2)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-284",
+      "text": "하나의 병원체에는 여러 개의 항원 결정 부위가 있을 수 있다.",
+      "page": 99,
+      "section": "3-(2)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-285",
+      "text": "병원체 그림에는 항원 결정 부위와 항원 결합 부위가 표시되어 있다.",
+      "page": 99,
+      "section": "3-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-286",
+      "text": "항원은 우리 몸에 침입하여 B림프구나 T림프구의 반응을 유발하는 물질이다.",
+      "page": 99,
+      "section": "3-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-287",
+      "text": "몸속에 들어온 세균, 바이러스와 같은 병원체뿐만 아니라 먼지, 꽃가루, 독성 물질 등도 항원으로 작용할 수 있다.",
+      "page": 99,
+      "section": "3-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-288",
+      "text": "대부분의 항원은 외래 세포나 바이러스 표면에 돌출되어 있다.",
+      "page": 99,
+      "section": "3-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-289",
+      "text": "항원의 일부분은 B림프구와 T림프구의 세포막에 있는 항원 수용체와 결합한다.",
+      "page": 99,
+      "section": "3-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-290",
+      "text": "항체는 항원에 대항하여 만들어지는 단백질이다.",
+      "page": 99,
+      "section": "3-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-291",
+      "text": "항체의 주성분은 γ-글로불린이며, 면역글로불린(Ig; Immunoglobulin)이라고 한다.",
+      "page": 99,
+      "section": "3-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-292",
+      "text": "B림프구가 활성화하면 항체를 분비한다.",
+      "page": 99,
+      "section": "3-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-293",
+      "text": "분비된 항체는 체액에 있는 항원과 결합한다.",
+      "page": 99,
+      "section": "3-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-294",
+      "text": "단일 B림프구에서 분비하는 항체는 구조가 동일하며 같은 항원 결정 부위를 인식한다.",
+      "page": 99,
+      "section": "3-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-295",
+      "text": "큰포식세포가 병원체를 분해한 뒤 세포 표면에 항원을 제시한다.",
+      "page": 99,
+      "section": "3-(3)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-296",
+      "text": "보조 T림프구가 항원의 종류를 인식하고 빠르게 증식한다.",
+      "page": 99,
+      "section": "3-(3)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-297",
+      "text": "세포성면역에서 보조 T림프구가 세포독성 T림프구의 활성화와 증식을 촉진한다.",
+      "page": 99,
+      "section": "3-(3)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-298",
+      "text": "세포성면역에서 세포독성 T림프구가 감염된 세포를 공격하여 파괴한다.",
+      "page": 99,
+      "section": "3-(3)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-299",
+      "text": "체액성면역에서 보조 T림프구가 B림프구의 활성화와 증식을 촉진한다.",
+      "page": 99,
+      "section": "3-(3)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-300",
+      "text": "체액성면역에서 B림프구가 형질세포와 기억세포로 분화한다.",
+      "page": 99,
+      "section": "3-(3)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-301",
+      "text": "체액성면역에서 형질세포에서 생성된 항체가 항원과 결합하여 병원체의 활성을 억제한다.",
+      "page": 99,
+      "section": "3-(3)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-302",
+      "text": "후천면역은 림프구가 항원을 인식하는 것에서부터 시작한다.",
+      "page": 100,
+      "section": "3-(3)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-303",
+      "text": "큰포식세포의 식세포작용은 병원체를 제거하는 동시에 침입한 병원체의 정보를 제공함으로써 후천면역이 시작되게 한다.",
+      "page": 100,
+      "section": "3-(3)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-304",
+      "text": "병원체가 체내로 침입하면 백혈구의 일종인 큰포식세포가 병원체를 포식하여 세포 안으로 끌어들인다.",
+      "page": 100,
+      "section": "3-(3)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-305",
+      "text": "라이소솜에 있는 가수분해효소가 병원체를 분해한다.",
+      "page": 100,
+      "section": "3-(3)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-306",
+      "text": "분해 결과 생긴 항원 조각은 큰포식세포의 세포막에 있는 단백질과 결합하여 세포 표면에 제시된다.",
+      "page": 100,
+      "section": "3-(3)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-307",
+      "text": "항원을 제시한 큰포식세포가 림프절로 이동하면 이 항원에 특이적으로 결합하는 항원 수용체가 있는 보조 T림프구가 결합하여 항원을 인식한다.",
+      "page": 100,
+      "section": "3-(3)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-308",
+      "text": "보조 T림프구가 결합하면 항원을 제시한 큰포식세포에서 사이토카인을 분비하여 보조 T림프구를 활성화하고 증식하도록 한다.",
+      "page": 100,
+      "section": "3-(3)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-309",
+      "text": "활성화된 보조 T림프구는 사이토카인을 분비하여 같은 항원과 결합하는 B림프구와 세포독성 T림프구의 활성화를 돕는다.",
+      "page": 100,
+      "section": "3-(3)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-310",
+      "text": "B림프구의 항원 수용체는 항원과 직접 결합할 수 있다.",
+      "page": 100,
+      "section": "3-(3)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-311",
+      "text": "B림프구도 큰포식세포처럼 식세포작용을 하여 항원을 제시하는 항원 제시 세포 중 하나이다.",
+      "page": 100,
+      "section": "3-(3)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-312",
+      "text": "림프절은 림프관 중간중간에 위치한다.",
+      "page": 100,
+      "section": "3-(3)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-313",
+      "text": "림프절에는 림프구와 큰포식세포가 있어서 병원체를 제거하는 역할을 한다.",
+      "page": 100,
+      "section": "3-(3)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-314",
+      "text": "림프절은 목, 겨드랑이, 사타구니 등 몸통과 연결되는 부위에 특히 많이 분포한다.",
+      "page": 100,
+      "section": "3-(3)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-315",
+      "text": "세포성면역은 보조 T림프구의 신호로 활성화된 세포독성 T림프구가 바이러스나 세균에 감염된 세포, 손상된 세포, 암세포를 직접 공격하여 제거하는 면역반응이다.",
+      "page": 100,
+      "section": "3-(3)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-316",
+      "text": "활성화된 세포독성 T림프구는 감염된 세포의 표면에 제시된 항원을 인식하고 직접 결합한다.",
+      "page": 100,
+      "section": "3-(3)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-317",
+      "text": "세포독성 T림프구는 세포막에 구멍을 내는 물질과 단백질분해효소를 분비하여 세포에 구멍을 뚫고 세포 자살을 유도한다.",
+      "page": 100,
+      "section": "3-(3)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-318",
+      "text": "감염된 세포가 파괴되면 세포독성 T림프구는 같은 병원체에 감염된 또 다른 세포로 이동하여 공격한다.",
+      "page": 100,
+      "section": "3-(3)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-319",
+      "text": "기억세포는 B림프구뿐만 아니라 T림프구에서도 분화되어 생성된다.",
+      "page": 100,
+      "section": "3-(3)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-320",
+      "text": "보조 T림프구가 증식할 때 기억 보조 T림프구와 활성화된 보조 T림프구로 분화한다.",
+      "page": 100,
+      "section": "3-(3)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-321",
+      "text": "세포독성 T림프구가 증식할 때에도 기억 세포독성 T림프구와 활성화된 세포독성 T림프구로 분화한다.",
+      "page": 100,
+      "section": "3-(3)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-322",
+      "text": "형질세포(plasma cell)는 항체를 생산하여 분비하는 기능을 한다.",
+      "page": 100,
+      "section": "3-(3)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-323",
+      "text": "형질세포는 항체를 생산하여 분비하므로 세포소기관 중 소포체와 골지체가 매우 발달한다.",
+      "page": 100,
+      "section": "3-(3)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-324",
+      "text": "체액성면역은 B림프구가 분화한 형질세포에서 항체를 생성하여 항원을 제거하는 면역반응이다.",
+      "page": 100,
+      "section": "3-(3)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-325",
+      "text": "큰포식세포가 제시한 항원을 인식하여 활성화된 보조 T림프구는 항원과 맞는 항원 수용체를 가진 B림프구와 결합하고 사이토카인을 분비하여 B림프구를 활성화한다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-326",
+      "text": "활성화된 B림프구는 증식하여 형질세포와 기억세포로 분화한다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-327",
+      "text": "형질세포는 항체를 분비하며, 분비된 항체는 항원에 특이적으로 결합하여 병원체를 무력화한다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-328",
+      "text": "기억세포는 항원의 정보를 기억하고 있다가 동일한 항원이 다시 침입했을 때 빠르게 형질세포로 분화하여 항체를 생성하도록 한다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-329",
+      "text": "능동면역은 항원에 노출된 후 신체가 스스로 항체를 생산하는 것을 의미한다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-330",
+      "text": "능동면역에는 질병에 의해 만들어지는 자연적 능동면역과 질병 없이 백신에 의해 기억세포를 형성하는 인공적 능동면역이 있다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-331",
+      "text": "수두에 걸린 후 수두에 대한 면역력이 생기는 것은 자연적 능동면역의 예이다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-332",
+      "text": "독감 백신을 맞고 기억세포가 생성되어 면역력이 생기는 것은 인공적 능동면역의 예이다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-333",
+      "text": "수동면역은 다른 개체로부터 항체를 얻는 면역이다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-334",
+      "text": "수동면역은 기억세포를 생성하지 않는다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-335",
+      "text": "혈장에는 기억세포는 없고 항체가 있으므로 혈장을 주사하는 것도 수동면역에 해당한다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-336",
+      "text": "태반을 통해 모체로부터 태아에게 항체가 전달되는 것은 수동면역의 예이다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-337",
+      "text": "뱀에 물리면 뱀 독소에 대한 항체가 들어 있는 혈장을 주사하여 치료하는 것은 수동면역의 예이다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-338",
+      "text": "항체는 병원체의 항원에 결합하여 병원체를 감싼다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-339",
+      "text": "항체는 병원체와 응집하거나 용해된 항원을 침전시킴으로써 큰포식세포나 호중구의 식세포작용을 촉진한다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-340",
+      "text": "항체는 혈장에 있는 단백질을 통해 병원체의 세포막에 구멍을 만들어 세포를 파괴하고 염증 반응을 유도하여 식세포작용을 촉진한다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-341",
+      "text": "항체는 병원체 표면 항원에 결합하거나 병원체를 둘러싼다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-342",
+      "text": "항체는 병원체와 결합하여 병원체를 응집시킨다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-343",
+      "text": "항체는 유리된 항원 조각과 결합하여 항원을 침전시킨다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-344",
+      "text": "항체는 세포에 구멍을 뚫는 보체 단백질을 활성화한다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-345",
+      "text": "항체에 의한 병원체 표면 항원 결합, 병원체 응집, 항원 침전은 식세포작용을 촉진한다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-346",
+      "text": "항체에 의한 보체 단백질 활성화는 세포 파괴를 유도한다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-347",
+      "text": "클론 선택은 항원과 결합할 수 있는 B림프구만 선택되어 증식하는 과정이다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-348",
+      "text": "우리 몸에서는 수용체가 서로 다른 다양한 B림프구를 만든다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-349",
+      "text": "항원과 결합할 수 없는 나머지 B림프구는 특정한 항원을 만날 때까지 휴면 상태를 유지한다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-350",
+      "text": "증식한 B림프구는 대부분 형질세포로 분화하여 동일한 종류의 항체를 생성한다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-351",
+      "text": "증식한 B림프구 중 일부는 기억세포로도 분화하여 같은 항원의 재침입에 대비한다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-352",
+      "text": "클론 선택 그림에서 다양한 B림프구 중 항원 수용체가 항원과 맞는 B림프구가 활성화된다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-353",
+      "text": "클론 선택 그림에서 활성화된 B림프구는 형질세포와 기억세포로 분화한다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-354",
+      "text": "클론 선택 그림에서 형질세포는 항체를 분비한다.",
+      "page": 101,
+      "section": "3-(3)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-355",
+      "text": "병원체가 신체의 장벽을 침범하여 감염 부위가 붉어지고 열이 나며 부어오르는 증상을 염증이라고 한다.",
+      "page": 101,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-356",
+      "text": "항원 제시 과정에서 큰포식세포와 상호작용하며 체액성면역과 세포성면역이 진행되도록 매개하는 면역 세포는 세포독성 T림프구라는 설명은 옳지 않다.",
+      "page": 101,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "01-357",
+      "text": "형질세포는 항체를 생산하고 기억세포는 항원의 재침입에 대비한다는 설명은 옳다.",
+      "page": 101,
+      "section": "3",
+      "source_type": "본문",
+      "deduplicated": false
+    }
+  ]
+}

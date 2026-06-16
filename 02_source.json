@@ -1,0 +1,1582 @@
+{
+  "unit": "02",
+  "title": "항원항체반응과 백신",
+  "sentences": [
+    {
+      "sid": "02-001",
+      "text": "항원과 항체가 특이적으로 결합하는 항원항체반응으로 면역반응과 혈액 응집반응이 일어나며, 같은 원리를 활용하여 백신을 개발한다.",
+      "page": 114,
+      "section": "02",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-002",
+      "text": "항원과 항체는 특이적으로 결합하여 항원항체반응을 함으로써 병원체를 무력화한다.",
+      "page": 114,
+      "section": "1",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-003",
+      "text": "혈액형을 판정할 때에도 항원항체반응의 원리가 적용된다.",
+      "page": 114,
+      "section": "1",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-004",
+      "text": "항체는 면역글로불린(Ig; Immunoglobulin)이라는 단백질로, 4개의 폴리펩타이드 사슬이 Y자 모양의 구조를 형성한다.",
+      "page": 114,
+      "section": "1-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-005",
+      "text": "4개의 폴리펩타이드 중 2개는 긴 사슬이고 다른 2개는 짧은 사슬이다.",
+      "page": 114,
+      "section": "1-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-006",
+      "text": "2개의 긴 사슬과 2개의 짧은 사슬은 각각 동일하다.",
+      "page": 114,
+      "section": "1-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-007",
+      "text": "항체의 구조에는 항원 결합 부위, 짧은 사슬, 긴 사슬, 가변 부위, 불변 부위가 포함된다.",
+      "page": 114,
+      "section": "1-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-008",
+      "text": "항체의 항원 결합 부위는 Y자 모양 항체의 두 끝에 위치한다.",
+      "page": 114,
+      "section": "1-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-009",
+      "text": "항체의 가변 부위는 항원 결합 부위를 이루는 부위이다.",
+      "page": 114,
+      "section": "1-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-010",
+      "text": "항체의 불변 부위는 항체 사슬의 아래쪽 줄기 부분을 이룬다.",
+      "page": 114,
+      "section": "1-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-011",
+      "text": "가변 부위가 같은 항체도 불변 부위의 차이에 따라 IgG, IgM, IgD, IgA, IgE의 5가지 동형이 있다.",
+      "page": 114,
+      "section": "1-(1)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-012",
+      "text": "IgG, IgD, IgE는 단량체이다.",
+      "page": 114,
+      "section": "1-(1)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-013",
+      "text": "IgM은 5량체이다.",
+      "page": 114,
+      "section": "1-(1)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-014",
+      "text": "IgA는 2량체이다.",
+      "page": 114,
+      "section": "1-(1)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-015",
+      "text": "혈장에서 가장 많은 양을 차지하는 것은 IgG이다.",
+      "page": 114,
+      "section": "1-(1)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-016",
+      "text": "IgE는 앨러지 반응에 관여한다.",
+      "page": 114,
+      "section": "1-(1)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-017",
+      "text": "IgG는 단량체 형태의 항체이다.",
+      "page": 114,
+      "section": "1-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-018",
+      "text": "IgM은 5량체 형태의 항체이다.",
+      "page": 114,
+      "section": "1-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-019",
+      "text": "IgA는 2량체 형태의 항체이다.",
+      "page": 114,
+      "section": "1-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-020",
+      "text": "각 사슬에는 아미노산서열이 모든 항체에서 매우 유사한 불변 부위와 아미노산서열이 항체에 따라 매우 다양한 가변 부위가 있다.",
+      "page": 114,
+      "section": "1-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-021",
+      "text": "가변 부위는 특정 항원과만 결합하는 부위로, 하나의 항체에는 2개의 동일한 항원 결합 부위가 있다.",
+      "page": 114,
+      "section": "1-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-022",
+      "text": "항체를 암호화하는 유전자는 여러 유전자군으로 구성되어 있는 초유전자(supergene)이다.",
+      "page": 114,
+      "section": "1-(2)",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-023",
+      "text": "B림프구가 성숙하는 과정에서 각 유전자군으로부터 DNA가 절단되어 재배열된 뒤 다시 연결되는 DNA 재조합이 일어난다.",
+      "page": 114,
+      "section": "1-(2)",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-024",
+      "text": "DNA의 무작위 재조합으로 형성된 긴 사슬과 짧은 사슬의 조합에는 여러 경우가 있다.",
+      "page": 114,
+      "section": "1-(2)",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-025",
+      "text": "DNA가 재조합되는 과정에서 뉴클레오타이드의 삽입, 결실과 같은 돌연변이가 발생할 수도 있으므로 항체 유전자의 다양성은 더욱 증가한다.",
+      "page": 114,
+      "section": "1-(2)",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-026",
+      "text": "각각의 항체는 항원 결합 부위와 맞는 특정한 항원과만 결합할 수 있다.",
+      "page": 114,
+      "section": "1-(3)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-027",
+      "text": "항원항체반응의 특이성은 결합 부위의 특정 아미노산서열에 따라 결정된다.",
+      "page": 114,
+      "section": "1-(3)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-028",
+      "text": "병원체의 표면에는 다수의 항원 결정 부위가 있다.",
+      "page": 114,
+      "section": "1-(3)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-029",
+      "text": "항체와 항원의 결합으로 거대한 복합체를 형성하여 식세포작용이 쉽게 일어나도록 할 수 있다.",
+      "page": 114,
+      "section": "1-(3)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-030",
+      "text": "항원항체반응의 특이성 그림에서 항체는 맞는 항원과 결합한다.",
+      "page": 114,
+      "section": "1-(3)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-031",
+      "text": "항원항체반응의 특이성 그림에서 항체는 맞지 않는 항원과 결합하지 못한다.",
+      "page": 114,
+      "section": "1-(3)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-032",
+      "text": "항체와 항원이 결합하여 형성된 거대한 복합체가 식세포에서 항체의 긴 사슬을 인식하는 수용체에 부착하면 식세포작용이 활성화된다.",
+      "page": 114,
+      "section": "1-(3)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-033",
+      "text": "항체와 식세포작용의 활성화 그림에는 세포막, 수용체, 항체, 항원, 식세포가 표시되어 있다.",
+      "page": 114,
+      "section": "1-(3)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-034",
+      "text": "식세포의 수용체는 항체와 항원이 결합한 복합체의 항체 부분을 인식한다.",
+      "page": 114,
+      "section": "1-(3)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-035",
+      "text": "혈액형이 다른 두 혈액이 섞였을 때 적혈구가 서로 엉겨 덩어리를 형성하는 반응을 혈액의 응집반응이라고 한다.",
+      "page": 115,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-036",
+      "text": "혈액의 응집반응은 적혈구 세포막 표면에 항원으로 작용하는 응집원이 있고, 혈장에는 항체로 작용하는 응집소가 있어서 항원항체반응이 일어나기 때문이다.",
+      "page": 115,
+      "section": "2-(1)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-037",
+      "text": "ABO식 혈액형의 응집원은 A, B 두 종류가 있다.",
+      "page": 115,
+      "section": "2-(1)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-038",
+      "text": "ABO식 혈액형의 응집소는 α, β 두 종류가 있다.",
+      "page": 115,
+      "section": "2-(1)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-039",
+      "text": "응집원 A는 응집소 α와 항원항체반응을 한다.",
+      "page": 115,
+      "section": "2-(1)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-040",
+      "text": "응집원 B는 응집소 β와 항원항체반응을 한다.",
+      "page": 115,
+      "section": "2-(1)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-041",
+      "text": "응집원에 따라 ABO식 혈액형은 A형, B형, AB형, O형으로 구분한다.",
+      "page": 115,
+      "section": "2-(1)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-042",
+      "text": "응집원과 응집소의 항원항체반응 그림에서 적혈구 표면에는 응집원 A와 응집원 B가 표시되어 있다.",
+      "page": 115,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-043",
+      "text": "응집원과 응집소의 항원항체반응 그림에서 응집소 α는 응집원 A와 결합한다.",
+      "page": 115,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-044",
+      "text": "응집원과 응집소의 항원항체반응 그림에서 응집소 β는 응집원 B와 결합한다.",
+      "page": 115,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-045",
+      "text": "A형 혈액의 적혈구에는 응집원 A가 있다.",
+      "page": 115,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-046",
+      "text": "A형 혈액의 혈장에는 응집소 β가 있다.",
+      "page": 115,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-047",
+      "text": "B형 혈액의 적혈구에는 응집원 B가 있다.",
+      "page": 115,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-048",
+      "text": "B형 혈액의 혈장에는 응집소 α가 있다.",
+      "page": 115,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-049",
+      "text": "AB형 혈액의 적혈구에는 응집원 A와 응집원 B가 있다.",
+      "page": 115,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-050",
+      "text": "AB형 혈액의 혈장에는 응집소가 없다.",
+      "page": 115,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-051",
+      "text": "O형 혈액의 적혈구에는 응집원이 없다.",
+      "page": 115,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-052",
+      "text": "O형 혈액의 혈장에는 응집소 α와 응집소 β가 있다.",
+      "page": 115,
+      "section": "2-(1)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-053",
+      "text": "응집원 A, B는 음식이나 세균, 바이러스, 식물 등의 항원과 유사한 항원 결정 부위를 가지고 있다.",
+      "page": 115,
+      "section": "2-(1)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-054",
+      "text": "응집원 A, B는 적혈구 외에 상피세포의 표면에도 있어 세포막 유지, 세포 부착 등의 기능을 한다.",
+      "page": 115,
+      "section": "2-(1)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-055",
+      "text": "응집소 α, β는 적혈구 응집원에 직접 노출되지 않아도 외부 환경의 항원에 노출되어 생후 1년 전후로 자연 생성된다.",
+      "page": 115,
+      "section": "2-(1)-②",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-056",
+      "text": "적혈구 세포막 표면에 Rh 응집원이 있으면 Rh+형이다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-057",
+      "text": "적혈구 세포막 표면에 Rh 응집원이 없으면 Rh-형이다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-058",
+      "text": "Rh+형과 Rh-형 모두 Rh 응집소는 없다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-059",
+      "text": "Rh-형은 Rh+형의 적혈구에 노출되면 혈장에 Rh 응집소가 생성된다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-060",
+      "text": "토끼에게 붉은털원숭이의 혈액을 주사하면 토끼의 혈액 속에 붉은털원숭이의 적혈구를 응집시키는 Rh 응집소가 생긴다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-061",
+      "text": "Rh 응집소가 들어 있는 토끼의 혈청(항Rh 혈청)과 사람의 혈액을 섞었을 때 응집반응이 나타나는 혈액이 Rh+형이다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-062",
+      "text": "Rh 응집소가 들어 있는 토끼의 혈청(항Rh 혈청)과 사람의 혈액을 섞었을 때 응집하지 않는 혈액이 Rh-형이다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-063",
+      "text": "Rh식 혈액형 판정 과정에서 붉은털원숭이의 적혈구에는 Rh 응집원이 있다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-064",
+      "text": "Rh식 혈액형 판정 과정에서 붉은털원숭이의 적혈구를 토끼에게 주사한다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-065",
+      "text": "Rh식 혈액형 판정 과정에서 토끼의 혈액에는 Rh 응집소 항체가 생성된다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-066",
+      "text": "Rh식 혈액형 판정 과정에서 토끼의 혈액을 채취한 뒤 항Rh 혈청을 분리한다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-067",
+      "text": "Rh식 혈액형 판정 과정에서 사람의 혈액과 토끼의 항Rh 혈청을 섞는다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-068",
+      "text": "Rh식 혈액형 판정에서 응집반응이 일어나지 않으면 Rh-형으로 판정한다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-069",
+      "text": "Rh식 혈액형 판정에서 응집반응이 일어나면 Rh+형으로 판정한다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-070",
+      "text": "ABO식 혈액형의 응집소 α, β는 면역글로불린 중 IgM(5량체)으로 크기가 커서 태반을 통과하지 못한다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-071",
+      "text": "Rh 응집소는 IgG(단량체)이므로 태반을 통과해서 태아에게 전달될 수 있다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-072",
+      "text": "Rh-형인 여성이 Rh+형 태아를 임신, 출산하면서 Rh 응집원에 노출되면 모체의 혈장에 Rh 응집소가 형성된다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-073",
+      "text": "이후 Rh+형인 둘째 아이를 임신하면 모체의 Rh 응집소가 태반을 통해 태아에게 전달되어 태아의 적혈구가 파괴된다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-074",
+      "text": "모체의 Rh 응집소가 태반을 통해 태아에게 전달되어 태아의 적혈구가 파괴되는 현상을 태아적혈모구증이라고 한다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-075",
+      "text": "양수 검사 결과 Rh 응집소가 기준치 이상이면 자궁 내 태아에게 수혈을 실시한다.",
+      "page": 115,
+      "section": "2-(1)-③",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-076",
+      "text": "항원항체반응은 병원체의 감염 여부를 확인하는 감염병 진단 키트나 임신 진단 키트에도 활용된다.",
+      "page": 116,
+      "section": "2-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-077",
+      "text": "진단 키트마다 차이가 있지만, 일반적으로 3가지 항체가 사용된다.",
+      "page": 116,
+      "section": "2-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-078",
+      "text": "항체 1은 병원체의 항원과 결합하는 항체로 시료 투입 부위에 있으며 색소 입자가 부착되어 있다.",
+      "page": 116,
+      "section": "2-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-079",
+      "text": "검사선(T)에는 항원과 결합하는 항체 2가 고정되어 있다.",
+      "page": 116,
+      "section": "2-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-080",
+      "text": "대조선(C)에는 항체 1과 결합하는 대조군 항체가 고정되어 있다.",
+      "page": 116,
+      "section": "2-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-081",
+      "text": "진단 키트에 사용하는 항체의 특징 그림에서 항체 1은 항원과 결합하며 붉은색 색소 입자가 부착되어 있다.",
+      "page": 116,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-082",
+      "text": "진단 키트에 사용하는 항체의 특징 그림에서 항체 2는 검사선(T)에 고정되며 항원과 결합한다.",
+      "page": 116,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-083",
+      "text": "진단 키트에 사용하는 항체의 특징 그림에서 대조군 항체는 대조선(C)에 고정되며 항체 1의 항원 결합 부위가 아닌 다른 부위에 결합한다.",
+      "page": 116,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-084",
+      "text": "진단 키트 구조에는 시료 투입 부위, 검사선, 대조선, 시료의 이동 방향이 포함된다.",
+      "page": 116,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-085",
+      "text": "진단 키트 구조에서 타액 시료는 시료 투입 부위에서 검사선과 대조선 방향으로 이동한다.",
+      "page": 116,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-086",
+      "text": "수정란이 자궁에 착상하면 태반에서 사람융모성생식샘자극호르몬(HCG)이 분비된다.",
+      "page": 116,
+      "section": "2-(2)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-087",
+      "text": "HCG는 수정 6-12일 후부터 소변에서 검출된다.",
+      "page": 116,
+      "section": "2-(2)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-088",
+      "text": "임신 진단 키트에는 HCG를 항원으로 인지하는 항체가 사용된다.",
+      "page": 116,
+      "section": "2-(2)-①",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-089",
+      "text": "임신 진단 키트 그림에서 임신했을 때는 검사선 T와 대조선 C에 모두 띠가 나타난다.",
+      "page": 116,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-090",
+      "text": "임신 진단 키트 그림에서 임신하지 않았을 때는 대조선 C에만 띠가 나타난다.",
+      "page": 116,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-091",
+      "text": "임신 진단 키트 그림에서 HCG는 항원항체반응을 한 HCG와 결합하는 물질로 표시된다.",
+      "page": 116,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-092",
+      "text": "임신 진단 키트 그림에서 HCG 항체는 HCG 항체와 결합하는 물질로 표시된다.",
+      "page": 116,
+      "section": "2-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-093",
+      "text": "항원이 없을 때는 대조선의 항체에만 항체 1이 결합하여 띠가 나타난다.",
+      "page": 116,
+      "section": "2-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-094",
+      "text": "항원이 있을 때는 항체 1과 결합한 항원이 검사선에 고정되어 있는 항체 2와 결합하여 띠가 나타난다.",
+      "page": 116,
+      "section": "2-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-095",
+      "text": "항원이 있을 때는 항원과 결합하지 않은 항체 1도 대조선의 항체와 결합하여 대조선에도 띠가 나타난다.",
+      "page": 116,
+      "section": "2-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-096",
+      "text": "항원이 없을 때 진단 키트는 대조선(C)에서만 띠가 나타나 한 줄로 보인다.",
+      "page": 116,
+      "section": "2-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-097",
+      "text": "항원이 있을 때 진단 키트는 검사선(T)과 대조선(C)에서 모두 띠가 나타나 두 줄로 보인다.",
+      "page": 116,
+      "section": "2-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-098",
+      "text": "바이오센서는 특정 물질을 항원으로 인지하는 항체를 사용하여 화학 물질을 검출하는 센서이다.",
+      "page": 116,
+      "section": "2-(3)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-099",
+      "text": "바이오센서에는 항원항체반응을 전기 신호로 변환하는 장치가 내장되어 있어 극소량의 표적 물질을 간편하게 검출할 수 있다.",
+      "page": 116,
+      "section": "2-(3)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-100",
+      "text": "바이오센서는 단백질, 핵산, 세균 등 다양한 바이오마커를 검출하여 질병의 진단과 치료, 각종 임상 연구 등에 광범위하게 활용된다.",
+      "page": 116,
+      "section": "2-(3)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-101",
+      "text": "핵산은 뉴클레오타이드가 길게 연결되어 만들어진 물질로, DNA와 RNA가 있다.",
+      "page": 116,
+      "section": "2-(3)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-102",
+      "text": "중요 개념 체크에서는 하나의 항체에는 동일한 2개의 항원 결합 부위가 있다고 제시한다.",
+      "page": 116,
+      "section": "2",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-103",
+      "text": "중요 개념 체크에서는 O형인 사람의 적혈구에는 응집원이 없다는 설명이 옳다고 제시한다.",
+      "page": 116,
+      "section": "2",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-104",
+      "text": "중요 개념 체크에서는 AB형인 사람의 혈액에는 응집원 A가 있는 적혈구와 응집원 B가 있는 적혈구가 각각 따로 있다는 설명이 옳지 않다고 제시한다.",
+      "page": 116,
+      "section": "2",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-105",
+      "text": "특정 병원체에 대한 백신을 접종하면 우리 몸에서는 그 병원체에 대한 기억세포와 형질세포가 형성된다.",
+      "page": 117,
+      "section": "2",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-106",
+      "text": "백신은 인공적으로 만든 약화된 항원으로, 병원체, 병원체의 구성 물질, 독소 등을 이용해서 만든다.",
+      "page": 117,
+      "section": "2",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-107",
+      "text": "1차 면역반응은 우리 몸에 항원이 처음 침입했을 때 일어나는 면역반응이다.",
+      "page": 117,
+      "section": "2-1-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-108",
+      "text": "처음으로 특정 항원에 노출되면 이 항원에 특이적인 B림프구와 T림프구의 수가 증가하기 전까지 5-7일 간의 지체기가 있다.",
+      "page": 117,
+      "section": "2-1-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-109",
+      "text": "지체기를 거치고 나면 B림프구는 보조 T림프구의 도움으로 형질세포와 기억세포로 분화한다.",
+      "page": 117,
+      "section": "2-1-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-110",
+      "text": "형질세포는 항체를 생산한다.",
+      "page": 117,
+      "section": "2-1-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-111",
+      "text": "2차 면역반응은 특정 항원이 재침입했을 때 일어나는 면역반응이다.",
+      "page": 117,
+      "section": "2-1-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-112",
+      "text": "항원을 기억하는 기억세포가 형질세포와 기억세포로 빠르게 분화할 수 있어 1차 면역반응에 비해 훨씬 빠르게 많은 항체를 만든다.",
+      "page": 117,
+      "section": "2-1-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-113",
+      "text": "1차 면역반응의 경우 항원 노출 후 10-17일에 항체 농도가 최고치에 이른다.",
+      "page": 117,
+      "section": "2-1-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-114",
+      "text": "2차 면역반응은 2-7일 만에 최고치에 이르며 항체 농도가 높게 오래 지속된다.",
+      "page": 117,
+      "section": "2-1-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-115",
+      "text": "기억세포에 의한 면역 기억은 장기간 지속될 수 있다.",
+      "page": 117,
+      "section": "2-1-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-116",
+      "text": "감염성질환을 일으키는 병원체에 감염된 적이 있거나 미리 예방접종을 받으면 특정 병원체의 감염을 막을 수 있다.",
+      "page": 117,
+      "section": "2-1-(2)",
+      "source_type": "날개",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-117",
+      "text": "1차 면역반응과 2차 면역반응 그래프의 세로축은 항체 농도(상댓값)이다.",
+      "page": 117,
+      "section": "2-1",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-118",
+      "text": "1차 면역반응과 2차 면역반응 그래프의 가로축은 시간(주)이다.",
+      "page": 117,
+      "section": "2-1",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-119",
+      "text": "그래프에서 처음 항원 X에 노출되면 B림프구, 형질세포, 항체, 기억세포가 관여하는 항원 X에 대한 1차 면역반응이 나타난다.",
+      "page": 117,
+      "section": "2-1",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-120",
+      "text": "그래프에서 항원 X, Y에 다시 노출되면 항원 X에 대한 2차 면역반응이 크게 나타난다.",
+      "page": 117,
+      "section": "2-1",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-121",
+      "text": "그래프에서 항원 X, Y에 노출되면 항원 Y에 대한 1차 면역반응도 나타난다.",
+      "page": 117,
+      "section": "2-1",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-122",
+      "text": "그래프에서 항원 X에 대한 2차 면역반응은 항원 X에 대한 1차 면역반응보다 항체 농도가 높고 빠르게 나타난다.",
+      "page": 117,
+      "section": "2-1",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-123",
+      "text": "백신은 1차 면역반응을 일으켜 기억세포를 생성하게 한다.",
+      "page": 117,
+      "section": "2-2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-124",
+      "text": "백신 접종 이후에는 같은 항원을 지닌 병원체가 침입했을 때 2차 면역반응이 일어난다.",
+      "page": 117,
+      "section": "2-2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-125",
+      "text": "백신 접종 이후 같은 항원을 지닌 병원체가 침입했을 때 감염성질환을 심하게 앓지 않고 병원체를 이겨 낼 수 있다.",
+      "page": 117,
+      "section": "2-2-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-126",
+      "text": "백신의 작용 원리 그림에서 백신 접종 후 큰포식세포가 항원을 인식한다.",
+      "page": 117,
+      "section": "2-2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-127",
+      "text": "백신의 작용 원리 그림에서 큰포식세포가 보조 T림프구를 활성화한다.",
+      "page": 117,
+      "section": "2-2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-128",
+      "text": "백신의 작용 원리 그림에서 보조 T림프구는 B림프구를 활성화한다.",
+      "page": 117,
+      "section": "2-2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-129",
+      "text": "백신의 작용 원리 그림에서 B림프구는 형질세포와 기억세포로 분화한다.",
+      "page": 117,
+      "section": "2-2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-130",
+      "text": "백신의 작용 원리 그림에서 형질세포는 항체를 생성한다.",
+      "page": 117,
+      "section": "2-2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-131",
+      "text": "백신 접종 후 병원체 감염 시 기억세포가 항원을 인식한다.",
+      "page": 117,
+      "section": "2-2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-132",
+      "text": "백신 접종 후 병원체 감염 시 기억세포는 형질세포로 분화한다.",
+      "page": 117,
+      "section": "2-2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-133",
+      "text": "백신 접종 후 병원체 감염 시 형질세포는 다량의 항체를 생성한다.",
+      "page": 117,
+      "section": "2-2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-134",
+      "text": "백신 접종 후 병원체 감염 시 생성된 다량의 항체는 항원항체반응을 일으킨다.",
+      "page": 117,
+      "section": "2-2-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-135",
+      "text": "집단을 구성하는 대부분의 개체가 면역력을 가지게 되면 감염병 확산이 둔화된다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-136",
+      "text": "집단을 구성하는 대부분의 개체가 면역력을 가지게 되면 면역력이 없는 개체도 감염될 확률이 낮아진다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-137",
+      "text": "집단을 구성하는 대부분의 개체가 면역력을 가지게 된 상태를 집단 면역 상태라고 한다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-138",
+      "text": "도시 집중화 사회에서 백신 접종으로 집단 면역을 획득하면 감염병 확산의 위험을 줄일 수 있다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-139",
+      "text": "집단 면역 그림에서 면역력이 거의 없는 집단은 감염원에 노출되면 대부분 감염된다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-140",
+      "text": "집단 면역 그림에서 면역력이 충분한 집단은 면역력이 없는 사람도 대부분 감염되지 않는다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-141",
+      "text": "집단 면역 그림에서 회색 사람은 건강하지만 면역력이 없는 사람을 뜻한다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-142",
+      "text": "집단 면역 그림에서 파란색 사람은 건강하고 면역력도 있는 사람을 뜻한다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-143",
+      "text": "집단 면역 그림에서 분홍색 사람은 면역력도 없고 감염된 사람을 뜻한다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-144",
+      "text": "백신 접종 효과 분석의 그림 (가)는 스웨덴에서 인구 1000명당 천연두로 사망한 사람 수의 변화를 나타낸 것이다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-145",
+      "text": "백신 접종 효과 분석의 그림 (나)는 미국에서 홍역에 걸린 사람 수의 변화를 나타낸 것이다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-146",
+      "text": "백신 접종 후 사망자 및 환자 수가 크게 감소했다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "심화",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-147",
+      "text": "스웨덴 천연두 그래프의 세로축은 천연두 사망자 수(천 명/천 명)이다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-148",
+      "text": "스웨덴 천연두 그래프의 가로축은 연도(년)이다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-149",
+      "text": "스웨덴 천연두 그래프에는 천연두 백신 접종 시작 시점이 표시되어 있다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-150",
+      "text": "미국 홍역 그래프의 세로축은 홍역 환자 수(만 명)이다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-151",
+      "text": "미국 홍역 그래프의 가로축은 연도(년)이다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-152",
+      "text": "미국 홍역 그래프에는 홍역 백신 접종 시작 시점이 표시되어 있다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-153",
+      "text": "코로나바이러스감염증-19 백신 접종 유무에 따른 사망률 그래프의 세로축은 십만 명당 사망자 수(명)이다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-154",
+      "text": "코로나바이러스감염증-19 백신 접종 유무에 따른 사망률 그래프의 가로축은 2021년 10월부터 2023년 4월까지의 시간이다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-155",
+      "text": "코로나바이러스감염증-19 백신 접종 유무에 따른 사망률 그래프에서 미접종자의 사망률은 접종자의 사망률보다 높다.",
+      "page": 118,
+      "section": "2-2-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-156",
+      "text": "백신으로 활용하는 물질은 우리 몸에 질병이나 부작용을 일으키지 않아야 한다.",
+      "page": 118,
+      "section": "2-3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-157",
+      "text": "백신으로 활용하는 물질은 접종한 뒤에 효과적으로 기억세포와 형질세포가 형성되도록 해야 한다.",
+      "page": 118,
+      "section": "2-3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-158",
+      "text": "병원체에서 독성을 띨 수 있는 부분을 약화하거나 제거하되 면역반응을 일으킬 수 있는 물질은 남겨서 백신으로 활용한다.",
+      "page": 118,
+      "section": "2-3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-159",
+      "text": "백신 개발 과정에서는 항원의 구조와 기능을 알아낸 뒤 백신 후보 물질을 탐색하고 임상 시험을 거친다.",
+      "page": 118,
+      "section": "2-3-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-160",
+      "text": "첨단 인공지능 기술을 활용하면 병원체의 유전정보로부터 병원체를 구성하는 거의 모든 단백질 항원의 입체 구조와 특성을 빠르고 정확하게 예측할 수 있다.",
+      "page": 118,
+      "section": "2-3-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-161",
+      "text": "첨단 인공지능 기술을 활용하면 가상의 시뮬레이션 테스트를 수행하여 임상 시험의 효율을 높일 수도 있다.",
+      "page": 118,
+      "section": "2-3-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-162",
+      "text": "첨단 인공지능 기술을 활용하면 백신 개발에 필요한 시간과 비용을 절약할 수 있다.",
+      "page": 118,
+      "section": "2-3-(1)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-163",
+      "text": "백신 개발 과정 그림은 병원체의 유전체 데이터 분석에서 시작한다.",
+      "page": 118,
+      "section": "2-3-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-164",
+      "text": "백신 개발 과정 그림에서 병원체의 항원 탐색 단계에는 구조 예측이 포함된다.",
+      "page": 118,
+      "section": "2-3-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-165",
+      "text": "백신 개발 과정 그림에서 항원 적합성 탐색 단계에는 시뮬레이션이 포함된다.",
+      "page": 118,
+      "section": "2-3-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-166",
+      "text": "백신 개발 과정 그림에서 임상 시험 설계 단계에는 계산 최소화가 표시되어 있다.",
+      "page": 118,
+      "section": "2-3-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-167",
+      "text": "백신 개발 과정 그림은 병원체의 유전체 데이터 분석, 병원체의 항원 탐색, 항원 적합성 탐색, 임상 시험 설계, 백신 제조로 이어진다.",
+      "page": 118,
+      "section": "2-3-(1)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-168",
+      "text": "백신은 제조 방법에 따라 약독화 백신, 비활성화 백신, 재조합 백신, 핵산 백신으로 구분할 수 있다.",
+      "page": 119,
+      "section": "2-3-(2)",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-169",
+      "text": "약독화 백신(생백신)은 최초로 개발된 백신 유형이다.",
+      "page": 119,
+      "section": "2-3-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-170",
+      "text": "약독화 백신은 병원체 전체의 독성을 약화하여 만든 것이다.",
+      "page": 119,
+      "section": "2-3-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-171",
+      "text": "약독화 백신은 효과가 확실하여 1회 접종만으로도 효력이 유지된다.",
+      "page": 119,
+      "section": "2-3-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-172",
+      "text": "약독화 백신은 면역력이 약한 사람이 질병을 앓을 수 있다.",
+      "page": 119,
+      "section": "2-3-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-173",
+      "text": "약독화 백신은 병원체의 독성이 되살아나 감염될 위험이 있다.",
+      "page": 119,
+      "section": "2-3-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-174",
+      "text": "약독화 백신의 예에는 홍역, 수두, 볼거리 백신이 있다.",
+      "page": 119,
+      "section": "2-3-(2)-①",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-175",
+      "text": "비활성화 백신(사백신)은 열이나 화학 약품으로 처리하여 사멸한 병원체를 이용하여 만든 것이다.",
+      "page": 119,
+      "section": "2-3-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-176",
+      "text": "비활성화 백신에 사용되는 병원체는 체내에서 증식할 수 없다.",
+      "page": 119,
+      "section": "2-3-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-177",
+      "text": "비활성화 백신은 대부분 체액성면역을 일으킨다.",
+      "page": 119,
+      "section": "2-3-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-178",
+      "text": "비활성화 백신은 면역력이 약한 사람에게도 안전하다.",
+      "page": 119,
+      "section": "2-3-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-179",
+      "text": "비활성화 백신은 효과가 약해 여러 번 접종해야 한다.",
+      "page": 119,
+      "section": "2-3-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-180",
+      "text": "비활성화 백신에는 전 세포 불활성화 백신, 병원체의 독소를 이용하는 톡소이드 백신(변성 독소 백신), 병원체를 이루는 긴 사슬의 다당으로 만드는 다당 백신(접합 백신) 등이 있다.",
+      "page": 119,
+      "section": "2-3-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-181",
+      "text": "비활성화 백신의 예에는 파상풍, 폐렴구균 백신이 있다.",
+      "page": 119,
+      "section": "2-3-(2)-②",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-182",
+      "text": "재조합 백신은 생명공학기술(유전자재조합기술)로 만든 항원을 이용한다.",
+      "page": 119,
+      "section": "2-3-(2)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-183",
+      "text": "바이러스 벡터 백신은 바이러스에 병원체의 항원 유전자 일부를 삽입하여 만든다.",
+      "page": 119,
+      "section": "2-3-(2)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-184",
+      "text": "바이러스 유사 입자 백신은 바이러스의 표면 항원 단백질을 바이러스와 유사한 모양으로 조립하여 만든다.",
+      "page": 119,
+      "section": "2-3-(2)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-185",
+      "text": "재조합 백신의 예에는 장티푸스, 사람유두종 백신이 있다.",
+      "page": 119,
+      "section": "2-3-(2)-③",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-186",
+      "text": "핵산 백신은 병원체의 유전정보가 있는 핵산을 체내에 주입하여 발현하게 함으로써 항체를 생성하게 하는 백신이다.",
+      "page": 119,
+      "section": "2-3-(2)-④",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-187",
+      "text": "핵산 백신은 짧은 시간에 많은 양을 생산할 수 있다.",
+      "page": 119,
+      "section": "2-3-(2)-④",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-188",
+      "text": "핵산 백신은 접종을 위한 기술 및 장치가 필요하고 유통과 보관이 까다롭다.",
+      "page": 119,
+      "section": "2-3-(2)-④",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-189",
+      "text": "핵산 백신의 예에는 COVID-19 백신이 있다.",
+      "page": 119,
+      "section": "2-3-(2)-④",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-190",
+      "text": "백신 종류 그림의 표적 병원체는 네 가지 백신 제조 방법의 기준 대상이다.",
+      "page": 119,
+      "section": "2-3-(2)",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-191",
+      "text": "약독화 백신(생백신)은 병원성이 없도록 독성을 약화한 살아 있는 병원체를 사용한다.",
+      "page": 119,
+      "section": "2-3-(2)-①",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-192",
+      "text": "비활성화 백신(사백신)은 항원의 특성은 유지한 채 비활성화 상태로 만든 병원체를 사용한다.",
+      "page": 119,
+      "section": "2-3-(2)-②",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-193",
+      "text": "재조합 백신은 병원체의 항원이나 항원 결정 부위만 사용한다.",
+      "page": 119,
+      "section": "2-3-(2)-③",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-194",
+      "text": "핵산 백신은 특정 항원이나 항원 결정 부위를 암호화하는 핵산을 사용한다.",
+      "page": 119,
+      "section": "2-3-(2)-④",
+      "source_type": "그림설명",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-195",
+      "text": "중요 개념 체크에서는 처음 항원에 노출되면 1차 면역반응이 일어난다고 제시한다.",
+      "page": 119,
+      "section": "2-3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-196",
+      "text": "중요 개념 체크에서는 백신을 접종하면 체내에서 면역 기억이 형성된다는 설명이 옳다고 제시한다.",
+      "page": 119,
+      "section": "2-3",
+      "source_type": "본문",
+      "deduplicated": false
+    },
+    {
+      "sid": "02-197",
+      "text": "중요 개념 체크에서는 병원체의 유전정보가 있는 핵산을 주입하여 항체 형성을 유도하는 백신을 비활성화 백신이라고 한다는 설명이 옳지 않다고 제시한다.",
+      "page": 119,
+      "section": "2-3",
+      "source_type": "본문",
+      "deduplicated": false
+    }
+  ]
+}

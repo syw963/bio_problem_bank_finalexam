@@ -148,6 +148,18 @@
       align-items: baseline;
       gap: 12px;
       min-width: 360px;
+      border-radius: 7px;
+      cursor: pointer;
+      outline: none;
+    }
+
+    .brand:hover h1,
+    .brand:focus-visible h1 {
+      color: var(--accent);
+    }
+
+    .brand:focus-visible {
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent);
     }
 
     .brand h1 {
@@ -726,13 +738,21 @@
           units: normalizeUnitList(saved.filters && saved.filters.units),
           tiers: normalizeTierList(saved.filters && saved.filters.tiers)
         };
-        AppState.externalBanks = Array.isArray(saved.externalBanks) ? saved.externalBanks : [];
-        AppState.flaggedPids = Array.isArray(saved.flaggedPids) ? saved.flaggedPids : [];
-        AppState.sessionProblemIds = Array.isArray(saved.sessionProblemIds) ? saved.sessionProblemIds : [];
-        AppState.currentIndex = Number.isInteger(saved.currentIndex) ? saved.currentIndex : 0;
+      AppState.externalBanks = Array.isArray(saved.externalBanks) ? saved.externalBanks : [];
+      AppState.flaggedPids = Array.isArray(saved.flaggedPids) ? saved.flaggedPids : [];
+      AppState.sessionProblemIds = Array.isArray(saved.sessionProblemIds) ? saved.sessionProblemIds : [];
+      AppState.currentIndex = Number.isInteger(saved.currentIndex) ? saved.currentIndex : 0;
+      AppState.inputs = isPlainObject(saved.inputs) ? saved.inputs : {};
+      AppState.gradingResults = isPlainObject(saved.gradingResults) ? saved.gradingResults : {};
+      AppState.manualOverrides = isPlainObject(saved.manualOverrides) ? saved.manualOverrides : {};
+      AppState.revealed = isPlainObject(saved.revealed) ? saved.revealed : {};
       } catch (error) {
         console.warn("저장된 상태를 불러오지 못했습니다.", error);
       }
+    }
+
+    function isPlainObject(value) {
+      return Boolean(value) && typeof value === "object" && !Array.isArray(value);
     }
 
     function persistState() {
@@ -942,7 +962,9 @@
       AppState.sessionProblemIds = ids;
       AppState.currentIndex = 0;
       AppState.screen = "quiz";
+      resetProblemProgress(ids);
       commit();
+      focusCurrentAnswerInput("first", true);
     }
 
     function returnHome() {
@@ -992,11 +1014,101 @@
     }
 
     function setBlankValue(pid, blankId, value) {
+      const hadFeedback = Boolean(getQuestionResult(pid) || AppState.revealed[pid]);
       ensureInputBucket(pid)[blankId] = value;
       delete AppState.gradingResults[pid];
       delete AppState.manualOverrides[pid];
+      delete AppState.revealed[pid];
       commit(false);
-      render();
+      if (hadFeedback) {
+        render();
+        focusBlankInput(pid, blankId);
+      }
+    }
+
+    function resetProblemProgress(pids) {
+      pids.forEach((pid) => {
+        delete AppState.inputs[pid];
+        delete AppState.gradingResults[pid];
+        delete AppState.manualOverrides[pid];
+        delete AppState.revealed[pid];
+      });
+    }
+
+    function getCurrentProblem() {
+      const problems = getSessionProblems();
+      return problems[AppState.currentIndex] || null;
+    }
+
+    function findQuestionCard(pid) {
+      return Array.from(app.querySelectorAll(".question-card")).find((card) => card.dataset.pid === pid) || null;
+    }
+
+    function focusAnswerInput(pid, position = "first", selectText = false) {
+      if (AppState.inputMode !== "typing") return;
+      window.requestAnimationFrame(() => {
+        const card = findQuestionCard(pid);
+        if (!card) return;
+        const inputs = Array.from(card.querySelectorAll(".blank-input"));
+        const input = position === "last" ? inputs[inputs.length - 1] : inputs[0];
+        if (!input) return;
+        input.focus();
+        if (selectText) input.select();
+      });
+    }
+
+    function focusBlankInput(pid, blankId) {
+      if (AppState.inputMode !== "typing") return;
+      window.requestAnimationFrame(() => {
+        const card = findQuestionCard(pid);
+        if (!card) return;
+        const input = card.querySelector(`.blank-input[data-blank="${CSS.escape(String(blankId))}"]`);
+        if (!input) return;
+        const end = input.value.length;
+        input.focus();
+        input.setSelectionRange(end, end);
+      });
+    }
+
+    function focusCurrentAnswerInput(position = "first", selectText = false) {
+      const problem = getCurrentProblem();
+      if (problem) focusAnswerInput(problem.pid, position, selectText);
+    }
+
+    function navigateQuestion(delta, focusPosition = "") {
+      const problems = getSessionProblems();
+      if (!problems.length) return;
+      const nextIndex = Math.max(0, Math.min(problems.length - 1, AppState.currentIndex + delta));
+      if (nextIndex === AppState.currentIndex) {
+        if (focusPosition) focusCurrentAnswerInput(focusPosition, true);
+        return;
+      }
+      AppState.currentIndex = nextIndex;
+      commit();
+      if (focusPosition) focusAnswerInput(problems[nextIndex].pid, focusPosition, true);
+    }
+
+    function focusAdjacentAnswerInput(currentInput, direction) {
+      const inputs = Array.from(app.querySelectorAll(".blank-input"));
+      const currentIndex = inputs.indexOf(currentInput);
+      const nextInput = inputs[currentIndex + direction];
+      if (nextInput) {
+        nextInput.focus();
+        nextInput.select();
+        return;
+      }
+      if (AppState.displayMode === "one" && direction > 0) {
+        const problems = getSessionProblems();
+        if (AppState.currentIndex < problems.length - 1) {
+          navigateQuestion(1, "first");
+          return;
+        }
+      }
+      if (AppState.displayMode === "one" && direction < 0 && AppState.currentIndex > 0) {
+        navigateQuestion(-1, "last");
+        return;
+      }
+      if (direction > 0) gradeSession(false);
     }
 
     function isAttempted(problem) {
@@ -1284,7 +1396,7 @@
       applyTheme();
       app.innerHTML = `
         <header class="topbar">
-          <div class="brand">
+          <div class="brand" data-action="home" role="button" tabindex="0" title="홈으로 이동" aria-label="홈으로 이동">
             <h1>생명과학 문제은행</h1>
             <span>${AppState.loading ? "문제 파일 확인 중" : `${AppState.allProblems.length}문제 로드됨`}</span>
           </div>
@@ -1591,18 +1703,18 @@
       if (action === "display-mode") {
         AppState.displayMode = target.dataset.value;
         commit();
+        if (AppState.screen === "quiz" && AppState.displayMode === "one") focusCurrentAnswerInput("first", true);
       }
       if (action === "input-mode") {
         AppState.inputMode = target.dataset.value;
         commit();
+        if (AppState.screen === "quiz" && AppState.inputMode === "typing") focusCurrentAnswerInput("first", true);
       }
       if (action === "prev") {
-        AppState.currentIndex = Math.max(0, AppState.currentIndex - 1);
-        commit();
+        navigateQuestion(-1);
       }
       if (action === "next") {
-        AppState.currentIndex = Math.min(getSessionProblems().length - 1, AppState.currentIndex + 1);
-        commit();
+        navigateQuestion(1);
       }
       if (action === "grade-all") gradeSession(true);
       if (action === "grade-attempted") gradeSession(false);
@@ -1648,20 +1760,62 @@
       setBlankValue(target.dataset.pid, target.dataset.blank, target.value);
     });
 
+    app.addEventListener("keydown", (event) => {
+      const target = event.target;
+      if (target && target.dataset.action === "home" && (event.key === "Enter" || event.key === " ")) {
+        event.preventDefault();
+        returnHome();
+        return;
+      }
+      if (!target || target.dataset.action !== "answer-input") return;
+      if (event.isComposing || event.key !== "Enter") return;
+      event.preventDefault();
+      focusAdjacentAnswerInput(target, event.shiftKey ? -1 : 1);
+    });
+
     fileInput.addEventListener("change", (event) => {
       handleFileLoad(event.target.files && event.target.files[0]);
     });
 
     window.addEventListener("keydown", (event) => {
-      if (AppState.screen !== "quiz" || AppState.displayMode !== "one") return;
-      if (event.target && ["INPUT", "TEXTAREA"].includes(event.target.tagName)) return;
-      if (event.key === "ArrowLeft") {
-        AppState.currentIndex = Math.max(0, AppState.currentIndex - 1);
-        commit();
+      if (AppState.screen !== "quiz") return;
+      if (event.target && ["INPUT", "TEXTAREA", "SELECT"].includes(event.target.tagName)) return;
+      if (event.metaKey || event.ctrlKey || event.altKey) return;
+
+      const problem = getCurrentProblem();
+      if (!problem) return;
+
+      if (event.key === "ArrowLeft" && AppState.displayMode === "one") {
+        event.preventDefault();
+        navigateQuestion(-1, AppState.inputMode === "typing" ? "first" : "");
       }
-      if (event.key === "ArrowRight") {
-        AppState.currentIndex = Math.min(getSessionProblems().length - 1, AppState.currentIndex + 1);
-        commit();
+      if (event.key === "ArrowRight" && AppState.displayMode === "one") {
+        event.preventDefault();
+        navigateQuestion(1, AppState.inputMode === "typing" ? "first" : "");
+      }
+      if (event.key === "Enter" && AppState.inputMode === "typing") {
+        event.preventDefault();
+        focusCurrentAnswerInput("first", true);
+      }
+      if ((event.key === " " || event.key === "Enter") && AppState.inputMode === "flashcard") {
+        event.preventDefault();
+        toggleReveal(problem.pid);
+      }
+      if (event.key.toLowerCase() === "f") {
+        event.preventDefault();
+        toggleFlag(problem.pid);
+      }
+      if (event.key.toLowerCase() === "g") {
+        event.preventDefault();
+        gradeSession(false);
+      }
+      if (AppState.inputMode === "flashcard" && AppState.revealed[problem.pid] && event.key === "1") {
+        event.preventDefault();
+        setFlashcardResult(problem.pid, true);
+      }
+      if (AppState.inputMode === "flashcard" && AppState.revealed[problem.pid] && event.key === "2") {
+        event.preventDefault();
+        setFlashcardResult(problem.pid, false);
       }
     });
 

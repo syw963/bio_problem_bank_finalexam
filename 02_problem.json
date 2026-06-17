@@ -33,10 +33,9 @@
       "sid": "02-003",
       "page": 114,
       "tier": 2,
-      "question": "[  ]을 판정할 때에도 [  ]의 원리가 적용된다.",
+      "question": "혈액형을 판정할 때에도 [  ]의 원리가 적용된다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "혈액형", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "항원항체반응", "alt_answers": ["항원-항체 반응", "항원·항체 반응"] }
+        { "blank_id": 1, "primary_answer": "항원항체반응", "alt_answers": ["항원-항체 반응", "항원·항체 반응"] }
       ],
       "order_flexible": false,
       "source_sentence": "혈액형을 판정할 때에도 항원항체반응의 원리가 적용된다."
@@ -196,10 +195,9 @@
       "sid": "02-016",
       "page": 114,
       "tier": 3,
-      "question": "[  ]는 [  ] 반응에 관여한다.",
+      "question": "IgE는 [  ] 반응에 관여한다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "IgE", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "앨러지", "alt_answers": ["알레르기", "알러지"] }
+        { "blank_id": 1, "primary_answer": "앨러지", "alt_answers": ["알레르기", "알러지"] }
       ],
       "order_flexible": false,
       "source_sentence": "IgE는 앨러지 반응에 관여한다."
@@ -222,10 +220,9 @@
       "sid": "02-018",
       "page": 114,
       "tier": 2,
-      "question": "[  ] 부위는 특정 항원과만 결합하는 부위로, 하나의 항체에는 [  ]개의 동일한 항원 결합 부위가 있다.",
+      "question": "가변 부위는 특정 항원과만 결합하는 부위로, 하나의 항체에는 [  ]개의 동일한 항원 결합 부위가 있다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "가변", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "2", "alt_answers": ["두"] }
+        { "blank_id": 1, "primary_answer": "2", "alt_answers": ["두"] }
       ],
       "order_flexible": false,
       "source_sentence": "가변 부위는 특정 항원과만 결합하는 부위로, 하나의 항체에는 2개의 동일한 항원 결합 부위가 있다."
@@ -247,10 +244,9 @@
       "sid": "02-020",
       "page": 114,
       "tier": 2,
-      "question": "[  ]가 성숙하는 과정에서 각 유전자군으로부터 DNA가 절단되어 재배열된 뒤 다시 연결되는 [  ]이 일어난다.",
+      "question": "B림프구가 성숙하는 과정에서 각 유전자군으로부터 DNA가 절단되어 재배열된 뒤 다시 연결되는 [  ]이 일어난다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "B림프구", "alt_answers": ["B 림프구", "B세포"] },
-        { "blank_id": 2, "primary_answer": "DNA 재조합", "alt_answers": ["디엔에이 재조합"] }
+        { "blank_id": 1, "primary_answer": "DNA 재조합", "alt_answers": ["디엔에이 재조합"] }
       ],
       "order_flexible": false,
       "source_sentence": "B림프구가 성숙하는 과정에서 각 유전자군으로부터 DNA가 절단되어 재배열된 뒤 다시 연결되는 DNA 재조합이 일어난다."
@@ -298,10 +294,9 @@
       "sid": "02-024",
       "page": 114,
       "tier": 2,
-      "question": "[  ]의 특이성은 결합 부위의 특정 [  ]에 따라 결정된다.",
+      "question": "항원항체반응의 특이성은 결합 부위의 특정 [  ]에 따라 결정된다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "항원항체반응", "alt_answers": ["항원-항체 반응", "항원·항체 반응"] },
-        { "blank_id": 2, "primary_answer": "아미노산서열", "alt_answers": ["아미노산 서열"] }
+        { "blank_id": 1, "primary_answer": "아미노산서열", "alt_answers": ["아미노산 서열"] }
       ],
       "order_flexible": false,
       "source_sentence": "항원항체반응의 특이성은 결합 부위의 특정 아미노산서열에 따라 결정된다."
@@ -524,10 +519,9 @@
       "sid": "02-042",
       "page": 115,
       "tier": 2,
-      "question": "[  ] 혈액의 적혈구에는 응집원 [  ]가 있다.",
+      "question": "A형 혈액의 적혈구에는 응집원 [  ]가 있다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "A형", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "A", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "A", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "A형 혈액의 적혈구에는 응집원 A가 있다."
@@ -537,10 +531,9 @@
       "sid": "02-043",
       "page": 115,
       "tier": 2,
-      "question": "[  ] 혈액의 혈장에는 응집소 [  ]가 있다.",
+      "question": "A형 혈액의 혈장에는 응집소 [  ]가 있다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "A형", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "β", "alt_answers": ["베타"] }
+        { "blank_id": 1, "primary_answer": "β", "alt_answers": ["베타"] }
       ],
       "order_flexible": false,
       "source_sentence": "A형 혈액의 혈장에는 응집소 β가 있다."
@@ -550,10 +543,9 @@
       "sid": "02-044",
       "page": 115,
       "tier": 2,
-      "question": "[  ] 혈액의 적혈구에는 응집원 [  ]가 있다.",
+      "question": "B형 혈액의 적혈구에는 응집원 [  ]가 있다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "B형", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "B", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "B", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "B형 혈액의 적혈구에는 응집원 B가 있다."
@@ -563,10 +555,9 @@
       "sid": "02-045",
       "page": 115,
       "tier": 2,
-      "question": "[  ] 혈액의 혈장에는 응집소 [  ]가 있다.",
+      "question": "B형 혈액의 혈장에는 응집소 [  ]가 있다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "B형", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "α", "alt_answers": ["알파"] }
+        { "blank_id": 1, "primary_answer": "α", "alt_answers": ["알파"] }
       ],
       "order_flexible": false,
       "source_sentence": "B형 혈액의 혈장에는 응집소 α가 있다."
@@ -589,10 +580,9 @@
       "sid": "02-047",
       "page": 115,
       "tier": 2,
-      "question": "[  ] 혈액의 혈장에는 [  ]가 없다.",
+      "question": "AB형 혈액의 혈장에는 [  ]가 없다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "AB형", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "응집소", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "응집소", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "AB형 혈액의 혈장에는 응집소가 없다."
@@ -602,10 +592,9 @@
       "sid": "02-048",
       "page": 115,
       "tier": 2,
-      "question": "[  ] 혈액의 적혈구에는 [  ]이 없다.",
+      "question": "O형 혈액의 적혈구에는 [  ]이 없다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "O형", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "응집원", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "응집원", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "O형 혈액의 적혈구에는 응집원이 없다."
@@ -702,10 +691,9 @@
       "sid": "02-056",
       "page": 115,
       "tier": 2,
-      "question": "[  ]은 Rh+형의 적혈구에 노출되면 혈장에 Rh [  ]가 생성된다.",
+      "question": "Rh-형은 Rh+형의 적혈구에 노출되면 혈장에 Rh [  ]가 생성된다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "Rh-형", "alt_answers": ["Rh 음성", "Rh-"] },
-        { "blank_id": 2, "primary_answer": "응집소", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "응집소", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "Rh-형은 Rh+형의 적혈구에 노출되면 혈장에 Rh 응집소가 생성된다."
@@ -868,10 +856,9 @@
       "sid": "02-069",
       "page": 115,
       "tier": 3,
-      "question": "[  ]인 여성이 Rh+형 태아를 임신, 출산하면서 Rh 응집원에 노출되면 모체의 혈장에 Rh [  ]가 형성된다.",
+      "question": "Rh-형인 여성이 Rh+형 태아를 임신, 출산하면서 Rh 응집원에 노출되면 모체의 혈장에 Rh [  ]가 형성된다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "Rh-형", "alt_answers": ["Rh 음성", "Rh-"] },
-        { "blank_id": 2, "primary_answer": "응집소", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "응집소", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "Rh-형인 여성이 Rh+형 태아를 임신, 출산하면서 Rh 응집원에 노출되면 모체의 혈장에 Rh 응집소가 형성된다."
@@ -906,10 +893,9 @@
       "sid": "02-072",
       "page": 115,
       "tier": 3,
-      "question": "[  ] 결과 Rh 응집소가 기준치 이상이면 자궁 내 태아에게 [  ]을 실시한다.",
+      "question": "양수 검사 결과 Rh 응집소가 기준치 이상이면 자궁 내 태아에게 [  ]을 실시한다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "양수 검사", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "수혈", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "수혈", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "양수 검사 결과 Rh 응집소가 기준치 이상이면 자궁 내 태아에게 수혈을 실시한다."
@@ -944,10 +930,9 @@
       "sid": "02-075",
       "page": 116,
       "tier": 2,
-      "question": "[  ]은 병원체의 항원과 결합하는 항체로 시료 투입 부위에 있으며 [  ]가 부착되어 있다.",
+      "question": "항체 1은 병원체의 항원과 결합하는 항체로 시료 투입 부위에 있으며 [  ]가 부착되어 있다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "항체 1", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "색소 입자", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "색소 입자", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "항체 1은 병원체의 항원과 결합하는 항체로 시료 투입 부위에 있으며 색소 입자가 부착되어 있다."
@@ -957,10 +942,9 @@
       "sid": "02-076",
       "page": 116,
       "tier": 2,
-      "question": "[  ](T)에는 항원과 결합하는 [  ]가 고정되어 있다.",
+      "question": "검사선(T)에는 항원과 결합하는 [  ]가 고정되어 있다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "검사선", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "항체 2", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "항체 2", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "검사선(T)에는 항원과 결합하는 항체 2가 고정되어 있다."
@@ -970,10 +954,9 @@
       "sid": "02-077",
       "page": 116,
       "tier": 2,
-      "question": "[  ](C)에는 항체 1과 결합하는 [  ]가 고정되어 있다.",
+      "question": "대조선(C)에는 항체 1과 결합하는 [  ]가 고정되어 있다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "대조선", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "대조군 항체", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "대조군 항체", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "대조선(C)에는 항체 1과 결합하는 대조군 항체가 고정되어 있다."
@@ -1234,10 +1217,9 @@
       "sid": "02-098",
       "page": 116,
       "tier": 3,
-      "question": "[  ]은 뉴클레오타이드가 길게 연결되어 만들어진 물질로, [  ]와 RNA가 있다.",
+      "question": "핵산은 뉴클레오타이드가 길게 연결되어 만들어진 물질로, [  ]와 RNA가 있다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "핵산", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "DNA", "alt_answers": ["디엔에이"] }
+        { "blank_id": 1, "primary_answer": "DNA", "alt_answers": ["디엔에이"] }
       ],
       "order_flexible": false,
       "source_sentence": "핵산은 뉴클레오타이드가 길게 연결되어 만들어진 물질로, DNA와 RNA가 있다."
@@ -1286,10 +1268,9 @@
       "sid": "02-103",
       "page": 117,
       "tier": 1,
-      "question": "[  ]은 인공적으로 만든 약화된 [  ]으로, 병원체, 병원체의 구성 물질, 독소 등을 이용해서 만든다.",
+      "question": "백신은 인공적으로 만든 약화된 [  ]으로, 병원체, 병원체의 구성 물질, 독소 등을 이용해서 만든다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "백신", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "항원", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "항원", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "백신은 인공적으로 만든 약화된 항원으로, 병원체, 병원체의 구성 물질, 독소 등을 이용해서 만든다."
@@ -1299,10 +1280,9 @@
       "sid": "02-104",
       "page": 117,
       "tier": 1,
-      "question": "[  ]은 우리 몸에 항원이 [  ] 침입했을 때 일어나는 면역반응이다.",
+      "question": "1차 면역반응은 우리 몸에 항원이 [  ] 침입했을 때 일어나는 면역반응이다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "1차 면역반응", "alt_answers": ["일차 면역반응"] },
-        { "blank_id": 2, "primary_answer": "처음", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "처음", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "1차 면역반응은 우리 몸에 항원이 처음 침입했을 때 일어나는 면역반응이다."
@@ -1338,10 +1318,9 @@
       "sid": "02-107",
       "page": 117,
       "tier": 1,
-      "question": "[  ]는 [  ]를 생산한다.",
+      "question": "형질세포는 [  ]를 생산한다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "형질세포", "alt_answers": ["형질 세포"] },
-        { "blank_id": 2, "primary_answer": "항체", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "항체", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "형질세포는 항체를 생산한다."
@@ -1351,10 +1330,9 @@
       "sid": "02-108",
       "page": 117,
       "tier": 1,
-      "question": "[  ]은 특정 항원이 [  ]했을 때 일어나는 면역반응이다.",
+      "question": "2차 면역반응은 특정 항원이 [  ]했을 때 일어나는 면역반응이다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "2차 면역반응", "alt_answers": ["이차 면역반응"] },
-        { "blank_id": 2, "primary_answer": "재침입", "alt_answers": ["다시 침입"] }
+        { "blank_id": 1, "primary_answer": "재침입", "alt_answers": ["다시 침입"] }
       ],
       "order_flexible": false,
       "source_sentence": "2차 면역반응은 특정 항원이 재침입했을 때 일어나는 면역반응이다."
@@ -2149,10 +2127,9 @@
       "sid": "02-172",
       "page": 119,
       "tier": 2,
-      "question": "[  ] 백신(사백신)은 열이나 화학 약품으로 처리하여 [  ]한 병원체를 이용하여 만든 것이다.",
+      "question": "비활성화 백신(사백신)은 열이나 화학 약품으로 처리하여 [  ]한 병원체를 이용하여 만든 것이다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "비활성화", "alt_answers": ["불활성화"] },
-        { "blank_id": 2, "primary_answer": "사멸", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "사멸", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "비활성화 백신(사백신)은 열이나 화학 약품으로 처리하여 사멸한 병원체를 이용하여 만든 것이다."
@@ -2237,10 +2214,9 @@
       "sid": "02-179",
       "page": 119,
       "tier": 2,
-      "question": "[  ] 백신은 생명공학기술(유전자재조합기술)로 만든 [  ]을 이용한다.",
+      "question": "재조합 백신은 생명공학기술(유전자재조합기술)로 만든 [  ]을 이용한다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "재조합", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "항원", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "항원", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "재조합 백신은 생명공학기술(유전자재조합기술)로 만든 항원을 이용한다."
@@ -2250,10 +2226,9 @@
       "sid": "02-180",
       "page": 119,
       "tier": 2,
-      "question": "[  ] 백신은 바이러스에 병원체의 [  ] 유전자 일부를 삽입하여 만든다.",
+      "question": "바이러스 벡터 백신은 바이러스에 병원체의 [  ] 유전자 일부를 삽입하여 만든다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "바이러스 벡터", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "항원", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "항원", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "바이러스 벡터 백신은 바이러스에 병원체의 항원 유전자 일부를 삽입하여 만든다."
@@ -2263,10 +2238,9 @@
       "sid": "02-181",
       "page": 119,
       "tier": 2,
-      "question": "[  ] 백신은 바이러스의 [  ] 단백질을 바이러스와 유사한 모양으로 조립하여 만든다.",
+      "question": "바이러스 유사 입자 백신은 바이러스의 [  ] 단백질을 바이러스와 유사한 모양으로 조립하여 만든다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "바이러스 유사 입자", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "표면 항원", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "표면 항원", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "바이러스 유사 입자 백신은 바이러스의 표면 항원 단백질을 바이러스와 유사한 모양으로 조립하여 만든다."
@@ -2289,10 +2263,9 @@
       "sid": "02-183",
       "page": 119,
       "tier": 2,
-      "question": "[  ] 백신은 병원체의 유전정보가 있는 핵산을 체내에 주입하여 발현하게 함으로써 [  ]를 생성하게 하는 백신이다.",
+      "question": "핵산 백신은 병원체의 유전정보가 있는 핵산을 체내에 주입하여 발현하게 함으로써 [  ]를 생성하게 하는 백신이다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "핵산", "alt_answers": ["유전자"] },
-        { "blank_id": 2, "primary_answer": "항체", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "항체", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "핵산 백신은 병원체의 유전정보가 있는 핵산을 체내에 주입하여 발현하게 함으로써 항체를 생성하게 하는 백신이다."

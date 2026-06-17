@@ -1801,7 +1801,15 @@
         event.preventDefault();
         focusCurrentAnswerInput("first", true);
       }
-      if ((event.key === " " || event.key === "Enter") && AppState.inputMode === "flashcard") {
+      if (event.key === " " && AppState.inputMode === "flashcard") {
+        event.preventDefault();
+        toggleReveal(problem.pid);
+      }
+      if (event.key === "Enter" && AppState.inputMode === "flashcard" && AppState.displayMode === "one") {
+        event.preventDefault();
+        setFlashcardResult(problem.pid, true);
+      }
+      if (event.key === "Enter" && AppState.inputMode === "flashcard" && AppState.displayMode !== "one") {
         event.preventDefault();
         toggleReveal(problem.pid);
       }

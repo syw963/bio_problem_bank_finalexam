@@ -1,0 +1,4844 @@
+{
+  "unit": "04",
+  "title": "유전정보의 전달",
+  "problems": [
+    {
+      "pid": "04-001-Q1",
+      "sid": "04-001",
+      "page": 26,
+      "tier": 1,
+      "question": "생물은 자신과 닮은 자손을 남기는 [  ]을/를 통해 종을 유지한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "생식",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "생물은 자신과 닮은 자손을 남기는 생식을 통해 종을 유지한다."
+    },
+    {
+      "pid": "04-002-Q1",
+      "sid": "04-002",
+      "page": 26,
+      "tier": 2,
+      "question": "자손은 부모의 [  ]을/를 물려받아 생물종으로서의 독특한 특성을 나타내고 부모를 닮게 된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "유전자",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "자손은 부모의 유전자를 물려받아 생물종으로서의 독특한 특성을 나타내고 부모를 닮게 된다."
+    },
+    {
+      "pid": "04-003-Q1",
+      "sid": "04-003",
+      "page": 26,
+      "tier": 3,
+      "question": "유성생식을 하는 생물은 [  ]을/를 통해 염색체 수와 DNA양이 모세포의 절반인 [  ]을/를 형성하고, 이러한 암수 생식세포의 결합으로 자손이 태어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "감수분열",
+          "alt_answers": [
+            "생식세포분열"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "생식세포",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "유성생식을 하는 생물은 감수분열을 통해 염색체 수와 DNA양이 모세포의 절반인 생식세포를 형성하고, 이러한 암수 생식세포의 결합으로 자손이 태어난다."
+    },
+    {
+      "pid": "04-004-Q1",
+      "sid": "04-004",
+      "page": 26,
+      "tier": 1,
+      "question": "[  ]은/는 암수 [  ]의 결합 없이 새로운 개체를 만드는 생식 방법이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "무성생식",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "생식세포",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "무성생식은 암수 생식세포의 결합 없이 새로운 개체를 만드는 생식 방법이다."
+    },
+    {
+      "pid": "04-005-Q1",
+      "sid": "04-005",
+      "page": 26,
+      "tier": 2,
+      "question": "무성생식을 하는 생물은 [  ]을/를 하거나 몸의 일부를 분리하여 자손을 형성한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "세포분열",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "무성생식을 하는 생물은 세포분열을 하거나 몸의 일부를 분리하여 자손을 형성한다."
+    },
+    {
+      "pid": "04-006-Q1",
+      "sid": "04-006",
+      "page": 26,
+      "tier": 2,
+      "question": "무성생식을 할 때에는 일반적으로 [  ]이/가 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "체세포분열",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "무성생식을 할 때에는 일반적으로 체세포분열이 일어난다."
+    },
+    {
+      "pid": "04-007-Q1",
+      "sid": "04-007",
+      "page": 26,
+      "tier": 2,
+      "question": "무성생식 과정에서 [  ]은/는 자신이 가진 모든 유전자를 자손에게 전달한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "모체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "무성생식 과정에서 모체는 자신이 가진 모든 유전자를 자손에게 전달한다."
+    },
+    {
+      "pid": "04-008-Q1",
+      "sid": "04-008",
+      "page": 26,
+      "tier": 2,
+      "question": "무성생식 결과 형성된 자손은 모체와 [  ]이/가 같고 유전적으로 [  ]하다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "염색체 구성",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "동일",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "무성생식 결과 형성된 자손은 모체와 염색체 구성이 같고 유전적으로 동일하다."
+    },
+    {
+      "pid": "04-009-Q1",
+      "sid": "04-009",
+      "page": 26,
+      "tier": 2,
+      "question": "무성생식에서 모체는 자손에게 같은 [  ]을/를 전달한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "염색체 구성",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "무성생식에서 모체는 자손에게 같은 염색체 구성을 전달한다."
+    },
+    {
+      "pid": "04-011-Q1",
+      "sid": "04-011",
+      "page": 26,
+      "tier": 2,
+      "question": "무성생식은 [  ] 혼자서도 부모와 동일한 유전자를 가진 자손을 만들 수 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "개체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "무성생식은 개체 혼자서도 부모와 동일한 유전자를 가진 자손을 만들 수 있다."
+    },
+    {
+      "pid": "04-012-Q1",
+      "sid": "04-012",
+      "page": 26,
+      "tier": 2,
+      "question": "무성생식은 생식에 소모되는 [  ]이/가 적고 빠르게 증식할 수 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "에너지",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "무성생식은 생식에 소모되는 에너지가 적고 빠르게 증식할 수 있다."
+    },
+    {
+      "pid": "04-013-Q1",
+      "sid": "04-013",
+      "page": 26,
+      "tier": 2,
+      "question": "무성생식은 [  ]인 환경에서 유리한 생식 방법이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "안정적",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "무성생식은 안정적인 환경에서 유리한 생식 방법이다."
+    },
+    {
+      "pid": "04-014-Q1",
+      "sid": "04-014",
+      "page": 26,
+      "tier": 2,
+      "question": "무성생식은 집단 내 구성원의 [  ]이/가 낮기 때문에 환경 변화에 대응하거나 질병 등에 저항하기 어려워 생존에 불리한 조건에서 멸종할 가능성이 높다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "유전적 다양성",
+          "alt_answers": [
+            "유전적다양성"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "무성생식은 집단 내 구성원의 유전적 다양성이 낮기 때문에 환경 변화에 대응하거나 질병 등에 저항하기 어려워 생존에 불리한 조건에서 멸종할 가능성이 높다."
+    },
+    {
+      "pid": "04-015-Q1",
+      "sid": "04-015",
+      "page": 26,
+      "tier": 2,
+      "question": "무성생식을 하는 생물은 자손의 수를 빠르게 늘려 일부 개체가 살아남는 방식으로 [  ]해 왔다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "적응",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "무성생식을 하는 생물은 자손의 수를 빠르게 늘려 일부 개체가 살아남는 방식으로 적응해 왔다."
+    },
+    {
+      "pid": "04-016-Q1",
+      "sid": "04-016",
+      "page": 26,
+      "tier": 3,
+      "question": "해캄은 [  ](이)라는 방법으로 [  ]을/를 높인다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "접합",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "유전적 다양성",
+          "alt_answers": [
+            "유전적다양성"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "해캄은 접합이라는 방법으로 유전적 다양성을 높인다."
+    },
+    {
+      "pid": "04-017-Q1",
+      "sid": "04-017",
+      "page": 26,
+      "tier": 3,
+      "question": "해캄은 두 세포의 [  ] 부위에서 [  ]을/를 교환한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "접합",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "유전물질",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "해캄은 두 세포의 접합 부위에서 유전물질을 교환한다."
+    },
+    {
+      "pid": "04-018-Q1",
+      "sid": "04-018",
+      "page": 26,
+      "tier": 3,
+      "question": "해캄은 환경 조건이 좋아지면 [  ]을/를 하여 새로운 개체를 형성할 수도 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "감수분열",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "해캄은 환경 조건이 좋아지면 감수분열을 하여 새로운 개체를 형성할 수도 있다."
+    },
+    {
+      "pid": "04-020-Q1",
+      "sid": "04-020",
+      "page": 26,
+      "tier": 2,
+      "question": "무성생식의 종류에는 [  ], [  ], [  ], [  ] 등이 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "분열법",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "출아법",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 3,
+          "primary_answer": "포자생식",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 4,
+          "primary_answer": "영양생식",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "무성생식의 종류에는 분열법, 출아법, 포자생식, 영양생식 등이 있다."
+    },
+    {
+      "pid": "04-021-Q1",
+      "sid": "04-021",
+      "page": 26,
+      "tier": 2,
+      "question": "[  ]은/는 몸이 둘로 나뉘어 각각 새로운 개체가 되는 방법으로, [  ]이/가 곧 생식이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "분열법",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "체세포분열",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "분열법은 몸이 둘로 나뉘어 각각 새로운 개체가 되는 방법으로, 체세포분열이 곧 생식이다."
+    },
+    {
+      "pid": "04-022-Q1",
+      "sid": "04-022",
+      "page": 26,
+      "tier": 2,
+      "question": "[  ]은/는 체세포분열로 생긴 작은 덩어리가 떨어져 나와 새로운 개체가 되는 방법이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "출아법",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "출아법은 체세포분열로 생긴 작은 덩어리가 떨어져 나와 새로운 개체가 되는 방법이다."
+    },
+    {
+      "pid": "04-023-Q1",
+      "sid": "04-023",
+      "page": 26,
+      "tier": 2,
+      "question": "[  ]은/는 포자낭에서 만들어진 [  ]이/가 새로운 개체로 발달하는 방법이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "포자생식",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "포자",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "포자생식은 포자낭에서 만들어진 포자가 새로운 개체로 발달하는 방법이다."
+    },
+    {
+      "pid": "04-024-Q1",
+      "sid": "04-024",
+      "page": 26,
+      "tier": 2,
+      "question": "[  ]은/는 식물의 영양기관인 잎, 줄기, 뿌리 등에서 새로운 개체가 자라 나오는 방법이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "영양생식",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "영양생식은 식물의 영양기관인 잎, 줄기, 뿌리 등에서 새로운 개체가 자라 나오는 방법이다."
+    },
+    {
+      "pid": "04-025-Q1",
+      "sid": "04-025",
+      "page": 26,
+      "tier": 2,
+      "question": "아메바는 [  ](으)로 무성생식을 한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "분열법",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "아메바는 분열법으로 무성생식을 한다."
+    },
+    {
+      "pid": "04-026-Q1",
+      "sid": "04-026",
+      "page": 26,
+      "tier": 2,
+      "question": "히드라는 [  ](으)로 무성생식을 한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "출아법",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "히드라는 출아법으로 무성생식을 한다."
+    },
+    {
+      "pid": "04-027-Q1",
+      "sid": "04-027",
+      "page": 26,
+      "tier": 2,
+      "question": "말불버섯은 [  ](으)로 무성생식을 한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "포자생식",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "말불버섯은 포자생식으로 무성생식을 한다."
+    },
+    {
+      "pid": "04-028-Q1",
+      "sid": "04-028",
+      "page": 26,
+      "tier": 2,
+      "question": "양딸기는 [  ](으)로 무성생식을 한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "영양생식",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "양딸기는 영양생식으로 무성생식을 한다."
+    },
+    {
+      "pid": "04-029-Q1",
+      "sid": "04-029",
+      "page": 27,
+      "tier": 1,
+      "question": "[  ]은/는 암수 [  ]이/가 결합하여 새로운 개체를 만드는 생식 방법이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "유성생식",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "생식세포",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "유성생식은 암수 생식세포가 결합하여 새로운 개체를 만드는 생식 방법이다."
+    },
+    {
+      "pid": "04-030-Q1",
+      "sid": "04-030",
+      "page": 27,
+      "tier": 2,
+      "question": "사람을 비롯한 대부분의 동물과 많은 식물이 [  ]을/를 한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "유성생식",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "사람을 비롯한 대부분의 동물과 많은 식물이 유성생식을 한다."
+    },
+    {
+      "pid": "04-031-Q1",
+      "sid": "04-031",
+      "page": 27,
+      "tier": 1,
+      "question": "유성생식을 하는 대부분의 생물에서는 [  ]이/가 일어나 염색체 수가 체세포의 절반인 [  ]이/가 형성된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "감수분열",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "생식세포",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "유성생식을 하는 대부분의 생물에서는 감수분열이 일어나 염색체 수가 체세포의 절반인 생식세포가 형성된다."
+    },
+    {
+      "pid": "04-032-Q1",
+      "sid": "04-032",
+      "page": 27,
+      "tier": 2,
+      "question": "감수분열로 형성된 암수 [  ]의 [  ](으)로 자손이 만들어진다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "생식세포",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "수정",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열로 형성된 암수 생식세포의 수정으로 자손이 만들어진다."
+    },
+    {
+      "pid": "04-033-Q1",
+      "sid": "04-033",
+      "page": 27,
+      "tier": 2,
+      "question": "유성생식을 통해 태어난 자손의 [  ]은/는 부모와 같다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "염색체 수",
+          "alt_answers": [
+            "염색체수"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "유성생식을 통해 태어난 자손의 염색체 수는 부모와 같다."
+    },
+    {
+      "pid": "04-034-Q1",
+      "sid": "04-034",
+      "page": 27,
+      "tier": 2,
+      "question": "자손은 부모 양쪽에서 각각 유전자를 전달받으므로 [  ]이/가 부모나 형제자매들과 다르다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "유전적 구성",
+          "alt_answers": [
+            "유전적구성"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "자손은 부모 양쪽에서 각각 유전자를 전달받으므로 유전적 구성이 부모나 형제자매들과 다르다."
+    },
+    {
+      "pid": "04-035-Q1",
+      "sid": "04-035",
+      "page": 27,
+      "tier": 2,
+      "question": "유성생식을 통해 새로운 [  ]와/과 [  ]을/를 가진 개체가 나타난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "염색체 구성",
+          "alt_answers": [
+            "염색체구성"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "유전자 조합",
+          "alt_answers": [
+            "유전자조합"
+          ]
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "유성생식을 통해 새로운 염색체 구성과 유전자 조합을 가진 개체가 나타난다."
+    },
+    {
+      "pid": "04-036-Q1",
+      "sid": "04-036",
+      "page": 27,
+      "tier": 2,
+      "question": "사자는 [  ]을/를 하는 동물이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "유성생식",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "사자는 유성생식을 하는 동물이다."
+    },
+    {
+      "pid": "04-037-Q1",
+      "sid": "04-037",
+      "page": 27,
+      "tier": 2,
+      "question": "동물의 유성생식에서 모의 세포는 [  ]을/를 통해 [  ]을/를 형성한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "감수분열",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "난자",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "동물의 유성생식에서 모의 세포는 감수분열을 통해 난자를 형성한다."
+    },
+    {
+      "pid": "04-038-Q1",
+      "sid": "04-038",
+      "page": 27,
+      "tier": 2,
+      "question": "동물의 유성생식에서 부의 세포는 [  ]을/를 통해 [  ]을/를 형성한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "감수분열",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "정자",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "동물의 유성생식에서 부의 세포는 감수분열을 통해 정자를 형성한다."
+    },
+    {
+      "pid": "04-039-Q1",
+      "sid": "04-039",
+      "page": 27,
+      "tier": 2,
+      "question": "동물의 유성생식에서 난자와 정자는 [  ]되어 자손을 형성한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "수정",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "동물의 유성생식에서 난자와 정자는 수정되어 자손을 형성한다."
+    },
+    {
+      "pid": "04-040-Q1",
+      "sid": "04-040",
+      "page": 27,
+      "tier": 2,
+      "question": "동물의 유성생식에서 자손은 [  ]와/과 [  ]의 염색체를 모두 가진다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "모",
+          "alt_answers": [
+            "어머니"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "부",
+          "alt_answers": [
+            "아버지"
+          ]
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "동물의 유성생식에서 자손은 모와 부의 염색체를 모두 가진다."
+    },
+    {
+      "pid": "04-041-Q1",
+      "sid": "04-041",
+      "page": 27,
+      "tier": 2,
+      "question": "무성생식과 달리 유성생식은 생식 방법이 복잡하여 [  ]이/가 많이 소모된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "에너지",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "무성생식과 달리 유성생식은 생식 방법이 복잡하여 에너지가 많이 소모된다."
+    },
+    {
+      "pid": "04-042-Q1",
+      "sid": "04-042",
+      "page": 27,
+      "tier": 2,
+      "question": "유성생식은 시간이 오래 걸리며 [  ] 수의 자손을 만든다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "적은",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "유성생식은 시간이 오래 걸리며 적은 수의 자손을 만든다."
+    },
+    {
+      "pid": "04-043-Q1",
+      "sid": "04-043",
+      "page": 27,
+      "tier": 2,
+      "question": "유성생식을 하는 생물은 생식세포의 형성과 [  ] 과정을 거쳐 다양한 [  ]을/를 가진 자손을 생성한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "수정",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "유전자 조합",
+          "alt_answers": [
+            "유전자조합"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "유성생식을 하는 생물은 생식세포의 형성과 수정 과정을 거쳐 다양한 유전자 조합을 가진 자손을 생성한다."
+    },
+    {
+      "pid": "04-044-Q1",
+      "sid": "04-044",
+      "page": 27,
+      "tier": 2,
+      "question": "유성생식을 하는 생물은 집단 내 [  ]이/가 높아진다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "유전적 다양성",
+          "alt_answers": [
+            "유전적다양성"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "유성생식을 하는 생물은 집단 내 유전적 다양성이 높아진다."
+    },
+    {
+      "pid": "04-045-Q1",
+      "sid": "04-045",
+      "page": 27,
+      "tier": 2,
+      "question": "유성생식을 하면 [  ]에 잘 적응할 수 있는 개체가 나타날 가능성이 높다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "환경 변화",
+          "alt_answers": [
+            "환경변화"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "유성생식을 하면 환경 변화에 잘 적응할 수 있는 개체가 나타날 가능성이 높다."
+    },
+    {
+      "pid": "04-047-Q1",
+      "sid": "04-047",
+      "page": 27,
+      "tier": 2,
+      "question": "유성생식을 하는 생물은 유전적으로 다양한 자손을 만들어 환경의 변화에 적응하며 [  ]해 왔다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "진화",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "유성생식을 하는 생물은 유전적으로 다양한 자손을 만들어 환경의 변화에 적응하며 진화해 왔다."
+    },
+    {
+      "pid": "04-048-Q1",
+      "sid": "04-048",
+      "page": 27,
+      "tier": 1,
+      "question": "생물이 자신과 닮은 새로운 [  ]을/를 만들어 종을 유지하는 현상을 [  ](이)라고 한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "개체",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "생식",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "생물이 자신과 닮은 새로운 개체를 만들어 종을 유지하는 현상을 생식이라고 한다."
+    },
+    {
+      "pid": "04-051-Q1",
+      "sid": "04-051",
+      "page": 27,
+      "tier": 1,
+      "question": "[  ]은/는 [  ]에 비해 시간과 에너지가 많이 소모된다는 설명은 옳지 않다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "무성생식",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "유성생식",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "무성생식은 유성생식에 비해 시간과 에너지가 많이 소모된다는 설명은 옳지 않다."
+    },
+    {
+      "pid": "04-052-Q1",
+      "sid": "04-052",
+      "page": 27,
+      "tier": 1,
+      "question": "[  ]은/는 종의 [  ]을/를 높이고 환경 변화에 적응하기에 유리한 생식 방법이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "유성생식",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "유전적 다양성",
+          "alt_answers": [
+            "유전적다양성"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "유성생식은 종의 유전적 다양성을 높이고 환경 변화에 적응하기에 유리한 생식 방법이다."
+    },
+    {
+      "pid": "04-053-Q1",
+      "sid": "04-053",
+      "page": 27,
+      "tier": 1,
+      "question": "한 생물에서는 [  ]와/과 [  ] 중 한 가지 형태만 나타난다는 설명은 옳지 않다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "무성생식",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "유성생식",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "한 생물에서는 무성생식과 유성생식 중 한 가지 형태만 나타난다는 설명은 옳지 않다."
+    },
+    {
+      "pid": "04-055-Q1",
+      "sid": "04-055",
+      "page": 28,
+      "tier": 1,
+      "question": "[  ]은/는 일반적으로 일정한 크기가 되면 성장을 멈춘다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "체세포",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "체세포는 일반적으로 일정한 크기가 되면 성장을 멈춘다."
+    },
+    {
+      "pid": "04-056-Q1",
+      "sid": "04-056",
+      "page": 28,
+      "tier": 1,
+      "question": "체세포는 특정한 기능을 담당하는 세포로 [  ]하거나 분열하여 [  ]을/를 만든다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "분화",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "딸세포",
+          "alt_answers": [
+            "낭세포"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "체세포는 특정한 기능을 담당하는 세포로 분화하거나 분열하여 딸세포를 만든다."
+    },
+    {
+      "pid": "04-057-Q1",
+      "sid": "04-057",
+      "page": 28,
+      "tier": 1,
+      "question": "세포분열로 만들어진 딸세포는 성장하고 다시 분열하는 과정을 반복함으로써 딸세포에 [  ]을/를 전달하고 세포의 수를 늘린다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "유전물질",
+          "alt_answers": [
+            "유전 물질",
+            "DNA"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "세포분열로 만들어진 딸세포는 성장하고 다시 분열하는 과정을 반복함으로써 딸세포에 유전물질을 전달하고 세포의 수를 늘린다."
+    },
+    {
+      "pid": "04-058-Q1",
+      "sid": "04-058",
+      "page": 28,
+      "tier": 3,
+      "question": "[  ]은/는 세포가 구성하는 조직의 특성에 알맞게 모양과 기능이 서로 다른 세포로 발달하는 것이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "분화",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "분화는 세포가 구성하는 조직의 특성에 알맞게 모양과 기능이 서로 다른 세포로 발달하는 것이다."
+    },
+    {
+      "pid": "04-059-Q1",
+      "sid": "04-059",
+      "page": 28,
+      "tier": 1,
+      "question": "세포분열을 통해 만들어진 딸세포가 성장 과정을 거쳐 다시 분열을 마칠 때까지의 기간을 [  ](이)라고 한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "세포주기",
+          "alt_answers": [
+            "세포 주기"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "세포분열을 통해 만들어진 딸세포가 성장 과정을 거쳐 다시 분열을 마칠 때까지의 기간을 세포주기라고 한다."
+    },
+    {
+      "pid": "04-060-Q1",
+      "sid": "04-060",
+      "page": 28,
+      "tier": 2,
+      "question": "세포주기의 각 단계는 [  ](으)로 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "연속적",
+          "alt_answers": [
+            "연속적으로"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "세포주기의 각 단계는 연속적으로 일어난다."
+    },
+    {
+      "pid": "04-061-Q1",
+      "sid": "04-061",
+      "page": 28,
+      "tier": 2,
+      "question": "세포주기의 각 단계에 소요되는 시간은 [  ]와/과 세포가 처한 [  ]에 따라 달라질 수 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "세포의 종류",
+          "alt_answers": [
+            "세포 종류"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "환경",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "세포주기의 각 단계에 소요되는 시간은 세포의 종류와 세포가 처한 환경에 따라 달라질 수 있다."
+    },
+    {
+      "pid": "04-062-Q1",
+      "sid": "04-062",
+      "page": 28,
+      "tier": 2,
+      "question": "세포주기에 이상이 생기면 [  ]와/과 같은 질병이 발생할 수 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "암",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "세포주기에 이상이 생기면 암과 같은 질병이 발생할 수 있다."
+    },
+    {
+      "pid": "04-063-Q1",
+      "sid": "04-063",
+      "page": 28,
+      "tier": 1,
+      "question": "세포주기는 [  ]와/과 [  ](으)로 구분한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "간기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "분열기(M기)",
+          "alt_answers": [
+            "분열기",
+            "M기"
+          ]
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "세포주기는 간기와 분열기(M기)로 구분한다."
+    },
+    {
+      "pid": "04-064-Q1",
+      "sid": "04-064",
+      "page": 28,
+      "tier": 2,
+      "question": "세포주기에서 간기는 [  ], [  ], [  ](으)로 이루어진다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "G1기",
+          "alt_answers": [
+            "G₁기"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "S기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 3,
+          "primary_answer": "G2기",
+          "alt_answers": [
+            "G₂기"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "세포주기에서 간기는 G1기, S기, G2기로 이루어진다."
+    },
+    {
+      "pid": "04-065-Q1",
+      "sid": "04-065",
+      "page": 28,
+      "tier": 2,
+      "question": "세포주기에서 [  ]에는 세포 성장이 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "G1기",
+          "alt_answers": [
+            "G₁기"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "세포주기에서 G1기에는 세포 성장이 일어난다."
+    },
+    {
+      "pid": "04-066-Q1",
+      "sid": "04-066",
+      "page": 28,
+      "tier": 2,
+      "question": "세포주기에서 [  ]에는 세포 성장과 [  ]이/가 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "S기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "DNA 복제",
+          "alt_answers": [
+            "DNA복제"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "세포주기에서 S기에는 세포 성장과 DNA 복제가 일어난다."
+    },
+    {
+      "pid": "04-067-Q1",
+      "sid": "04-067",
+      "page": 28,
+      "tier": 2,
+      "question": "세포주기에서 [  ]에는 세포 성장과 [  ]이/가 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "G2기",
+          "alt_answers": [
+            "G₂기"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "세포분열 준비",
+          "alt_answers": [
+            "세포 분열 준비"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "세포주기에서 G2기에는 세포 성장과 세포분열 준비가 일어난다."
+    },
+    {
+      "pid": "04-068-Q1",
+      "sid": "04-068",
+      "page": 28,
+      "tier": 2,
+      "question": "세포주기에서 [  ]에는 [  ]와/과 세포질분열이 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "분열기(M기)",
+          "alt_answers": [
+            "분열기",
+            "M기"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "핵분열",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "세포주기에서 분열기(M기)에는 핵분열과 세포질분열이 일어난다."
+    },
+    {
+      "pid": "04-069-Q1",
+      "sid": "04-069",
+      "page": 28,
+      "tier": 2,
+      "question": "세포주기에서 [  ]이/가 [  ]보다 더 긴 구간을 차지한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "간기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "분열기",
+          "alt_answers": [
+            "분열기(M기)",
+            "M기"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "세포주기에서 간기가 분열기보다 더 긴 구간을 차지한다."
+    },
+    {
+      "pid": "04-070-Q1",
+      "sid": "04-070",
+      "page": 28,
+      "tier": 1,
+      "question": "[  ]은/는 세포분열이 끝난 뒤부터 다음 세포분열이 일어나기 전까지의 시기이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "간기",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "간기는 세포분열이 끝난 뒤부터 다음 세포분열이 일어나기 전까지의 시기이다."
+    },
+    {
+      "pid": "04-071-Q1",
+      "sid": "04-071",
+      "page": 28,
+      "tier": 1,
+      "question": "[  ]은/는 세포주기의 [  ] 이상을 차지한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "간기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "90 %",
+          "alt_answers": [
+            "90%",
+            "90퍼센트"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "간기는 세포주기의 90 % 이상을 차지한다."
+    },
+    {
+      "pid": "04-072-Q1",
+      "sid": "04-072",
+      "page": 28,
+      "tier": 2,
+      "question": "간기에 세포는 세포를 구성하는 물질과 [  ]을/를 합성하면서 성장한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "세포소기관",
+          "alt_answers": [
+            "세포 소기관"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "간기에 세포는 세포를 구성하는 물질과 세포소기관을 합성하면서 성장한다."
+    },
+    {
+      "pid": "04-073-Q1",
+      "sid": "04-073",
+      "page": 28,
+      "tier": 2,
+      "question": "간기에 [  ]은/는 핵 속에 [  ]처럼 풀어져 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "염색체",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "실",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "간기에 염색체는 핵 속에 실처럼 풀어져 있다."
+    },
+    {
+      "pid": "04-074-Q1",
+      "sid": "04-074",
+      "page": 28,
+      "tier": 2,
+      "question": "[  ]은/는 세포분열이 끝난 직후부터 [  ]이/가 시작되기 전까지의 시기이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "G1기",
+          "alt_answers": [
+            "G₁기"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "DNA 복제",
+          "alt_answers": [
+            "DNA복제"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "G1기는 세포분열이 끝난 직후부터 DNA 복제가 시작되기 전까지의 시기이다."
+    },
+    {
+      "pid": "04-075-Q1",
+      "sid": "04-075",
+      "page": 28,
+      "tier": 2,
+      "question": "G1기에 세포는 성장에 필요한 다양한 [  ]와/과 [  ]을/를 합성한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "단백질",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "효소",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "G1기에 세포는 성장에 필요한 다양한 단백질과 효소를 합성한다."
+    },
+    {
+      "pid": "04-076-Q1",
+      "sid": "04-076",
+      "page": 28,
+      "tier": 2,
+      "question": "G1기에는 [  ]이/가 매우 활발하게 일어나고 [  ]의 수가 증가한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "물질대사",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "세포소기관",
+          "alt_answers": [
+            "세포 소기관"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "G1기에는 물질대사가 매우 활발하게 일어나고 세포소기관의 수가 증가한다."
+    },
+    {
+      "pid": "04-077-Q1",
+      "sid": "04-077",
+      "page": 28,
+      "tier": 1,
+      "question": "[  ]은/는 DNA 복제가 일어나 DNA양이 [  ](으)로 증가하는 시기이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "S기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "2배",
+          "alt_answers": [
+            "두 배",
+            "2 배"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "S기는 DNA 복제가 일어나 DNA양이 2배로 증가하는 시기이다."
+    },
+    {
+      "pid": "04-078-Q1",
+      "sid": "04-078",
+      "page": 28,
+      "tier": 2,
+      "question": "S기에는 [  ] 또한 계속 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "세포 성장",
+          "alt_answers": [
+            "세포성장"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "S기에는 세포 성장 또한 계속 일어난다."
+    },
+    {
+      "pid": "04-079-Q1",
+      "sid": "04-079",
+      "page": 28,
+      "tier": 2,
+      "question": "[  ]은/는 DNA 복제가 완료된 뒤부터 [  ]이/가 시작되기 전까지의 시기이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "G2기",
+          "alt_answers": [
+            "G₂기"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "세포분열",
+          "alt_answers": [
+            "세포 분열"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "G2기는 DNA 복제가 완료된 뒤부터 세포분열이 시작되기 전까지의 시기이다."
+    },
+    {
+      "pid": "04-080-Q1",
+      "sid": "04-080",
+      "page": 28,
+      "tier": 2,
+      "question": "G2기에는 복제된 [  ]의 상태를 점검하고 [  ] 준비를 마무리한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "DNA",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "세포분열",
+          "alt_answers": [
+            "세포 분열"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "G2기에는 복제된 DNA의 상태를 점검하고 세포분열 준비를 마무리한다."
+    },
+    {
+      "pid": "04-081-Q1",
+      "sid": "04-081",
+      "page": 28,
+      "tier": 2,
+      "question": "G2기에는 [  ]와/과 같이 세포분열에 필요한 단백질과 [  ]을/를 구성하는 물질이 합성된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "방추사",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "세포막",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "G2기에는 방추사와 같이 세포분열에 필요한 단백질과 세포막을 구성하는 물질이 합성된다."
+    },
+    {
+      "pid": "04-082-Q1",
+      "sid": "04-082",
+      "page": 28,
+      "tier": 2,
+      "question": "G2기에는 계속해서 세포 성장이 일어나 세포는 크기를 더 키우고 [  ]을/를 축적한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "에너지",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "G2기에는 계속해서 세포 성장이 일어나 세포는 크기를 더 키우고 에너지를 축적한다."
+    },
+    {
+      "pid": "04-083-Q1",
+      "sid": "04-083",
+      "page": 28,
+      "tier": 1,
+      "question": "[  ]은/는 세포분열이 일어나는 시기이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "분열기(M기)",
+          "alt_answers": [
+            "분열기",
+            "M기"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "분열기(M기)는 세포분열이 일어나는 시기이다."
+    },
+    {
+      "pid": "04-084-Q1",
+      "sid": "04-084",
+      "page": 28,
+      "tier": 2,
+      "question": "분열기(M기)는 [  ]에 비해 매우 짧은 시간 동안 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "간기",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "분열기(M기)는 간기에 비해 매우 짧은 시간 동안 일어난다."
+    },
+    {
+      "pid": "04-085-Q1",
+      "sid": "04-085",
+      "page": 28,
+      "tier": 2,
+      "question": "분열기에는 [  ]된 형태의 [  ]이/가 관찰된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "응축",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "염색체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "분열기에는 응축된 형태의 염색체가 관찰된다."
+    },
+    {
+      "pid": "04-086-Q1",
+      "sid": "04-086",
+      "page": 28,
+      "tier": 2,
+      "question": "분열기에는 핵과 세포질이 나누어져 하나의 세포로부터 [  ]개의 [  ]이/가 형성된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "2",
+          "alt_answers": [
+            "두"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "딸세포",
+          "alt_answers": [
+            "낭세포"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "분열기에는 핵과 세포질이 나누어져 하나의 세포로부터 2개의 딸세포가 형성된다."
+    },
+    {
+      "pid": "04-087-Q1",
+      "sid": "04-087",
+      "page": 28,
+      "tier": 2,
+      "question": "분열기는 세포의 생명 주기 중 [  ]이/가 딸세포에게 전달되는 중요한 시기이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "유전정보",
+          "alt_answers": [
+            "유전 정보"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "분열기는 세포의 생명 주기 중 유전정보가 딸세포에게 전달되는 중요한 시기이다."
+    },
+    {
+      "pid": "04-088-Q1",
+      "sid": "04-088",
+      "page": 28,
+      "tier": 2,
+      "question": "분열기는 일반적으로 [  ]와/과 [  ] 두 단계로 나뉜다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "핵분열",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "세포질분열",
+          "alt_answers": [
+            "세포질 분열"
+          ]
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "분열기는 일반적으로 핵분열과 세포질분열 두 단계로 나뉜다."
+    },
+    {
+      "pid": "04-090-Q1",
+      "sid": "04-090",
+      "page": 29,
+      "tier": 1,
+      "question": "체세포가 분열하여 모세포와 유전적으로 동일한 [  ]개의 딸세포를 형성하고 세포 수가 늘어나는 과정을 [  ](이)라고 한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "2",
+          "alt_answers": [
+            "두"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "체세포분열",
+          "alt_answers": [
+            "체세포 분열"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "체세포가 분열하여 모세포와 유전적으로 동일한 2개의 딸세포를 형성하고 세포 수가 늘어나는 과정을 체세포분열이라고 한다."
+    },
+    {
+      "pid": "04-091-Q1",
+      "sid": "04-091",
+      "page": 29,
+      "tier": 2,
+      "question": "다세포생물은 개체의 성장, 수정란의 발생, 조직의 재생 과정에서 [  ]이/가 활발하게 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "체세포분열",
+          "alt_answers": [
+            "체세포 분열"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "다세포생물은 개체의 성장, 수정란의 발생, 조직의 재생 과정에서 체세포분열이 활발하게 일어난다."
+    },
+    {
+      "pid": "04-092-Q1",
+      "sid": "04-092",
+      "page": 29,
+      "tier": 2,
+      "question": "[  ]의 무성생식 과정에서도 [  ]이/가 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "단세포생물",
+          "alt_answers": [
+            "단세포 생물"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "체세포분열",
+          "alt_answers": [
+            "체세포 분열"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "단세포생물의 무성생식 과정에서도 체세포분열이 일어난다."
+    },
+    {
+      "pid": "04-093-Q1",
+      "sid": "04-093",
+      "page": 29,
+      "tier": 2,
+      "question": "체세포분열의 [  ]은/는 세포가 성장하며 세포분열에 필요한 물질을 합성하는 시기이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "간기",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "체세포분열의 간기는 세포가 성장하며 세포분열에 필요한 물질을 합성하는 시기이다."
+    },
+    {
+      "pid": "04-094-Q1",
+      "sid": "04-094",
+      "page": 29,
+      "tier": 2,
+      "question": "체세포분열의 간기에는 [  ]이/가 복제되어 2개의 딸세포에 동일하게 [  ]을/를 분배할 수 있는 준비를 마친다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "DNA",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "유전물질",
+          "alt_answers": [
+            "유전 물질"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "체세포분열의 간기에는 DNA가 복제되어 2개의 딸세포에 동일하게 유전물질을 분배할 수 있는 준비를 마친다."
+    },
+    {
+      "pid": "04-095-Q1",
+      "sid": "04-095",
+      "page": 29,
+      "tier": 2,
+      "question": "체세포분열의 간기에는 염색체가 [  ]되지 않고 핵 속에 풀어져 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "응축",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "체세포분열의 간기에는 염색체가 응축되지 않고 핵 속에 풀어져 있다."
+    },
+    {
+      "pid": "04-096-Q1",
+      "sid": "04-096",
+      "page": 29,
+      "tier": 3,
+      "question": "[  ]은/는 세포분열 과정에서 [  ]을/를 형성하는 세포소기관이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "중심체",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "방추사",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "중심체는 세포분열 과정에서 방추사를 형성하는 세포소기관이다."
+    },
+    {
+      "pid": "04-097-Q1",
+      "sid": "04-097",
+      "page": 29,
+      "tier": 3,
+      "question": "동물 세포의 중심체는 [  ]개의 [  ](centrioles)(으)로 구성되어 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "2",
+          "alt_answers": [
+            "두"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "중심립",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "동물 세포의 중심체는 2개의 중심립(centrioles)으로 구성되어 있다."
+    },
+    {
+      "pid": "04-098-Q1",
+      "sid": "04-098",
+      "page": 29,
+      "tier": 3,
+      "question": "[  ] 세포에는 [  ]이/가 없다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "식물",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "중심체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "식물 세포에는 중심체가 없다."
+    },
+    {
+      "pid": "04-099-Q1",
+      "sid": "04-099",
+      "page": 29,
+      "tier": 1,
+      "question": "[  ]은/는 염색체의 모양과 행동에 따라 [  ], 중기, 후기, 말기로 구분한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "핵분열",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "전기",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "핵분열은 염색체의 모양과 행동에 따라 전기, 중기, 후기, 말기로 구분한다."
+    },
+    {
+      "pid": "04-100-Q1",
+      "sid": "04-100",
+      "page": 29,
+      "tier": 2,
+      "question": "전기에는 [  ]와/과 [  ]이/가 사라지면서 염색체가 세포질로 퍼지고 응축된 염색체가 나타난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "핵막",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "인",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "전기에는 핵막과 인이 사라지면서 염색체가 세포질로 퍼지고 응축된 염색체가 나타난다."
+    },
+    {
+      "pid": "04-101-Q1",
+      "sid": "04-101",
+      "page": 29,
+      "tier": 1,
+      "question": "전기의 각 염색체는 [  ]개의 [  ](으)로 이루어져 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "2",
+          "alt_answers": [
+            "두"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "염색분체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "전기의 각 염색체는 2개의 염색분체로 이루어져 있다."
+    },
+    {
+      "pid": "04-102-Q1",
+      "sid": "04-102",
+      "page": 29,
+      "tier": 1,
+      "question": "전기에는 세포의 양극으로 이동한 [  ]에서 [  ]이/가 형성되어 [  ]에 결합한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "중심체",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "방추사",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 3,
+          "primary_answer": "동원체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "전기에는 세포의 양극으로 이동한 중심체에서 방추사가 형성되어 동원체에 결합한다."
+    },
+    {
+      "pid": "04-103-Q1",
+      "sid": "04-103",
+      "page": 29,
+      "tier": 3,
+      "question": "[  ]은/는 중심체에서부터 세포의 양극을 향해 형성되는 가느다란 [  ]이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "방추사",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "단백질",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "방추사는 중심체에서부터 세포의 양극을 향해 형성되는 가느다란 단백질이다."
+    },
+    {
+      "pid": "04-104-Q1",
+      "sid": "04-104",
+      "page": 29,
+      "tier": 3,
+      "question": "방추사는 [  ](으)로 구성되어 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "미세소관",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "방추사는 미세소관으로 구성되어 있다."
+    },
+    {
+      "pid": "04-105-Q1",
+      "sid": "04-105",
+      "page": 29,
+      "tier": 3,
+      "question": "[  ]이/가 없는 대부분의 식물 세포는 [  ]에서 방추사가 뻗어 나온다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "중심체",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "양극",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "중심체가 없는 대부분의 식물 세포는 양극에서 방추사가 뻗어 나온다."
+    },
+    {
+      "pid": "04-106-Q1",
+      "sid": "04-106",
+      "page": 29,
+      "tier": 3,
+      "question": "방추사는 동원체에 있는 [  ]에 부착하여 [  ]이/가 정확하게 분리되도록 한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "방추사 부착점",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "염색체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "방추사는 동원체에 있는 방추사 부착점에 부착하여 염색체가 정확하게 분리되도록 한다."
+    },
+    {
+      "pid": "04-107-Q1",
+      "sid": "04-107",
+      "page": 29,
+      "tier": 1,
+      "question": "[  ]에는 염색체가 세포 중앙인 [  ]에 배열된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "중기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "적도판",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "중기에는 염색체가 세포 중앙인 적도판에 배열된다."
+    },
+    {
+      "pid": "04-108-Q1",
+      "sid": "04-108",
+      "page": 29,
+      "tier": 1,
+      "question": "중기에는 염색체가 가장 [  ]되어 뚜렷하게 관찰되므로 [  ]을/를 할 때 이 시기의 염색체를 사용한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "응축",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "핵형분석",
+          "alt_answers": [
+            "핵형 분석"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "중기에는 염색체가 가장 응축되어 뚜렷하게 관찰되므로 핵형분석을 할 때 이 시기의 염색체를 사용한다."
+    },
+    {
+      "pid": "04-109-Q1",
+      "sid": "04-109",
+      "page": 29,
+      "tier": 2,
+      "question": "중기에는 [  ]이/가 세포의 [  ]에 위치한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "중심체",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "양극",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "중기에는 중심체가 세포의 양극에 위치한다."
+    },
+    {
+      "pid": "04-110-Q1",
+      "sid": "04-110",
+      "page": 29,
+      "tier": 2,
+      "question": "중기에는 [  ] 안쪽에 각각 양극에서 뻗어 나온 [  ]이/가 결합한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "동원체",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "방추사",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "중기에는 동원체 안쪽에 각각 양극에서 뻗어 나온 방추사가 결합한다."
+    },
+    {
+      "pid": "04-111-Q1",
+      "sid": "04-111",
+      "page": 29,
+      "tier": 2,
+      "question": "[  ]의 염색체 정렬은 이후 염색체가 정확히 나누어지는 데 중요한 역할을 한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "중기",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "중기의 염색체 정렬은 이후 염색체가 정확히 나누어지는 데 중요한 역할을 한다."
+    },
+    {
+      "pid": "04-112-Q1",
+      "sid": "04-112",
+      "page": 29,
+      "tier": 1,
+      "question": "[  ]에는 각 염색체의 [  ]이/가 서로 분리된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "후기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "염색분체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "후기에는 각 염색체의 염색분체가 서로 분리된다."
+    },
+    {
+      "pid": "04-113-Q1",
+      "sid": "04-113",
+      "page": 29,
+      "tier": 1,
+      "question": "후기에는 [  ]이/가 짧아지면서 [  ]이/가 세포의 양극으로 이동한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "방추사",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "염색분체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "후기에는 방추사가 짧아지면서 염색분체가 세포의 양극으로 이동한다."
+    },
+    {
+      "pid": "04-114-Q1",
+      "sid": "04-114",
+      "page": 29,
+      "tier": 1,
+      "question": "말기에는 [  ]와/과 [  ]이/가 다시 나타나고 2개의 [  ]이/가 형성된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "핵막",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "인",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 3,
+          "primary_answer": "딸핵",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "말기에는 핵막과 인이 다시 나타나고 2개의 딸핵이 형성된다."
+    },
+    {
+      "pid": "04-115-Q1",
+      "sid": "04-115",
+      "page": 29,
+      "tier": 1,
+      "question": "말기에는 [  ]이/가 풀어지며 [  ]도 분해되어 사라지기 시작한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "염색체",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "방추사",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "말기에는 염색체가 풀어지며 방추사도 분해되어 사라지기 시작한다."
+    },
+    {
+      "pid": "04-116-Q1",
+      "sid": "04-116",
+      "page": 29,
+      "tier": 1,
+      "question": "말기의 두 딸핵은 [  ](으)로 동일하다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "유전적",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "말기의 두 딸핵은 유전적으로 동일하다."
+    },
+    {
+      "pid": "04-117-Q1",
+      "sid": "04-117",
+      "page": 29,
+      "tier": 1,
+      "question": "[  ]은/는 핵분열 말기의 뒷부분에 시작하여 완전한 [  ]개의 딸세포가 형성되는 시기이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "세포질분열",
+          "alt_answers": [
+            "세포질 분열"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "2",
+          "alt_answers": [
+            "두"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "세포질분열은 핵분열 말기의 뒷부분에 시작하여 완전한 2개의 딸세포가 형성되는 시기이다."
+    },
+    {
+      "pid": "04-118-Q1",
+      "sid": "04-118",
+      "page": 29,
+      "tier": 1,
+      "question": "세포질분열 결과 딸세포의 [  ], DNA양, 대립유전자 구성은 [  ]와/과 같다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "염색체 수",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "모세포",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "세포질분열 결과 딸세포의 염색체 수, DNA양, 대립유전자 구성은 모세포와 같다."
+    },
+    {
+      "pid": "04-119-Q1",
+      "sid": "04-119",
+      "page": 29,
+      "tier": 1,
+      "question": "세포벽의 유무 차이로 인해 [  ] 세포에서는 [  ]이/가 형성된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "동물",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "수축환",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "세포벽의 유무 차이로 인해 동물 세포에서는 수축환이 형성된다."
+    },
+    {
+      "pid": "04-120-Q1",
+      "sid": "04-120",
+      "page": 29,
+      "tier": 1,
+      "question": "세포벽의 유무 차이로 인해 [  ] 세포에서는 [  ]이/가 형성된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "식물",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "세포판",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "세포벽의 유무 차이로 인해 식물 세포에서는 세포판이 형성된다."
+    },
+    {
+      "pid": "04-121-Q1",
+      "sid": "04-121",
+      "page": 29,
+      "tier": 2,
+      "question": "동물 세포와 식물 세포의 [  ]은/는 서로 다른 방식으로 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "세포질분열",
+          "alt_answers": [
+            "세포질 분열"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "동물 세포와 식물 세포의 세포질분열은 서로 다른 방식으로 일어난다."
+    },
+    {
+      "pid": "04-122-Q1",
+      "sid": "04-122",
+      "page": 29,
+      "tier": 3,
+      "question": "동물 세포에서는 [  ]와/과 [  ](으)로 이루어진 수축환의 작용으로 세포막이 안쪽으로 함입되면서 세포가 둘로 나누어진다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "액틴",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "마이오신",
+          "alt_answers": [
+            "미오신"
+          ]
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "동물 세포에서는 액틴과 마이오신으로 이루어진 수축환의 작용으로 세포막이 안쪽으로 함입되면서 세포가 둘로 나누어진다."
+    },
+    {
+      "pid": "04-122-Q2",
+      "sid": "04-122",
+      "page": 29,
+      "tier": 3,
+      "question": "동물 세포에서는 액틴과 마이오신으로 이루어진 [  ]의 작용으로 세포막이 안쪽으로 [  ]되면서 세포가 둘로 나누어진다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "수축환",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "함입",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "동물 세포에서는 액틴과 마이오신으로 이루어진 수축환의 작용으로 세포막이 안쪽으로 함입되면서 세포가 둘로 나누어진다."
+    },
+    {
+      "pid": "04-123-Q1",
+      "sid": "04-123",
+      "page": 29,
+      "tier": 3,
+      "question": "식물 세포에서는 [  ]이/가 형성된 뒤 바깥쪽으로 성장하여 [  ]에 융합되며 세포가 둘로 나누어진다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "세포판",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "세포막",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "식물 세포에서는 세포판이 형성된 뒤 바깥쪽으로 성장하여 세포막에 융합되며 세포가 둘로 나누어진다."
+    },
+    {
+      "pid": "04-124-Q1",
+      "sid": "04-124",
+      "page": 29,
+      "tier": 2,
+      "question": "동물 세포의 세포질분열에는 [  ]이/가 관여한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "수축환",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "동물 세포의 세포질분열에는 수축환이 관여한다."
+    },
+    {
+      "pid": "04-125-Q1",
+      "sid": "04-125",
+      "page": 29,
+      "tier": 2,
+      "question": "식물 세포의 세포질분열에는 [  ]이/가 형성된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "세포판",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "식물 세포의 세포질분열에는 세포판이 형성된다."
+    },
+    {
+      "pid": "04-127-Q1",
+      "sid": "04-127",
+      "page": 29,
+      "tier": 2,
+      "question": "체세포분열 과정은 [  ], [  ], [  ](으)로 진행된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "간기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "핵분열",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 3,
+          "primary_answer": "세포질분열",
+          "alt_answers": [
+            "세포질 분열"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "체세포분열 과정은 간기, 핵분열, 세포질분열로 진행된다."
+    },
+    {
+      "pid": "04-128-Q1",
+      "sid": "04-128",
+      "page": 29,
+      "tier": 2,
+      "question": "체세포분열 과정의 간기 그림에는 [  ]와/과 [  ]이/가 표시되어 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "핵막",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "염색분체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "체세포분열 과정의 간기 그림에는 핵막과 염색분체가 표시되어 있다."
+    },
+    {
+      "pid": "04-129-Q1",
+      "sid": "04-129",
+      "page": 29,
+      "tier": 2,
+      "question": "체세포분열 과정의 전기 그림에는 [  ], [  ], [  ]이/가 표시되어 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "동원체",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "방추사",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 3,
+          "primary_answer": "염색분체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "체세포분열 과정의 전기 그림에는 동원체, 방추사, 염색분체가 표시되어 있다."
+    },
+    {
+      "pid": "04-130-Q1",
+      "sid": "04-130",
+      "page": 29,
+      "tier": 2,
+      "question": "체세포분열 과정의 [  ]에는 염색체가 세포 중앙에 배열된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "중기",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "체세포분열 과정의 중기에는 염색체가 세포 중앙에 배열된다."
+    },
+    {
+      "pid": "04-131-Q1",
+      "sid": "04-131",
+      "page": 29,
+      "tier": 2,
+      "question": "체세포분열 과정의 [  ]에는 [  ]이/가 분리되어 세포의 양극으로 이동한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "후기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "염색분체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "체세포분열 과정의 후기에는 염색분체가 분리되어 세포의 양극으로 이동한다."
+    },
+    {
+      "pid": "04-132-Q1",
+      "sid": "04-132",
+      "page": 29,
+      "tier": 2,
+      "question": "체세포분열 과정의 말기 이후 [  ]을/를 거쳐 [  ]이/가 형성된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "세포질분열",
+          "alt_answers": [
+            "세포질 분열"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "딸세포",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "체세포분열 과정의 말기 이후 세포질분열을 거쳐 딸세포가 형성된다."
+    },
+    {
+      "pid": "04-133-Q1",
+      "sid": "04-133",
+      "page": 30,
+      "tier": 1,
+      "question": "사람에서 암수 생식세포는 [  ]와/과 [  ]이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "난자",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "정자",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "사람에서 암수 생식세포는 난자와 정자이다."
+    },
+    {
+      "pid": "04-134-Q1",
+      "sid": "04-134",
+      "page": 30,
+      "tier": 1,
+      "question": "난자와 정자가 만들어질 때에는 염색체 수가 모세포의 [  ](으)로 줄어드는 [  ]이/가 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "절반",
+          "alt_answers": [
+            "반"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "감수분열",
+          "alt_answers": [
+            "감수 분열"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "난자와 정자가 만들어질 때에는 염색체 수가 모세포의 절반으로 줄어드는 감수분열이 일어난다."
+    },
+    {
+      "pid": "04-135-Q1",
+      "sid": "04-135",
+      "page": 30,
+      "tier": 1,
+      "question": "난자와 정자가 만들어지는 과정에서 유전물질이 다양하게 조합되어 [  ]이/가 나타난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "유전적 다양성",
+          "alt_answers": [
+            "유전적다양성"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "난자와 정자가 만들어지는 과정에서 유전물질이 다양하게 조합되어 유전적 다양성이 나타난다."
+    },
+    {
+      "pid": "04-136-Q1",
+      "sid": "04-136",
+      "page": 30,
+      "tier": 2,
+      "question": "[  ]을/를 하는 암수 개체의 [  ]에서 생식세포를 형성한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "유성생식",
+          "alt_answers": [
+            "유성 생식"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "생식기관",
+          "alt_answers": [
+            "생식 기관"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "유성생식을 하는 암수 개체의 생식기관에서 생식세포를 형성한다."
+    },
+    {
+      "pid": "04-137-Q1",
+      "sid": "04-137",
+      "page": 30,
+      "tier": 1,
+      "question": "생식세포 형성 과정은 간기의 [  ]에 DNA가 복제된 뒤 연속 [  ]회 분열이 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "S기",
+          "alt_answers": [
+            "S 기"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "2",
+          "alt_answers": [
+            "두"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "생식세포 형성 과정은 간기의 S기에 DNA가 복제된 뒤 연속 2회 분열이 일어난다."
+    },
+    {
+      "pid": "04-138-Q1",
+      "sid": "04-138",
+      "page": 30,
+      "tier": 1,
+      "question": "생식세포 형성 과정의 결과 [  ]개의 딸세포가 만들어진다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "4",
+          "alt_answers": [
+            "네"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "생식세포 형성 과정의 결과 4개의 딸세포가 만들어진다."
+    },
+    {
+      "pid": "04-139-Q1",
+      "sid": "04-139",
+      "page": 30,
+      "tier": 1,
+      "question": "생식세포의 염색체 수와 유전물질의 양은 모세포(G1기 세포)의 [  ]이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "절반",
+          "alt_answers": [
+            "반"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "생식세포의 염색체 수와 유전물질의 양은 모세포(G1기 세포)의 절반이다."
+    },
+    {
+      "pid": "04-140-Q1",
+      "sid": "04-140",
+      "page": 30,
+      "tier": 1,
+      "question": "생식세포를 만드는 [  ]을/를 [  ](이)라고 한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "세포분열",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "감수분열",
+          "alt_answers": [
+            "감수 분열"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "생식세포를 만드는 세포분열을 감수분열이라고 한다."
+    },
+    {
+      "pid": "04-141-Q1",
+      "sid": "04-141",
+      "page": 30,
+      "tier": 3,
+      "question": "감수분열로 형성된 생식세포는 [  ]되어 다시 분열하지 않는다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "분화",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열로 형성된 생식세포는 분화되어 다시 분열하지 않는다."
+    },
+    {
+      "pid": "04-142-Q1",
+      "sid": "04-142",
+      "page": 30,
+      "tier": 3,
+      "question": "감수분열은 [  ]이/가 반복되지 않는다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "세포주기",
+          "alt_answers": [
+            "세포 주기"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열은 세포주기가 반복되지 않는다."
+    },
+    {
+      "pid": "04-143-Q1",
+      "sid": "04-143",
+      "page": 30,
+      "tier": 1,
+      "question": "[  ]은/는 간기에 DNA가 복제된 후 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "감수 1분열",
+          "alt_answers": [
+            "감수 1 분열",
+            "감수1분열"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 1분열은 간기에 DNA가 복제된 후 일어난다."
+    },
+    {
+      "pid": "04-144-Q1",
+      "sid": "04-144",
+      "page": 30,
+      "tier": 1,
+      "question": "감수 1분열에서는 [  ]이/가 분리되어 각각 다른 딸세포로 나뉘어 들어간다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "상동염색체",
+          "alt_answers": [
+            "상동 염색체"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 1분열에서는 상동염색체가 분리되어 각각 다른 딸세포로 나뉘어 들어간다."
+    },
+    {
+      "pid": "04-145-Q1",
+      "sid": "04-145",
+      "page": 30,
+      "tier": 1,
+      "question": "감수 1분열 결과 형성된 두 딸세포의 염색체 수는 모세포의 [  ](으)로 줄어든다(2n -> [  ]).",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "반",
+          "alt_answers": [
+            "절반"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "n",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 1분열 결과 형성된 두 딸세포의 염색체 수는 모세포의 반으로 줄어든다(2n -> n)."
+    },
+    {
+      "pid": "04-146-Q1",
+      "sid": "04-146",
+      "page": 30,
+      "tier": 1,
+      "question": "감수 1분열 전기에는 염색체가 [  ]되고 [  ]와/과 [  ]이/가 사라져 염색체가 세포질로 퍼진다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "응축",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "핵막",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 3,
+          "primary_answer": "인",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 1분열 전기에는 염색체가 응축되고 핵막과 인이 사라져 염색체가 세포질로 퍼진다."
+    },
+    {
+      "pid": "04-148-Q1",
+      "sid": "04-148",
+      "page": 30,
+      "tier": 1,
+      "question": "감수 1분열 전기에는 체세포분열과 달리 [  ]이/가 접합하여 [  ]을/를 형성한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "상동염색체",
+          "alt_answers": [
+            "상동 염색체"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "2가 염색체",
+          "alt_answers": [
+            "이가 염색체",
+            "2가염색체"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 1분열 전기에는 체세포분열과 달리 상동염색체가 접합하여 2가 염색체를 형성한다."
+    },
+    {
+      "pid": "04-149-Q1",
+      "sid": "04-149",
+      "page": 30,
+      "tier": 1,
+      "question": "감수 1분열 전기에는 [  ]이/가 양극으로 이동하고 방추사가 형성되어 [  ]의 동원체에 결합한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "중심체",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "2가 염색체",
+          "alt_answers": [
+            "이가 염색체",
+            "2가염색체"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 1분열 전기에는 중심체가 양극으로 이동하고 방추사가 형성되어 2가 염색체의 동원체에 결합한다."
+    },
+    {
+      "pid": "04-150-Q1",
+      "sid": "04-150",
+      "page": 30,
+      "tier": 3,
+      "question": "[  ]은/는 감수 1분열 전기에 [  ]와/과 [  ]의 상동염색체가 접합한 것이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "2가 염색체",
+          "alt_answers": [
+            "이가 염색체",
+            "2가염색체"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "부계",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 3,
+          "primary_answer": "모계",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "2가 염색체는 감수 1분열 전기에 부계와 모계의 상동염색체가 접합한 것이다."
+    },
+    {
+      "pid": "04-151-Q1",
+      "sid": "04-151",
+      "page": 30,
+      "tier": 3,
+      "question": "2가 염색체는 [  ]개의 염색분체로 이루어져 있어 [  ]이라고도 한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "4",
+          "alt_answers": [
+            "네"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "4분 염색체",
+          "alt_answers": [
+            "사분 염색체"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "2가 염색체는 4개의 염색분체로 이루어져 있어 4분 염색체라고도 한다."
+    },
+    {
+      "pid": "04-152-Q1",
+      "sid": "04-152",
+      "page": 30,
+      "tier": 3,
+      "question": "2가 염색체는 감수 1분열 [  ]부터 [  ]까지 관찰된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "전기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "중기",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "2가 염색체는 감수 1분열 전기부터 중기까지 관찰된다."
+    },
+    {
+      "pid": "04-153-Q1",
+      "sid": "04-153",
+      "page": 30,
+      "tier": 2,
+      "question": "[  ]에는 각각 [  ]가 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "상동염색체",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "동원체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "상동염색체에는 각각 동원체가 있다."
+    },
+    {
+      "pid": "04-154-Q1",
+      "sid": "04-154",
+      "page": 30,
+      "tier": 2,
+      "question": "[  ]가 접합하면 [  ]가 형성된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "상동염색체",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "2가 염색체",
+          "alt_answers": [
+            "4분 염색체",
+            "이가 염색체"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "상동염색체가 접합하면 2가 염색체가 형성된다."
+    },
+    {
+      "pid": "04-155-Q1",
+      "sid": "04-155",
+      "page": 30,
+      "tier": 1,
+      "question": "감수 1분열 [  ]에는 2가 염색체가 방추사에 이끌려 세포의 [  ]에 배열한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "중기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "중앙",
+          "alt_answers": [
+            "가운데",
+            "중앙면",
+            "적도면"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 1분열 중기에는 2가 염색체가 방추사에 이끌려 세포의 중앙에 배열한다."
+    },
+    {
+      "pid": "04-156-Q1",
+      "sid": "04-156",
+      "page": 30,
+      "tier": 1,
+      "question": "감수 1분열 [  ]에는 2가 염색체의 [  ]가 서로 분리되어 방추사에 의해 각각 세포의 양극으로 이동한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "후기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "상동염색체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 1분열 후기에는 2가 염색체의 상동염색체가 서로 분리되어 방추사에 의해 각각 세포의 양극으로 이동한다."
+    },
+    {
+      "pid": "04-157-Q1",
+      "sid": "04-157",
+      "page": 30,
+      "tier": 2,
+      "question": "감수 1분열 후기에는 각 염색체를 구성하는 [  ]의 접합이 [  ] 부위에서 유지된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "염색분체",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "동원체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 1분열 후기에는 각 염색체를 구성하는 염색분체의 접합이 동원체 부위에서 유지된다."
+    },
+    {
+      "pid": "04-158-Q1",
+      "sid": "04-158",
+      "page": 30,
+      "tier": 2,
+      "question": "감수 1분열 후기에는 두 [  ]가 하나의 단위로 움직이며 같은 극으로 끌려간다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "염색분체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 1분열 후기에는 두 염색분체가 하나의 단위로 움직이며 같은 극으로 끌려간다."
+    },
+    {
+      "pid": "04-159-Q1",
+      "sid": "04-159",
+      "page": 30,
+      "tier": 1,
+      "question": "감수 1분열 [  ]에는 핵막이 다시 나타나고 [  ]이 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "말기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "세포질분열",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 1분열 말기에는 핵막이 다시 나타나고 세포질분열이 일어난다."
+    },
+    {
+      "pid": "04-160-Q1",
+      "sid": "04-160",
+      "page": 30,
+      "tier": 2,
+      "question": "일반적으로 감수 1분열 [  ]에는 염색체가 풀어지지 않는다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "말기",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "일반적으로 감수 1분열 말기에는 염색체가 풀어지지 않는다."
+    },
+    {
+      "pid": "04-161-Q1",
+      "sid": "04-161",
+      "page": 30,
+      "tier": 2,
+      "question": "몇몇 종의 경우 감수 1분열 말기에 염색체가 [  ] 핵막이 형성되기도 한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "풀어지고",
+          "alt_answers": [
+            "풀리고"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "몇몇 종의 경우 감수 1분열 말기에 염색체가 풀어지고 핵막이 형성되기도 한다."
+    },
+    {
+      "pid": "04-162-Q1",
+      "sid": "04-162",
+      "page": 30,
+      "tier": 1,
+      "question": "감수 1분열의 세포질분열이 완료되면 [  ]개의 홑배수체(n) 딸세포가 형성된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "2",
+          "alt_answers": [
+            "두"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 1분열의 세포질분열이 완료되면 2개의 홑배수체(n) 딸세포가 형성된다."
+    },
+    {
+      "pid": "04-163-Q1",
+      "sid": "04-163",
+      "page": 30,
+      "tier": 2,
+      "question": "감수 1분열 결과 형성된 두 딸세포의 [  ]은 서로 다르다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "유전자 구성",
+          "alt_answers": [
+            "유전 구성"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 1분열 결과 형성된 두 딸세포의 유전자 구성은 서로 다르다."
+    },
+    {
+      "pid": "04-164-Q1",
+      "sid": "04-164",
+      "page": 30,
+      "tier": 2,
+      "question": "감수분열 과정의 간기에는 [  ], DNA, [  ]이 관찰된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "중심체",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "핵막",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열 과정의 간기에는 중심체, DNA, 핵막이 관찰된다."
+    },
+    {
+      "pid": "04-165-Q1",
+      "sid": "04-165",
+      "page": 30,
+      "tier": 2,
+      "question": "감수분열 과정의 [  ]에는 DNA가 복제되고 세포분열에 필요한 물질이 합성된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "간기",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열 과정의 간기에는 DNA가 복제되고 세포분열에 필요한 물질이 합성된다."
+    },
+    {
+      "pid": "04-166-Q1",
+      "sid": "04-166",
+      "page": 30,
+      "tier": 2,
+      "question": "감수 1분열 전기 I에는 염색체가 응축되고 핵막이 사라지며 [  ]가 만들어진다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "2가 염색체",
+          "alt_answers": [
+            "4분 염색체",
+            "이가 염색체"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 1분열 전기 I에는 염색체가 응축되고 핵막이 사라지며 2가 염색체가 만들어진다."
+    },
+    {
+      "pid": "04-167-Q1",
+      "sid": "04-167",
+      "page": 30,
+      "tier": 2,
+      "question": "감수 1분열 중기 I에는 [  ]가 세포 중앙에 배열한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "2가 염색체",
+          "alt_answers": [
+            "4분 염색체",
+            "이가 염색체"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 1분열 중기 I에는 2가 염색체가 세포 중앙에 배열한다."
+    },
+    {
+      "pid": "04-168-Q1",
+      "sid": "04-168",
+      "page": 30,
+      "tier": 2,
+      "question": "감수 1분열 후기 I에는 [  ]가 분리되어 세포의 [  ]으로 이동한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "상동염색체",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "양극",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 1분열 후기 I에는 상동염색체가 분리되어 세포의 양극으로 이동한다."
+    },
+    {
+      "pid": "04-169-Q1",
+      "sid": "04-169",
+      "page": 30,
+      "tier": 2,
+      "question": "감수 1분열 말기 I에는 핵막이 형성되고 세포질분열이 일어나 [  ]개의 딸세포(n)가 만들어진다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "2",
+          "alt_answers": [
+            "두"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 1분열 말기 I에는 핵막이 형성되고 세포질분열이 일어나 2개의 딸세포(n)가 만들어진다."
+    },
+    {
+      "pid": "04-170-Q1",
+      "sid": "04-170",
+      "page": 31,
+      "tier": 1,
+      "question": "감수 1분열로 형성된 2개의 딸세포는 [  ] 복제와 세포질의 증가가 일어나는 [  ] 없이 바로 감수 2분열에 들어간다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "DNA",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "간기",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 2분열에서 감수 1분열로 형성된 2개의 딸세포는 DNA 복제와 세포질의 증가가 일어나는 간기 없이 바로 감수 2분열에 들어간다."
+    },
+    {
+      "pid": "04-171-Q1",
+      "sid": "04-171",
+      "page": 31,
+      "tier": 1,
+      "question": "감수 2분열에서는 각 염색체를 구성하고 있는 [  ]가 분리된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "염색분체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 2분열에서는 각 염색체를 구성하고 있는 염색분체가 분리된다."
+    },
+    {
+      "pid": "04-172-Q1",
+      "sid": "04-172",
+      "page": 31,
+      "tier": 1,
+      "question": "감수 2분열에서는 세포당 DNA양은 [  ]으로 줄어들지만 [  ] 수는 변하지 않는다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "반",
+          "alt_answers": [
+            "절반"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "염색체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 2분열에서는 세포당 DNA양은 반으로 줄어들지만 염색체 수는 변하지 않는다."
+    },
+    {
+      "pid": "04-173-Q1",
+      "sid": "04-173",
+      "page": 31,
+      "tier": 1,
+      "question": "감수 2분열 [  ]에는 핵막이 사라지고 양극에서 뻗어 나온 방추사가 염색체의 [  ]에 붙는다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "전기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "동원체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 2분열 전기에는 핵막이 사라지고 양극에서 뻗어 나온 방추사가 염색체의 동원체에 붙는다."
+    },
+    {
+      "pid": "04-175-Q1",
+      "sid": "04-175",
+      "page": 31,
+      "tier": 1,
+      "question": "감수 2분열 [  ]에는 염색분체가 분리되어 방추사에 의해 각각 세포의 [  ]으로 이동한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "후기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "양극",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 2분열 후기에는 염색분체가 분리되어 방추사에 의해 각각 세포의 양극으로 이동한다."
+    },
+    {
+      "pid": "04-176-Q1",
+      "sid": "04-176",
+      "page": 31,
+      "tier": 1,
+      "question": "감수 2분열 [  ]에는 방추사는 사라지고 염색체가 풀어진다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "말기",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 2분열 말기에는 방추사는 사라지고 염색체가 풀어진다."
+    },
+    {
+      "pid": "04-177-Q1",
+      "sid": "04-177",
+      "page": 31,
+      "tier": 1,
+      "question": "감수 2분열 말기에는 [  ]이 다시 나타나고 [  ]이 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "핵막",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "세포질분열",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 2분열 말기에는 핵막이 다시 나타나고 세포질분열이 일어난다."
+    },
+    {
+      "pid": "04-178-Q1",
+      "sid": "04-178",
+      "page": 31,
+      "tier": 1,
+      "question": "감수 2분열의 세포질분열이 완료되면 [  ]개의 홑배수체(n) 딸세포가 형성된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "4",
+          "alt_answers": [
+            "네"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 2분열의 세포질분열이 완료되면 4개의 홑배수체(n) 딸세포가 형성된다."
+    },
+    {
+      "pid": "04-179-Q1",
+      "sid": "04-179",
+      "page": 31,
+      "tier": 2,
+      "question": "[  ]은 대부분 [  ]에 의해 발생한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "염색체수이상",
+          "alt_answers": [
+            "염색체 수 이상"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "염색체비분리현상",
+          "alt_answers": [
+            "염색체 비분리 현상",
+            "염색체 비분리"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "염색체수이상은 대부분 염색체비분리현상에 의해 발생한다."
+    },
+    {
+      "pid": "04-180-Q1",
+      "sid": "04-180",
+      "page": 31,
+      "tier": 2,
+      "question": "[  ]은 감수분열 과정에서 상동염색체나 염색분체가 제대로 분리되지 않아 염색체 수가 정상보다 많거나 적은 [  ]가 형성되는 현상이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "염색체비분리현상",
+          "alt_answers": [
+            "염색체 비분리 현상",
+            "염색체 비분리"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "생식세포",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "염색체비분리현상은 감수분열 과정에서 상동염색체나 염색분체가 제대로 분리되지 않아 염색체 수가 정상보다 많거나 적은 생식세포가 형성되는 현상이다."
+    },
+    {
+      "pid": "04-181-Q1",
+      "sid": "04-181",
+      "page": 31,
+      "tier": 2,
+      "question": "염색체 수가 비정상인 생식세포가 수정되면 자손에게서 [  ]이 나타날 수 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "염색체수이상",
+          "alt_answers": [
+            "염색체 수 이상"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "염색체 수가 비정상인 생식세포가 수정되면 자손에게서 염색체수이상이 나타날 수 있다."
+    },
+    {
+      "pid": "04-182-Q1",
+      "sid": "04-182",
+      "page": 31,
+      "tier": 2,
+      "question": "감수분열 과정에서 염색체의 정확한 [  ]는 매우 중요하다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "분리",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열 과정에서 염색체의 정확한 분리는 매우 중요하다."
+    },
+    {
+      "pid": "04-183-Q1",
+      "sid": "04-183",
+      "page": 31,
+      "tier": 2,
+      "question": "감수 1분열에서 염색체비분리가 일어나면 [  ] 생식세포와 [  ] 생식세포가 형성될 수 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "n+1",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "n-1",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "감수 1분열에서 염색체비분리가 일어나면 n+1 생식세포와 n-1 생식세포가 형성될 수 있다."
+    },
+    {
+      "pid": "04-184-Q1",
+      "sid": "04-184",
+      "page": 31,
+      "tier": 2,
+      "question": "감수 2분열에서 [  ]가 일어나면 n, n-1, n+1 생식세포가 형성될 수 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "염색분체비분리",
+          "alt_answers": [
+            "염색분체 비분리"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 2분열에서 염색분체비분리가 일어나면 n, n-1, n+1 생식세포가 형성될 수 있다."
+    },
+    {
+      "pid": "04-185-Q1",
+      "sid": "04-185",
+      "page": 31,
+      "tier": 3,
+      "question": "염색체비분리현상 그림에는 [  ]와 [  ]가 표시되어 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "상동염색체",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "염색분체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "염색체비분리현상 그림에는 상동염색체와 염색분체가 표시되어 있다."
+    },
+    {
+      "pid": "04-186-Q1",
+      "sid": "04-186",
+      "page": 31,
+      "tier": 2,
+      "question": "감수 2분열 전기 II에는 [  ]과 인이 사라지고 방추사가 형성되어 염색체의 [  ]에 결합한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "핵막",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "동원체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 2분열 전기 II에는 핵막과 인이 사라지고 방추사가 형성되어 염색체의 동원체에 결합한다."
+    },
+    {
+      "pid": "04-188-Q1",
+      "sid": "04-188",
+      "page": 31,
+      "tier": 2,
+      "question": "감수 2분열 후기 II에는 [  ]가 분리되어 세포의 [  ]으로 이동한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "염색분체",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "양극",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 2분열 후기 II에는 염색분체가 분리되어 세포의 양극으로 이동한다."
+    },
+    {
+      "pid": "04-189-Q1",
+      "sid": "04-189",
+      "page": 31,
+      "tier": 2,
+      "question": "감수 2분열 말기 II에는 [  ]이 형성되고 염색체가 풀어진다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "핵막",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 2분열 말기 II에는 핵막이 형성되고 염색체가 풀어진다."
+    },
+    {
+      "pid": "04-190-Q1",
+      "sid": "04-190",
+      "page": 31,
+      "tier": 2,
+      "question": "감수 2분열 말기 II에는 세포질분열이 일어나 [  ]개의 딸세포(n)가 만들어진다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "4",
+          "alt_answers": [
+            "네"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 2분열 말기 II에는 세포질분열이 일어나 4개의 딸세포(n)가 만들어진다."
+    },
+    {
+      "pid": "04-191-Q1",
+      "sid": "04-191",
+      "page": 32,
+      "tier": 1,
+      "question": "체세포분열은 간기의 [  ]에 DNA가 복제된 뒤 [  ]회의 핵분열이 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "S기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "1",
+          "alt_answers": [
+            "한"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "체세포분열은 간기의 S기에 DNA가 복제된 뒤 1회의 핵분열이 일어난다."
+    },
+    {
+      "pid": "04-192-Q1",
+      "sid": "04-192",
+      "page": 32,
+      "tier": 1,
+      "question": "체세포분열은 분열기 [  ]에 [  ]가 분리된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "후기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "염색분체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "체세포분열은 분열기 후기에 염색분체가 분리된다."
+    },
+    {
+      "pid": "04-193-Q1",
+      "sid": "04-193",
+      "page": 32,
+      "tier": 1,
+      "question": "체세포분열 결과 염색체 수와 핵 1개당 DNA양이 모세포와 [  ]한 [  ]개의 딸세포가 형성된다(2n -> 2n).",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "동일",
+          "alt_answers": [
+            "같"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "2",
+          "alt_answers": [
+            "두"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "체세포분열 결과 염색체 수와 핵 1개당 DNA양이 모세포와 동일한 2개의 딸세포가 형성된다(2n -> 2n)."
+    },
+    {
+      "pid": "04-194-Q1",
+      "sid": "04-194",
+      "page": 32,
+      "tier": 2,
+      "question": "체세포분열은 [  ]할 때나 조직을 [  ]할 때 활발하게 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "성장",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "재생",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "체세포분열은 성장할 때나 조직을 재생할 때 활발하게 일어난다."
+    },
+    {
+      "pid": "04-195-Q1",
+      "sid": "04-195",
+      "page": 32,
+      "tier": 1,
+      "question": "감수분열은 간기의 [  ]에 DNA가 복제된 뒤 [  ]회의 핵분열이 연속적으로 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "S기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "2",
+          "alt_answers": [
+            "두"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열은 간기의 S기에 DNA가 복제된 뒤 2회의 핵분열이 연속적으로 일어난다."
+    },
+    {
+      "pid": "04-196-Q1",
+      "sid": "04-196",
+      "page": 32,
+      "tier": 1,
+      "question": "감수분열은 감수 [  ]분열 후기에 [  ]가 분리된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "1",
+          "alt_answers": [
+            "일"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "상동염색체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열은 감수 1분열 후기에 상동염색체가 분리된다."
+    },
+    {
+      "pid": "04-197-Q1",
+      "sid": "04-197",
+      "page": 32,
+      "tier": 1,
+      "question": "감수분열은 감수 [  ]분열 후기에 [  ]가 분리된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "2",
+          "alt_answers": [
+            "이"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "염색분체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열은 감수 2분열 후기에 염색분체가 분리된다."
+    },
+    {
+      "pid": "04-198-Q1",
+      "sid": "04-198",
+      "page": 32,
+      "tier": 1,
+      "question": "감수분열 결과 염색체 수와 핵 1개당 DNA양이 모세포의 [  ]인 [  ]개의 딸세포가 형성된다(2n -> n).",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "절반",
+          "alt_answers": [
+            "반"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "4",
+          "alt_answers": [
+            "네"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열 결과 염색체 수와 핵 1개당 DNA양이 모세포의 절반인 4개의 딸세포가 형성된다(2n -> n)."
+    },
+    {
+      "pid": "04-199-Q1",
+      "sid": "04-199",
+      "page": 32,
+      "tier": 1,
+      "question": "감수분열은 [  ], [  ]와 같은 생식기관에서 생식세포를 만들 때 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "정소",
+          "alt_answers": [
+            "고환"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "난소",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "감수분열은 정소, 난소와 같은 생식기관에서 생식세포를 만들 때 일어난다."
+    },
+    {
+      "pid": "04-200-Q1",
+      "sid": "04-200",
+      "page": 32,
+      "tier": 3,
+      "question": "감수분열은 [  ]에서 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "생식기관",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열은 생식기관에서 일어난다."
+    },
+    {
+      "pid": "04-201-Q1",
+      "sid": "04-201",
+      "page": 32,
+      "tier": 3,
+      "question": "동물의 생식기관은 [  ]와/과 [  ]이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "정소",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "난소",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "동물의 생식기관은 정소와 난소이다."
+    },
+    {
+      "pid": "04-202-Q1",
+      "sid": "04-202",
+      "page": 32,
+      "tier": 3,
+      "question": "식물의 생식기관은 [  ]와/과 [  ]이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "꽃밥",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "밑씨",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "식물의 생식기관은 꽃밥과 밑씨이다."
+    },
+    {
+      "pid": "04-203-Q1",
+      "sid": "04-203",
+      "page": 32,
+      "tier": 3,
+      "question": "꽃이 피지 않는 식물의 [  ]에서 [  ]이/가 형성될 때에도 감수분열이 일어난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "포자낭",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "포자",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "꽃이 피지 않는 식물의 포자낭에서 포자가 형성될 때에도 감수분열이 일어난다."
+    },
+    {
+      "pid": "04-204-Q1",
+      "sid": "04-204",
+      "page": 32,
+      "tier": 2,
+      "question": "체세포분열과 감수분열 비교 그림의 모세포는 DNA 복제 전 [  ] 상태이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "2n=4",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "체세포분열과 감수분열 비교 그림의 모세포는 DNA 복제 전 2n=4 상태이다."
+    },
+    {
+      "pid": "04-205-Q1",
+      "sid": "04-205",
+      "page": 32,
+      "tier": 2,
+      "question": "체세포분열에서는 DNA 복제 뒤 [  ]이/가 분리되어 2n=4인 딸세포 [  ]개가 형성된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "염색분체",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "2",
+          "alt_answers": [
+            "두",
+            "둘"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "체세포분열에서는 DNA 복제 뒤 염색분체가 분리되어 2n=4인 딸세포 2개가 형성된다."
+    },
+    {
+      "pid": "04-206-Q1",
+      "sid": "04-206",
+      "page": 32,
+      "tier": 2,
+      "question": "감수분열에서는 DNA 복제 뒤 [  ]이/가 형성된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "2가 염색체",
+          "alt_answers": [
+            "2가염색체",
+            "이가 염색체"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열에서는 DNA 복제 뒤 2가 염색체가 형성된다."
+    },
+    {
+      "pid": "04-207-Q1",
+      "sid": "04-207",
+      "page": 32,
+      "tier": 2,
+      "question": "감수분열에서는 [  ]에서 [  ]이/가 분리된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "감수 1분열",
+          "alt_answers": [
+            "감수 제1분열"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "상동염색체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열에서는 감수 1분열에서 상동염색체가 분리된다."
+    },
+    {
+      "pid": "04-208-Q1",
+      "sid": "04-208",
+      "page": 32,
+      "tier": 2,
+      "question": "감수분열에서는 [  ]에서 [  ]이/가 분리된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "감수 2분열",
+          "alt_answers": [
+            "감수 제2분열"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "염색분체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열에서는 감수 2분열에서 염색분체가 분리된다."
+    },
+    {
+      "pid": "04-209-Q1",
+      "sid": "04-209",
+      "page": 32,
+      "tier": 2,
+      "question": "감수분열 결과 [  ]인 딸세포 [  ]개가 형성된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "n=2",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "4",
+          "alt_answers": [
+            "네",
+            "넷"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열 결과 n=2인 딸세포 4개가 형성된다."
+    },
+    {
+      "pid": "04-210-Q1",
+      "sid": "04-210",
+      "page": 32,
+      "tier": 2,
+      "question": "체세포분열 과정에서 핵 1개당 DNA 상대량은 G1기에 [  ], G2기와 전기ㆍ중기ㆍ후기ㆍ말기에 [  ]로 나타난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "1",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "2",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "체세포분열 과정에서 핵 1개당 DNA 상대량은 G1기에 1, S기에 증가, G2기와 전기ㆍ중기ㆍ후기ㆍ말기에 2, 분열기 이후 1로 나타난다."
+    },
+    {
+      "pid": "04-211-Q1",
+      "sid": "04-211",
+      "page": 32,
+      "tier": 2,
+      "question": "감수분열 과정에서 핵 1개당 DNA 상대량은 감수 2분열 전기ㆍ중기ㆍ후기ㆍ말기에 [  ], 감수분열 이후 [  ]로 나타난다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "1",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "0.5",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열 과정에서 핵 1개당 DNA 상대량은 G1기에 1, S기에 증가, G2기와 감수 1분열 전기ㆍ중기ㆍ후기ㆍ말기에 2, 감수 2분열 전기ㆍ중기ㆍ후기ㆍ말기에 1, 감수분열 이후 0.5로 나타난다."
+    },
+    {
+      "pid": "04-212-Q1",
+      "sid": "04-212",
+      "page": 32,
+      "tier": 3,
+      "question": "DNA양은 [  ]의 수로 계산한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "염색분체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "DNA양은 염색분체의 수로 계산한다."
+    },
+    {
+      "pid": "04-213-Q1",
+      "sid": "04-213",
+      "page": 32,
+      "tier": 3,
+      "question": "DNA양은 흔히 [  ] 1개당 [  ](으)로 나타낸다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "핵",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "상대량",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "DNA양은 흔히 핵 1개당 상대량으로 나타낸다."
+    },
+    {
+      "pid": "04-215-Q1",
+      "sid": "04-215",
+      "page": 33,
+      "tier": 1,
+      "question": "[  ]을/를 통해 염색체 수가 모세포의 [  ]인 생식세포가 형성된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "감수분열",
+          "alt_answers": [
+            "생식세포분열"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "절반",
+          "alt_answers": [
+            "반"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열을 통해 염색체 수가 모세포의 절반인 생식세포가 형성된다."
+    },
+    {
+      "pid": "04-216-Q1",
+      "sid": "04-216",
+      "page": 33,
+      "tier": 1,
+      "question": "암수 생식세포가 결합하여 만들어진 [  ]은/는 염색체 수와 DNA양이 부모의 [  ]와/과 동일하다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "수정란",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "체세포",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "암수 생식세포가 결합하여 만들어진 수정란은 염색체 수와 DNA양이 부모의 체세포와 동일하다."
+    },
+    {
+      "pid": "04-217-Q1",
+      "sid": "04-217",
+      "page": 33,
+      "tier": 1,
+      "question": "유성생식을 하는 생물은 [  ]의 형성과 [  ](으)로 생명의 연속성을 유지한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "생식세포",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "수정",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "유성생식을 하는 생물은 생식세포의 형성과 수정으로 생명의 연속성을 유지한다."
+    },
+    {
+      "pid": "04-218-Q1",
+      "sid": "04-218",
+      "page": 33,
+      "tier": 1,
+      "question": "[  ]은/는 감수 1분열 중기가 되면 세포 중앙에 [  ](으)로 배열한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "2가 염색체",
+          "alt_answers": [
+            "2가염색체",
+            "이가 염색체"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "무작위",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "2가 염색체는 감수 1분열 중기가 되면 세포 중앙에 무작위로 배열한다."
+    },
+    {
+      "pid": "04-219-Q1",
+      "sid": "04-219",
+      "page": 33,
+      "tier": 1,
+      "question": "2가 염색체는 [  ]에 다른 상동염색체 쌍과 [  ](으)로 분리된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "감수 1분열 후기",
+          "alt_answers": [
+            "감수 제1분열 후기"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "독립적",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "2가 염색체는 감수 1분열 후기에 다른 상동염색체 쌍과 독립적으로 분리된다."
+    },
+    {
+      "pid": "04-220-Q1",
+      "sid": "04-220",
+      "page": 33,
+      "tier": 1,
+      "question": "2가 염색체의 [  ]에 따라 각 생식세포에 서로 다른 조합의 [  ]이/가 전달된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "배열",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "염색체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "2가 염색체의 배열에 따라 각 생식세포에 서로 다른 조합의 염색체가 전달된다."
+    },
+    {
+      "pid": "04-221-Q1",
+      "sid": "04-221",
+      "page": 33,
+      "tier": 1,
+      "question": "하나의 [  ](으)로부터 다양한 염색체 조합을 가진 [  ]이/가 형성된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "모세포",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "생식세포",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "하나의 모세포로부터 다양한 염색체 조합을 가진 생식세포가 형성된다."
+    },
+    {
+      "pid": "04-222-Q1",
+      "sid": "04-222",
+      "page": 33,
+      "tier": 1,
+      "question": "감수분열로 만들어진 암수 생식세포가 [  ](으)로 수정하므로 자손의 [  ]은/는 매우 다양해진다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "무작위",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "유전자 구성",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열로 만들어진 암수 생식세포가 무작위로 수정하므로 자손의 유전자 구성은 매우 다양해진다."
+    },
+    {
+      "pid": "04-223-Q1",
+      "sid": "04-223",
+      "page": 33,
+      "tier": 1,
+      "question": "유성생식을 하는 생물은 [  ]와/과 [  ]을/를 거쳐 유전적 다양성을 얻는다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "감수분열",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "수정",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "유성생식을 하는 생물은 감수분열과 수정을 거쳐 유전적 다양성을 얻는다."
+    },
+    {
+      "pid": "04-224-Q1",
+      "sid": "04-224",
+      "page": 33,
+      "tier": 3,
+      "question": "상동염색체의 [  ]와/과 [  ]은/는 감수분열에서 유전적 다양성을 증가시키는 요인이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "무작위 배열",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "독립적 분리",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "상동염색체의 무작위 배열과 독립적 분리는 감수분열에서 유전적 다양성을 증가시키는 요인이다."
+    },
+    {
+      "pid": "04-225-Q1",
+      "sid": "04-225",
+      "page": 33,
+      "tier": 3,
+      "question": "[  ]은/는 유전적 다양성을 증가시키는 요인이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "무작위 수정",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "무작위 수정은 유전적 다양성을 증가시키는 요인이다."
+    },
+    {
+      "pid": "04-226-Q1",
+      "sid": "04-226",
+      "page": 33,
+      "tier": 3,
+      "question": "[  ]와/과 염색체의 [  ]도 유전적 다양성을 증가시키는 요인으로 작용한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "돌연변이",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "교차",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "돌연변이와 염색체의 교차도 유전적 다양성을 증가시키는 요인으로 작용한다."
+    },
+    {
+      "pid": "04-227-Q1",
+      "sid": "04-227",
+      "page": 33,
+      "tier": 3,
+      "question": "자손에게 나타나는 [  ]은/는 매우 다양하다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "염색체 조합",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "자손에게 나타나는 염색체 조합은 매우 다양하다."
+    },
+    {
+      "pid": "04-228-Q1",
+      "sid": "04-228",
+      "page": 33,
+      "tier": 2,
+      "question": "부(2n)와 모(2n)는 각각 [  ](으)로 [  ](n)와 난자(n)를 형성한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "감수분열",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "정자",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "부(2n)와 모(2n)는 각각 감수분열로 정자(n)와 난자(n)를 형성한다."
+    },
+    {
+      "pid": "04-229-Q1",
+      "sid": "04-229",
+      "page": 33,
+      "tier": 2,
+      "question": "정자(n)와 난자(n)는 [  ]되어 자손([  ])을/를 형성한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "수정",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "2n",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "정자(n)와 난자(n)는 수정되어 자손(2n)을 형성한다."
+    },
+    {
+      "pid": "04-230-Q1",
+      "sid": "04-230",
+      "page": 33,
+      "tier": 2,
+      "question": "그림의 자손(2n)은 다양한 [  ]을/를 가질 수 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "염색체 조합",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "그림의 자손(2n)은 다양한 염색체 조합을 가질 수 있다."
+    },
+    {
+      "pid": "04-231-Q1",
+      "sid": "04-231",
+      "page": 33,
+      "tier": 2,
+      "question": "감수분열과 유전적 다양성 분석에서 경우 1은 유전자형 [  ]와/과 [  ]인 두 종류의 생식세포를 생성한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "AB",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "ab",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "감수분열과 유전적 다양성 분석에서 경우 1은 유전자형 AB와 ab인 두 종류의 생식세포를 생성한다."
+    },
+    {
+      "pid": "04-232-Q1",
+      "sid": "04-232",
+      "page": 33,
+      "tier": 2,
+      "question": "감수분열과 유전적 다양성 분석에서 경우 2는 유전자형 [  ]와/과 [  ]인 두 종류의 생식세포를 생성한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "Ab",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "aB",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "감수분열과 유전적 다양성 분석에서 경우 2는 유전자형 Ab와 aB인 두 종류의 생식세포를 생성한다."
+    },
+    {
+      "pid": "04-233-Q1",
+      "sid": "04-233",
+      "page": 33,
+      "tier": 2,
+      "question": "생식기관 내에는 유전자형이 [  ]인 모세포가 여러 개 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "AaBb",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "생식기관 내에는 유전자형이 AaBb인 모세포가 여러 개 있다."
+    },
+    {
+      "pid": "04-234-Q1",
+      "sid": "04-234",
+      "page": 33,
+      "tier": 2,
+      "question": "각각의 모세포에서 [  ] 쌍이 [  ](으)로 배열한다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "상동염색체",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "무작위적",
+          "alt_answers": [
+            "무작위"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "각각의 모세포에서 상동염색체 쌍이 무작위적으로 배열한다."
+    },
+    {
+      "pid": "04-235-Q1",
+      "sid": "04-235",
+      "page": 33,
+      "tier": 2,
+      "question": "감수분열이 완료되면 생식기관 내에는 유전자형이 [  ], [  ], [  ], [  ]인 생식세포가 모두 발견될 수 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "AB",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "Ab",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 3,
+          "primary_answer": "aB",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 4,
+          "primary_answer": "ab",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "감수분열이 완료되면 생식기관 내에는 유전자형이 AB, Ab, aB, ab인 생식세포가 모두 발견될 수 있다."
+    },
+    {
+      "pid": "04-236-Q1",
+      "sid": "04-236",
+      "page": 33,
+      "tier": 2,
+      "question": "감수분열과 유전적 다양성 그림에서 경우 1의 감수 1분열 중기에는 [  ]와/과 [  ]이/가 같은 쪽에 배열되고 a와 b가 같은 쪽에 배열된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "A",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "B",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "감수분열과 유전적 다양성 그림에서 경우 1의 감수 1분열 중기에는 A와 B가 같은 쪽에 배열되고 a와 b가 같은 쪽에 배열된다."
+    },
+    {
+      "pid": "04-237-Q1",
+      "sid": "04-237",
+      "page": 33,
+      "tier": 2,
+      "question": "감수분열과 유전적 다양성 그림에서 경우 1의 조합 1은 유전자형 [  ]이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "AB",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열과 유전적 다양성 그림에서 경우 1의 조합 1은 유전자형 AB이다."
+    },
+    {
+      "pid": "04-238-Q1",
+      "sid": "04-238",
+      "page": 33,
+      "tier": 2,
+      "question": "감수분열과 유전적 다양성 그림에서 경우 1의 조합 2는 유전자형 [  ]이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "ab",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열과 유전적 다양성 그림에서 경우 1의 조합 2는 유전자형 ab이다."
+    },
+    {
+      "pid": "04-239-Q1",
+      "sid": "04-239",
+      "page": 33,
+      "tier": 2,
+      "question": "감수분열과 유전적 다양성 그림에서 경우 2의 감수 1분열 중기에는 [  ]와/과 [  ]이/가 같은 쪽에 배열되고 a와 B가 같은 쪽에 배열된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "A",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "b",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "감수분열과 유전적 다양성 그림에서 경우 2의 감수 1분열 중기에는 A와 b가 같은 쪽에 배열되고 a와 B가 같은 쪽에 배열된다."
+    },
+    {
+      "pid": "04-240-Q1",
+      "sid": "04-240",
+      "page": 33,
+      "tier": 2,
+      "question": "감수분열과 유전적 다양성 그림에서 경우 2의 조합 3은 유전자형 [  ]이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "Ab",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열과 유전적 다양성 그림에서 경우 2의 조합 3은 유전자형 Ab이다."
+    },
+    {
+      "pid": "04-241-Q1",
+      "sid": "04-241",
+      "page": 33,
+      "tier": 2,
+      "question": "감수분열과 유전적 다양성 그림에서 경우 2의 조합 4는 유전자형 [  ]이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "aB",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수분열과 유전적 다양성 그림에서 경우 2의 조합 4는 유전자형 aB이다."
+    },
+    {
+      "pid": "04-242-Q1",
+      "sid": "04-242",
+      "page": 33,
+      "tier": 3,
+      "question": "n쌍의 상동염색체가 있는 모세포로부터 만들어질 수 있는 생식세포의 염색체 조합은 [  ]가지이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "2^n",
+          "alt_answers": [
+            "2의 n제곱"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "n쌍의 상동염색체가 있는 모세포로부터 만들어질 수 있는 생식세포의 염색체 조합은 2^n가지이다."
+    },
+    {
+      "pid": "04-243-Q1",
+      "sid": "04-243",
+      "page": 33,
+      "tier": 3,
+      "question": "사람의 체세포에는 [  ]쌍의 염색체가 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "23",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "사람의 체세포에는 23쌍의 염색체가 있다."
+    },
+    {
+      "pid": "04-244-Q1",
+      "sid": "04-244",
+      "page": 33,
+      "tier": 3,
+      "question": "한 사람에게서 형성될 수 있는 생식세포의 조합 수는 [  ], 약 [  ]가지이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "2^23",
+          "alt_answers": [
+            "2의 23제곱"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "840만",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "한 사람에게서 형성될 수 있는 생식세포의 조합 수는 2^23, 약 840만 가지이다."
+    },
+    {
+      "pid": "04-245-Q1",
+      "sid": "04-245",
+      "page": 33,
+      "tier": 3,
+      "question": "부모에게서 태어날 수 있는 자손의 염색체 조합은 [  ], 약 [  ]가지이다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "2^23 x 2^23",
+          "alt_answers": [
+            "2^23×2^23"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "70조",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "부모에게서 태어날 수 있는 자손의 염색체 조합은 2^23 x 2^23, 약 70조 가지이다."
+    },
+    {
+      "pid": "04-247-Q1",
+      "sid": "04-247",
+      "page": 33,
+      "tier": 1,
+      "question": "[  ] 후기에는 [  ]이/가 분리된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "감수 2분열",
+          "alt_answers": [
+            "감수 제2분열"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "염색분체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 2분열 후기에는 염색분체가 분리된다."
+    },
+    {
+      "pid": "04-248-Q1",
+      "sid": "04-248",
+      "page": 33,
+      "tier": 1,
+      "question": "[  ] 결과 염색체 수와 DNA양이 모세포와 [  ]한 딸세포가 형성된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "체세포분열",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "동일",
+          "alt_answers": [
+            "같"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "체세포분열 결과 염색체 수와 DNA양이 모세포와 동일한 딸세포가 형성된다."
+    },
+    {
+      "pid": "04-250-Q1",
+      "sid": "04-250",
+      "page": 33,
+      "tier": 1,
+      "question": "유성생식을 하는 생물은 감수분열로 생식세포를 형성하여 [  ]와/과 [  ]을/를 얻는다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "생명의 연속성",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "유전적 다양성",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": true,
+      "source_sentence": "유성생식을 하는 생물은 감수분열로 생식세포를 형성하여 생명의 연속성과 유전적 다양성을 얻는다."
+    }
+  ]
+}

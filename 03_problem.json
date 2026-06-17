@@ -117,15 +117,10 @@
       "sid": "03-006",
       "page": 10,
       "tier": 2,
-      "question": "[  ]은/는 염색체를 통해 [  ]을/를 자손에게 전달한다.",
+      "question": "진핵생물은 염색체를 통해 [  ]을/를 자손에게 전달한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "진핵생물",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "유전정보",
           "alt_answers": []
         }
@@ -175,17 +170,10 @@
       "sid": "03-009",
       "page": 10,
       "tier": 1,
-      "question": "[  ]은/는 진핵세포에서 DNA가 [  ]을/를 휘감아 형성되는 구조이다.",
+      "question": "뉴클레오솜은 진핵세포에서 DNA가 [  ]을/를 휘감아 형성되는 구조이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "뉴클레오솜",
-          "alt_answers": [
-            "뉴클레오좀"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "히스톤",
           "alt_answers": []
         }
@@ -198,15 +186,10 @@
       "sid": "03-010",
       "page": 10,
       "tier": 2,
-      "question": "[  ]은/는 DNA의 구조를 안정화하고 염색체의 [  ]과/와 유전자발현 조절에 관여한다.",
+      "question": "히스톤은 DNA의 구조를 안정화하고 염색체의 [  ]과/와 유전자발현 조절에 관여한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "히스톤",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "응축",
           "alt_answers": []
         }
@@ -370,15 +353,10 @@
       "sid": "03-018",
       "page": 10,
       "tier": 2,
-      "question": "[  ]은/는 [  ]이/가 연결되는 부위이다.",
+      "question": "동원체는 [  ]이/가 연결되는 부위이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "동원체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "염색분체",
           "alt_answers": []
         }
@@ -412,15 +390,10 @@
       "sid": "03-020",
       "page": 10,
       "tier": 2,
-      "question": "[  ]에는 [  ]이/가 표시되어 있다.",
+      "question": "DNA 이중나선에는 [  ]이/가 표시되어 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "DNA 이중나선",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "유전자",
           "alt_answers": []
         }
@@ -433,15 +406,10 @@
       "sid": "03-021",
       "page": 10,
       "tier": 2,
-      "question": "[  ]은/는 [  ]의 특정 부위이다.",
+      "question": "유전자는 [  ]의 특정 부위이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "유전자",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "DNA",
           "alt_answers": []
         }
@@ -454,15 +422,10 @@
       "sid": "03-022",
       "page": 10,
       "tier": 2,
-      "question": "[  ]은/는 뉴클레오솜을 이루는 [  ]이다.",
+      "question": "히스톤은 뉴클레오솜을 이루는 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "히스톤",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "단백질",
           "alt_answers": []
         }
@@ -517,15 +480,10 @@
       "sid": "03-025",
       "page": 10,
       "tier": 2,
-      "question": "[  ]하지 않을 때 세포의 핵에는 염색체가 [  ] 상태로 나타난다.",
+      "question": "분열하지 않을 때 세포의 핵에는 염색체가 [  ] 상태로 나타난다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "분열",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "풀어진",
           "alt_answers": []
         }
@@ -559,15 +517,10 @@
       "sid": "03-027",
       "page": 11,
       "tier": 1,
-      "question": "[  ]은/는 생물의 유전정보를 저장하고 있는 물질로, [  ]의 중합체이다.",
+      "question": "DNA는 생물의 유전정보를 저장하고 있는 물질로, [  ]의 중합체이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "DNA",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "뉴클레오타이드",
           "alt_answers": [
             "뉴클레오티드"
@@ -582,17 +535,10 @@
       "sid": "03-028",
       "page": 11,
       "tier": 1,
-      "question": "[  ]은/는 핵산의 단위체로, 인산, 당, [  ]이/가 1 : 1 : 1로 결합한 구조이다.",
+      "question": "뉴클레오타이드는 핵산의 단위체로, 인산, 당, [  ]이/가 1 : 1 : 1로 결합한 구조이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "뉴클레오타이드",
-          "alt_answers": [
-            "뉴클레오티드"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "염기",
           "alt_answers": []
         }
@@ -633,15 +579,10 @@
       "sid": "03-030",
       "page": 11,
       "tier": 1,
-      "question": "[  ]은/는 폴리뉴클레오타이드 두 가닥의 염기가 [  ](으)로 결합하여 꼬여 있는 구조이다.",
+      "question": "DNA 이중나선은 폴리뉴클레오타이드 두 가닥의 염기가 [  ](으)로 결합하여 꼬여 있는 구조이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "DNA 이중나선",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "상보적",
           "alt_answers": []
         }
@@ -721,15 +662,10 @@
       "sid": "03-034",
       "page": 11,
       "tier": 3,
-      "question": "[  ]의 당은 [  ]이다.",
+      "question": "RNA의 당은 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "RNA",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "라이보스",
           "alt_answers": [
             "리보스"
@@ -866,17 +802,10 @@
       "sid": "03-040",
       "page": 11,
       "tier": 2,
-      "question": "[  ]은/는 [  ]이/가 반복적으로 연결된 구조이다.",
+      "question": "폴리뉴클레오타이드는 [  ]이/가 반복적으로 연결된 구조이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "폴리뉴클레오타이드",
-          "alt_answers": [
-            "폴리뉴클레오티드"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "뉴클레오타이드",
           "alt_answers": [
             "뉴클레오티드"
@@ -1008,15 +937,10 @@
       "sid": "03-046",
       "page": 11,
       "tier": 3,
-      "question": "[  ]은/는 생명체 안에서 주로 [  ]을/를 이룬다.",
+      "question": "DNA는 생명체 안에서 주로 [  ]을/를 이룬다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "DNA",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "이중나선구조",
           "alt_answers": [
             "이중 나선 구조",
@@ -1207,15 +1131,10 @@
       "sid": "03-055",
       "page": 11,
       "tier": 2,
-      "question": "[  ]은/는 [  ]에 필요한 정보 등을 담고 있다.",
+      "question": "유전자는 [  ]에 필요한 정보 등을 담고 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "유전자",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "단백질합성",
           "alt_answers": [
             "단백질 합성"
@@ -1251,15 +1170,10 @@
       "sid": "03-057",
       "page": 11,
       "tier": 2,
-      "question": "[  ]을/를 이루는 [  ]에는 여러 유전자가 위치한다.",
+      "question": "염색체를 이루는 [  ]에는 여러 유전자가 위치한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "염색체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "DNA",
           "alt_answers": []
         }
@@ -1422,17 +1336,10 @@
       "sid": "03-067",
       "page": 11,
       "tier": 3,
-      "question": "[  ]은/는 크고 복잡한 물질을 만들 때 [  ](으)로 반복되어 사용되는 물질이다.",
+      "question": "단위체는 크고 복잡한 물질을 만들 때 [  ](으)로 반복되어 사용되는 물질이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "단위체",
-          "alt_answers": [
-            "단량체"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "기본 단위",
           "alt_answers": [
             "기본단위"
@@ -1516,15 +1423,10 @@
       "sid": "03-072",
       "page": 12,
       "tier": 1,
-      "question": "[  ]은/는 생물의 한 세포에 들어 있는 염색체의 수, 크기, 모양 등의 [  ]인 특징이다.",
+      "question": "핵형은 생물의 한 세포에 들어 있는 염색체의 수, 크기, 모양 등의 [  ]인 특징이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "핵형",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "외형적",
           "alt_answers": []
         }
@@ -1621,15 +1523,10 @@
       "sid": "03-077",
       "page": 12,
       "tier": 2,
-      "question": "[  ]을/를 분석하면 [  ]을/를 판별할 수 있다.",
+      "question": "핵형을 분석하면 [  ]을/를 판별할 수 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "핵형",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "성별",
           "alt_answers": []
         }
@@ -1684,15 +1581,10 @@
       "sid": "03-080",
       "page": 12,
       "tier": 3,
-      "question": "[  ] 수가 같다고 해서 반드시 같은 [  ]의 생물은 아니다.",
+      "question": "염색체 수가 같다고 해서 반드시 같은 [  ]의 생물은 아니다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "염색체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "종",
           "alt_answers": []
         }
@@ -1726,15 +1618,10 @@
       "sid": "03-082",
       "page": 12,
       "tier": 3,
-      "question": "[  ] 수는 생물의 몸집이나 복잡한 기관의 발달 정도와는 [  ]이/가 없다.",
+      "question": "염색체 수는 생물의 몸집이나 복잡한 기관의 발달 정도와는 [  ]이/가 없다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "염색체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "관련",
           "alt_answers": []
         }
@@ -1747,15 +1634,10 @@
       "sid": "03-083",
       "page": 12,
       "tier": 2,
-      "question": "[  ]의 체세포 1개당 염색체 수는 [  ]개이다.",
+      "question": "초파리의 체세포 1개당 염색체 수는 [  ]개이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "초파리",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "8",
           "alt_answers": [
             "여덟"
@@ -1770,15 +1652,10 @@
       "sid": "03-084",
       "page": 12,
       "tier": 2,
-      "question": "[  ]의 체세포 1개당 염색체 수는 [  ]개이다.",
+      "question": "완두의 체세포 1개당 염색체 수는 [  ]개이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "완두",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "14",
           "alt_answers": [
             "열넷"
@@ -1793,15 +1670,10 @@
       "sid": "03-085",
       "page": 12,
       "tier": 2,
-      "question": "[  ]의 체세포 1개당 염색체 수는 [  ]개이다.",
+      "question": "옥수수의 체세포 1개당 염색체 수는 [  ]개이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "옥수수",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "20",
           "alt_answers": [
             "스물"
@@ -1816,15 +1688,10 @@
       "sid": "03-086",
       "page": 12,
       "tier": 2,
-      "question": "[  ]의 체세포 1개당 염색체 수는 [  ]개이다.",
+      "question": "사람의 체세포 1개당 염색체 수는 [  ]개이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "사람",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "46",
           "alt_answers": [
             "마흔여섯"
@@ -1839,15 +1706,10 @@
       "sid": "03-087",
       "page": 12,
       "tier": 2,
-      "question": "[  ]의 체세포 1개당 염색체 수는 [  ]개이다.",
+      "question": "감자의 체세포 1개당 염색체 수는 [  ]개이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "감자",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "48",
           "alt_answers": [
             "마흔여덟"
@@ -1862,15 +1724,10 @@
       "sid": "03-088",
       "page": 12,
       "tier": 2,
-      "question": "[  ]의 체세포 1개당 염색체 수는 [  ]개이다.",
+      "question": "침팬지의 체세포 1개당 염색체 수는 [  ]개이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "침팬지",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "48",
           "alt_answers": [
             "마흔여덟"
@@ -1885,15 +1742,10 @@
       "sid": "03-089",
       "page": 12,
       "tier": 2,
-      "question": "[  ]의 체세포 1개당 염색체 수는 [  ]개이다.",
+      "question": "닭의 체세포 1개당 염색체 수는 [  ]개이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "닭",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "78",
           "alt_answers": [
             "일흔여덟"
@@ -1908,15 +1760,10 @@
       "sid": "03-090",
       "page": 12,
       "tier": 2,
-      "question": "[  ]의 체세포 1개당 염색체 수는 [  ]개이다.",
+      "question": "개의 체세포 1개당 염색체 수는 [  ]개이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "개",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "78",
           "alt_answers": [
             "일흔여덟"
@@ -1931,15 +1778,10 @@
       "sid": "03-091",
       "page": 12,
       "tier": 2,
-      "question": "[  ]의 핵형은 [  ]이다.",
+      "question": "여자의 핵형은 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "여자",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "44+XX",
           "alt_answers": [
             "44+xx"
@@ -1954,15 +1796,10 @@
       "sid": "03-092",
       "page": 12,
       "tier": 2,
-      "question": "[  ]의 핵형은 [  ]이다.",
+      "question": "남자의 핵형은 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "남자",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "44+XY",
           "alt_answers": [
             "44+xy"
@@ -2117,15 +1954,10 @@
       "sid": "03-100",
       "page": 13,
       "tier": 1,
-      "question": "[  ]은/는 암수가 공통으로 가지고 있는 염색체로, [  ]과/와 관련이 없다.",
+      "question": "상염색체는 암수가 공통으로 가지고 있는 염색체로, [  ]과/와 관련이 없다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "상염색체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "성결정",
           "alt_answers": [
             "성 결정"
@@ -2165,15 +1997,10 @@
       "sid": "03-102",
       "page": 13,
       "tier": 1,
-      "question": "[  ]은/는 [  ]에 따라 구성이 다른 염색체이다.",
+      "question": "성염색체는 [  ]에 따라 구성이 다른 염색체이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "성염색체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "성별",
           "alt_answers": []
         }
@@ -2261,15 +2088,10 @@
       "sid": "03-106",
       "page": 13,
       "tier": 1,
-      "question": "[  ]의 성염색체 구성은 [  ]이다.",
+      "question": "여자의 성염색체 구성은 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "여자",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "XX",
           "alt_answers": [
             "xx"
@@ -2284,15 +2106,10 @@
       "sid": "03-107",
       "page": 13,
       "tier": 1,
-      "question": "[  ]의 성염색체 구성은 [  ]이다.",
+      "question": "남자의 성염색체 구성은 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "남자",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "XY",
           "alt_answers": [
             "xy"
@@ -2349,15 +2166,10 @@
       "sid": "03-112",
       "page": 13,
       "tier": 2,
-      "question": "[  ]은/는 세포분열 과정에서 [  ]된다.",
+      "question": "상동염색체는 세포분열 과정에서 [  ]된다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "상동염색체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "분리",
           "alt_answers": []
         }
@@ -2628,15 +2440,10 @@
       "sid": "03-125",
       "page": 13,
       "tier": 2,
-      "question": "[  ]은/는 염색체의 [  ] 수로 나타낸다.",
+      "question": "핵상은 염색체의 [  ] 수로 나타낸다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "핵상",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "상대적인",
           "alt_answers": [
             "상대적"
@@ -2674,15 +2481,10 @@
       "sid": "03-127",
       "page": 13,
       "tier": 1,
-      "question": "[  ]와/과 같이 상동염색체 중 하나만 있으면 핵상을 [  ](으)로 표시한다.",
+      "question": "생식세포와 같이 상동염색체 중 하나만 있으면 핵상을 [  ](으)로 표시한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "생식세포",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "n",
           "alt_answers": [
             "N"
@@ -2926,15 +2728,10 @@
       "sid": "03-138",
       "page": 14,
       "tier": 1,
-      "question": "[  ]은/는 상동염색체의 같은 위치에 있으면서 하나의 [  ]을/를 결정하는 유전자이다.",
+      "question": "대립유전자는 상동염색체의 같은 위치에 있으면서 하나의 [  ]을/를 결정하는 유전자이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "대립유전자",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "형질",
           "alt_answers": []
         }
@@ -3208,15 +3005,10 @@
       "sid": "03-152",
       "page": 14,
       "tier": 2,
-      "question": "[  ]은/는 염색체를 구성하는 [  ]이다.",
+      "question": "염색분체는 염색체를 구성하는 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "염색분체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "가닥",
           "alt_answers": []
         }
@@ -3245,15 +3037,10 @@
       "sid": "03-154",
       "page": 14,
       "tier": 3,
-      "question": "[  ]은/는 염색분체를 연결하는 [  ] 부위이다.",
+      "question": "중심절은 염색분체를 연결하는 [  ] 부위이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "중심절",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "DNA",
           "alt_answers": []
         }
@@ -3266,15 +3053,10 @@
       "sid": "03-155",
       "page": 14,
       "tier": 3,
-      "question": "[  ]은/는 중심절에 부착하는 [  ] 복합체이다.",
+      "question": "동원체는 중심절에 부착하는 [  ] 복합체이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "동원체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "단백질",
           "alt_answers": []
         }
@@ -3308,15 +3090,10 @@
       "sid": "03-157",
       "page": 14,
       "tier": 3,
-      "question": "[  ]은/는 세포분열 과정에서 분리되어 서로 다른 [  ](으)로 나뉘어 들어간다.",
+      "question": "염색분체는 세포분열 과정에서 분리되어 서로 다른 [  ](으)로 나뉘어 들어간다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "염색분체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "딸세포",
           "alt_answers": []
         }

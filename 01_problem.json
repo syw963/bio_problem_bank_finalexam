@@ -102,15 +102,10 @@
       "sid": "01-006",
       "page": 90,
       "tier": 1,
-      "question": "[  ]은/는 [  ]이/가 관여하지 않으므로 타인에게 전염되지 않는다.",
+      "question": "비감염성질환은 [  ]이/가 관여하지 않으므로 타인에게 전염되지 않는다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "비감염성질환",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "병원체",
           "alt_answers": []
         }
@@ -149,15 +144,10 @@
       "sid": "01-008",
       "page": 90,
       "tier": 1,
-      "question": "[  ]은/는 [  ]에 감염되어 발생하는 질병이다.",
+      "question": "감염성질환은 [  ]에 감염되어 발생하는 질병이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "감염성질환",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "병원체",
           "alt_answers": []
         }
@@ -233,15 +223,10 @@
       "sid": "01-012",
       "page": 90,
       "tier": 3,
-      "question": "[  ]은/는 병원체에 감염된 사람으로부터 다른 사람에게 [  ]이/가 퍼지는 것이다.",
+      "question": "전염은 병원체에 감염된 사람으로부터 다른 사람에게 [  ]이/가 퍼지는 것이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "전염",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "병원체",
           "alt_answers": []
         }
@@ -673,15 +658,10 @@
       "sid": "01-035",
       "page": 90,
       "tier": 3,
-      "question": "[  ]은/는 [  ]의 세포벽을 구성하는 주성분이다.",
+      "question": "펩티도글리칸은 [  ]의 세포벽을 구성하는 주성분이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "펩티도글리칸",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "원핵생물",
           "alt_answers": []
         }
@@ -715,15 +695,10 @@
       "sid": "01-037",
       "page": 91,
       "tier": 2,
-      "question": "[  ]은/는 [  ]이다.",
+      "question": "황색포도상구균은 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "황색포도상구균",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "구균",
           "alt_answers": []
         }
@@ -773,15 +748,10 @@
       "sid": "01-040",
       "page": 91,
       "tier": 2,
-      "question": "[  ]은/는 [  ]이다.",
+      "question": "콜레라균은 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "콜레라균",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "간균",
           "alt_answers": []
         }
@@ -810,15 +780,10 @@
       "sid": "01-042",
       "page": 91,
       "tier": 2,
-      "question": "[  ]은/는 [  ]이다.",
+      "question": "헬리코박터 파일로리균은 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "헬리코박터 파일로리균",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "나선균",
           "alt_answers": []
         }
@@ -952,15 +917,10 @@
       "sid": "01-049",
       "page": 91,
       "tier": 2,
-      "question": "[  ]는 사람 세포에는 없고 세균에만 있는 구조와 기능을 저해하여 세균의 [  ]을 억제한다.",
+      "question": "항생제는 사람 세포에는 없고 세균에만 있는 구조와 기능을 저해하여 세균의 [  ]을 억제한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "항생제",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "증식",
           "alt_answers": []
         }
@@ -1054,15 +1014,10 @@
       "sid": "01-054",
       "page": 91,
       "tier": 3,
-      "question": "[  ]은 영국의 미생물학자 [  ]에 의해 발견된 항생제이다.",
+      "question": "페니실린은 영국의 미생물학자 [  ]에 의해 발견된 항생제이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "페니실린",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "플레밍",
           "alt_answers": []
         }
@@ -1091,15 +1046,10 @@
       "sid": "01-056",
       "page": 91,
       "tier": 3,
-      "question": "[  ]이 약화된 세균은 [  ] 변화를 이기지 못하고 파열되어 죽게 된다.",
+      "question": "세포벽이 약화된 세균은 [  ] 변화를 이기지 못하고 파열되어 죽게 된다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "세포벽",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "삼투압",
           "alt_answers": []
         }
@@ -1618,15 +1568,10 @@
       "sid": "01-082",
       "page": 92,
       "tier": 2,
-      "question": "[  ]는 실 모양의 [  ] 바이러스이다.",
+      "question": "담배모자이크바이러스는 실 모양의 [  ] 바이러스이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "담배모자이크바이러스",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "RNA",
           "alt_answers": []
         }
@@ -1639,15 +1584,10 @@
       "sid": "01-083",
       "page": 92,
       "tier": 2,
-      "question": "[  ]는 [  ] 바이러스이다.",
+      "question": "담배모자이크바이러스는 [  ] 바이러스이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "담배모자이크바이러스",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "식물성",
           "alt_answers": []
         }
@@ -1681,15 +1621,10 @@
       "sid": "01-085",
       "page": 92,
       "tier": 2,
-      "question": "[  ]는 20면체 모양의 [  ] 바이러스이다.",
+      "question": "아데노바이러스는 20면체 모양의 [  ] 바이러스이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "아데노바이러스",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "DNA",
           "alt_answers": []
         }
@@ -1702,15 +1637,10 @@
       "sid": "01-086",
       "page": 92,
       "tier": 2,
-      "question": "[  ]는 [  ] 바이러스이다.",
+      "question": "아데노바이러스는 [  ] 바이러스이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "아데노바이러스",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "동물성",
           "alt_answers": []
         }
@@ -1739,15 +1669,10 @@
       "sid": "01-088",
       "page": 92,
       "tier": 2,
-      "question": "[  ]는 외피가 있는 [  ] 바이러스이다.",
+      "question": "인플루엔자 바이러스는 외피가 있는 [  ] 바이러스이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "인플루엔자 바이러스",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "RNA",
           "alt_answers": []
         }
@@ -1760,15 +1685,10 @@
       "sid": "01-089",
       "page": 92,
       "tier": 2,
-      "question": "[  ]는 [  ] 바이러스이다.",
+      "question": "인플루엔자 바이러스는 [  ] 바이러스이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "인플루엔자 바이러스",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "동물성",
           "alt_answers": []
         }
@@ -1802,15 +1722,10 @@
       "sid": "01-091",
       "page": 92,
       "tier": 2,
-      "question": "[  ]는 머리와 꼬리로 구분되는 [  ] 바이러스이다.",
+      "question": "박테리오파지는 머리와 꼬리로 구분되는 [  ] 바이러스이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "박테리오파지",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "DNA",
           "alt_answers": []
         }
@@ -1823,15 +1738,10 @@
       "sid": "01-092",
       "page": 92,
       "tier": 2,
-      "question": "[  ]는 [  ]이다.",
+      "question": "박테리오파지는 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "박테리오파지",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "세균성 바이러스",
           "alt_answers": []
         }
@@ -1865,15 +1775,10 @@
       "sid": "01-094",
       "page": 92,
       "tier": 2,
-      "question": "[  ]는 DNA의 유전정보가 [  ]로 전달되는 과정이다.",
+      "question": "전사는 DNA의 유전정보가 [  ]로 전달되는 과정이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "전사",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "RNA",
           "alt_answers": []
         }
@@ -1886,15 +1791,10 @@
       "sid": "01-095",
       "page": 92,
       "tier": 2,
-      "question": "[  ]은 RNA의 염기서열에 따라 아미노산을 연결하여 [  ]을 합성하는 과정이다.",
+      "question": "번역은 RNA의 염기서열에 따라 아미노산을 연결하여 [  ]을 합성하는 과정이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "번역",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "단백질",
           "alt_answers": []
         }
@@ -2000,15 +1900,10 @@
       "sid": "01-101",
       "page": 93,
       "tier": 3,
-      "question": "[  ]는 코로나바이러스를 포함한 200여 종류의 바이러스가 원인이 되어 발생하므로 [  ]이 없다.",
+      "question": "감기는 코로나바이러스를 포함한 200여 종류의 바이러스가 원인이 되어 발생하므로 [  ]이 없다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "감기",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "백신",
           "alt_answers": []
         }
@@ -2021,15 +1916,10 @@
       "sid": "01-102",
       "page": 93,
       "tier": 3,
-      "question": "[  ]은 인플루엔자 바이러스에 의해 발생하며 [  ] 접종으로 예방이 가능하다.",
+      "question": "독감은 인플루엔자 바이러스에 의해 발생하며 [  ] 접종으로 예방이 가능하다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "독감",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "백신",
           "alt_answers": []
         }
@@ -2065,15 +1955,10 @@
       "sid": "01-104",
       "page": 93,
       "tier": 2,
-      "question": "[  ]은 [  ]에 비해 크기가 크다.",
+      "question": "세균은 [  ]에 비해 크기가 크다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "세균",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "바이러스",
           "alt_answers": []
         }
@@ -2086,15 +1971,10 @@
       "sid": "01-105",
       "page": 93,
       "tier": 2,
-      "question": "[  ]은 세포 구조로 숙주세포 없이 스스로 [  ]를 할 수 있다.",
+      "question": "세균은 세포 구조로 숙주세포 없이 스스로 [  ]를 할 수 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "세균",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "물질대사",
           "alt_answers": []
         }
@@ -2107,15 +1987,10 @@
       "sid": "01-106",
       "page": 93,
       "tier": 2,
-      "question": "[  ]은 [  ]로 치료한다.",
+      "question": "세균성 질환은 [  ]로 치료한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "세균성 질환",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "항생제",
           "alt_answers": []
         }
@@ -2128,15 +2003,10 @@
       "sid": "01-107",
       "page": 93,
       "tier": 2,
-      "question": "[  ]는 세균보다 작아 [  ]를 통과한다.",
+      "question": "바이러스는 세균보다 작아 [  ]를 통과한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "바이러스",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "세균 여과기",
           "alt_answers": []
         }
@@ -2170,15 +2040,10 @@
       "sid": "01-109",
       "page": 93,
       "tier": 2,
-      "question": "[  ]은 [  ]로 치료한다.",
+      "question": "바이러스성 질환은 [  ]로 치료한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "바이러스성 질환",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "항바이러스제",
           "alt_answers": []
         }
@@ -2290,15 +2155,10 @@
       "sid": "01-115",
       "page": 93,
       "tier": 2,
-      "question": "[  ]은 오염된 음식이나 쥐, 모기, 파리와 같은 [  ]을 통해 감염된다.",
+      "question": "원생생물은 오염된 음식이나 쥐, 모기, 파리와 같은 [  ]을 통해 감염된다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "원생생물",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "매개 생물",
           "alt_answers": []
         }
@@ -2371,15 +2231,10 @@
       "sid": "01-121",
       "page": 93,
       "tier": 2,
-      "question": "[  ]은 사람과 같은 [  ]이므로 치료제를 개발하기가 쉽지 않다.",
+      "question": "원생생물은 사람과 같은 [  ]이므로 치료제를 개발하기가 쉽지 않다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "원생생물",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "진핵생물",
           "alt_answers": []
         }
@@ -2482,15 +2337,10 @@
       "sid": "01-127",
       "page": 93,
       "tier": 3,
-      "question": "[  ]은 [  ]에 감염되어 발생하는 질병이다.",
+      "question": "수면병은 [  ]에 감염되어 발생하는 질병이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "수면병",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "트리파노소마",
           "alt_answers": []
         }
@@ -2632,17 +2482,10 @@
       "sid": "01-135",
       "page": 94,
       "tier": 1,
-      "question": "[  ]는 [  ]로 번식한다.",
+      "question": "곰팡이는 [  ]로 번식한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "곰팡이",
-          "alt_answers": [
-            "진균"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "포자",
           "alt_answers": []
         }
@@ -2694,15 +2537,10 @@
       "sid": "01-138",
       "page": 94,
       "tier": 2,
-      "question": "[  ]은 무좀균(곰팡이)에 의해 발생하는 [  ]이다.",
+      "question": "무좀은 무좀균(곰팡이)에 의해 발생하는 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "무좀",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "피부 감염성질환",
           "alt_answers": []
         }
@@ -2715,15 +2553,10 @@
       "sid": "01-139",
       "page": 94,
       "tier": 2,
-      "question": "[  ]은 [  ]에 의한 감염성질환의 원인이 될 수 있다.",
+      "question": "칸디다균은 [  ]에 의한 감염성질환의 원인이 될 수 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "칸디다균",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "곰팡이",
           "alt_answers": [
             "진균"
@@ -2738,17 +2571,10 @@
       "sid": "01-140",
       "page": 94,
       "tier": 2,
-      "question": "[  ]에 의한 감염성질환은 [  ]를 이용하여 치료할 수 있다.",
+      "question": "곰팡이에 의한 감염성질환은 [  ]를 이용하여 치료할 수 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "곰팡이",
-          "alt_answers": [
-            "진균"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "항진균제",
           "alt_answers": []
         }
@@ -2837,15 +2663,10 @@
       "sid": "01-145",
       "page": 95,
       "tier": 2,
-      "question": "[  ]를 착용하고 손을 자주 씻으면 [  ]을 통한 질병을 예방할 수 있다.",
+      "question": "마스크를 착용하고 손을 자주 씻으면 [  ]을 통한 질병을 예방할 수 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "마스크",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "호흡기관",
           "alt_answers": []
         }
@@ -2969,15 +2790,10 @@
       "sid": "01-152",
       "page": 95,
       "tier": 2,
-      "question": "[  ]과 같은 피부 질환은 감염된 피부와의 [  ]을 피해서 예방할 수 있다.",
+      "question": "무좀과 같은 피부 질환은 감염된 피부와의 [  ]을 피해서 예방할 수 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "무좀",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "접촉",
           "alt_answers": []
         }
@@ -3151,15 +2967,10 @@
       "sid": "01-162",
       "page": 95,
       "tier": 3,
-      "question": "[  ]는 세균, 곰팡이 등을 고체 배지에서 배양할 때 육안으로 관찰되는 [  ]이다.",
+      "question": "콜로니는 세균, 곰팡이 등을 고체 배지에서 배양할 때 육안으로 관찰되는 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "콜로니",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "집단",
           "alt_answers": []
         }
@@ -3209,15 +3020,10 @@
       "sid": "01-165",
       "page": 95,
       "tier": 2,
-      "question": "[  ]는 세균 치료에는 효과가 있지만 [  ] 치료에는 효과가 없다.",
+      "question": "항생제는 세균 치료에는 효과가 있지만 [  ] 치료에는 효과가 없다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "항생제",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "바이러스",
           "alt_answers": []
         }
@@ -3230,15 +3036,10 @@
       "sid": "01-166",
       "page": 95,
       "tier": 2,
-      "question": "[  ]는 [  ] 안에서만 증식할 수 있으며 유전 현상을 나타낸다.",
+      "question": "바이러스는 [  ] 안에서만 증식할 수 있으며 유전 현상을 나타낸다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "바이러스",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "숙주세포",
           "alt_answers": []
         }
@@ -3272,15 +3073,10 @@
       "sid": "01-168",
       "page": 96,
       "tier": 2,
-      "question": "[  ]에 노출된다고 해서 항상 [  ]에 걸리는 것은 아니다.",
+      "question": "병원체에 노출된다고 해서 항상 [  ]에 걸리는 것은 아니다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "병원체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "감염성질환",
           "alt_answers": []
         }
@@ -3355,17 +3151,10 @@
       "sid": "01-172",
       "page": 96,
       "tier": 1,
-      "question": "[  ]은 태어나면서부터 항상 기능하는 [  ]이다.",
+      "question": "선천면역은 태어나면서부터 항상 기능하는 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "선천면역",
-          "alt_answers": [
-            "비특이적 방어작용"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "방어작용",
           "alt_answers": []
         }
@@ -3417,17 +3206,10 @@
       "sid": "01-175",
       "page": 96,
       "tier": 1,
-      "question": "[  ]은 태어난 후 병원체에 노출되면서 후천적으로 획득하는 [  ]이다.",
+      "question": "후천면역은 태어난 후 병원체에 노출되면서 후천적으로 획득하는 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "후천면역",
-          "alt_answers": [
-            "특이적 방어작용"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "방어작용",
           "alt_answers": []
         }
@@ -3440,17 +3222,10 @@
       "sid": "01-176",
       "page": 96,
       "tier": 2,
-      "question": "[  ]은 특정 병원체에 [  ]으로 작동한다.",
+      "question": "후천면역은 특정 병원체에 [  ]으로 작동한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "후천면역",
-          "alt_answers": [
-            "특이적 방어작용"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "특이적",
           "alt_answers": []
         }
@@ -3609,15 +3384,10 @@
       "sid": "01-184",
       "page": 96,
       "tier": 3,
-      "question": "[  ]은 [  ] 방어작용이라고도 한다.",
+      "question": "선천면역은 [  ] 방어작용이라고도 한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "선천면역",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "비특이적",
           "alt_answers": []
         }
@@ -3648,15 +3418,10 @@
       "sid": "01-186",
       "page": 96,
       "tier": 3,
-      "question": "[  ]은 [  ] 방어작용이라고도 한다.",
+      "question": "후천면역은 [  ] 방어작용이라고도 한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "후천면역",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "특이적",
           "alt_answers": []
         }
@@ -3669,15 +3434,10 @@
       "sid": "01-187",
       "page": 96,
       "tier": 1,
-      "question": "[  ]는 우리 몸을 둘러싸고 있는 가장 넓은 [  ] 장벽이다.",
+      "question": "피부는 우리 몸을 둘러싸고 있는 가장 넓은 [  ] 장벽이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "피부",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "물리적",
           "alt_answers": []
         }
@@ -3727,15 +3487,10 @@
       "sid": "01-190",
       "page": 96,
       "tier": 2,
-      "question": "[  ]에서는 끈끈한 [  ]을 분비하여 미생물이나 작은 입자를 잡아 가둔다.",
+      "question": "점막에서는 끈끈한 [  ]을 분비하여 미생물이나 작은 입자를 잡아 가둔다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "점막",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "점액",
           "alt_answers": []
         }
@@ -3748,17 +3503,10 @@
       "sid": "01-191",
       "page": 96,
       "tier": 2,
-      "question": "[  ]의 상피세포는 [  ]를 움직여서 점액에 갇힌 미생물을 내보낸다.",
+      "question": "숨관가지의 상피세포는 [  ]를 움직여서 점액에 갇힌 미생물을 내보낸다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "숨관가지",
-          "alt_answers": [
-            "기관지"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "섬모",
           "alt_answers": []
         }
@@ -3863,20 +3611,15 @@
       "sid": "01-197",
       "page": 96,
       "tier": 2,
-      "question": "[  ]이나 [  ]에서 나오는 산성의 분비물은 세균 증식을 억제한다.",
+      "question": "피지샘이나 [  ]에서 나오는 산성의 분비물은 세균 증식을 억제한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "피지샘",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "땀샘",
           "alt_answers": []
         }
       ],
-      "order_flexible": true,
+      "order_flexible": false,
       "source_sentence": "피지샘이나 땀샘에서 나오는 산성의 분비물은 세균 증식을 억제한다."
     },
     {
@@ -3884,17 +3627,10 @@
       "sid": "01-198",
       "page": 96,
       "tier": 3,
-      "question": "[  ]은 세균의 번식을 억제하는 물질로 [  ] 세포에서 생성된다.",
+      "question": "라이소자임은 세균의 번식을 억제하는 물질로 [  ] 세포에서 생성된다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "라이소자임",
-          "alt_answers": [
-            "리소자임"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "점막",
           "alt_answers": []
         }
@@ -3925,17 +3661,10 @@
       "sid": "01-200",
       "page": 96,
       "tier": 3,
-      "question": "[  ]은 세균의 세포벽 성분인 [  ]을 분해하는 효소이다.",
+      "question": "라이소자임은 세균의 세포벽 성분인 [  ]을 분해하는 효소이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "라이소자임",
-          "alt_answers": [
-            "리소자임"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "펩티도글리칸",
           "alt_answers": []
         }
@@ -3964,15 +3693,10 @@
       "sid": "01-202",
       "page": 96,
       "tier": 2,
-      "question": "[  ]은 피부의 바깥쪽에서 [  ]를 차단한다.",
+      "question": "각질층은 피부의 바깥쪽에서 [  ]를 차단한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "각질층",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "병원체",
           "alt_answers": []
         }
@@ -4043,15 +3767,10 @@
       "sid": "01-206",
       "page": 97,
       "tier": 2,
-      "question": "[  ]은 눈 표면의 병원체를 씻어 내며, 눈물 속의 [  ]이 세균을 분해한다.",
+      "question": "눈물은 눈 표면의 병원체를 씻어 내며, 눈물 속의 [  ]이 세균을 분해한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "눈물",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "라이소자임",
           "alt_answers": [
             "리소자임"
@@ -4066,15 +3785,10 @@
       "sid": "01-207",
       "page": 97,
       "tier": 2,
-      "question": "[  ]에는 [  ]이 들어 있어 음식물 속의 세균을 분해한다.",
+      "question": "침에는 [  ]이 들어 있어 음식물 속의 세균을 분해한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "침",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "라이소자임",
           "alt_answers": [
             "리소자임"
@@ -4172,17 +3886,10 @@
       "sid": "01-212",
       "page": 97,
       "tier": 1,
-      "question": "[  ]은 세포가 [  ]를 잡아 분해하는 과정이다.",
+      "question": "식세포작용은 세포가 [  ]를 잡아 분해하는 과정이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "식세포작용",
-          "alt_answers": [
-            "식균작용"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "병원체",
           "alt_answers": []
         }
@@ -4291,17 +3998,10 @@
       "sid": "01-217",
       "page": 97,
       "tier": 3,
-      "question": "[  ]는 주로 비장, 림프절 등에 분포하여 [  ]를 제거한다.",
+      "question": "큰포식세포는 주로 비장, 림프절 등에 분포하여 [  ]를 제거한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "큰포식세포",
-          "alt_answers": [
-            "대식세포"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "병원체",
           "alt_answers": []
         }
@@ -4314,17 +4014,10 @@
       "sid": "01-218",
       "page": 97,
       "tier": 3,
-      "question": "[  ]는 혈액을 따라 이동하다가 감염 부위로 이동하여 [  ]을 한다.",
+      "question": "호중구는 혈액을 따라 이동하다가 감염 부위로 이동하여 [  ]을 한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "호중구",
-          "alt_answers": [
-            "중성구"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "식세포작용",
           "alt_answers": [
             "식균작용"
@@ -4339,18 +4032,10 @@
       "sid": "01-219",
       "page": 97,
       "tier": 3,
-      "question": "[  ]은 막으로 둘러싸인 세포소기관으로 다양한 [  ]가 들어 있다.",
+      "question": "라이소솜은 막으로 둘러싸인 세포소기관으로 다양한 [  ]가 들어 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "라이소솜",
-          "alt_answers": [
-            "리소솜",
-            "리소좀"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "가수분해효소",
           "alt_answers": []
         }
@@ -4363,18 +4048,10 @@
       "sid": "01-220",
       "page": 97,
       "tier": 3,
-      "question": "[  ]은 [  ]와 결합하여 세포 안으로 들어온 외부 물질을 분해하거나 손상된 세포소기관을 분해하는 역할을 한다.",
+      "question": "라이소솜은 [  ]와 결합하여 세포 안으로 들어온 외부 물질을 분해하거나 손상된 세포소기관을 분해하는 역할을 한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "라이소솜",
-          "alt_answers": [
-            "리소솜",
-            "리소좀"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "식포",
           "alt_answers": []
         }
@@ -4408,15 +4085,10 @@
       "sid": "01-222",
       "page": 97,
       "tier": 2,
-      "question": "[  ]에는 호염구, 호산구, 호중구, [  ]가 있다.",
+      "question": "과립백혈구에는 호염구, 호산구, 호중구, [  ]가 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "과립백혈구",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "비만세포",
           "alt_answers": []
         }
@@ -4468,15 +4140,10 @@
       "sid": "01-225",
       "page": 97,
       "tier": 2,
-      "question": "[  ]는 적혈구, 혈소판, [  ]로 분화한다.",
+      "question": "골수 선조 세포는 적혈구, 혈소판, [  ]로 분화한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "골수 선조 세포",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "백혈구",
           "alt_answers": []
         }
@@ -4489,15 +4156,10 @@
       "sid": "01-226",
       "page": 97,
       "tier": 2,
-      "question": "[  ]는 [  ] 운반을 담당한다.",
+      "question": "적혈구는 [  ] 운반을 담당한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "적혈구",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "산소",
           "alt_answers": []
         }
@@ -4510,15 +4172,10 @@
       "sid": "01-227",
       "page": 97,
       "tier": 2,
-      "question": "[  ]은 [  ]를 담당한다.",
+      "question": "혈소판은 [  ]를 담당한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "혈소판",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "혈액응고",
           "alt_answers": []
         }
@@ -4531,15 +4188,10 @@
       "sid": "01-228",
       "page": 97,
       "tier": 2,
-      "question": "[  ]는 히스타민 분비와 [  ] 분화 촉진을 담당한다.",
+      "question": "호염구는 히스타민 분비와 [  ] 분화 촉진을 담당한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "호염구",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "T림프구",
           "alt_answers": [
             "T세포"
@@ -4554,15 +4206,10 @@
       "sid": "01-229",
       "page": 97,
       "tier": 2,
-      "question": "[  ]는 항체와 결합한 [  ]을 치사시킨다.",
+      "question": "호산구는 항체와 결합한 [  ]을 치사시킨다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "호산구",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "기생충",
           "alt_answers": []
         }
@@ -4575,17 +4222,10 @@
       "sid": "01-230",
       "page": 97,
       "tier": 2,
-      "question": "[  ]는 항체와 결합한 병원체 제거와 [  ]을 담당한다.",
+      "question": "호중구는 항체와 결합한 병원체 제거와 [  ]을 담당한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "호중구",
-          "alt_answers": [
-            "중성구"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "염증 반응",
           "alt_answers": []
         }
@@ -4598,15 +4238,10 @@
       "sid": "01-231",
       "page": 97,
       "tier": 2,
-      "question": "[  ]는 [  ]을 분비한다.",
+      "question": "비만세포는 [  ]을 분비한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "비만세포",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "히스타민",
           "alt_answers": []
         }
@@ -4619,15 +4254,10 @@
       "sid": "01-232",
       "page": 97,
       "tier": 2,
-      "question": "[  ]는 [  ]와 수지상세포로 분화한다.",
+      "question": "단핵구는 [  ]와 수지상세포로 분화한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "단핵구",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "큰포식세포",
           "alt_answers": [
             "대식세포"
@@ -4642,17 +4272,10 @@
       "sid": "01-233",
       "page": 97,
       "tier": 2,
-      "question": "[  ]는 식세포작용과 [  ]를 담당한다.",
+      "question": "큰포식세포는 식세포작용과 [  ]를 담당한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "큰포식세포",
-          "alt_answers": [
-            "대식세포"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "항원 제시",
           "alt_answers": []
         }
@@ -4665,15 +4288,10 @@
       "sid": "01-234",
       "page": 97,
       "tier": 2,
-      "question": "[  ]는 항원을 [  ]에 제시한다.",
+      "question": "수지상세포는 항원을 [  ]에 제시한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "수지상세포",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "T림프구",
           "alt_answers": [
             "T세포"
@@ -4706,17 +4324,10 @@
       "sid": "01-237",
       "page": 97,
       "tier": 2,
-      "question": "[  ]는 바이러스에 감염된 세포나 [  ]를 파괴한다.",
+      "question": "자연 살해 세포는 바이러스에 감염된 세포나 [  ]를 파괴한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "자연 살해 세포",
-          "alt_answers": [
-            "NK세포"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "암세포",
           "alt_answers": []
         }
@@ -4729,17 +4340,10 @@
       "sid": "01-238",
       "page": 97,
       "tier": 3,
-      "question": "[  ]는 림프구의 일종으로 바이러스에 감염되어 세포막 수용체가 변형된 세포와 [  ]를 공격한다.",
+      "question": "자연 살해 세포는 림프구의 일종으로 바이러스에 감염되어 세포막 수용체가 변형된 세포와 [  ]를 공격한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "자연 살해 세포",
-          "alt_answers": [
-            "NK세포"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "암세포",
           "alt_answers": []
         }
@@ -4773,17 +4377,10 @@
       "sid": "01-240",
       "page": 97,
       "tier": 3,
-      "question": "[  ]의 활성은 20세에 최고에 달하고 이후 점차 떨어져 80세에는 [  ]로 줄어든다.",
+      "question": "자연 살해 세포의 활성은 20세에 최고에 달하고 이후 점차 떨어져 80세에는 [  ]로 줄어든다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "자연 살해 세포",
-          "alt_answers": [
-            "NK세포"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "1/3",
           "alt_answers": []
         }
@@ -4812,15 +4409,10 @@
       "sid": "01-242",
       "page": 98,
       "tier": 2,
-      "question": "[  ]에서는 흔히 [  ]을 느끼게 된다.",
+      "question": "염증 반응에서는 흔히 [  ]을 느끼게 된다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "염증 반응",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "통증",
           "alt_answers": []
         }
@@ -4992,15 +4584,10 @@
       "sid": "01-251",
       "page": 98,
       "tier": 3,
-      "question": "[  ]는 백혈구의 일종으로 외부 환경과 접하는 [  ]에 주로 분포한다.",
+      "question": "비만세포는 백혈구의 일종으로 외부 환경과 접하는 [  ]에 주로 분포한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "비만세포",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "말초 조직",
           "alt_answers": []
         }
@@ -5034,15 +4621,10 @@
       "sid": "01-253",
       "page": 98,
       "tier": 3,
-      "question": "[  ]은 앨러지 반응과 [  ]을 유도하는 물질이다.",
+      "question": "히스타민은 앨러지 반응과 [  ]을 유도하는 물질이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "히스타민",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "염증 반응",
           "alt_answers": []
         }
@@ -5055,15 +4637,10 @@
       "sid": "01-254",
       "page": 98,
       "tier": 3,
-      "question": "[  ]은 주변 [  ]을 확장하여 혈장과 백혈구(호중구)가 쉽게 혈관을 통과할 수 있게 한다.",
+      "question": "히스타민은 주변 [  ]을 확장하여 혈장과 백혈구(호중구)가 쉽게 혈관을 통과할 수 있게 한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "히스타민",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "모세혈관",
           "alt_answers": []
         }
@@ -5076,15 +4653,10 @@
       "sid": "01-255",
       "page": 98,
       "tier": 3,
-      "question": "[  ]은 면역계의 신호 전달에 관여하는 주요 [  ]을 총칭하는 용어이다.",
+      "question": "사이토카인은 면역계의 신호 전달에 관여하는 주요 [  ]을 총칭하는 용어이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "사이토카인",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "단백질",
           "alt_answers": []
         }
@@ -5097,15 +4669,10 @@
       "sid": "01-256",
       "page": 98,
       "tier": 3,
-      "question": "[  ]은 면역 세포의 성장과 분화, 염증 반응 등을 유도하여 [  ]을 조절한다.",
+      "question": "사이토카인은 면역 세포의 성장과 분화, 염증 반응 등을 유도하여 [  ]을 조절한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "사이토카인",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "면역반응",
           "alt_answers": []
         }
@@ -5166,15 +4733,10 @@
       "sid": "01-260",
       "page": 98,
       "tier": 2,
-      "question": "[  ]은 심각한 조직 손상이나 감염으로 [  ]을 보이는 증상이다.",
+      "question": "패혈증은 심각한 조직 손상이나 감염으로 [  ]을 보이는 증상이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "패혈증",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "전신 염증 반응",
           "alt_answers": []
         }
@@ -5221,17 +4783,10 @@
       "sid": "01-263",
       "page": 98,
       "tier": 2,
-      "question": "[  ]은 이전에 체내에 들어와 면역반응을 일으킨 적이 있는 병원체를 [  ]하고 인식하는 특성이 있다.",
+      "question": "후천면역은 이전에 체내에 들어와 면역반응을 일으킨 적이 있는 병원체를 [  ]하고 인식하는 특성이 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "후천면역",
-          "alt_answers": [
-            "특이적 방어작용"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "기억",
           "alt_answers": []
         }
@@ -5244,17 +4799,10 @@
       "sid": "01-264",
       "page": 98,
       "tier": 1,
-      "question": "[  ]에서 중요한 역할을 하는 면역 세포는 백혈구의 한 종류인 [  ]이다.",
+      "question": "후천면역에서 중요한 역할을 하는 면역 세포는 백혈구의 한 종류인 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "후천면역",
-          "alt_answers": [
-            "특이적 방어작용"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "림프구",
           "alt_answers": []
         }
@@ -5267,15 +4815,10 @@
       "sid": "01-265",
       "page": 98,
       "tier": 2,
-      "question": "[  ]는 [  ]에서 생성된다.",
+      "question": "림프구는 [  ]에서 생성된다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "림프구",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "골수",
           "alt_answers": []
         }
@@ -5375,15 +4918,10 @@
       "sid": "01-270",
       "page": 98,
       "tier": 2,
-      "question": "[  ]는 [  ]에서 다양한 병원체를 인식할 수 있다.",
+      "question": "림프구는 [  ]에서 다양한 병원체를 인식할 수 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "림프구",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "후천면역",
           "alt_answers": [
             "특이적 방어작용"
@@ -5453,15 +4991,10 @@
       "sid": "01-273",
       "page": 98,
       "tier": 2,
-      "question": "[  ]의 이름은 림프구가 성숙하는 [  ]에 따라 붙여졌다.",
+      "question": "림프구의 이름은 림프구가 성숙하는 [  ]에 따라 붙여졌다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "림프구",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "장소",
           "alt_answers": []
         }
@@ -5522,17 +5055,10 @@
       "sid": "01-276",
       "page": 98,
       "tier": 2,
-      "question": "[  ]의 항원 수용체는 [  ]자형이다.",
+      "question": "B림프구의 항원 수용체는 [  ]자형이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "B림프구",
-          "alt_answers": [
-            "B세포"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "Y",
           "alt_answers": []
         }
@@ -5545,17 +5071,10 @@
       "sid": "01-277",
       "page": 98,
       "tier": 2,
-      "question": "[  ]의 항원 수용체는 [  ]자형이다.",
+      "question": "T림프구의 항원 수용체는 [  ]자형이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "T림프구",
-          "alt_answers": [
-            "T세포"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "I",
           "alt_answers": []
         }
@@ -5631,15 +5150,10 @@
       "sid": "01-281",
       "page": 99,
       "tier": 2,
-      "question": "[  ]에 남은 미성숙한 림프구는 성숙하고 분화하여 [  ]가 된다.",
+      "question": "골수에 남은 미성숙한 림프구는 성숙하고 분화하여 [  ]가 된다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "골수",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "B림프구",
           "alt_answers": [
             "B세포"
@@ -5679,15 +5193,10 @@
       "sid": "01-283",
       "page": 99,
       "tier": 2,
-      "question": "[  ]와 결합하는 항원 부위를 [  ]라고 한다.",
+      "question": "항체와 결합하는 항원 부위를 [  ]라고 한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "항체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "항원 결정 부위",
           "alt_answers": []
         }
@@ -5742,15 +5251,10 @@
       "sid": "01-286",
       "page": 99,
       "tier": 1,
-      "question": "[  ]은 우리 몸에 침입하여 B림프구나 T림프구의 반응을 유발하는 [  ]이다.",
+      "question": "항원은 우리 몸에 침입하여 B림프구나 T림프구의 반응을 유발하는 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "항원",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "물질",
           "alt_answers": []
         }
@@ -5795,15 +5299,10 @@
       "sid": "01-289",
       "page": 99,
       "tier": 2,
-      "question": "[  ]의 일부분은 B림프구와 T림프구의 세포막에 있는 [  ]와 결합한다.",
+      "question": "항원의 일부분은 B림프구와 T림프구의 세포막에 있는 [  ]와 결합한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "항원",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "항원 수용체",
           "alt_answers": []
         }
@@ -5816,15 +5315,10 @@
       "sid": "01-290",
       "page": 99,
       "tier": 1,
-      "question": "[  ]는 항원에 대항하여 만들어지는 [  ]이다.",
+      "question": "항체는 항원에 대항하여 만들어지는 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "항체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "단백질",
           "alt_answers": []
         }
@@ -5863,17 +5357,10 @@
       "sid": "01-292",
       "page": 99,
       "tier": 2,
-      "question": "[  ]가 활성화하면 [  ]를 분비한다.",
+      "question": "B림프구가 활성화하면 [  ]를 분비한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "B림프구",
-          "alt_answers": [
-            "B세포"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "항체",
           "alt_answers": []
         }
@@ -5923,17 +5410,10 @@
       "sid": "01-295",
       "page": 99,
       "tier": 2,
-      "question": "[  ]가 병원체를 분해한 뒤 세포 표면에 [  ]을 제시한다.",
+      "question": "큰포식세포가 병원체를 분해한 뒤 세포 표면에 [  ]을 제시한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "큰포식세포",
-          "alt_answers": [
-            "대식세포"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "항원",
           "alt_answers": []
         }
@@ -6013,15 +5493,10 @@
       "sid": "01-299",
       "page": 99,
       "tier": 2,
-      "question": "[  ]에서 보조 T림프구가 [  ]의 활성화와 증식을 촉진한다.",
+      "question": "체액성면역에서 보조 T림프구가 [  ]의 활성화와 증식을 촉진한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "체액성면역",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "B림프구",
           "alt_answers": [
             "B세포"
@@ -6057,17 +5532,10 @@
       "sid": "01-302",
       "page": 100,
       "tier": 1,
-      "question": "[  ]은 림프구가 [  ]을 인식하는 것에서부터 시작한다.",
+      "question": "후천면역은 림프구가 [  ]을 인식하는 것에서부터 시작한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "후천면역",
-          "alt_answers": [
-            "특이적 방어작용"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "항원",
           "alt_answers": []
         }
@@ -6080,17 +5548,10 @@
       "sid": "01-303",
       "page": 100,
       "tier": 2,
-      "question": "[  ]의 식세포작용은 병원체를 제거하는 동시에 침입한 병원체의 정보를 제공함으로써 [  ]이 시작되게 한다.",
+      "question": "큰포식세포의 식세포작용은 병원체를 제거하는 동시에 침입한 병원체의 정보를 제공함으로써 [  ]이 시작되게 한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "큰포식세포",
-          "alt_answers": [
-            "대식세포"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "후천면역",
           "alt_answers": [
             "특이적 방어작용"
@@ -6123,18 +5584,10 @@
       "sid": "01-305",
       "page": 100,
       "tier": 2,
-      "question": "[  ]에 있는 [  ]가 병원체를 분해한다.",
+      "question": "라이소솜에 있는 [  ]가 병원체를 분해한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "라이소솜",
-          "alt_answers": [
-            "리소솜",
-            "리소좀"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "가수분해효소",
           "alt_answers": []
         }
@@ -6228,17 +5681,10 @@
       "sid": "01-310",
       "page": 100,
       "tier": 3,
-      "question": "[  ]의 항원 수용체는 [  ]과 직접 결합할 수 있다.",
+      "question": "B림프구의 항원 수용체는 [  ]과 직접 결합할 수 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "B림프구",
-          "alt_answers": [
-            "B세포"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "항원",
           "alt_answers": []
         }
@@ -6283,15 +5729,10 @@
       "sid": "01-313",
       "page": 100,
       "tier": 3,
-      "question": "[  ]에는 [  ]와 큰포식세포가 있어서 병원체를 제거하는 역할을 한다.",
+      "question": "림프절에는 [  ]와 큰포식세포가 있어서 병원체를 제거하는 역할을 한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "림프절",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "림프구",
           "alt_answers": []
         }
@@ -6320,15 +5761,10 @@
       "sid": "01-315",
       "page": 100,
       "tier": 1,
-      "question": "[  ]은 보조 T림프구의 신호로 활성화된 [  ]가 바이러스나 세균에 감염된 세포, 손상된 세포, 암세포를 직접 공격하여 제거하는 면역반응이다.",
+      "question": "세포성면역은 보조 T림프구의 신호로 활성화된 [  ]가 바이러스나 세균에 감염된 세포, 손상된 세포, 암세포를 직접 공격하여 제거하는 면역반응이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "세포성면역",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "세포독성 T림프구",
           "alt_answers": [
             "세포독성 T세포",
@@ -6370,19 +5806,10 @@
       "sid": "01-317",
       "page": 100,
       "tier": 2,
-      "question": "[  ]는 세포막에 구멍을 내는 물질과 단백질분해효소를 분비하여 세포에 구멍을 뚫고 [  ]을 유도한다.",
+      "question": "세포독성 T림프구는 세포막에 구멍을 내는 물질과 단백질분해효소를 분비하여 세포에 구멍을 뚫고 [  ]을 유도한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "세포독성 T림프구",
-          "alt_answers": [
-            "세포독성 T세포",
-            "킬러 T세포",
-            "cytotoxic T cell"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "세포 자살",
           "alt_answers": []
         }
@@ -6415,17 +5842,10 @@
       "sid": "01-319",
       "page": 100,
       "tier": 3,
-      "question": "[  ]는 B림프구뿐만 아니라 [  ]에서도 분화되어 생성된다.",
+      "question": "기억세포는 B림프구뿐만 아니라 [  ]에서도 분화되어 생성된다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "기억세포",
-          "alt_answers": [
-            "memory cell"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "T림프구",
           "alt_answers": [
             "T세포"
@@ -6504,17 +5924,10 @@
       "sid": "01-323",
       "page": 100,
       "tier": 3,
-      "question": "[  ]는 항체를 생산하여 분비하므로 세포소기관 중 [  ]와 골지체가 매우 발달한다.",
+      "question": "형질세포는 항체를 생산하여 분비하므로 세포소기관 중 [  ]와 골지체가 매우 발달한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "형질세포",
-          "alt_answers": [
-            "plasma cell"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "소포체",
           "alt_answers": []
         }
@@ -6527,15 +5940,10 @@
       "sid": "01-324",
       "page": 100,
       "tier": 1,
-      "question": "[  ]은 B림프구가 분화한 [  ]에서 항체를 생성하여 항원을 제거하는 면역반응이다.",
+      "question": "체액성면역은 B림프구가 분화한 [  ]에서 항체를 생성하여 항원을 제거하는 면역반응이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "체액성면역",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "형질세포",
           "alt_answers": [
             "plasma cell"
@@ -6601,17 +6009,10 @@
       "sid": "01-327",
       "page": 101,
       "tier": 2,
-      "question": "[  ]는 항체를 분비하며, 분비된 [  ]는 항원에 특이적으로 결합하여 병원체를 무력화한다.",
+      "question": "형질세포는 항체를 분비하며, 분비된 [  ]는 항원에 특이적으로 결합하여 병원체를 무력화한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "형질세포",
-          "alt_answers": [
-            "plasma cell"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "항체",
           "alt_answers": []
         }
@@ -6624,17 +6025,10 @@
       "sid": "01-328",
       "page": 101,
       "tier": 2,
-      "question": "[  ]는 항원의 정보를 기억하고 있다가 동일한 항원이 다시 침입했을 때 빠르게 [  ]로 분화하여 항체를 생성하도록 한다.",
+      "question": "기억세포는 항원의 정보를 기억하고 있다가 동일한 항원이 다시 침입했을 때 빠르게 [  ]로 분화하여 항체를 생성하도록 한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "기억세포",
-          "alt_answers": [
-            "memory cell"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "형질세포",
           "alt_answers": [
             "plasma cell"
@@ -6649,15 +6043,10 @@
       "sid": "01-329",
       "page": 101,
       "tier": 3,
-      "question": "[  ]은 항원에 노출된 후 신체가 스스로 [  ]를 생산하는 것을 의미한다.",
+      "question": "능동면역은 항원에 노출된 후 신체가 스스로 [  ]를 생산하는 것을 의미한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "능동면역",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "항체",
           "alt_answers": []
         }
@@ -6670,15 +6059,10 @@
       "sid": "01-330",
       "page": 101,
       "tier": 3,
-      "question": "[  ]에는 질병에 의해 만들어지는 자연적 능동면역과 질병 없이 [  ]에 의해 기억세포를 형성하는 인공적 능동면역이 있다.",
+      "question": "능동면역에는 질병에 의해 만들어지는 자연적 능동면역과 질병 없이 [  ]에 의해 기억세포를 형성하는 인공적 능동면역이 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "능동면역",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "백신",
           "alt_answers": []
         }
@@ -6730,15 +6114,10 @@
       "sid": "01-333",
       "page": 101,
       "tier": 3,
-      "question": "[  ]은 다른 개체로부터 [  ]를 얻는 면역이다.",
+      "question": "수동면역은 다른 개체로부터 [  ]를 얻는 면역이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "수동면역",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "항체",
           "alt_answers": []
         }
@@ -6751,15 +6130,10 @@
       "sid": "01-334",
       "page": 101,
       "tier": 3,
-      "question": "[  ]은 [  ]를 생성하지 않는다.",
+      "question": "수동면역은 [  ]를 생성하지 않는다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "수동면역",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "기억세포",
           "alt_answers": [
             "memory cell"
@@ -6837,15 +6211,10 @@
       "sid": "01-338",
       "page": 101,
       "tier": 2,
-      "question": "[  ]는 병원체의 [  ]에 결합하여 병원체를 감싼다.",
+      "question": "항체는 병원체의 [  ]에 결합하여 병원체를 감싼다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "항체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "항원",
           "alt_answers": []
         }
@@ -6858,15 +6227,10 @@
       "sid": "01-339",
       "page": 101,
       "tier": 2,
-      "question": "[  ]는 병원체와 응집하거나 용해된 항원을 침전시킴으로써 큰포식세포나 호중구의 [  ]을 촉진한다.",
+      "question": "항체는 병원체와 응집하거나 용해된 항원을 침전시킴으로써 큰포식세포나 호중구의 [  ]을 촉진한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "항체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "식세포작용",
           "alt_answers": [
             "식균작용"
@@ -6881,15 +6245,10 @@
       "sid": "01-340",
       "page": 101,
       "tier": 2,
-      "question": "[  ]는 혈장에 있는 단백질을 통해 병원체의 세포막에 구멍을 만들어 세포를 파괴하고 [  ]을 유도하여 식세포작용을 촉진한다.",
+      "question": "항체는 혈장에 있는 단백질을 통해 병원체의 세포막에 구멍을 만들어 세포를 파괴하고 [  ]을 유도하여 식세포작용을 촉진한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "항체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "염증 반응",
           "alt_answers": []
         }
@@ -6902,15 +6261,10 @@
       "sid": "01-341",
       "page": 101,
       "tier": 2,
-      "question": "[  ]는 병원체 표면 [  ]에 결합하거나 병원체를 둘러싼다.",
+      "question": "항체는 병원체 표면 [  ]에 결합하거나 병원체를 둘러싼다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "항체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "항원",
           "alt_answers": []
         }
@@ -6923,15 +6277,10 @@
       "sid": "01-342",
       "page": 101,
       "tier": 2,
-      "question": "[  ]는 병원체와 결합하여 병원체를 [  ]시킨다.",
+      "question": "항체는 병원체와 결합하여 병원체를 [  ]시킨다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "항체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "응집",
           "alt_answers": []
         }
@@ -6944,15 +6293,10 @@
       "sid": "01-343",
       "page": 101,
       "tier": 2,
-      "question": "[  ]는 유리된 항원 조각과 결합하여 항원을 [  ]시킨다.",
+      "question": "항체는 유리된 항원 조각과 결합하여 항원을 [  ]시킨다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "항체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "침전",
           "alt_answers": []
         }
@@ -6965,15 +6309,10 @@
       "sid": "01-344",
       "page": 101,
       "tier": 2,
-      "question": "[  ]는 세포에 구멍을 뚫는 [  ]을 활성화한다.",
+      "question": "항체는 세포에 구멍을 뚫는 [  ]을 활성화한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "항체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "보체 단백질",
           "alt_answers": [
             "보체"
@@ -7029,15 +6368,10 @@
       "sid": "01-347",
       "page": 101,
       "tier": 3,
-      "question": "[  ]은 항원과 결합할 수 있는 [  ]만 선택되어 증식하는 과정이다.",
+      "question": "클론 선택은 항원과 결합할 수 있는 [  ]만 선택되어 증식하는 과정이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "클론 선택",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "B림프구",
           "alt_answers": [
             "B세포"
@@ -7209,17 +6543,10 @@
       "sid": "01-357",
       "page": 101,
       "tier": 1,
-      "question": "[  ]는 항체를 생산하고, [  ]는 항원의 재침입에 대비한다.",
+      "question": "형질세포는 항체를 생산하고, [  ]는 항원의 재침입에 대비한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "형질세포",
-          "alt_answers": [
-            "plasma cell"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "기억세포",
           "alt_answers": [
             "memory cell"

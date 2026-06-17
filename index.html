@@ -739,30 +739,34 @@
           tiers: normalizeTierList(saved.filters && saved.filters.tiers)
         };
       AppState.externalBanks = Array.isArray(saved.externalBanks) ? saved.externalBanks : [];
-      AppState.flaggedPids = Array.isArray(saved.flaggedPids) ? saved.flaggedPids : [];
-      AppState.sessionProblemIds = Array.isArray(saved.sessionProblemIds) ? saved.sessionProblemIds : [];
-      AppState.currentIndex = Number.isInteger(saved.currentIndex) ? saved.currentIndex : 0;
-      AppState.inputs = isPlainObject(saved.inputs) ? saved.inputs : {};
-      AppState.gradingResults = isPlainObject(saved.gradingResults) ? saved.gradingResults : {};
-      AppState.manualOverrides = isPlainObject(saved.manualOverrides) ? saved.manualOverrides : {};
-      AppState.revealed = isPlainObject(saved.revealed) ? saved.revealed : {};
+        AppState.flaggedPids = Array.isArray(saved.flaggedPids) ? saved.flaggedPids : [];
+        AppState.screen = "home";
+        AppState.sessionProblemIds = [];
+        AppState.currentIndex = 0;
+        AppState.inputs = {};
+        AppState.gradingResults = {};
+        AppState.manualOverrides = {};
+        AppState.revealed = {};
       } catch (error) {
         console.warn("저장된 상태를 불러오지 못했습니다.", error);
       }
     }
 
-    function isPlainObject(value) {
-      return Boolean(value) && typeof value === "object" && !Array.isArray(value);
-    }
-
     function persistState() {
       const snapshot = {
         ...AppState,
+        screen: "home",
         loading: false,
         loadErrors: [],
         sourceBanks: [],
         allProblems: [],
         problemMeta: {},
+        sessionProblemIds: [],
+        currentIndex: 0,
+        inputs: {},
+        gradingResults: {},
+        manualOverrides: {},
+        revealed: {},
         toast: ""
       };
       localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot));

@@ -328,7 +328,7 @@
       "page": 61,
       "section": "1-2-(3)",
       "source_type": "심화",
-      "deduplicated": false
+      "deduplicated": true
     },
     {
       "sid": "05-042",
@@ -808,7 +808,7 @@
       "page": 65,
       "section": "3-2-(2)",
       "source_type": "그림설명",
-      "deduplicated": false
+      "deduplicated": true
     },
     {
       "sid": "05-102",
@@ -1152,7 +1152,7 @@
       "page": 67,
       "section": "3-4-(2)",
       "source_type": "그림설명",
-      "deduplicated": false
+      "deduplicated": true
     },
     {
       "sid": "05-145",
@@ -1336,7 +1336,7 @@
       "page": 68,
       "section": "4-1-(2)",
       "source_type": "그림설명",
-      "deduplicated": false
+      "deduplicated": true
     },
     {
       "sid": "05-168",
@@ -1512,7 +1512,7 @@
       "page": 69,
       "section": "4-2-(2)",
       "source_type": "그림설명",
-      "deduplicated": false
+      "deduplicated": true
     },
     {
       "sid": "05-190",
@@ -1520,7 +1520,7 @@
       "page": 69,
       "section": "4-2-(2)",
       "source_type": "그림설명",
-      "deduplicated": false
+      "deduplicated": true
     },
     {
       "sid": "05-191",

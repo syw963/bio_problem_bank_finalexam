@@ -39,19 +39,28 @@
       "sid": "04-003",
       "page": 26,
       "tier": 3,
-      "question": "유성생식을 하는 생물은 [  ]을/를 통해 염색체 수와 DNA양이 모세포의 절반인 [  ]을/를 형성하고, 이러한 암수 생식세포의 결합으로 자손이 태어난다.",
+      "question": "유성생식을 하는 생물은 감수분열을 통해 [  ]와/과 [  ]이/가 모세포의 [  ]인 생식세포를 형성하고, 이러한 암수 생식세포의 결합으로 자손이 태어난다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "감수분열",
+          "primary_answer": "염색체 수",
           "alt_answers": [
-            "생식세포분열"
+            "염색체수"
           ]
         },
         {
           "blank_id": 2,
-          "primary_answer": "생식세포",
-          "alt_answers": []
+          "primary_answer": "DNA양",
+          "alt_answers": [
+            "DNA 양"
+          ]
+        },
+        {
+          "blank_id": 3,
+          "primary_answer": "절반",
+          "alt_answers": [
+            "반"
+          ]
         }
       ],
       "order_flexible": false,
@@ -136,7 +145,9 @@
         {
           "blank_id": 1,
           "primary_answer": "염색체 구성",
-          "alt_answers": []
+          "alt_answers": [
+            "염색체구성"
+          ]
         },
         {
           "blank_id": 2,
@@ -146,22 +157,6 @@
       ],
       "order_flexible": false,
       "source_sentence": "무성생식 결과 형성된 자손은 모체와 염색체 구성이 같고 유전적으로 동일하다."
-    },
-    {
-      "pid": "04-009-Q1",
-      "sid": "04-009",
-      "page": 26,
-      "tier": 2,
-      "question": "무성생식에서 모체는 자손에게 같은 [  ]을/를 전달한다.",
-      "blanks": [
-        {
-          "blank_id": 1,
-          "primary_answer": "염색체 구성",
-          "alt_answers": []
-        }
-      ],
-      "order_flexible": false,
-      "source_sentence": "무성생식에서 모체는 자손에게 같은 염색체 구성을 전달한다."
     },
     {
       "pid": "04-011-Q1",
@@ -299,7 +294,9 @@
         {
           "blank_id": 1,
           "primary_answer": "감수분열",
-          "alt_answers": []
+          "alt_answers": [
+            "생식세포분열"
+          ]
         }
       ],
       "order_flexible": false,
@@ -521,7 +518,9 @@
         {
           "blank_id": 1,
           "primary_answer": "감수분열",
-          "alt_answers": []
+          "alt_answers": [
+            "생식세포분열"
+          ]
         },
         {
           "blank_id": 2,
@@ -640,7 +639,9 @@
         {
           "blank_id": 1,
           "primary_answer": "감수분열",
-          "alt_answers": []
+          "alt_answers": [
+            "생식세포분열"
+          ]
         },
         {
           "blank_id": 2,
@@ -661,7 +662,9 @@
         {
           "blank_id": 1,
           "primary_answer": "감수분열",
-          "alt_answers": []
+          "alt_answers": [
+            "생식세포분열"
+          ]
         },
         {
           "blank_id": 2,
@@ -1286,16 +1289,11 @@
       "sid": "04-073",
       "page": 28,
       "tier": 2,
-      "question": "간기에 [  ]은/는 핵 속에 [  ]처럼 풀어져 있다.",
+      "question": "간기에 [  ]은/는 핵 속에 실처럼 풀어져 있다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "염색체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "실",
           "alt_answers": []
         }
       ],
@@ -1306,7 +1304,7 @@
       "pid": "04-074-Q1",
       "sid": "04-074",
       "page": 28,
-      "tier": 2,
+      "tier": 1,
       "question": "[  ]은/는 세포분열이 끝난 직후부터 [  ]이/가 시작되기 전까지의 시기이다.",
       "blanks": [
         {
@@ -1417,7 +1415,7 @@
       "pid": "04-079-Q1",
       "sid": "04-079",
       "page": 28,
-      "tier": 2,
+      "tier": 1,
       "question": "[  ]은/는 DNA 복제가 완료된 뒤부터 [  ]이/가 시작되기 전까지의 시기이다.",
       "blanks": [
         {
@@ -1617,7 +1615,7 @@
           ]
         }
       ],
-      "order_flexible": true,
+      "order_flexible": false,
       "source_sentence": "분열기는 일반적으로 핵분열과 세포질분열 두 단계로 나뉜다."
     },
     {
@@ -1769,7 +1767,7 @@
       "sid": "04-097",
       "page": 29,
       "tier": 3,
-      "question": "동물 세포의 중심체는 [  ]개의 [  ](centrioles)(으)로 구성되어 있다.",
+      "question": "동물 세포의 중심체는 [  ]개의 [  ](으)로 구성되어 있다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -1781,7 +1779,9 @@
         {
           "blank_id": 2,
           "primary_answer": "중심립",
-          "alt_answers": []
+          "alt_answers": [
+            "중심소체"
+          ]
         }
       ],
       "order_flexible": false,
@@ -2220,7 +2220,9 @@
         {
           "blank_id": 1,
           "primary_answer": "염색체 수",
-          "alt_answers": []
+          "alt_answers": [
+            "염색체수"
+          ]
         },
         {
           "blank_id": 2,
@@ -2562,7 +2564,8 @@
           "blank_id": 2,
           "primary_answer": "감수분열",
           "alt_answers": [
-            "감수 분열"
+            "감수 분열",
+            "생식세포분열"
           ]
         }
       ],
@@ -2689,7 +2692,8 @@
           "blank_id": 2,
           "primary_answer": "감수분열",
           "alt_answers": [
-            "감수 분열"
+            "감수 분열",
+            "생식세포분열"
           ]
         }
       ],
@@ -2815,6 +2819,29 @@
       ],
       "order_flexible": false,
       "source_sentence": "감수 1분열 전기에는 염색체가 응축되고 핵막과 인이 사라져 염색체가 세포질로 퍼진다."
+    },
+    {
+      "pid": "04-147-Q1",
+      "sid": "04-147",
+      "page": 30,
+      "tier": 1,
+      "question": "감수 1분열 전기의 각 염색체는 [  ]개의 [  ](으)로 이루어져 있다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "2",
+          "alt_answers": [
+            "두"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "염색분체",
+          "alt_answers": []
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 1분열 전기의 각 염색체는 2개의 염색분체로 이루어져 있다."
     },
     {
       "pid": "04-148-Q1",
@@ -2946,15 +2973,10 @@
       "sid": "04-153",
       "page": 30,
       "tier": 2,
-      "question": "[  ]에는 각각 [  ]가 있다.",
+      "question": "감수 1분열 전기에 접합하는 상동염색체에는 각각 [  ]가 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "상동염색체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "동원체",
           "alt_answers": []
         }
@@ -2967,7 +2989,7 @@
       "sid": "04-154",
       "page": 30,
       "tier": 2,
-      "question": "[  ]가 접합하면 [  ]가 형성된다.",
+      "question": "감수 1분열 전기에 [  ]가 접합하면 [  ]가 형성된다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -3111,14 +3133,12 @@
       "sid": "04-161",
       "page": 30,
       "tier": 2,
-      "question": "몇몇 종의 경우 감수 1분열 말기에 염색체가 [  ] 핵막이 형성되기도 한다.",
+      "question": "몇몇 종의 경우 감수 1분열 말기에 염색체가 풀어지고 [  ]이/가 형성되기도 한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "풀어지고",
-          "alt_answers": [
-            "풀리고"
-          ]
+          "primary_answer": "핵막",
+          "alt_answers": []
         }
       ],
       "order_flexible": false,
@@ -3153,7 +3173,8 @@
           "blank_id": 1,
           "primary_answer": "유전자 구성",
           "alt_answers": [
-            "유전 구성"
+            "유전 구성",
+            "유전자구성"
           ]
         }
       ],
@@ -3356,6 +3377,31 @@
       "source_sentence": "감수 2분열 전기에는 핵막이 사라지고 양극에서 뻗어 나온 방추사가 염색체의 동원체에 붙는다."
     },
     {
+      "pid": "04-174-Q1",
+      "sid": "04-174",
+      "page": 31,
+      "tier": 1,
+      "question": "감수 2분열 [  ]에는 염색체가 방추사에 이끌려 세포의 [  ]에 배열된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "중기",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "중앙",
+          "alt_answers": [
+            "가운데",
+            "적도면",
+            "중앙면"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 2분열 중기에는 염색체가 방추사에 이끌려 세포의 중앙에 배열된다."
+    },
+    {
       "pid": "04-175-Q1",
       "sid": "04-175",
       "page": 31,
@@ -3436,7 +3482,7 @@
       "sid": "04-179",
       "page": 31,
       "tier": 2,
-      "question": "[  ]은 대부분 [  ]에 의해 발생한다.",
+      "question": "감수분열 이상과 관련하여, [  ]은 대부분 [  ]에 의해 발생한다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -3558,7 +3604,7 @@
       "pid": "04-185-Q1",
       "sid": "04-185",
       "page": 31,
-      "tier": 3,
+      "tier": 2,
       "question": "염색체비분리현상 그림에는 [  ]와 [  ]가 표시되어 있다.",
       "blanks": [
         {
@@ -3595,6 +3641,24 @@
       ],
       "order_flexible": false,
       "source_sentence": "감수 2분열 전기 II에는 핵막과 인이 사라지고 방추사가 형성되어 염색체의 동원체에 결합한다."
+    },
+    {
+      "pid": "04-187-Q1",
+      "sid": "04-187",
+      "page": 31,
+      "tier": 2,
+      "question": "감수 2분열 중기 II에는 염색체가 세포 [  ]에 배열된다.",
+      "blanks": [
+        {
+          "blank_id": 1,
+          "primary_answer": "중앙",
+          "alt_answers": [
+            "가운데"
+          ]
+        }
+      ],
+      "order_flexible": false,
+      "source_sentence": "감수 2분열 중기 II에는 염색체가 세포 중앙에 배열된다."
     },
     {
       "pid": "04-188-Q1",
@@ -3705,9 +3769,7 @@
         {
           "blank_id": 1,
           "primary_answer": "동일",
-          "alt_answers": [
-            "같"
-          ]
+          "alt_answers": []
         },
         {
           "blank_id": 2,
@@ -3884,7 +3946,9 @@
         {
           "blank_id": 1,
           "primary_answer": "정소",
-          "alt_answers": []
+          "alt_answers": [
+            "고환"
+          ]
         },
         {
           "blank_id": 2,
@@ -3995,52 +4059,6 @@
       ],
       "order_flexible": false,
       "source_sentence": "감수분열에서는 DNA 복제 뒤 2가 염색체가 형성된다."
-    },
-    {
-      "pid": "04-207-Q1",
-      "sid": "04-207",
-      "page": 32,
-      "tier": 2,
-      "question": "감수분열에서는 [  ]에서 [  ]이/가 분리된다.",
-      "blanks": [
-        {
-          "blank_id": 1,
-          "primary_answer": "감수 1분열",
-          "alt_answers": [
-            "감수 제1분열"
-          ]
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "상동염색체",
-          "alt_answers": []
-        }
-      ],
-      "order_flexible": false,
-      "source_sentence": "감수분열에서는 감수 1분열에서 상동염색체가 분리된다."
-    },
-    {
-      "pid": "04-208-Q1",
-      "sid": "04-208",
-      "page": 32,
-      "tier": 2,
-      "question": "감수분열에서는 [  ]에서 [  ]이/가 분리된다.",
-      "blanks": [
-        {
-          "blank_id": 1,
-          "primary_answer": "감수 2분열",
-          "alt_answers": [
-            "감수 제2분열"
-          ]
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "염색분체",
-          "alt_answers": []
-        }
-      ],
-      "order_flexible": false,
-      "source_sentence": "감수분열에서는 감수 2분열에서 염색분체가 분리된다."
     },
     {
       "pid": "04-209-Q1",
@@ -4216,7 +4234,7 @@
       "pid": "04-218-Q1",
       "sid": "04-218",
       "page": 33,
-      "tier": 1,
+      "tier": 2,
       "question": "[  ]은/는 감수 1분열 중기가 되면 세포 중앙에 [  ](으)로 배열한다.",
       "blanks": [
         {
@@ -4240,7 +4258,7 @@
       "pid": "04-219-Q1",
       "sid": "04-219",
       "page": 33,
-      "tier": 1,
+      "tier": 2,
       "question": "2가 염색체는 [  ]에 다른 상동염색체 쌍과 [  ](으)로 분리된다.",
       "blanks": [
         {
@@ -4263,7 +4281,7 @@
       "pid": "04-220-Q1",
       "sid": "04-220",
       "page": 33,
-      "tier": 1,
+      "tier": 2,
       "question": "2가 염색체의 [  ]에 따라 각 생식세포에 서로 다른 조합의 [  ]이/가 전달된다.",
       "blanks": [
         {
@@ -4284,7 +4302,7 @@
       "pid": "04-221-Q1",
       "sid": "04-221",
       "page": 33,
-      "tier": 1,
+      "tier": 2,
       "question": "하나의 [  ](으)로부터 다양한 염색체 조합을 가진 [  ]이/가 형성된다.",
       "blanks": [
         {
@@ -4305,7 +4323,7 @@
       "pid": "04-222-Q1",
       "sid": "04-222",
       "page": 33,
-      "tier": 1,
+      "tier": 2,
       "question": "감수분열로 만들어진 암수 생식세포가 [  ](으)로 수정하므로 자손의 [  ]은/는 매우 다양해진다.",
       "blanks": [
         {
@@ -4316,7 +4334,9 @@
         {
           "blank_id": 2,
           "primary_answer": "유전자 구성",
-          "alt_answers": []
+          "alt_answers": [
+            "유전자구성"
+          ]
         }
       ],
       "order_flexible": false,
@@ -4332,7 +4352,10 @@
         {
           "blank_id": 1,
           "primary_answer": "감수분열",
-          "alt_answers": []
+          "alt_answers": [
+            "생식세포분열",
+            "감수 분열"
+          ]
         },
         {
           "blank_id": 2,
@@ -4427,7 +4450,9 @@
         {
           "blank_id": 1,
           "primary_answer": "감수분열",
-          "alt_answers": []
+          "alt_answers": [
+            "생식세포분열"
+          ]
         },
         {
           "blank_id": 2,
@@ -4774,29 +4799,6 @@
       "source_sentence": "부모에게서 태어날 수 있는 자손의 염색체 조합은 2^23 x 2^23, 약 70조 가지이다."
     },
     {
-      "pid": "04-247-Q1",
-      "sid": "04-247",
-      "page": 33,
-      "tier": 1,
-      "question": "[  ] 후기에는 [  ]이/가 분리된다.",
-      "blanks": [
-        {
-          "blank_id": 1,
-          "primary_answer": "감수 2분열",
-          "alt_answers": [
-            "감수 제2분열"
-          ]
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "염색분체",
-          "alt_answers": []
-        }
-      ],
-      "order_flexible": false,
-      "source_sentence": "감수 2분열 후기에는 염색분체가 분리된다."
-    },
-    {
       "pid": "04-248-Q1",
       "sid": "04-248",
       "page": 33,
@@ -4811,9 +4813,7 @@
         {
           "blank_id": 2,
           "primary_answer": "동일",
-          "alt_answers": [
-            "같"
-          ]
+          "alt_answers": []
         }
       ],
       "order_flexible": false,

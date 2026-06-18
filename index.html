@@ -696,8 +696,14 @@
       problemMeta: {},
       filters: {
         units: ["01", "02", "03", "04", "05", "06"],
-        tiers: [1, 2, 3]
+        tiers: [1, 2, 3],
+        onlyUnsolved: false,
+        onlyWrong: false,
+        onlyFlagged: false
       },
+      randomCount: null,
+      solvedPids: [],
+      wrongPids: [],
       displayMode: "one",
       inputMode: "typing",
       shuffle: false,
@@ -736,17 +742,23 @@
         });
         AppState.filters = {
           units: normalizeUnitList(saved.filters && saved.filters.units),
-          tiers: normalizeTierList(saved.filters && saved.filters.tiers)
+          tiers: normalizeTierList(saved.filters && saved.filters.tiers),
+          onlyUnsolved: Boolean(saved.filters && saved.filters.onlyUnsolved),
+          onlyWrong: Boolean(saved.filters && saved.filters.onlyWrong),
+          onlyFlagged: Boolean(saved.filters && saved.filters.onlyFlagged)
         };
+        AppState.randomCount = Number.isFinite(Number(saved.randomCount)) && Number(saved.randomCount) > 0 ? Math.floor(Number(saved.randomCount)) : null;
+        AppState.solvedPids = Array.isArray(saved.solvedPids) ? saved.solvedPids.map(String) : [];
+        AppState.wrongPids = Array.isArray(saved.wrongPids) ? saved.wrongPids.map(String) : [];
       AppState.externalBanks = Array.isArray(saved.externalBanks) ? saved.externalBanks : [];
         AppState.flaggedPids = Array.isArray(saved.flaggedPids) ? saved.flaggedPids : [];
         AppState.screen = "home";
-        AppState.sessionProblemIds = [];
-        AppState.currentIndex = 0;
-        AppState.inputs = {};
-        AppState.gradingResults = {};
-        AppState.manualOverrides = {};
-        AppState.revealed = {};
+        AppState.sessionProblemIds = Array.isArray(saved.sessionProblemIds) ? saved.sessionProblemIds.map(String) : [];
+        AppState.currentIndex = Number.isInteger(saved.currentIndex) && saved.currentIndex >= 0 ? saved.currentIndex : 0;
+        AppState.inputs = saved.inputs && typeof saved.inputs === "object" ? saved.inputs : {};
+        AppState.gradingResults = saved.gradingResults && typeof saved.gradingResults === "object" ? saved.gradingResults : {};
+        AppState.manualOverrides = saved.manualOverrides && typeof saved.manualOverrides === "object" ? saved.manualOverrides : {};
+        AppState.revealed = saved.revealed && typeof saved.revealed === "object" ? saved.revealed : {};
       } catch (error) {
         console.warn("저장된 상태를 불러오지 못했습니다.", error);
       }
@@ -761,12 +773,6 @@
         sourceBanks: [],
         allProblems: [],
         problemMeta: {},
-        sessionProblemIds: [],
-        currentIndex: 0,
-        inputs: {},
-        gradingResults: {},
-        manualOverrides: {},
-        revealed: {},
         toast: ""
       };
       localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot));
@@ -930,7 +936,8 @@
     }
 
     function clampCurrentIndex() {
-      const total = getSessionProblems().length;
+      const available = new Set(AppState.allProblems.map((problem) => problem.pid));
+      const total = AppState.sessionProblemIds.filter((pid) => available.has(pid)).length;
       if (!Number.isInteger(AppState.currentIndex) || AppState.currentIndex < 0) AppState.currentIndex = 0;
       if (total > 0 && AppState.currentIndex >= total) AppState.currentIndex = total - 1;
       if (total === 0) AppState.currentIndex = 0;
@@ -939,7 +946,82 @@
     function getFilteredProblems() {
       const selectedUnits = new Set(AppState.filters.units);
       const selectedTiers = new Set(AppState.filters.tiers.map(Number));
-      return AppState.allProblems.filter((problem) => selectedUnits.has(problem._unit) && selectedTiers.has(Number(problem.tier)));
+      const onlyUnsolved = Boolean(AppState.filters.onlyUnsolved);
+      const onlyWrong = Boolean(AppState.filters.onlyWrong);
+      const onlyFlagged = Boolean(AppState.filters.onlyFlagged);
+      const solved = new Set(AppState.solvedPids);
+      const wrong = new Set(AppState.wrongPids);
+      const flagged = new Set(AppState.flaggedPids);
+      return AppState.allProblems.filter((problem) =>
+        selectedUnits.has(problem._unit) &&
+        selectedTiers.has(Number(problem.tier)) &&
+        (!onlyUnsolved || !solved.has(problem.pid)) &&
+        (!onlyWrong || wrong.has(problem.pid)) &&
+        (!onlyFlagged || flagged.has(problem.pid))
+      );
+    }
+
+    function markSolved(pids) {
+      const solved = new Set(AppState.solvedPids);
+      let changed = false;
+      pids.forEach((pid) => {
+        if (!solved.has(pid)) {
+          solved.add(pid);
+          changed = true;
+        }
+      });
+      if (changed) AppState.solvedPids = Array.from(solved);
+      return changed;
+    }
+
+    function recordResult(pid, correct) {
+      markSolved([pid]);
+      const wrong = new Set(AppState.wrongPids);
+      if (correct) wrong.delete(pid);
+      else wrong.add(pid);
+      AppState.wrongPids = Array.from(wrong);
+    }
+
+    function resetSolvedHistory() {
+      if (AppState.solvedPids.length === 0 && AppState.wrongPids.length === 0) {
+        showToast("초기화할 기록이 없습니다.");
+        return;
+      }
+      AppState.solvedPids = [];
+      AppState.wrongPids = [];
+      showToast("문제 푼 기록을 초기화했습니다.");
+      commit();
+    }
+
+    function computeStats() {
+      const solved = new Set(AppState.solvedPids);
+      const wrong = new Set(AppState.wrongPids);
+      const perUnit = {};
+      UNIT_FILES.forEach((unit) => {
+        perUnit[unit] = { total: 0, solved: 0, wrong: 0 };
+      });
+      AppState.allProblems.forEach((problem) => {
+        const unit = problem._unit;
+        if (!perUnit[unit]) perUnit[unit] = { total: 0, solved: 0, wrong: 0 };
+        perUnit[unit].total += 1;
+        if (solved.has(problem.pid)) perUnit[unit].solved += 1;
+        if (wrong.has(problem.pid)) perUnit[unit].wrong += 1;
+      });
+      const totals = AppState.allProblems.length;
+      const solvedTotal = AppState.allProblems.filter((problem) => solved.has(problem.pid)).length;
+      const wrongTotal = AppState.allProblems.filter((problem) => wrong.has(problem.pid)).length;
+      return { perUnit, totals, solvedTotal, wrongTotal };
+    }
+
+    function resumeSession() {
+      clampSessionToAvailableProblems();
+      if (AppState.sessionProblemIds.length === 0) {
+        showToast("이어풀 세션이 없습니다.");
+        return;
+      }
+      AppState.screen = "quiz";
+      commit();
+      focusCurrentAnswerInput("first", true);
     }
 
     function getSessionProblems() {
@@ -954,14 +1036,20 @@
         showToast("선택한 조건에 맞는 문제가 없습니다.");
         return;
       }
-      let ids = selected.map((problem) => problem.pid);
+      let pool = selected.map((problem) => problem.pid);
+      const limit = Number(AppState.randomCount);
+      if (Number.isFinite(limit) && limit > 0 && limit < pool.length) {
+        pool = shuffleWithSeed(pool, Date.now()).slice(0, limit);
+      }
+      let ids;
       if (AppState.shuffle) {
         AppState.shuffleSeed = Date.now();
-        ids = shuffleWithSeed(ids, AppState.shuffleSeed);
+        ids = shuffleWithSeed(pool, AppState.shuffleSeed);
         AppState.shuffledOrder = ids.slice();
       } else {
         AppState.shuffleSeed = null;
         AppState.shuffledOrder = [];
+        ids = pool.slice().sort(naturalCompare);
       }
       AppState.sessionProblemIds = ids;
       AppState.currentIndex = 0;
@@ -1208,6 +1296,7 @@
         const result = autoGradeProblem(problem, includeUnattempted);
         if (result) {
           AppState.gradingResults[problem.pid] = result;
+          recordResult(problem.pid, result.correct);
         } else if (!includeUnattempted) {
           delete AppState.gradingResults[problem.pid];
         }
@@ -1235,10 +1324,12 @@
         ...AppState.gradingResults[pid],
         correct: !result.correct
       };
+      recordResult(pid, !result.correct);
       commit();
     }
 
     function setFlashcardResult(pid, correct) {
+      recordResult(pid, Boolean(correct));
       AppState.manualOverrides[pid] = Boolean(correct);
       AppState.gradingResults[pid] = {
         graded: true,
@@ -1423,6 +1514,8 @@
     function renderHome() {
       const filtered = getFilteredProblems();
       const loadedUnits = UNIT_FILES.filter((unit) => AppState.sourceBanks.some((bank) => String(bank.unit).padStart(2, "0") === unit));
+      const available = new Set(AppState.allProblems.map((problem) => problem.pid));
+      const resumable = AppState.sessionProblemIds.filter((pid) => available.has(pid)).length;
       return `
         <div class="home-grid">
           <section class="panel">
@@ -1431,7 +1524,10 @@
                 <h2 class="panel-title">학습 세션 설정</h2>
                 <div class="panel-subtitle">단원과 난이도를 선택한 뒤 문제 풀이를 시작하세요.</div>
               </div>
-              <button class="primary" data-action="start" ${filtered.length === 0 ? "disabled" : ""}>시작</button>
+              <div class="row-actions">
+                ${resumable ? `<button data-action="resume">이어풀기 (${resumable})</button>` : ""}
+                <button class="primary" data-action="start" ${filtered.length === 0 ? "disabled" : ""}>시작</button>
+              </div>
             </div>
             <div class="panel-body">
               <div class="filter-block">
@@ -1464,6 +1560,28 @@
                   문제 순서 섞기
                 </label>
               </div>
+              <div class="filter-block">
+                <p class="section-title">출제 옵션</p>
+                <div class="mode-grid">
+                  <label class="inline-check ${AppState.filters.onlyUnsolved ? "checked" : ""}">
+                    <input type="checkbox" data-action="only-unsolved" ${AppState.filters.onlyUnsolved ? "checked" : ""}>
+                    안 푼 문제만
+                  </label>
+                  <label class="inline-check ${AppState.filters.onlyWrong ? "checked" : ""}">
+                    <input type="checkbox" data-action="only-wrong" ${AppState.filters.onlyWrong ? "checked" : ""}>
+                    틀린 문제만
+                  </label>
+                </div>
+                <label class="inline-check toggle-line ${AppState.filters.onlyFlagged ? "checked" : ""}">
+                  <input type="checkbox" data-action="only-flagged" ${AppState.filters.onlyFlagged ? "checked" : ""}>
+                  플래그한 문제만 출제
+                </label>
+                <div class="toggle-line" style="display: flex; align-items: center; gap: 10px;">
+                  <span>문제 수</span>
+                  <input type="number" min="1" inputmode="numeric" data-action="random-count" value="${AppState.randomCount || ""}" placeholder="전체" style="width: 110px; height: 34px; border: 1px solid var(--border-strong); border-radius: 6px; padding: 0 9px; background: var(--surface); color: var(--text);">
+                  <span class="unit-title">비우면 전체를 출제합니다.</span>
+                </div>
+              </div>
               ${AppState.loadErrors.length ? `<div class="status-note">없는 기본 파일은 건너뜁니다: ${escapeHtml(AppState.loadErrors.join(", "))}</div>` : ""}
             </div>
           </section>
@@ -1479,15 +1597,27 @@
               <div class="summary-list">
                 <div class="summary-item"><span>로드된 기본 단원</span><strong>${loadedUnits.length}</strong></div>
                 <div class="summary-item"><span>외부 JSON</span><strong>${AppState.externalBanks.length}</strong></div>
-                <div class="summary-item"><span>선택된 문제</span><strong>${filtered.length}</strong></div>
+                <div class="summary-item"><span>출제 대상</span><strong>${filtered.length}</strong></div>
+                <div class="summary-item"><span>푼 문제 기록</span><strong>${AppState.solvedPids.length}</strong></div>
+                <div class="summary-item"><span>틀린 문제</span><strong>${AppState.wrongPids.length}</strong></div>
                 <div class="summary-item"><span>플래그</span><strong>${AppState.flaggedPids.length}</strong></div>
+              </div>
+              ${AppState.randomCount && filtered.length ? `<div class="status-note">랜덤 출제: ${Math.min(AppState.randomCount, filtered.length)}문제를 무작위로 뽑습니다.</div>` : ""}
+              <div class="filter-block">
+                <p class="section-title">학습 통계</p>
+                ${renderStatsPanel()}
+              </div>
+              <div class="filter-block">
+                <p class="section-title">푼 문제 기록</p>
+                <button data-action="reset-solved" style="width: 100%;" ${AppState.solvedPids.length === 0 && AppState.wrongPids.length === 0 ? "disabled" : ""}>문제 푼 기록 초기화</button>
+                <div class="status-note">채점하거나 플래시카드를 평가하면 푼 문제로 기록됩니다. 다시 맞히면 오답 목록에서 빠집니다.</div>
               </div>
               <div class="filter-block">
                 <p class="section-title">내보내기 기준</p>
                 ${renderExportChecks()}
                 <button data-action="export-json" style="margin-top: 10px; width: 100%;">JSON 내보내기</button>
               </div>
-              <div class="status-note">불러온 외부 JSON은 새로고침 후에도 유지됩니다.</div>
+              <div class="status-note">불러온 외부 JSON과 푼 기록은 새로고침 후에도 유지됩니다.</div>
             </div>
           </aside>
         </div>
@@ -1526,6 +1656,40 @@
       const active = kind === "display" ? AppState.displayMode === value : AppState.inputMode === value;
       const action = kind === "display" ? "display-mode" : "input-mode";
       return `<button class="${active ? "selected" : ""}" data-action="${action}" data-value="${value}">${label}</button>`;
+    }
+
+    function renderStatsPanel() {
+      const stats = computeStats();
+      if (stats.totals === 0) {
+        return `<div class="status-note">아직 로드된 문제가 없습니다.</div>`;
+      }
+      const overallPercent = Math.round((stats.solvedTotal / stats.totals) * 100);
+      const overallAcc = stats.solvedTotal ? Math.round(((stats.solvedTotal - stats.wrongTotal) / stats.solvedTotal) * 100) : null;
+      const rows = UNIT_FILES
+        .filter((unit) => stats.perUnit[unit] && stats.perUnit[unit].total > 0)
+        .map((unit) => {
+          const data = stats.perUnit[unit];
+          const accuracy = data.solved ? Math.round(((data.solved - data.wrong) / data.solved) * 100) : null;
+          return `
+            <div class="summary-item" style="padding: 7px 0;">
+              <span>${unit}단원</span>
+              <span style="color: var(--muted);">${data.solved}/${data.total}<span style="margin-left: 8px; color: var(--text);">${accuracy === null ? "—" : accuracy + "%"}</span></span>
+            </div>
+          `;
+        })
+        .join("");
+      return `
+        <div class="summary-item" style="padding: 8px 0;">
+          <span>전체 진행률</span>
+          <strong style="font-size: 15px;">${stats.solvedTotal}/${stats.totals} (${overallPercent}%)</strong>
+        </div>
+        <div class="summary-item" style="padding: 8px 0;">
+          <span>전체 정답률</span>
+          <strong style="font-size: 15px;">${overallAcc === null ? "—" : overallAcc + "%"}</strong>
+        </div>
+        ${rows}
+        <div class="status-note">정답률은 푼 문제 기준입니다.</div>
+      `;
     }
 
     function renderExportChecks() {
@@ -1703,6 +1867,7 @@
       if (action === "theme") toggleTheme();
       if (action === "load-json") triggerFilePicker();
       if (action === "start") startSession();
+      if (action === "resume") resumeSession();
       if (action === "home") returnHome();
       if (action === "display-mode") {
         AppState.displayMode = target.dataset.value;
@@ -1727,6 +1892,7 @@
       if (action === "reveal") toggleReveal(target.dataset.pid);
       if (action === "flash-result") setFlashcardResult(target.dataset.pid, target.dataset.correct === "true");
       if (action === "export-json") exportSelectedQuestions();
+      if (action === "reset-solved") resetSolvedHistory();
     });
 
     app.addEventListener("change", (event) => {
@@ -1750,6 +1916,25 @@
       }
       if (action === "shuffle") {
         AppState.shuffle = target.checked;
+        commit();
+      }
+      if (action === "only-unsolved") {
+        AppState.filters.onlyUnsolved = target.checked;
+        if (target.checked) AppState.filters.onlyWrong = false;
+        commit();
+      }
+      if (action === "only-wrong") {
+        AppState.filters.onlyWrong = target.checked;
+        if (target.checked) AppState.filters.onlyUnsolved = false;
+        commit();
+      }
+      if (action === "only-flagged") {
+        AppState.filters.onlyFlagged = target.checked;
+        commit();
+      }
+      if (action === "random-count") {
+        const value = Math.floor(Number(target.value));
+        AppState.randomCount = Number.isFinite(value) && value > 0 ? value : null;
         commit();
       }
       if (action === "export-option") {

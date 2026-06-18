@@ -6,7 +6,7 @@
       "pid": "05-001-Q1",
       "sid": "05-001",
       "page": 60,
-      "tier": 2,
+      "tier": 3,
       "question": "진화(evolution)는 '펴다', '전개하다'라는 뜻의 라틴어 '[  ]'에서 유래한 말이다.",
       "blanks": [
         {
@@ -538,7 +538,9 @@
         {
           "blank_id": 1,
           "primary_answer": "대립유전자",
-          "alt_answers": []
+          "alt_answers": [
+            "대립 유전자"
+          ]
         },
         {
           "blank_id": 2,
@@ -793,7 +795,9 @@
           "primary_answer": "줄어들었고",
           "alt_answers": [
             "줄어들었다",
-            "감소했고"
+            "감소했고",
+            "줄었고",
+            "감소하였고"
           ]
         },
         {
@@ -968,7 +972,9 @@
         {
           "blank_id": 2,
           "primary_answer": "대립유전자",
-          "alt_answers": []
+          "alt_answers": [
+            "대립 유전자"
+          ]
         }
       ],
       "order_flexible": false,
@@ -984,7 +990,9 @@
         {
           "blank_id": 1,
           "primary_answer": "대립유전자",
-          "alt_answers": []
+          "alt_answers": [
+            "대립 유전자"
+          ]
         }
       ],
       "order_flexible": false,
@@ -1000,12 +1008,16 @@
         {
           "blank_id": 1,
           "primary_answer": "대립유전자빈도",
-          "alt_answers": []
+          "alt_answers": [
+            "대립유전자 빈도"
+          ]
         },
         {
           "blank_id": 2,
           "primary_answer": "대립유전자",
-          "alt_answers": []
+          "alt_answers": [
+            "대립 유전자"
+          ]
         },
         {
           "blank_id": 3,
@@ -1031,7 +1043,9 @@
         {
           "blank_id": 2,
           "primary_answer": "대립유전자빈도",
-          "alt_answers": []
+          "alt_answers": [
+            "대립유전자 빈도"
+          ]
         }
       ],
       "order_flexible": false,
@@ -1057,7 +1071,9 @@
         {
           "blank_id": 3,
           "primary_answer": "대립유전자",
-          "alt_answers": []
+          "alt_answers": [
+            "대립 유전자"
+          ]
         }
       ],
       "order_flexible": true,
@@ -1232,7 +1248,9 @@
         {
           "blank_id": 2,
           "primary_answer": "대립유전자",
-          "alt_answers": []
+          "alt_answers": [
+            "대립 유전자"
+          ]
         }
       ],
       "order_flexible": false,
@@ -1490,7 +1508,9 @@
         {
           "blank_id": 1,
           "primary_answer": "대립유전자",
-          "alt_answers": []
+          "alt_answers": [
+            "대립 유전자"
+          ]
         }
       ],
       "order_flexible": false,
@@ -1710,7 +1730,9 @@
         {
           "blank_id": 2,
           "primary_answer": "대립유전자",
-          "alt_answers": []
+          "alt_answers": [
+            "대립 유전자"
+          ]
         }
       ],
       "order_flexible": false,
@@ -1749,7 +1771,9 @@
           "primary_answer": "낫모양적혈구",
           "alt_answers": [
             "낫 모양 적혈구",
-            "낫모양 적혈구"
+            "낫모양 적혈구",
+            "겸상적혈구",
+            "겸상 적혈구"
           ]
         }
       ],
@@ -1821,7 +1845,9 @@
           "primary_answer": "낫모양적혈구",
           "alt_answers": [
             "낫 모양 적혈구",
-            "낫모양 적혈구"
+            "낫모양 적혈구",
+            "겸상적혈구",
+            "겸상 적혈구"
           ]
         }
       ],
@@ -1967,7 +1993,9 @@
         {
           "blank_id": 1,
           "primary_answer": "대립유전자",
-          "alt_answers": []
+          "alt_answers": [
+            "대립 유전자"
+          ]
         },
         {
           "blank_id": 2,
@@ -2125,7 +2153,7 @@
       "sid": "05-104",
       "page": 65,
       "tier": 3,
-      "question": "생존에 [  ]하게 작용하는 돌연변이는 [  ]질 수 있다.",
+      "question": "생존에 [  ]하게 작용하는 돌연변이는 [  ] 수 있다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -2134,8 +2162,11 @@
         },
         {
           "blank_id": 2,
-          "primary_answer": "사라",
-          "alt_answers": []
+          "primary_answer": "사라질",
+          "alt_answers": [
+            "제거될",
+            "없어질"
+          ]
         }
       ],
       "order_flexible": false,
@@ -2182,7 +2213,9 @@
         {
           "blank_id": 3,
           "primary_answer": "대립유전자빈도",
-          "alt_answers": []
+          "alt_answers": [
+            "대립유전자 빈도"
+          ]
         }
       ],
       "order_flexible": false,
@@ -2630,7 +2663,9 @@
         {
           "blank_id": 1,
           "primary_answer": "대립유전자빈도",
-          "alt_answers": []
+          "alt_answers": [
+            "대립유전자 빈도"
+          ]
         }
       ],
       "order_flexible": false,
@@ -3582,10 +3617,15 @@
       "sid": "05-176",
       "page": 69,
       "tier": 2,
-      "question": "척추동물의 앞다리 그림은 박쥐, 바다사자, 고래, 고양이, 사자, 침팬지, [  ]의 앞다리를 비교한다.",
+      "question": "척추동물의 앞다리 그림은 박쥐, [  ], 고래, 고양이, 사자, 침팬지, [  ]의 앞다리를 비교한다.",
       "blanks": [
         {
           "blank_id": 1,
+          "primary_answer": "바다사자",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
           "primary_answer": "사람",
           "alt_answers": []
         }
@@ -3815,48 +3855,6 @@
       "source_sentence": "곤충의 날개는 표피에서 기원하였다."
     },
     {
-      "pid": "05-189-Q1",
-      "sid": "05-189",
-      "page": 69,
-      "tier": 3,
-      "question": "새의 날개 그림에는 [  ]과/와 [  ]이/가 표시되어 있다.",
-      "blanks": [
-        {
-          "blank_id": 1,
-          "primary_answer": "골격",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "깃털",
-          "alt_answers": []
-        }
-      ],
-      "order_flexible": true,
-      "source_sentence": "새의 날개 그림에는 골격과 깃털이 표시되어 있다."
-    },
-    {
-      "pid": "05-190-Q1",
-      "sid": "05-190",
-      "page": 69,
-      "tier": 3,
-      "question": "잠자리의 날개 그림에는 [  ]과/와 [  ]이/가 표시되어 있다.",
-      "blanks": [
-        {
-          "blank_id": 1,
-          "primary_answer": "시맥",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "시막",
-          "alt_answers": []
-        }
-      ],
-      "order_flexible": true,
-      "source_sentence": "잠자리의 날개 그림에는 시맥과 시막이 표시되어 있다."
-    },
-    {
       "pid": "05-191-Q1",
       "sid": "05-191",
       "page": 69,
@@ -3884,13 +3882,13 @@
       "sid": "05-192",
       "page": 69,
       "tier": 2,
-      "question": "흔적기관은 과거 생물의 구조와 생활 방식이 현재의 생물과 [  ]음을 보여 주는 증거이다.",
+      "question": "흔적기관은 과거 생물의 구조와 생활 방식이 현재의 생물과 [  ]을 보여 주는 증거이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "달랐",
+          "primary_answer": "달랐음",
           "alt_answers": [
-            "달랐다"
+            "다름"
           ]
         }
       ],
@@ -4048,7 +4046,7 @@
       "sid": "05-200",
       "page": 70,
       "tier": 2,
-      "question": "그 결과 갈라파고스 제도에는 섬마다 [  ] 모양이 조금씩 다른 여러 [  ]의 핀치가 살게 되었다.",
+      "question": "지리적 격리에 의한 종분화의 결과, 갈라파고스 제도에는 섬마다 [  ] 모양이 조금씩 다른 여러 [  ]의 핀치가 살게 되었다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -4462,7 +4460,8 @@
           "blank_id": 2,
           "primary_answer": "신경 다발",
           "alt_answers": [
-            "신경다발"
+            "신경다발",
+            "신경관"
           ]
         }
       ],

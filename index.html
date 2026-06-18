@@ -982,14 +982,34 @@
       AppState.wrongPids = Array.from(wrong);
     }
 
-    function resetSolvedHistory() {
+    function unitOfPid(pid) {
+      const meta = AppState.problemMeta[pid];
+      if (meta && meta.unit) return meta.unit;
+      const match = String(pid).match(/^(\d{2})-/);
+      return match ? match[1] : "";
+    }
+
+    function resetSolvedHistory(unit) {
       if (AppState.solvedPids.length === 0 && AppState.wrongPids.length === 0) {
         showToast("초기화할 기록이 없습니다.");
         return;
       }
-      AppState.solvedPids = [];
-      AppState.wrongPids = [];
-      showToast("문제 푼 기록을 초기화했습니다.");
+      if (!unit || unit === "all") {
+        AppState.solvedPids = [];
+        AppState.wrongPids = [];
+        showToast("전체 푼 기록을 초기화했습니다.");
+        commit();
+        return;
+      }
+      const before = AppState.solvedPids.length + AppState.wrongPids.length;
+      AppState.solvedPids = AppState.solvedPids.filter((pid) => unitOfPid(pid) !== unit);
+      AppState.wrongPids = AppState.wrongPids.filter((pid) => unitOfPid(pid) !== unit);
+      const removed = before - (AppState.solvedPids.length + AppState.wrongPids.length);
+      if (removed === 0) {
+        showToast(`${unit}단원에 초기화할 기록이 없습니다.`);
+        return;
+      }
+      showToast(`${unit}단원 푼 기록을 초기화했습니다.`);
       commit();
     }
 
@@ -1608,9 +1628,9 @@
                 ${renderStatsPanel()}
               </div>
               <div class="filter-block">
-                <p class="section-title">푼 문제 기록</p>
-                <button data-action="reset-solved" style="width: 100%;" ${AppState.solvedPids.length === 0 && AppState.wrongPids.length === 0 ? "disabled" : ""}>문제 푼 기록 초기화</button>
-                <div class="status-note">채점하거나 플래시카드를 평가하면 푼 문제로 기록됩니다. 다시 맞히면 오답 목록에서 빠집니다.</div>
+                <p class="section-title">푼 문제 기록 초기화</p>
+                ${renderResetPanel()}
+                <div class="status-note">단원별로 초기화하거나 전체를 한 번에 비울 수 있습니다.</div>
               </div>
               <div class="filter-block">
                 <p class="section-title">내보내기 기준</p>
@@ -1689,6 +1709,25 @@
         </div>
         ${rows}
         <div class="status-note">정답률은 푼 문제 기준입니다.</div>
+      `;
+    }
+
+    function renderResetPanel() {
+      const stats = computeStats();
+      const units = UNIT_FILES.filter((unit) => stats.perUnit[unit] && stats.perUnit[unit].solved > 0);
+      const hasAny = AppState.solvedPids.length > 0 || AppState.wrongPids.length > 0;
+      const rows = units.map((unit) => {
+        const data = stats.perUnit[unit];
+        return `
+          <div class="summary-item" style="padding: 7px 0;">
+            <span>${unit}단원 · ${data.solved}문제${data.wrong ? ` (오답 ${data.wrong})` : ""}</span>
+            <button data-action="reset-solved" data-unit="${unit}">초기화</button>
+          </div>
+        `;
+      }).join("");
+      return `
+        ${rows || `<div class="status-note">아직 푼 문제 기록이 없습니다.</div>`}
+        <button data-action="reset-solved" data-unit="all" style="width: 100%; margin-top: 10px;" ${hasAny ? "" : "disabled"}>전체 초기화</button>
       `;
     }
 
@@ -1892,7 +1931,7 @@
       if (action === "reveal") toggleReveal(target.dataset.pid);
       if (action === "flash-result") setFlashcardResult(target.dataset.pid, target.dataset.correct === "true");
       if (action === "export-json") exportSelectedQuestions();
-      if (action === "reset-solved") resetSolvedHistory();
+      if (action === "reset-solved") resetSolvedHistory(target.dataset.unit);
     });
 
     app.addEventListener("change", (event) => {

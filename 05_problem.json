@@ -7,12 +7,14 @@
       "sid": "05-001",
       "page": 60,
       "tier": 3,
-      "question": "진화(evolution)는 '펴다', '전개하다'라는 뜻의 라틴어 '[  ]'에서 유래한 말이다.",
+      "question": "진화(evolution)는 '[  ]', '전개하다'라는 뜻의 라틴어 'evolutio'에서 유래한 말이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "evolutio",
-          "alt_answers": []
+          "primary_answer": "펴다",
+          "alt_answers": [
+            "펼치다"
+          ]
         }
       ],
       "order_flexible": false,
@@ -162,7 +164,8 @@
           "blank_id": 1,
           "primary_answer": "짧고",
           "alt_answers": [
-            "짧"
+            "짧다",
+            "짧은"
           ]
         },
         {
@@ -185,7 +188,8 @@
           "blank_id": 1,
           "primary_answer": "길고",
           "alt_answers": [
-            "길"
+            "길다",
+            "긴"
           ]
         },
         {
@@ -255,7 +259,8 @@
           "blank_id": 1,
           "primary_answer": "길고",
           "alt_answers": [
-            "길"
+            "길다",
+            "긴"
           ]
         },
         {
@@ -1100,7 +1105,7 @@
       "sid": "05-052",
       "page": 62,
       "tier": 3,
-      "question": "유전자풀 예시에서 대립유전자 A의 수는 [  ]이고 대립유전자 a의 수는 [  ]이다.",
+      "question": "어떤 개체군이 유전자형 AA인 개체 2마리, Aa인 개체 4마리, aa인 개체 1마리로 이루어져 있을 때, 이 개체군의 유전자풀에서 대립유전자 A의 수는 [  ]이고 대립유전자 a의 수는 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -1121,7 +1126,7 @@
       "sid": "05-053",
       "page": 62,
       "tier": 3,
-      "question": "유전자풀 예시에서 대립유전자 A의 빈도는 [  ]이다.",
+      "question": "어떤 개체군이 유전자형 AA인 개체 2마리, Aa인 개체 4마리, aa인 개체 1마리로 이루어져 있어 유전자풀에 대립유전자가 모두 14개 있을 때, 대립유전자 A의 빈도는 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -1139,7 +1144,7 @@
       "sid": "05-054",
       "page": 62,
       "tier": 3,
-      "question": "유전자풀 예시에서 대립유전자 a의 빈도는 [  ]이다.",
+      "question": "어떤 개체군이 유전자형 AA인 개체 2마리, Aa인 개체 4마리, aa인 개체 1마리로 이루어져 있어 유전자풀에 대립유전자가 모두 14개 있을 때, 대립유전자 a의 빈도는 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -1261,25 +1266,15 @@
       "sid": "05-060",
       "page": 62,
       "tier": 3,
-      "question": "개체군 내 대립유전자빈도의 변화 그림은 [  ], [  ], [  ]를 비교한다.",
+      "question": "개체군 내 대립유전자빈도의 변화 그림은 1세대, [  ], 20세대를 비교한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "1세대",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "10세대",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 3,
-          "primary_answer": "20세대",
           "alt_answers": []
         }
       ],
-      "order_flexible": true,
+      "order_flexible": false,
       "source_sentence": "개체군 내 대립유전자빈도의 변화 그림은 1세대, 10세대, 20세대를 비교한다."
     },
     {
@@ -1287,17 +1282,14 @@
       "sid": "05-061",
       "page": 62,
       "tier": 2,
-      "question": "세대가 거듭됨에 따라 대립유전자 A의 빈도는 [  ]지고 a의 빈도는 [  ]진다.",
+      "question": "세대가 거듭됨에 따라 대립유전자 A의 빈도는 낮아지고 a의 빈도는 [  ].",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "낮아",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "높아",
-          "alt_answers": []
+          "primary_answer": "높아진다",
+          "alt_answers": [
+            "증가한다"
+          ]
         }
       ],
       "order_flexible": false,
@@ -1639,7 +1631,7 @@
       "sid": "05-078",
       "page": 64,
       "tier": 2,
-      "question": "돌연변이에 의한 유전자풀의 변화 모형에서 부모 세대의 대립유전자 [  ]이/가 자손 세대의 [  ](으)로 변하는 돌연변이가 일어났다.",
+      "question": "어떤 개체군의 유전자풀에 처음에는 대립유전자 A만 있었는데, 생식세포에서 돌연변이가 일어나 자손 세대에는 전에 없던 새로운 대립유전자가 나타났다. 이 모형에서 부모 세대의 대립유전자 [  ]이/가 자손 세대의 [  ](으)로 변하는 돌연변이가 일어났다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -1785,15 +1777,10 @@
       "sid": "05-085",
       "page": 64,
       "tier": 3,
-      "question": "헤모글로빈 유전자의 돌연변이 그림에서 정상 헤모글로빈은 아미노산 프롤린, [  ], [  ](으)로 표시된다.",
+      "question": "헤모글로빈 유전자의 돌연변이 그림에서 정상 헤모글로빈은 아미노산 프롤린, [  ], 글루탐산으로 표시된다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "글루탐산",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "글루탐산",
           "alt_answers": []
         }
@@ -2032,7 +2019,7 @@
       "sid": "05-097",
       "page": 64,
       "tier": 2,
-      "question": "자연선택에 의한 유전자풀의 변화 모형에서 대립유전자 [  ]이/가 생존에 유리하기 때문에 [  ]되었다.",
+      "question": "어떤 개체군에서 환경이 변한 뒤 대립유전자 A를 가진 개체는 모두 살아남았지만 대립유전자 a를 가진 개체는 생존하지 못하고 제거되었다. 이 모형에서 생존에 유리한 대립유전자 [  ]이/가 [  ]되었다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -2499,7 +2486,10 @@
         {
           "blank_id": 1,
           "primary_answer": "남획",
-          "alt_answers": []
+          "alt_answers": [
+            "사냥",
+            "무분별한 사냥"
+          ]
         }
       ],
       "order_flexible": false,
@@ -2551,16 +2541,18 @@
       "sid": "05-122",
       "page": 66,
       "tier": 3,
-      "question": "병목효과는 병의 좁은 [  ]을/를 통과하는 것에 비유하여 붙여진 이름이다.",
+      "question": "병목효과는 병의 좁은 부분, 즉 [  ]을/를 통과하는 것에 비유하여 붙여진 이름이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "목",
-          "alt_answers": []
+          "primary_answer": "병목",
+          "alt_answers": [
+            "목"
+          ]
         }
       ],
       "order_flexible": false,
-      "source_sentence": "병목효과는 병의 좁은 목을 통과하는 것에 비유하여 붙여진 이름이다."
+      "source_sentence": "병목효과는 병의 좁은 부분, 즉 병목을 통과하는 것에 비유하여 붙여진 이름이다."
     },
     {
       "pid": "05-123-Q1",
@@ -2681,7 +2673,11 @@
         {
           "blank_id": 1,
           "primary_answer": "유전적 특성",
-          "alt_answers": []
+          "alt_answers": [
+            "유전자풀",
+            "유전 형질",
+            "유전적 구성"
+          ]
         }
       ],
       "order_flexible": false,
@@ -2831,7 +2827,10 @@
         {
           "blank_id": 1,
           "primary_answer": "생물학적",
-          "alt_answers": []
+          "alt_answers": [
+            "유전적",
+            "유전자"
+          ]
         }
       ],
       "order_flexible": false,
@@ -2924,7 +2923,10 @@
         {
           "blank_id": 1,
           "primary_answer": "확산",
-          "alt_answers": []
+          "alt_answers": [
+            "이주",
+            "이동"
+          ]
         }
       ],
       "order_flexible": false,
@@ -2997,18 +2999,18 @@
       "sid": "05-146",
       "page": 67,
       "tier": 2,
-      "question": "유전적 부동은 개체군의 크기가 [  ]수록 강하게 작용한다는 설명은 옳지 않다.",
+      "question": "유전적 부동은 개체군의 크기가 [  ]수록 강하게 작용한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "클",
+          "primary_answer": "작을",
           "alt_answers": [
-            "큰"
+            "작은"
           ]
         }
       ],
       "order_flexible": false,
-      "source_sentence": "유전적 부동은 개체군의 크기가 클수록 강하게 작용한다는 설명은 옳지 않다."
+      "source_sentence": "유전적 부동은 개체군의 크기가 작을수록 강하게 작용한다."
     },
     {
       "pid": "05-147-Q1",
@@ -3059,7 +3061,7 @@
       "sid": "05-149",
       "page": 68,
       "tier": 2,
-      "question": "버제스 셰일에서는 [  ], [  ], [  ] 등 다양한 생물의 화석이 발견되었다.",
+      "question": "버제스 셰일에서는 [  ], [  ], [  ] 등 다양한 생물의 화석이 발견되었다. (대표 3가지)",
       "blanks": [
         {
           "blank_id": 1,
@@ -3703,7 +3705,10 @@
         {
           "blank_id": 2,
           "primary_answer": "해부학적 구조",
-          "alt_answers": []
+          "alt_answers": [
+            "발생 기원",
+            "기원"
+          ]
         }
       ],
       "order_flexible": false,
@@ -3742,7 +3747,10 @@
         {
           "blank_id": 2,
           "primary_answer": "유사",
-          "alt_answers": []
+          "alt_answers": [
+            "비슷",
+            "닮은"
+          ]
         }
       ],
       "order_flexible": false,
@@ -3955,11 +3963,11 @@
       "sid": "05-196",
       "page": 70,
       "tier": 2,
-      "question": "생물의 [  ] 분포는 대륙의 이동이나 산맥, 강과 같은 [  ]에 따라 달라져 생물종의 분포가 지역마다 다르게 나타난다.",
+      "question": "생물의 [  ]은/는 대륙의 이동이나 산맥, 강과 같은 [  ]에 따라 달라져 생물종의 분포가 지역마다 다르게 나타난다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "지리적",
+          "primary_answer": "지리적 분포",
           "alt_answers": []
         },
         {
@@ -4155,21 +4163,11 @@
       "sid": "05-205",
       "page": 70,
       "tier": 2,
-      "question": "월리스선을 기준으로 [  ]쪽에는 캥거루, 코알라와 같은 [  ]이/가 많이 서식하지만 [  ]쪽에는 유대류가 서식하지 않는다.",
+      "question": "월리스선을 기준으로 동쪽에는 캥거루, 코알라와 같은 [  ]이/가 많이 서식하지만 서쪽에는 이들이 서식하지 않는다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "동",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "유대류",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 3,
-          "primary_answer": "서",
           "alt_answers": []
         }
       ],
@@ -4227,16 +4225,18 @@
       "sid": "05-208",
       "page": 70,
       "tier": 3,
-      "question": "유대류의 지리적 분포 지도에서 [  ]색은 유대류 분포 지역을 나타낸다.",
+      "question": "유대류의 지리적 분포 지도에서 유대류가 분포하는 지역은 주로 [  ] 일대이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "주황",
-          "alt_answers": []
+          "primary_answer": "오스트레일리아",
+          "alt_answers": [
+            "오스트레일리아와 일부 섬"
+          ]
         }
       ],
       "order_flexible": false,
-      "source_sentence": "유대류의 지리적 분포 지도에서 주황색은 유대류 분포 지역을 나타낸다."
+      "source_sentence": "유대류의 지리적 분포 지도에서 유대류가 분포하는 지역은 주로 오스트레일리아 일대이다."
     },
     {
       "pid": "05-209-Q1",
@@ -4750,12 +4750,14 @@
       "sid": "05-233",
       "page": 71,
       "tier": 3,
-      "question": "사이토크롬 c의 아미노산서열 유사도 그래프의 세로축은 사람의 사이토크롬 c와 아미노산서열에서 [  ] 아미노산 개수를 나타낸다.",
+      "question": "사이토크롬 c의 아미노산서열 유사도 그래프의 세로축은 사람의 사이토크롬 c와 아미노산서열에서 [  ] 개수를 나타낸다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "다른",
-          "alt_answers": []
+          "primary_answer": "다른 아미노산",
+          "alt_answers": [
+            "차이 나는 아미노산"
+          ]
         }
       ],
       "order_flexible": false,

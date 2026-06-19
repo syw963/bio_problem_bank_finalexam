@@ -225,16 +225,11 @@
       "sid": "03-012",
       "page": 10,
       "tier": 2,
-      "question": "뉴클레오솜과 뉴클레오솜 사이는 [  ](으)로 연결되어 실에 꿰인 [  ]의 형태를 띤다.",
+      "question": "뉴클레오솜과 뉴클레오솜 사이는 [  ](으)로 연결되어 실에 꿰인 구슬의 형태를 띤다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "DNA",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "구슬",
           "alt_answers": []
         }
       ],
@@ -267,15 +262,10 @@
       "sid": "03-014",
       "page": 10,
       "tier": 2,
-      "question": "염색체는 DNA 복제, [  ], 전사와 같은 다양한 과정에서 [  ]하거나 풀어지며 구조가 변한다.",
+      "question": "염색체는 DNA 복제, 세포분열, 전사와 같은 다양한 과정에서 [  ]하거나 풀어지며 구조가 변한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "세포분열",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "응축",
           "alt_answers": []
         }
@@ -443,7 +433,10 @@
         {
           "blank_id": 1,
           "primary_answer": "실",
-          "alt_answers": []
+          "alt_answers": [
+            "실타래",
+            "가는 실"
+          ]
         },
         {
           "blank_id": 2,
@@ -639,17 +632,10 @@
       "sid": "03-033",
       "page": 11,
       "tier": 3,
-      "question": "뉴클레오타이드를 구성하는 당은 탄소 [  ]개로 이루어진 [  ]이다.",
+      "question": "뉴클레오타이드를 구성하는 당은 탄소 5개로 이루어진 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "5",
-          "alt_answers": [
-            "다섯"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "단당류",
           "alt_answers": []
         }
@@ -778,20 +764,12 @@
       "sid": "03-039",
       "page": 11,
       "tier": 2,
-      "question": "뉴클레오타이드에서 인산, [  ], 염기는 각각 [  ]개씩 결합한다.",
+      "question": "뉴클레오타이드에서 인산, [  ], 염기는 각각 1개씩 결합한다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "당",
           "alt_answers": []
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "1",
-          "alt_answers": [
-            "한",
-            "하나"
-          ]
         }
       ],
       "order_flexible": false,
@@ -1149,20 +1127,15 @@
       "sid": "03-056",
       "page": 11,
       "tier": 2,
-      "question": "유전자는 세포의 [  ]과/와 [  ]을/를 조절하는 데 중요한 역할을 한다.",
+      "question": "유전자는 세포의 구조와 [  ]을/를 조절하는 데 중요한 역할을 한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "구조",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "기능",
           "alt_answers": []
         }
       ],
-      "order_flexible": true,
+      "order_flexible": false,
       "source_sentence": "유전자는 세포의 구조와 기능을 조절하는 데 중요한 역할을 한다."
     },
     {
@@ -1257,7 +1230,8 @@
           "blank_id": 1,
           "primary_answer": "유전자발현",
           "alt_answers": [
-            "유전자 발현"
+            "유전자 발현",
+            "발현"
           ]
         },
         {
@@ -1377,17 +1351,10 @@
       "sid": "03-070",
       "page": 12,
       "tier": 2,
-      "question": "사람의 [  ]번 염색체는 2개의 유인원 염색체가 머리를 맞대듯이 [  ]한 형태이다.",
+      "question": "사람의 2번 염색체는 2개의 유인원 염색체가 머리를 맞대듯이 [  ]한 형태이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "2",
-          "alt_answers": [
-            "두"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "융합",
           "alt_answers": []
         }
@@ -1428,7 +1395,11 @@
         {
           "blank_id": 1,
           "primary_answer": "외형적",
-          "alt_answers": []
+          "alt_answers": [
+            "형태적",
+            "외부적",
+            "외관상"
+          ]
         }
       ],
       "order_flexible": false,
@@ -1830,7 +1801,7 @@
       "sid": "03-094",
       "page": 12,
       "tier": 3,
-      "question": "크기와 모양이 같은 염색체를 [  ] 지은 뒤 크기가 [  ] 것부터 배열하여 번호를 매긴다.",
+      "question": "크기와 모양이 같은 염색체를 [  ] 지은 뒤 크기가 [  ] 것부터 작은 것 순으로 배열하여 번호를 매긴다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -2315,17 +2286,10 @@
       "sid": "03-119",
       "page": 13,
       "tier": 2,
-      "question": "자손의 성을 결정하는 유전자가 난세포의 W염색체에 있어, [  ]염색체를 갖고 있는 개체가 [  ]이/가 된다.",
+      "question": "자손의 성을 결정하는 유전자가 난세포의 W염색체에 있어, W염색체를 갖고 있는 개체가 [  ]이/가 된다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "W",
-          "alt_answers": [
-            "w"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "암컷",
           "alt_answers": []
         }
@@ -2408,7 +2372,9 @@
         {
           "blank_id": 1,
           "primary_answer": "온도",
-          "alt_answers": []
+          "alt_answers": [
+            "환경 온도"
+          ]
         },
         {
           "blank_id": 2,
@@ -3005,11 +2971,11 @@
       "sid": "03-152",
       "page": 14,
       "tier": 2,
-      "question": "염색분체는 염색체를 구성하는 [  ]이다.",
+      "question": "염색분체는 [  ]을/를 구성하는 가닥이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "가닥",
+          "primary_answer": "염색체",
           "alt_answers": []
         }
       ],
@@ -3037,11 +3003,11 @@
       "sid": "03-154",
       "page": 14,
       "tier": 3,
-      "question": "중심절은 염색분체를 연결하는 [  ] 부위이다.",
+      "question": "중심절은 [  ]을/를 연결하는 DNA 부위이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "DNA",
+          "primary_answer": "염색분체",
           "alt_answers": []
         }
       ],

@@ -74,7 +74,7 @@
       "tier": 2,
       "question": "2개의 긴 사슬과 2개의 짧은 사슬은 각각 [  ]하다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "동일", "alt_answers": ["동등"] }
+        { "blank_id": 1, "primary_answer": "동일", "alt_answers": ["동등", "같다", "일정"] }
       ],
       "order_flexible": false,
       "source_sentence": "2개의 긴 사슬과 2개의 짧은 사슬은 각각 동일하다."
@@ -271,7 +271,7 @@
       "tier": 2,
       "question": "DNA가 재조합되는 과정에서 뉴클레오타이드의 삽입, 결실과 같은 [  ]가 발생할 수도 있으므로 항체 유전자의 [  ]은 더욱 증가한다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "돌연변이", "alt_answers": [] },
+        { "blank_id": 1, "primary_answer": "돌연변이", "alt_answers": ["변이"] },
         { "blank_id": 2, "primary_answer": "다양성", "alt_answers": [] }
       ],
       "order_flexible": false,
@@ -333,7 +333,7 @@
       "tier": 2,
       "question": "항원항체반응의 특이성 그림에서 항체는 [  ] 항원과 결합한다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "맞는", "alt_answers": ["일치하는"] }
+        { "blank_id": 1, "primary_answer": "맞는", "alt_answers": ["일치하는", "상보적인", "해당하는", "특정한"] }
       ],
       "order_flexible": false,
       "source_sentence": "항원항체반응의 특이성 그림에서 항체는 맞는 항원과 결합한다."
@@ -345,7 +345,7 @@
       "tier": 2,
       "question": "항원항체반응의 특이성 그림에서 항체는 [  ] 항원과 결합하지 못한다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "맞지 않는", "alt_answers": ["일치하지 않는"] }
+        { "blank_id": 1, "primary_answer": "맞지 않는", "alt_answers": ["일치하지 않는", "상보적이지 않은", "다른"] }
       ],
       "order_flexible": false,
       "source_sentence": "항원항체반응의 특이성 그림에서 항체는 맞지 않는 항원과 결합하지 못한다."
@@ -480,12 +480,11 @@
       "sid": "02-039",
       "page": 115,
       "tier": 2,
-      "question": "응집원과 응집소의 항원항체반응 그림에서 적혈구 표면에는 [  ] A와 [  ] B가 표시되어 있다.",
+      "question": "응집원과 응집소의 항원항체반응 그림에서 적혈구 표면에는 [  ] A와 응집원 B가 표시되어 있다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "응집원", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "응집원", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "응집원", "alt_answers": [] }
       ],
-      "order_flexible": true,
+      "order_flexible": false,
       "source_sentence": "응집원과 응집소의 항원항체반응 그림에서 적혈구 표면에는 응집원 A와 응집원 B가 표시되어 있다."
     },
     {
@@ -641,7 +640,7 @@
       "sid": "02-052",
       "page": 115,
       "tier": 3,
-      "question": "응집소 α, β는 외부 환경의 항원에 노출되어 생후 [  ]년 전후로 [  ] 생성된다.",
+      "question": "응집소 α, β는 적혈구 응집원에 직접 노출되지 않아도 외부 환경의 항원에 노출되어 생후 [  ]년 전후로 [  ] 생성된다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "1", "alt_answers": ["일"] },
         { "blank_id": 2, "primary_answer": "자연", "alt_answers": ["자연적으로"] }
@@ -767,7 +766,7 @@
       "sid": "02-062",
       "page": 115,
       "tier": 2,
-      "question": "Rh식 혈액형 판정 과정에서 [  ]의 혈액에는 Rh [  ] 항체가 생성된다.",
+      "question": "Rh식 혈액형 판정 과정에서 [  ]의 혈액에는 Rh [  ]가 생성된다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "토끼", "alt_answers": [] },
         { "blank_id": 2, "primary_answer": "응집소", "alt_answers": [] }
@@ -1041,10 +1040,9 @@
       "sid": "02-084",
       "page": 116,
       "tier": 3,
-      "question": "HCG는 수정 [  ]일 후부터 [  ]에서 검출된다.",
+      "question": "HCG는 수정 6-12일 후부터 [  ]에서 검출된다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "6-12", "alt_answers": ["6~12"] },
-        { "blank_id": 2, "primary_answer": "소변", "alt_answers": ["오줌"] }
+        { "blank_id": 1, "primary_answer": "소변", "alt_answers": ["오줌"] }
       ],
       "order_flexible": false,
       "source_sentence": "HCG는 수정 6-12일 후부터 소변에서 검출된다."
@@ -1079,10 +1077,9 @@
       "sid": "02-087",
       "page": 116,
       "tier": 2,
-      "question": "임신 진단 키트 그림에서 임신하지 않았을 때는 [  ] C에만 [  ]가 나타난다.",
+      "question": "임신 진단 키트 그림에서 임신하지 않았을 때는 [  ] C에만 띠가 나타난다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "대조선", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "띠", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "대조선", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "임신 진단 키트 그림에서 임신하지 않았을 때는 대조선 C에만 띠가 나타난다."
@@ -1155,10 +1152,9 @@
       "sid": "02-093",
       "page": 116,
       "tier": 2,
-      "question": "항원이 없을 때 진단 키트는 [  ](C)에서만 띠가 나타나 [  ]로 보인다.",
+      "question": "항원이 없을 때 진단 키트는 [  ](C)에서만 띠가 나타나 한 줄로 보인다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "대조선", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "한 줄", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "대조선", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "항원이 없을 때 진단 키트는 대조선(C)에서만 띠가 나타나 한 줄로 보인다."
@@ -1229,10 +1225,9 @@
       "sid": "02-099",
       "page": 116,
       "tier": 2,
-      "question": "하나의 항체에는 [  ] 2개의 [  ] 부위가 있다.",
+      "question": "하나의 항체에는 동일한 2개의 [  ] 부위가 있다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "동일한", "alt_answers": ["같은"] },
-        { "blank_id": 2, "primary_answer": "항원 결합", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "항원 결합", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "중요 개념 체크에서는 하나의 항체에는 동일한 2개의 항원 결합 부위가 있다고 제시한다."
@@ -1242,10 +1237,9 @@
       "sid": "02-101",
       "page": 116,
       "tier": 2,
-      "question": "AB형인 사람은 응집원 A가 있는 적혈구와 응집원 B가 있는 적혈구가 각각 [  ] 있는 것이 아니라, 하나의 적혈구에 응집원 A와 B가 [  ] 있다.",
+      "question": "AB형인 사람은 응집원 A가 있는 적혈구와 응집원 B가 있는 적혈구가 각각 따로 있는 것이 아니라, 하나의 적혈구에 응집원 A와 B가 [  ] 있다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "따로", "alt_answers": ["떨어져"] },
-        { "blank_id": 2, "primary_answer": "함께", "alt_answers": ["같이", "모두"] }
+        { "blank_id": 1, "primary_answer": "함께", "alt_answers": ["같이", "모두"] }
       ],
       "order_flexible": false,
       "source_sentence": "중요 개념 체크에서는 AB형인 사람의 혈액에는 응집원 A가 있는 적혈구와 응집원 B가 있는 적혈구가 각각 따로 있다는 설명이 옳지 않다고 제시한다."
@@ -1292,10 +1286,9 @@
       "sid": "02-105",
       "page": 117,
       "tier": 2,
-      "question": "처음으로 특정 항원에 노출되면 이 항원에 특이적인 B림프구와 T림프구의 수가 증가하기 전까지 [  ]일 간의 [  ]가 있다.",
+      "question": "처음으로 특정 항원에 노출되면 이 항원에 특이적인 B림프구와 T림프구의 수가 증가하기 전까지 5-7일 간의 [  ]가 있다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "5-7", "alt_answers": ["5~7"] },
-        { "blank_id": 2, "primary_answer": "지체기", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "지체기", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "처음으로 특정 항원에 노출되면 이 항원에 특이적인 B림프구와 T림프구의 수가 증가하기 전까지 5-7일 간의 지체기가 있다."
@@ -1630,10 +1623,10 @@
       "sid": "02-133",
       "page": 118,
       "tier": 2,
-      "question": "집단을 구성하는 대부분의 개체가 면역력을 가지게 되면 면역력이 없는 개체도 [  ]될 확률이 [  ]진다.",
+      "question": "집단을 구성하는 대부분의 개체가 면역력을 가지게 되면 면역력이 없는 개체도 [  ]될 확률이 [  ].",
       "blanks": [
         { "blank_id": 1, "primary_answer": "감염", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "낮아", "alt_answers": [] }
+        { "blank_id": 2, "primary_answer": "낮아진다", "alt_answers": ["낮아짐"] }
       ],
       "order_flexible": false,
       "source_sentence": "집단을 구성하는 대부분의 개체가 면역력을 가지게 되면 면역력이 없는 개체도 감염될 확률이 낮아진다."
@@ -1784,7 +1777,7 @@
       "tier": 2,
       "question": "스웨덴 천연두 그래프의 가로축은 [  ](년)이다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "연도", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "연도", "alt_answers": ["년도", "해"] }
       ],
       "order_flexible": false,
       "source_sentence": "스웨덴 천연두 그래프의 가로축은 연도(년)이다."
@@ -1821,7 +1814,7 @@
       "tier": 2,
       "question": "미국 홍역 그래프의 가로축은 [  ](년)이다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "연도", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "연도", "alt_answers": ["년도", "해"] }
       ],
       "order_flexible": false,
       "source_sentence": "미국 홍역 그래프의 가로축은 연도(년)이다."
@@ -2337,7 +2330,7 @@
       "sid": "02-189",
       "page": 119,
       "tier": 2,
-      "question": "비활성화 백신(사백신)은 항원의 특성은 유지한 채 [  ] 상태로 만든 병원체를 사용한다.",
+      "question": "사백신은 항원의 특성은 유지한 채 [  ] 상태로 만든 병원체를 사용한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "비활성화", "alt_answers": ["불활성화"] }
       ],

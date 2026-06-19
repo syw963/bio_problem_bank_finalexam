@@ -554,6 +554,90 @@
       color: var(--bad);
     }
 
+    .mcq-question {
+      display: grid;
+      gap: 16px;
+    }
+
+    .mcq-stem {
+      font-size: 18px;
+      line-height: 1.9;
+    }
+
+    .mcq-boxes {
+      border: 1px solid var(--border-strong);
+      border-radius: var(--radius);
+      background: var(--surface-alt);
+      padding: 14px 16px;
+      display: grid;
+      gap: 8px;
+    }
+
+    .mcq-box-item {
+      font-size: 16px;
+      line-height: 1.7;
+      word-break: keep-all;
+    }
+
+    .mcq-choices {
+      display: grid;
+      gap: 10px;
+    }
+
+    .mcq-choice {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      width: 100%;
+      min-height: 44px;
+      padding: 10px 14px;
+      text-align: left;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      background: var(--surface);
+      color: var(--text);
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .mcq-choice:hover:not(:disabled) {
+      border-color: var(--border-strong);
+      background: var(--surface-alt);
+    }
+
+    .mcq-choice.chosen {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+
+    .mcq-choice.correct {
+      border-color: var(--good);
+      background: var(--good-bg);
+      color: var(--good);
+    }
+
+    .mcq-choice.incorrect {
+      border-color: var(--bad);
+      background: var(--bad-bg);
+      color: var(--bad);
+    }
+
+    .mcq-choice:disabled {
+      cursor: default;
+      opacity: 1;
+    }
+
+    .mcq-mark {
+      font-weight: 720;
+      flex: 0 0 auto;
+    }
+
+    .mcq-choice-text {
+      flex: 1 1 auto;
+      word-break: keep-all;
+    }
+
     .flashcard {
       border: 1px dashed var(--border-strong);
       border-radius: var(--radius);
@@ -668,6 +752,8 @@
   <script>
     const STORAGE_KEY = "koreanBioQuestionBank.AppState.v1";
     const UNIT_FILES = ["01", "02", "03", "04", "05", "06"];
+    const PROBLEM_TYPES = ["blank", "mcq"];
+    const MCQ_CHOICE_MARKS = ["①", "②", "③", "④"];
     const TIER_LABELS = {
       1: "핵심개념",
       2: "본문개념",
@@ -690,8 +776,11 @@
       screen: "home",
       loading: true,
       loadErrors: [],
+      problemType: "blank",
       sourceBanks: [],
       externalBanks: [],
+      mcqBanks: [],
+      mcqLoaded: false,
       allProblems: [],
       problemMeta: {},
       filters: {
@@ -736,10 +825,13 @@
           loading: true,
           loadErrors: [],
           sourceBanks: [],
+          mcqBanks: [],
+          mcqLoaded: false,
           allProblems: [],
           problemMeta: {},
           toast: ""
         });
+        AppState.problemType = PROBLEM_TYPES.includes(saved.problemType) ? saved.problemType : "blank";
         AppState.filters = {
           units: normalizeUnitList(saved.filters && saved.filters.units),
           tiers: normalizeTierList(saved.filters && saved.filters.tiers),
@@ -771,6 +863,8 @@
         loading: false,
         loadErrors: [],
         sourceBanks: [],
+        mcqBanks: [],
+        mcqLoaded: false,
         allProblems: [],
         problemMeta: {},
         toast: ""
@@ -808,6 +902,24 @@
       commit();
     }
 
+    async function setProblemType(type) {
+      if (!PROBLEM_TYPES.includes(type) || AppState.problemType === type) return;
+      AppState.problemType = type;
+      AppState.screen = "home";
+      AppState.sessionProblemIds = [];
+      AppState.shuffledOrder = [];
+      AppState.currentIndex = 0;
+      if (type === "mcq" && !AppState.mcqLoaded) {
+        AppState.loading = true;
+        commit();
+        await loadMcqBanks();
+        AppState.loading = false;
+      }
+      rebuildProblemPool();
+      clampSessionToAvailableProblems();
+      commit();
+    }
+
     async function loadInitialBanks() {
       const tasks = UNIT_FILES.map(async (unit) => {
         const response = await fetch(`${unit}_problem.json`, { cache: "no-store" });
@@ -835,10 +947,77 @@
           }
         })
         .filter(Boolean);
+      if (AppState.problemType === "mcq") {
+        await loadMcqBanks();
+      }
       rebuildProblemPool();
       AppState.loading = false;
       clampSessionToAvailableProblems();
       commit();
+    }
+
+    async function loadMcqBanks() {
+      const tasks = UNIT_FILES.map(async (unit) => {
+        const response = await fetch(`${unit}_mcq.json`, { cache: "no-store" });
+        if (!response.ok) throw new Error(`${unit}_mcq.json 없음`);
+        const json = await response.json();
+        return normalizeMcqBank(json, `${unit}_mcq.json`);
+      });
+      const results = await Promise.allSettled(tasks);
+      AppState.mcqBanks = [];
+      results.forEach((result) => {
+        if (result.status === "fulfilled") {
+          AppState.mcqBanks.push(result.value);
+        } else {
+          AppState.loadErrors.push(result.reason && result.reason.message ? result.reason.message : "객관식 파일 로드 실패");
+        }
+      });
+      AppState.mcqLoaded = true;
+    }
+
+    function validateMcqBank(bank) {
+      if (!bank || typeof bank !== "object") throw new Error("객관식 JSON 최상위 형식이 올바르지 않습니다.");
+      if (typeof bank.unit !== "string" && typeof bank.unit !== "number") throw new Error("unit 값이 없습니다.");
+      if (typeof bank.title !== "string") throw new Error("title 값이 없습니다.");
+      if (!Array.isArray(bank.questions)) throw new Error("questions 배열이 없습니다.");
+      bank.questions.forEach((question, index) => {
+        const label = `${index + 1}번 객관식`;
+        if (!question || typeof question !== "object") throw new Error(`${label} 형식이 올바르지 않습니다.`);
+        if (typeof question.qid !== "string") throw new Error(`${label}: qid 값이 없습니다.`);
+        if (!Number.isFinite(Number(question.page))) throw new Error(`${label}: page 값이 올바르지 않습니다.`);
+        if (![1, 2, 3].includes(Number(question.tier))) throw new Error(`${label}: tier 값이 올바르지 않습니다.`);
+        if (!["combination", "single"].includes(question.type)) throw new Error(`${label}: type 값이 올바르지 않습니다.`);
+        if (typeof question.stem !== "string") throw new Error(`${label}: stem 값이 없습니다.`);
+        if (!Array.isArray(question.choices) || question.choices.length !== 4 || !question.choices.every((c) => typeof c === "string")) {
+          throw new Error(`${label}: choices는 4개의 문자열이어야 합니다.`);
+        }
+        if (!Number.isInteger(Number(question.answer)) || Number(question.answer) < 1 || Number(question.answer) > 4) {
+          throw new Error(`${label}: answer 값은 1~4여야 합니다.`);
+        }
+        if (!Array.isArray(question.boxes)) throw new Error(`${label}: boxes 배열이 없습니다.`);
+        if (question.type === "combination" && question.boxes.length === 0) throw new Error(`${label}: combination 유형은 boxes가 비어 있을 수 없습니다.`);
+        if (question.type === "single" && question.boxes.length !== 0) throw new Error(`${label}: single 유형은 boxes가 비어 있어야 합니다.`);
+      });
+    }
+
+    function normalizeMcqBank(bank, sourceName) {
+      validateMcqBank(bank);
+      return {
+        unit: String(bank.unit),
+        title: String(bank.title),
+        questions: bank.questions.map((question) => ({
+          qid: String(question.qid),
+          page: Number(question.page),
+          tier: Number(question.tier),
+          type: question.type,
+          stem: String(question.stem),
+          boxes: Array.isArray(question.boxes) ? question.boxes.map(String) : [],
+          choices: question.choices.map(String),
+          answer: Number(question.answer),
+          source_sids: Array.isArray(question.source_sids) ? question.source_sids.map(String) : []
+        })),
+        _sourceName: sourceName
+      };
     }
 
     function normalizeBank(bank, sourceName) {
@@ -890,6 +1069,10 @@
     }
 
     function rebuildProblemPool() {
+      if (AppState.problemType === "mcq") {
+        rebuildMcqPool();
+        return;
+      }
       const byPid = new Map();
       const banks = [...AppState.sourceBanks, ...AppState.externalBanks];
       banks.forEach((bank) => {
@@ -897,6 +1080,42 @@
           const inferredUnit = inferUnit(problem, bank.unit);
           byPid.set(problem.pid, {
             ...problem,
+            _unit: inferredUnit,
+            _bankUnit: bank.unit,
+            _bankTitle: bank.title,
+            _sourceName: bank._sourceName
+          });
+        });
+      });
+      AppState.allProblems = Array.from(byPid.values()).sort((a, b) => naturalCompare(a.pid, b.pid));
+      AppState.problemMeta = {};
+      AppState.allProblems.forEach((problem) => {
+        AppState.problemMeta[problem.pid] = {
+          unit: problem._unit,
+          bankUnit: problem._bankUnit,
+          bankTitle: problem._bankTitle,
+          sourceName: problem._sourceName
+        };
+      });
+    }
+
+    function rebuildMcqPool() {
+      const byPid = new Map();
+      AppState.mcqBanks.forEach((bank) => {
+        bank.questions.forEach((question) => {
+          const inferredUnit = inferUnit({ pid: question.qid }, bank.unit);
+          byPid.set(question.qid, {
+            _mode: "mcq",
+            pid: question.qid,
+            qid: question.qid,
+            page: question.page,
+            tier: question.tier,
+            type: question.type,
+            stem: question.stem,
+            boxes: question.boxes.slice(),
+            choices: question.choices.slice(),
+            answer: question.answer,
+            source_sids: question.source_sids.slice(),
             _unit: inferredUnit,
             _bankUnit: bank.unit,
             _bankTitle: bank.title,
@@ -1224,7 +1443,25 @@
     }
 
     function isAttempted(problem) {
+      if (problem._mode === "mcq") return getMcqSelection(problem.pid) !== null;
       return problem.blanks.some((blank) => getBlankValue(problem.pid, blank.blank_id).trim() !== "");
+    }
+
+    function getMcqSelection(pid) {
+      const bucket = AppState.inputs[pid];
+      const value = bucket && bucket.choice;
+      const num = Number(value);
+      return Number.isInteger(num) && num >= 1 && num <= 4 ? num : null;
+    }
+
+    function setMcqSelection(pid, choice) {
+      const num = Number(choice);
+      if (!Number.isInteger(num) || num < 1 || num > 4) return;
+      ensureInputBucket(pid).choice = num;
+      delete AppState.gradingResults[pid];
+      delete AppState.manualOverrides[pid];
+      delete AppState.revealed[pid];
+      commit();
     }
 
     function normalizeForCompare(value) {
@@ -1297,8 +1534,13 @@
     function autoGradeProblem(problem, includeUnattempted) {
       const attempted = isAttempted(problem);
       if (!attempted && !includeUnattempted) return null;
-      const values = problem.blanks.map((blank) => getBlankValue(problem.pid, blank.blank_id));
-      const autoCorrect = attempted ? gradeAnswers(problem, values) : false;
+      let autoCorrect;
+      if (problem._mode === "mcq") {
+        autoCorrect = attempted ? getMcqSelection(problem.pid) === problem.answer : false;
+      } else {
+        const values = problem.blanks.map((blank) => getBlankValue(problem.pid, blank.blank_id));
+        autoCorrect = attempted ? gradeAnswers(problem, values) : false;
+      }
       const hasOverride = Object.prototype.hasOwnProperty.call(AppState.manualOverrides, problem.pid);
       const correct = hasOverride ? Boolean(AppState.manualOverrides[problem.pid]) : autoCorrect;
       return {
@@ -1394,6 +1636,19 @@
     }
 
     function cleanProblem(problem) {
+      if (problem._mode === "mcq") {
+        return {
+          qid: problem.qid,
+          page: problem.page,
+          tier: problem.tier,
+          type: problem.type,
+          stem: problem.stem,
+          boxes: problem.boxes.slice(),
+          choices: problem.choices.slice(),
+          answer: problem.answer,
+          source_sids: problem.source_sids.slice()
+        };
+      }
       return {
         pid: problem.pid,
         sid: problem.sid,
@@ -1429,11 +1684,17 @@
         return;
       }
       const units = Array.from(new Set(selected.map((problem) => problem._unit))).sort();
-      const exported = {
-        unit: units.length === 1 ? units[0] : "mixed",
-        title: buildExportTitle(includeWrong, includeFlagged),
-        problems: selected.map(cleanProblem)
-      };
+      const exported = AppState.problemType === "mcq"
+        ? {
+            unit: units.length === 1 ? units[0] : "mixed",
+            title: buildExportTitle(includeWrong, includeFlagged),
+            questions: selected.map(cleanProblem)
+          }
+        : {
+            unit: units.length === 1 ? units[0] : "mixed",
+            title: buildExportTitle(includeWrong, includeFlagged),
+            problems: selected.map(cleanProblem)
+          };
       const blob = new Blob([JSON.stringify(exported, null, 2)], { type: "application/json;charset=utf-8" });
       const url = URL.createObjectURL(blob);
       const link = document.createElement("a");
@@ -1464,6 +1725,10 @@
 
     async function handleFileLoad(file) {
       if (!file) return;
+      if (AppState.problemType === "mcq") {
+        showToast("JSON 불러오기는 빈칸형에서만 지원됩니다.");
+        return;
+      }
       try {
         const text = await file.text();
         const parsed = JSON.parse(text);
@@ -1503,7 +1768,10 @@
     }
 
     function unitTitle(unit) {
-      const bank = [...AppState.sourceBanks, ...AppState.externalBanks].find((item) => String(item.unit) === String(unit));
+      const banks = AppState.problemType === "mcq"
+        ? AppState.mcqBanks
+        : [...AppState.sourceBanks, ...AppState.externalBanks];
+      const bank = banks.find((item) => String(item.unit).padStart(2, "0") === String(unit));
       return bank ? bank.title : "파일 없음";
     }
 
@@ -1551,6 +1819,13 @@
             </div>
             <div class="panel-body">
               <div class="filter-block">
+                <p class="section-title">문제 유형</p>
+                <div class="mode-grid">
+                  ${renderProblemTypeButton("blank", "빈칸형")}
+                  ${renderProblemTypeButton("mcq", "객관식형")}
+                </div>
+              </div>
+              <div class="filter-block">
                 <p class="section-title">단원</p>
                 <div class="checkbox-grid">
                   ${UNIT_FILES.map((unit) => renderUnitCheckbox(unit)).join("")}
@@ -1570,12 +1845,13 @@
                 </div>
               </div>
               <div class="filter-block">
+                ${AppState.problemType === "mcq" ? "" : `
                 <p class="section-title">입력 방식</p>
                 <div class="mode-grid">
                   ${renderModeButton("input", "typing", "직접 입력")}
                   ${renderModeButton("input", "flashcard", "플래시카드")}
-                </div>
-                <label class="inline-check toggle-line ${AppState.shuffle ? "checked" : ""}">
+                </div>`}
+                <label class="inline-check ${AppState.problemType === "mcq" ? "" : "toggle-line"} ${AppState.shuffle ? "checked" : ""}">
                   <input type="checkbox" data-action="shuffle" ${AppState.shuffle ? "checked" : ""}>
                   문제 순서 섞기
                 </label>
@@ -1672,6 +1948,11 @@
       `;
     }
 
+    function renderProblemTypeButton(value, label) {
+      const active = AppState.problemType === value;
+      return `<button class="${active ? "selected" : ""}" data-action="problem-type" data-value="${value}">${label}</button>`;
+    }
+
     function renderModeButton(kind, value, label) {
       const active = kind === "display" ? AppState.displayMode === value : AppState.inputMode === value;
       const action = kind === "display" ? "display-mode" : "input-mode";
@@ -1756,7 +2037,7 @@
           <div class="progress-line">
             <span class="metric">진행 <strong>${AppState.displayMode === "one" ? `${current} / ${problems.length}` : `전체 ${problems.length}`}</strong></span>
             <span class="metric">채점 <strong>${score.graded ? `${score.correct} / ${score.graded} (${score.percent}%)` : "대기"}</strong></span>
-            <span class="metric">방식 <strong>${AppState.inputMode === "typing" ? "직접 입력" : "플래시카드"}</strong></span>
+            <span class="metric">방식 <strong>${AppState.problemType === "mcq" ? "객관식" : (AppState.inputMode === "typing" ? "직접 입력" : "플래시카드")}</strong></span>
             <span class="metric">플래그 <strong>${problems.filter((problem) => isFlagged(problem.pid)).length}</strong></span>
           </div>
           <div class="toolbar-actions">
@@ -1764,10 +2045,11 @@
               <button data-action="display-mode" data-value="one" class="${AppState.displayMode === "one" ? "selected" : ""}">한 문제씩</button>
               <button data-action="display-mode" data-value="scroll" class="${AppState.displayMode === "scroll" ? "selected" : ""}">스크롤</button>
             </div>
+            ${AppState.problemType === "mcq" ? "" : `
             <div class="segmented">
               <button data-action="input-mode" data-value="typing" class="${AppState.inputMode === "typing" ? "selected" : ""}">입력</button>
               <button data-action="input-mode" data-value="flashcard" class="${AppState.inputMode === "flashcard" ? "selected" : ""}">카드</button>
-            </div>
+            </div>`}
             <span class="divider"></span>
             <button data-action="grade-attempted">푼 문제만 채점</button>
             <button data-action="grade-all">전체 채점</button>
@@ -1833,11 +2115,13 @@
             </div>
           </div>
           <div class="question-body">
-            ${AppState.inputMode === "typing" ? renderTypingQuestion(problem) : renderFlashcardQuestion(problem)}
+            ${problem._mode === "mcq"
+              ? renderMcqQuestion(problem)
+              : (AppState.inputMode === "typing" ? renderTypingQuestion(problem) : renderFlashcardQuestion(problem))}
           </div>
           <div class="question-foot">
-            <span class="source">${result || AppState.revealed[problem.pid] ? `원문: ${escapeHtml(problem.source_sentence)}` : "원문은 채점 또는 정답 공개 후 표시됩니다."}</span>
-            ${AppState.inputMode === "flashcard" && AppState.revealed[problem.pid] ? `
+            <span class="source">${renderQuestionFootSource(problem, result)}</span>
+            ${problem._mode !== "mcq" && AppState.inputMode === "flashcard" && AppState.revealed[problem.pid] ? `
               <span class="row-actions">
                 <button data-action="flash-result" data-pid="${escapeHtml(problem.pid)}" data-correct="true">맞음</button>
                 <button data-action="flash-result" data-pid="${escapeHtml(problem.pid)}" data-correct="false">틀림</button>
@@ -1845,6 +2129,50 @@
             ` : ""}
           </div>
         </article>
+      `;
+    }
+
+    function renderQuestionFootSource(problem, result) {
+      if (problem._mode === "mcq") {
+        const sids = (problem.source_sids || []).filter(Boolean);
+        return sids.length ? `출처: ${escapeHtml(sids.join(", "))}` : "";
+      }
+      return result || AppState.revealed[problem.pid]
+        ? `원문: ${escapeHtml(problem.source_sentence)}`
+        : "원문은 채점 또는 정답 공개 후 표시됩니다.";
+    }
+
+    function renderMcqQuestion(problem) {
+      const result = getQuestionResult(problem.pid);
+      const graded = Boolean(result);
+      const selected = getMcqSelection(problem.pid);
+      const boxesHtml = problem.type === "combination" && problem.boxes.length
+        ? `<div class="mcq-boxes">${problem.boxes.map((box) => `<div class="mcq-box-item">${escapeHtml(box)}</div>`).join("")}</div>`
+        : "";
+      const choicesHtml = problem.choices.map((choice, index) => {
+        const number = index + 1;
+        const isSelected = selected === number;
+        const isAnswer = problem.answer === number;
+        const stateClass = [];
+        if (graded) {
+          if (isAnswer) stateClass.push("correct");
+          else if (isSelected) stateClass.push("incorrect");
+        } else if (isSelected) {
+          stateClass.push("chosen");
+        }
+        return `
+          <button class="mcq-choice ${stateClass.join(" ")}" data-action="mcq-select" data-pid="${escapeHtml(problem.pid)}" data-choice="${number}" ${graded ? "disabled" : ""}>
+            <span class="mcq-mark">${MCQ_CHOICE_MARKS[index]}</span>
+            <span class="mcq-choice-text">${escapeHtml(choice)}</span>
+          </button>
+        `;
+      }).join("");
+      return `
+        <div class="mcq-question">
+          <div class="question-text mcq-stem">${escapeHtml(problem.stem)}</div>
+          ${boxesHtml}
+          <div class="mcq-choices">${choicesHtml}</div>
+        </div>
       `;
     }
 
@@ -1907,6 +2235,8 @@
       if (action === "load-json") triggerFilePicker();
       if (action === "start") startSession();
       if (action === "resume") resumeSession();
+      if (action === "problem-type") setProblemType(target.dataset.value);
+      if (action === "mcq-select") setMcqSelection(target.dataset.pid, target.dataset.choice);
       if (action === "home") returnHome();
       if (action === "display-mode") {
         AppState.displayMode = target.dataset.value;

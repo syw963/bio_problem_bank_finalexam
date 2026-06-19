@@ -22,10 +22,9 @@
       "page": 114,
       "tier": 1,
       "importance": 3,
-      "question": "항원과 항체는 특이적으로 결합하여 [  ]을 함으로써 병원체를 [  ]한다.",
+      "question": "항원과 항체는 특이적으로 결합하는 항원항체반응을 함으로써 병원체를 [  ]한다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "항원항체반응", "alt_answers": ["항원-항체 반응", "항원·항체 반응"] },
-        { "blank_id": 2, "primary_answer": "무력화", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "무력화", "alt_answers": ["제거", "불활성화"] }
       ],
       "order_flexible": false,
       "source_sentence": "항원과 항체는 특이적으로 결합하여 항원항체반응을 함으로써 병원체를 무력화한다."
@@ -384,10 +383,10 @@
       "page": 114,
       "tier": 3,
       "importance": 2,
-      "question": "거대한 복합체가 식세포에서 항체의 긴 사슬을 인식하는 [  ]에 부착하면 [  ]이 활성화된다.",
+      "question": "항체와 항원이 결합하여 형성된 거대한 [  ]가 식세포에서 항체의 긴 사슬을 인식하는 [  ]에 부착하면 식세포작용이 활성화된다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "수용체", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "식세포작용", "alt_answers": ["식세포 작용", "식균작용", "포식작용"] }
+        { "blank_id": 1, "primary_answer": "복합체", "alt_answers": ["면역복합체", "면역 복합체"] },
+        { "blank_id": 2, "primary_answer": "수용체", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "항체와 항원이 결합하여 형성된 거대한 복합체가 식세포에서 항체의 긴 사슬을 인식하는 수용체에 부착하면 식세포작용이 활성화된다."
@@ -395,13 +394,13 @@
     {
       "pid": "02-031-Q1",
       "sid": "02-031",
-      "page": 114,
+      "page": 115,
       "tier": 2,
       "importance": 2,
-      "question": "식세포의 [  ]는 항체와 항원이 결합한 복합체의 [  ] 부분을 인식한다.",
+      "question": "식세포의 [  ]는 항체와 항원이 결합한 [  ]의 항체 부분을 인식한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "수용체", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "항체", "alt_answers": [] }
+        { "blank_id": 2, "primary_answer": "복합체", "alt_answers": ["면역복합체", "면역 복합체"] }
       ],
       "order_flexible": false,
       "source_sentence": "식세포의 수용체는 항체와 항원이 결합한 복합체의 항체 부분을 인식한다."
@@ -491,12 +490,11 @@
       "page": 115,
       "tier": 2,
       "importance": 3,
-      "question": "응집원에 따라 ABO식 혈액형은 A형, B형, [  ], [  ]으로 구분한다.",
+      "question": "ABO식 혈액형은 적혈구에 있는 [  ]의 종류에 따라 A형, B형, AB형, O형으로 구분한다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "AB형", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "O형", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "응집원", "alt_answers": ["항원"] }
       ],
-      "order_flexible": true,
+      "order_flexible": false,
       "source_sentence": "응집원에 따라 ABO식 혈액형은 A형, B형, AB형, O형으로 구분한다."
     },
     {
@@ -679,10 +677,10 @@
       "page": 115,
       "tier": 3,
       "importance": 1,
-      "question": "응집소 α, β는 적혈구 응집원에 직접 노출되지 않아도 외부 환경의 항원에 노출되어 생후 [  ]년 전후로 [  ] 생성된다.",
+      "question": "[  ] α, β는 적혈구 응집원에 직접 노출되지 않아도 외부 환경의 항원에 노출되어 생후 [  ]년 전후로 자연 생성된다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "1", "alt_answers": ["일"] },
-        { "blank_id": 2, "primary_answer": "자연", "alt_answers": ["자연적으로"] }
+        { "blank_id": 1, "primary_answer": "응집소", "alt_answers": [] },
+        { "blank_id": 2, "primary_answer": "1", "alt_answers": ["일"] }
       ],
       "order_flexible": false,
       "source_sentence": "응집소 α, β는 적혈구 응집원에 직접 노출되지 않아도 외부 환경의 항원에 노출되어 생후 1년 전후로 자연 생성된다."
@@ -746,9 +744,9 @@
       "page": 115,
       "tier": 2,
       "importance": 1,
-      "question": "토끼에게 [  ]의 혈액을 주사하면 토끼의 혈액 속에 붉은털원숭이의 적혈구를 응집시키는 Rh [  ]가 생긴다.",
+      "question": "토끼에게 붉은털원숭이의 혈액을 주사하면 토끼의 혈액 속에 붉은털원숭이의 적혈구를 [  ]시키는 Rh [  ]가 생긴다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "붉은털원숭이", "alt_answers": ["붉은 털 원숭이"] },
+        { "blank_id": 1, "primary_answer": "응집", "alt_answers": [] },
         { "blank_id": 2, "primary_answer": "응집소", "alt_answers": [] }
       ],
       "order_flexible": false,
@@ -978,9 +976,9 @@
       "page": 116,
       "tier": 2,
       "importance": 1,
-      "question": "진단 키트마다 차이가 있지만, 일반적으로 [  ]가지 항체가 사용된다.",
+      "question": "진단 키트마다 차이가 있지만, 일반적으로 3가지 [  ]가 사용된다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "3", "alt_answers": ["세"] }
+        { "blank_id": 1, "primary_answer": "항체", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "진단 키트마다 차이가 있지만, 일반적으로 3가지 항체가 사용된다."
@@ -1030,9 +1028,9 @@
       "page": 116,
       "tier": 2,
       "importance": 1,
-      "question": "진단 키트에 사용하는 항체의 특징 그림에서 항체 1은 항원과 결합하며 [  ] 색소 입자가 부착되어 있다.",
+      "question": "진단 키트에 사용하는 항체의 특징 그림에서 항체 1은 [  ]과 결합하며 붉은색 색소 입자가 부착되어 있다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "붉은색", "alt_answers": ["빨간색"] }
+        { "blank_id": 1, "primary_answer": "항원", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "진단 키트에 사용하는 항체의 특징 그림에서 항체 1은 항원과 결합하며 붉은색 색소 입자가 부착되어 있다."
@@ -1218,7 +1216,7 @@
       "page": 116,
       "tier": 2,
       "importance": 2,
-      "question": "항원이 있을 때는 항원과 결합하지 않은 [  ]도 [  ]의 항체와 결합하여 대조선에도 띠가 나타난다.",
+      "question": "항원이 있을 때는 항원과 결합하지 않은 [  ]도 [  ]의 항체와 결합하여 그곳에도 띠가 나타난다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "항체 1", "alt_answers": [] },
         { "blank_id": 2, "primary_answer": "대조선", "alt_answers": [] }
@@ -1245,9 +1243,9 @@
       "page": 116,
       "tier": 2,
       "importance": 2,
-      "question": "항원이 있을 때 진단 키트는 검사선(T)과 대조선(C)에서 모두 띠가 나타나 [  ]로 보인다.",
+      "question": "항원이 있을 때 진단 키트는 대조선(C)뿐만 아니라 [  ](T)에서도 띠가 나타나 두 줄로 보인다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "두 줄", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "검사선", "alt_answers": [] }
       ],
       "order_flexible": false,
       "source_sentence": "항원이 있을 때 진단 키트는 검사선(T)과 대조선(C)에서 모두 띠가 나타나 두 줄로 보인다."
@@ -1324,9 +1322,9 @@
       "page": 116,
       "tier": 2,
       "importance": 2,
-      "question": "AB형인 사람은 응집원 A가 있는 적혈구와 응집원 B가 있는 적혈구가 각각 따로 있는 것이 아니라, 하나의 적혈구에 응집원 A와 B가 [  ] 있다.",
+      "question": "AB형인 사람은 응집원 A가 있는 적혈구와 응집원 B가 있는 적혈구가 각각 따로 있는 것이 아니라, [  ]의 적혈구에 응집원 A와 B가 함께 있다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "함께", "alt_answers": ["같이", "모두"] }
+        { "blank_id": 1, "primary_answer": "하나", "alt_answers": ["동일한", "같은"] }
       ],
       "order_flexible": false,
       "source_sentence": "중요 개념 체크에서는 AB형인 사람의 혈액에는 응집원 A가 있는 적혈구와 응집원 B가 있는 적혈구가 각각 따로 있다는 설명이 옳지 않다고 제시한다."
@@ -1430,7 +1428,7 @@
       "page": 117,
       "tier": 2,
       "importance": 3,
-      "question": "항원을 기억하는 [  ]가 형질세포와 기억세포로 빠르게 분화할 수 있어 1차 면역반응에 비해 훨씬 빠르게 많은 [  ]를 만든다.",
+      "question": "항원을 기억하는 [  ]가 빠르게 분화할 수 있어 1차 면역반응에 비해 훨씬 빠르게 많은 [  ]를 만든다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "기억세포", "alt_answers": ["기억 세포"] },
         { "blank_id": 2, "primary_answer": "항체", "alt_answers": [] }
@@ -1548,10 +1546,9 @@
       "page": 117,
       "tier": 2,
       "importance": 3,
-      "question": "그래프에서 항원 X에 대한 2차 면역반응은 항원 X에 대한 1차 면역반응보다 [  ]가 높고 [  ] 나타난다.",
+      "question": "그래프에서 항원 X에 대한 2차 면역반응은 항원 X에 대한 1차 면역반응보다 [  ]가 높고 빠르게 나타난다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "항체 농도", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "빠르게", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "항체 농도", "alt_answers": ["항체량", "항체의 농도"] }
       ],
       "order_flexible": false,
       "source_sentence": "그래프에서 항원 X에 대한 2차 면역반응은 항원 X에 대한 1차 면역반응보다 항체 농도가 높고 빠르게 나타난다."
@@ -1700,9 +1697,9 @@
       "page": 117,
       "tier": 2,
       "importance": 3,
-      "question": "백신 접종 후 병원체 감염 시 생성된 다량의 [  ]는 [  ]을 일으킨다.",
+      "question": "백신 접종 후 병원체 감염 시 [  ]가 생성한 다량의 항체는 [  ]을 일으킨다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "항체", "alt_answers": [] },
+        { "blank_id": 1, "primary_answer": "형질세포", "alt_answers": ["형질 세포"] },
         { "blank_id": 2, "primary_answer": "항원항체반응", "alt_answers": ["항원-항체 반응", "항원·항체 반응"] }
       ],
       "order_flexible": false,
@@ -1728,10 +1725,10 @@
       "page": 118,
       "tier": 2,
       "importance": 2,
-      "question": "집단을 구성하는 대부분의 개체가 면역력을 가지게 되면 면역력이 없는 개체도 [  ]될 확률이 [  ].",
+      "question": "집단을 구성하는 대부분의 개체가 [  ]을 가지게 되면 [  ]이 없는 개체도 감염될 확률이 낮아진다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "감염", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "낮아진다", "alt_answers": ["낮아짐"] }
+        { "blank_id": 1, "primary_answer": "면역력", "alt_answers": ["면역"] },
+        { "blank_id": 2, "primary_answer": "면역력", "alt_answers": ["면역"] }
       ],
       "order_flexible": false,
       "source_sentence": "집단을 구성하는 대부분의 개체가 면역력을 가지게 되면 면역력이 없는 개체도 감염될 확률이 낮아진다."
@@ -1768,10 +1765,9 @@
       "page": 118,
       "tier": 2,
       "importance": 2,
-      "question": "집단 면역 그림에서 면역력이 거의 없는 집단은 [  ]에 노출되면 대부분 [  ]된다.",
+      "question": "집단 면역 그림에서 면역력이 거의 없는 집단은 [  ]에 노출되면 대부분 감염된다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "감염원", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "감염", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "병원체", "alt_answers": ["감염원"] }
       ],
       "order_flexible": false,
       "source_sentence": "집단 면역 그림에서 면역력이 거의 없는 집단은 감염원에 노출되면 대부분 감염된다."
@@ -1782,12 +1778,12 @@
       "page": 118,
       "tier": 2,
       "importance": 2,
-      "question": "집단 면역 그림에서 면역력이 충분한 집단은 면역력이 없는 사람도 대부분 [  ].",
+      "question": "한 집단에서 면역력을 가진 사람의 비율이 충분히 높으면 면역력이 없는 사람도 대부분 감염되지 않는데, 이러한 현상을 [  ](이)라고 한다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "감염되지 않는다", "alt_answers": ["감염되지 않음"] }
+        { "blank_id": 1, "primary_answer": "집단 면역", "alt_answers": ["집단면역"] }
       ],
       "order_flexible": false,
-      "source_sentence": "집단 면역 그림에서 면역력이 충분한 집단은 면역력이 없는 사람도 대부분 감염되지 않는다."
+      "source_sentence": "집단 면역은 집단에서 면역력을 가진 사람의 비율이 높을 때 면역력이 없는 사람도 대부분 감염되지 않는 현상이다."
     },
     {
       "pid": "02-138-Q1",
@@ -1809,9 +1805,9 @@
       "page": 118,
       "tier": 2,
       "importance": 3,
-      "question": "[  ]이란 집단 구성원의 다수가 특정 병원체에 대한 [  ]을 가지고 있어 그 병원체의 확산이 억제되는 현상을 말한다.",
+      "question": "집단 면역 그림에서 [  ]색 사람은 건강하고 [  ]도 있는 사람을 뜻한다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "집단 면역", "alt_answers": ["집단면역"] },
+        { "blank_id": 1, "primary_answer": "파란", "alt_answers": ["파랑", "파란색"] },
         { "blank_id": 2, "primary_answer": "면역력", "alt_answers": ["면역"] }
       ],
       "order_flexible": false,
@@ -2026,48 +2022,6 @@
       "source_sentence": "백신 개발 과정 그림은 병원체의 유전체 데이터 분석에서 시작한다."
     },
     {
-      "pid": "02-161-Q1",
-      "sid": "02-161",
-      "page": 118,
-      "tier": 2,
-      "importance": 1,
-      "question": "백신 개발 과정 그림에서 병원체의 [  ] 단계에는 [  ]이 포함된다.",
-      "blanks": [
-        { "blank_id": 1, "primary_answer": "항원 탐색", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "구조 예측", "alt_answers": [] }
-      ],
-      "order_flexible": false,
-      "source_sentence": "백신 개발 과정 그림에서 병원체의 항원 탐색 단계에는 구조 예측이 포함된다."
-    },
-    {
-      "pid": "02-162-Q1",
-      "sid": "02-162",
-      "page": 118,
-      "tier": 2,
-      "importance": 1,
-      "question": "백신 개발 과정 그림에서 [  ] 단계에는 [  ]이 포함된다.",
-      "blanks": [
-        { "blank_id": 1, "primary_answer": "항원 적합성 탐색", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "시뮬레이션", "alt_answers": ["모의실험"] }
-      ],
-      "order_flexible": false,
-      "source_sentence": "백신 개발 과정 그림에서 항원 적합성 탐색 단계에는 시뮬레이션이 포함된다."
-    },
-    {
-      "pid": "02-163-Q1",
-      "sid": "02-163",
-      "page": 118,
-      "tier": 2,
-      "importance": 1,
-      "question": "백신 개발 과정 그림에서 [  ] 단계에는 [  ]가 표시되어 있다.",
-      "blanks": [
-        { "blank_id": 1, "primary_answer": "임상 시험 설계", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "계산 최소화", "alt_answers": [] }
-      ],
-      "order_flexible": false,
-      "source_sentence": "백신 개발 과정 그림에서 임상 시험 설계 단계에는 계산 최소화가 표시되어 있다."
-    },
-    {
       "pid": "02-164-Q1",
       "sid": "02-164",
       "page": 118,
@@ -2250,7 +2204,7 @@
       "page": 119,
       "tier": 2,
       "importance": 1,
-      "question": "비활성화 백신에는 전 세포 불활성화 백신, 병원체의 독소를 이용하는 [  ] 백신, 병원체를 이루는 긴 사슬의 다당으로 만드는 [  ] 백신 등이 있다.",
+      "question": "비활성화 백신에는 전 세포 불활성화 백신, 병원체의 독소를 이용하는 [  ] 백신, 병원체를 이루는 긴 사슬 형태의 당 분자로 만드는 [  ] 백신 등이 있다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "톡소이드", "alt_answers": ["변성 독소"] },
         { "blank_id": 2, "primary_answer": "다당", "alt_answers": ["다당류", "접합"] }
@@ -2379,28 +2333,14 @@
       "source_sentence": "핵산 백신의 예에는 COVID-19 백신이 있다."
     },
     {
-      "pid": "02-187-Q1",
-      "sid": "02-187",
-      "page": 119,
-      "tier": 2,
-      "importance": 1,
-      "question": "백신 종류 그림의 [  ]는 네 가지 백신 제조 방법의 기준 대상이다.",
-      "blanks": [
-        { "blank_id": 1, "primary_answer": "표적 병원체", "alt_answers": [] }
-      ],
-      "order_flexible": false,
-      "source_sentence": "백신 종류 그림의 표적 병원체는 네 가지 백신 제조 방법의 기준 대상이다."
-    },
-    {
       "pid": "02-188-Q1",
       "sid": "02-188",
       "page": 119,
       "tier": 2,
       "importance": 3,
-      "question": "약독화 백신(생백신)은 병원성이 없도록 [  ]을 약화한 [  ] 병원체를 사용한다.",
+      "question": "약독화 백신은 병원성이 없도록 독성을 약화한 [  ] 병원체를 사용한다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "독성", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "살아 있는", "alt_answers": ["살아있는"] }
+        { "blank_id": 1, "primary_answer": "살아 있는", "alt_answers": ["살아있는"] }
       ],
       "order_flexible": false,
       "source_sentence": "약독화 백신(생백신)은 병원성이 없도록 독성을 약화한 살아 있는 병원체를 사용한다."
@@ -2424,10 +2364,9 @@
       "page": 119,
       "tier": 2,
       "importance": 3,
-      "question": "재조합 백신은 병원체의 [  ]이나 [  ] 부위만 사용한다.",
+      "question": "재조합 백신은 병원체 전체가 아니라 항원이나 [  ] 부위만 사용한다.",
       "blanks": [
-        { "blank_id": 1, "primary_answer": "항원", "alt_answers": [] },
-        { "blank_id": 2, "primary_answer": "항원 결정", "alt_answers": [] }
+        { "blank_id": 1, "primary_answer": "항원 결정", "alt_answers": ["항원결정", "에피토프"] }
       ],
       "order_flexible": false,
       "source_sentence": "재조합 백신은 병원체의 항원이나 항원 결정 부위만 사용한다."
@@ -2438,7 +2377,7 @@
       "page": 119,
       "tier": 2,
       "importance": 2,
-      "question": "핵산 백신은 특정 항원이나 항원 결정 부위를 암호화하는 [  ]을 사용한다.",
+      "question": "특정 항원이나 항원 결정 부위를 암호화하는 DNA나 RNA를 사용하는 백신을 [  ] 백신이라고 한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "핵산", "alt_answers": [] }
       ],
@@ -2464,7 +2403,7 @@
       "page": 119,
       "tier": 2,
       "importance": 2,
-      "question": "병원체의 유전정보가 있는 핵산을 주입하여 항체 형성을 유도하는 백신은 비활성화 백신이 아니라 [  ] 백신이다.",
+      "question": "병원체의 유전정보가 담긴 물질을 주입하여 항체 형성을 유도하는 백신은 비활성화 백신이 아니라 [  ] 백신이다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "핵산", "alt_answers": ["유전자"] }
       ],

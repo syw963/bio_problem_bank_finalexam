@@ -8,7 +8,7 @@
       "page": 10,
       "tier": 1,
       "importance": 3,
-      "question": "생물은 [  ]을/를 바탕으로 몸을 구성하고 생명활동을 하는데, 이 [  ]을/를 담아 자손에게 전달하는 것이 [  ]이다.",
+      "question": "생물은 [  ]을/를 바탕으로 몸을 구성하고 생명활동을 하는데, 이를 담아 자손에게 전달하는 것이 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -17,11 +17,6 @@
         },
         {
           "blank_id": 2,
-          "primary_answer": "유전정보",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 3,
           "primary_answer": "염색체",
           "alt_answers": []
         }
@@ -143,16 +138,11 @@
       "page": 10,
       "tier": 3,
       "importance": 2,
-      "question": "막으로 둘러싸인 핵과 세포소기관이 있는 세포를 [  ](이)라고 하며, 이러한 세포로 이루어진 생물을 [  ](이)라고 한다.",
+      "question": "막으로 둘러싸인 핵과 세포소기관이 있는 세포를 [  ](이)라고 하며, 이러한 세포로 이루어진 생물을 진핵생물이라고 한다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "진핵세포",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "진핵생물",
           "alt_answers": []
         }
       ],
@@ -444,14 +434,13 @@
       "page": 10,
       "tier": 3,
       "importance": 2,
-      "question": "세포가 분열하지 않을 때에는 염색체가 핵 속에 [  ] 모양으로 풀어져 있어서 여러 세포 기구가 DNA에 접근하여 [  ]을/를 쉽게 사용할 수 있다.",
+      "question": "세포가 분열하지 않을 때에는 염색체가 핵 속에 실 모양으로 [  ] 있어서 여러 세포 기구가 DNA에 접근하여 [  ]을/를 쉽게 사용할 수 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "실",
+          "primary_answer": "풀어져",
           "alt_answers": [
-            "실타래",
-            "가는 실"
+            "풀려"
           ]
         },
         {
@@ -796,12 +785,15 @@
       "page": 11,
       "tier": 2,
       "importance": 2,
-      "question": "뉴클레오타이드에서 인산, [  ], 염기는 각각 1개씩 결합한다.",
+      "question": "뉴클레오타이드에서 인산, 당, 염기는 각각 [  ]개씩 결합한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "당",
-          "alt_answers": []
+          "primary_answer": "1",
+          "alt_answers": [
+            "하나",
+            "한"
+          ]
         }
       ],
       "order_flexible": false,
@@ -1330,15 +1322,10 @@
       "page": 11,
       "tier": 2,
       "importance": 2,
-      "question": "염색체는 실에 꿰인 [  ] 모양으로 보이는 수많은 [  ](으)로 이루어져 있다.",
+      "question": "염색체는 실에 꿰인 구슬 모양으로 보이는 수많은 [  ](으)로 이루어져 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "구슬",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "뉴클레오솜",
           "alt_answers": [
             "뉴클레오좀"
@@ -1481,17 +1468,19 @@
       "page": 12,
       "tier": 2,
       "importance": 3,
-      "question": "핵형은 [  ]의 [  ] 특징이므로 종에 따라 다르게 나타난다.",
+      "question": "[  ]은/는 생물종의 [  ] 특징이므로 종에 따라 다르게 나타난다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "생물종",
+          "primary_answer": "핵형",
           "alt_answers": []
         },
         {
           "blank_id": 2,
           "primary_answer": "고유한",
-          "alt_answers": []
+          "alt_answers": [
+            "고유의"
+          ]
         }
       ],
       "order_flexible": false,
@@ -1772,13 +1761,13 @@
       "page": 12,
       "tier": 2,
       "importance": 1,
-      "question": "감자의 [  ] 1개당 염색체 수는 48개이다.",
+      "question": "감자의 체세포 1개당 염색체 수는 [  ]개이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "체세포",
+          "primary_answer": "48",
           "alt_answers": [
-            "몸세포"
+            "마흔여덟"
           ]
         }
       ],
@@ -1810,15 +1799,10 @@
       "page": 12,
       "tier": 2,
       "importance": 1,
-      "question": "닭의 [  ] 1개당 염색체 수는 [  ]개이다.",
+      "question": "닭의 체세포 1개당 염색체 수는 [  ]개이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "체세포",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "78",
           "alt_answers": [
             "일흔여덟"
@@ -1834,17 +1818,10 @@
       "page": 12,
       "tier": 2,
       "importance": 1,
-      "question": "개의 [  ] 1개당 염색체 수는 [  ]개이다.",
+      "question": "개의 체세포 1개당 염색체 수는 [  ]개이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "체세포",
-          "alt_answers": [
-            "몸세포"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "78",
           "alt_answers": [
             "일흔여덟"
@@ -2947,7 +2924,7 @@
       "page": 14,
       "tier": 2,
       "importance": 2,
-      "question": "세포분열 초기에 관찰되는 염색체는 [  ]개의 [  ](으)로 되어 있다.",
+      "question": "세포분열 초기에 관찰되는 염색체는 [  ]개의 가닥으로 되어 있다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -2955,11 +2932,6 @@
           "alt_answers": [
             "두"
           ]
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "가닥",
-          "alt_answers": []
         }
       ],
       "order_flexible": false,
@@ -3100,7 +3072,7 @@
       "page": 14,
       "tier": 2,
       "importance": 2,
-      "question": "DNA 복제와 염색분체의 형성 과정에서는 DNA가 [  ]된 뒤 [  ]된다.",
+      "question": "염색분체가 형성되는 과정에서는 DNA가 [  ]된 뒤 [  ]된다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -3511,22 +3483,13 @@
       "page": 14,
       "tier": 2,
       "importance": 1,
-      "question": "Ab 염색체가 복제되면 Ab와 Ab 두 가닥이 형성되는데, 이 두 가닥을 [  ](이)라 하며 두 가닥의 유전 정보는 서로 [  ].",
+      "question": "Ab 염색체가 복제되면 유전 정보가 같은 두 가닥이 형성되는데, 이 두 가닥을 [  ](이)라 한다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "염색분체",
           "alt_answers": [
             "자매 염색분체"
-          ]
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "같다",
-          "alt_answers": [
-            "동일하다",
-            "같음",
-            "동일함"
           ]
         }
       ],

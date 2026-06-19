@@ -282,12 +282,14 @@
       "page": 90,
       "tier": 3,
       "importance": 3,
-      "question": "전염은 병원체에 감염된 사람으로부터 다른 사람에게 [  ]이/가 퍼지는 것이다.",
+      "question": "전염은 감염된 사람으로부터 다른 사람에게 [  ]이/가 퍼지는 것이다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "병원체",
-          "alt_answers": []
+          "alt_answers": [
+            "병원균"
+          ]
         }
       ],
       "order_flexible": false,
@@ -358,17 +360,15 @@
       "page": 90,
       "tier": 1,
       "importance": 2,
-      "question": "세균은 물질대사 관련 [  ]이/가 있어 스스로 [  ]을/를 한다.",
+      "question": "세균은 스스로 물질대사를 하는 데 필요한 [  ]을/를 가지고 있다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "효소",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "물질대사",
-          "alt_answers": []
+          "alt_answers": [
+            "물질대사 효소",
+            "대사 효소"
+          ]
         }
       ],
       "order_flexible": false,
@@ -923,17 +923,10 @@
       "page": 91,
       "tier": 1,
       "importance": 2,
-      "question": "세균은 인체에 미치는 영향에 따라 구분할 수 있는데, [  ]의 세균은 인체에 [  ]하여 질병을 일으키지 않는다.",
+      "question": "인체에 미치는 영향에 따라 구분할 때, 대부분의 세균은 인체에 질병을 일으키지 않아 [  ]하다고 한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "대부분",
-          "alt_answers": [
-            "대다수"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "무해",
           "alt_answers": []
         }
@@ -969,14 +962,12 @@
       "page": 91,
       "tier": 2,
       "importance": 2,
-      "question": "결핵, 콜레라, 위궤양, 세균성 폐렴, 파상풍, 세균성 식중독은 모두 [  ]에 감염되어 발생하는 질병이다.",
+      "question": "세균에 감염되어 발생하는 질병에는 결핵, 콜레라, [  ], 세균성 폐렴, 파상풍, 세균성 식중독 등이 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "세균",
-          "alt_answers": [
-            "박테리아"
-          ]
+          "primary_answer": "위궤양",
+          "alt_answers": []
         }
       ],
       "order_flexible": false,
@@ -1027,7 +1018,7 @@
       "page": 91,
       "tier": 2,
       "importance": 2,
-      "question": "페니실린과 암피실린은 세균의 세포벽 성분인 [  ]의 합성을 방해하여 세균이 단단한 [  ]을 만들지 못하게 한다.",
+      "question": "페니실린과 암피실린은 세균의 [  ] 합성을 방해하여 세균이 단단한 [  ]을 만들지 못하게 한다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -1132,12 +1123,16 @@
       "page": 91,
       "tier": 3,
       "importance": 1,
-      "question": "페니실린은 세균이 펩티도글리칸을 형성할 때 교차 연결을 촉진하는 트랜스펩티데이스(transpeptidase)에 결합하여 [  ]의 합성을 방해한다.",
+      "question": "페니실린은 세균이 펩티도글리칸을 형성할 때 교차 연결을 촉진하는 효소인 [  ]에 결합하여 펩티도글리칸의 합성을 방해한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "펩티도글리칸",
-          "alt_answers": []
+          "primary_answer": "트랜스펩티데이스",
+          "alt_answers": [
+            "트랜스펩티데이즈",
+            "transpeptidase",
+            "트랜스펩티다아제"
+          ]
         }
       ],
       "order_flexible": false,
@@ -1490,7 +1485,7 @@
       "page": 92,
       "tier": 3,
       "importance": 3,
-      "question": "바이러스의 단백질이 숙주세포의 표면에 있는 특정 [  ]만 인식하기 때문에 바이러스는 특정한 [  ]에만 들어가서 증식할 수 있다.",
+      "question": "바이러스의 단백질이 세포 표면에 있는 특정 [  ]만 인식하기 때문에 바이러스는 특정한 [  ]에만 들어가서 증식할 수 있다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -1500,7 +1495,9 @@
         {
           "blank_id": 2,
           "primary_answer": "숙주세포",
-          "alt_answers": []
+          "alt_answers": [
+            "숙주 세포"
+          ]
         }
       ],
       "order_flexible": false,
@@ -1731,22 +1728,12 @@
       "page": 92,
       "tier": 2,
       "importance": 1,
-      "question": "담배모자이크바이러스는 [  ]을(를) 숙주로 하여 감염시키는 [  ] 바이러스이다.",
+      "question": "담배모자이크바이러스는 식물을 숙주로 하여 감염시키는 [  ] 바이러스이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "식물",
-          "alt_answers": [
-            "식물체",
-            "담배"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "식물성",
-          "alt_answers": [
-            "식물"
-          ]
+          "alt_answers": []
         }
       ],
       "order_flexible": false,
@@ -1797,7 +1784,7 @@
       "page": 92,
       "tier": 2,
       "importance": 1,
-      "question": "바이러스는 숙주의 종류에 따라 분류할 수 있다. 사람 등 동물 세포를 숙주로 하여 증식하는 아데노바이러스는 [  ] 바이러스로 분류된다.",
+      "question": "바이러스는 숙주의 종류에 따라 분류할 수 있다. 사람의 호흡기 점막 세포에 감염하여 증식하는 아데노바이러스는 [  ] 바이러스로 분류된다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -1913,19 +1900,14 @@
       "page": 92,
       "tier": 2,
       "importance": 1,
-      "question": "박테리오파지는 [  ]을(를) 숙주로 하여 감염하는 [  ]이다.",
+      "question": "박테리오파지는 [  ] 바이러스이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "세균",
+          "primary_answer": "세균성",
           "alt_answers": [
-            "박테리아"
+            "세균"
           ]
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "바이러스",
-          "alt_answers": []
         }
       ],
       "order_flexible": false,
@@ -1993,7 +1975,7 @@
       "page": 93,
       "tier": 1,
       "importance": 3,
-      "question": "바이러스는 [  ]에 침투하여 증식하는 과정에서 숙주세포를 손상시키거나 파괴하여 [  ]을 일으킨다.",
+      "question": "바이러스는 [  ]에 침투하여 증식하는 과정에서 이를 손상시키거나 파괴하여 [  ]을 일으킨다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -2484,12 +2466,15 @@
       "page": 93,
       "tier": 3,
       "importance": 1,
-      "question": "[  ]는 말라리아원충에 감염된 모기에 물려 발생하는 급성 열성 감염병이다.",
+      "question": "말라리아는 말라리아원충에 감염된 [  ]에 물려 발생하는 급성 열성 감염병이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "말라리아",
-          "alt_answers": []
+          "primary_answer": "모기",
+          "alt_answers": [
+            "중국얼룩날개모기",
+            "얼룩날개모기"
+          ]
         }
       ],
       "order_flexible": false,
@@ -2523,11 +2508,11 @@
       "page": 93,
       "tier": 3,
       "importance": 1,
-      "question": "말라리아원충은 이후 [  ]에 침범하여 적혈구를 파괴하고 독성을 퍼뜨린다.",
+      "question": "말라리아원충은 이후 적혈구에 침범하여 적혈구를 [  ]하고 독성을 퍼뜨린다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "적혈구",
+          "primary_answer": "파괴",
           "alt_answers": []
         }
       ],
@@ -2574,15 +2559,12 @@
       "page": 93,
       "tier": 3,
       "importance": 1,
-      "question": "초기에는 두통, 발열 등의 증상이 나타나는 이 질병의 이름은 [  ]이다.",
+      "question": "수면병 초기에는 [  ], 발열 등의 증상이 나타난다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "수면병",
-          "alt_answers": [
-            "수면병(아프리카 수면병)",
-            "아프리카 수면병"
-          ]
+          "primary_answer": "두통",
+          "alt_answers": []
         }
       ],
       "order_flexible": false,
@@ -2823,15 +2805,10 @@
       "page": 95,
       "tier": 2,
       "importance": 2,
-      "question": "병원체에 감염되는 경로는 [  ]의 종류와 [  ]에 따라 다르다.",
+      "question": "병원체에 감염되는 경로는 병원체의 종류와 [  ]에 따라 다르다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "병원체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "특징",
           "alt_answers": [
             "특성"
@@ -2847,17 +2824,14 @@
       "page": 95,
       "tier": 2,
       "importance": 3,
-      "question": "병원체의 [  ]를 이해하고 그 경로를 차단하면 [  ]을 예방할 수 있다.",
+      "question": "병원체의 감염 경로를 이해하고 그 경로를 차단하면 [  ]을 예방할 수 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "감염 경로",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "감염성질환",
-          "alt_answers": []
+          "alt_answers": [
+            "감염병"
+          ]
         }
       ],
       "order_flexible": false,
@@ -3135,20 +3109,18 @@
       "page": 95,
       "tier": 3,
       "importance": 1,
-      "question": "씻은 손보다 [  ]과/와 [  ]에서 더 많은 콜로니가 관찰된다.",
+      "question": "손을 [  ] 더 많은 콜로니가 관찰되어, 손 씻기가 세균 수를 줄이는 데 효과적임을 알 수 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "씻지 않은 손",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "휴대전화",
-          "alt_answers": []
+          "primary_answer": "씻지 않았을 때",
+          "alt_answers": [
+            "씻지 않으면",
+            "씻지 않았을 경우"
+          ]
         }
       ],
-      "order_flexible": true,
+      "order_flexible": false,
       "source_sentence": "씻은 손보다 씻지 않은 손과 휴대전화에서 더 많은 콜로니가 관찰된다."
     },
     {
@@ -3330,17 +3302,16 @@
       "page": 96,
       "tier": 2,
       "importance": 2,
-      "question": "우리 몸은 [  ]가 들어오는 것을 막거나 들어온 병원체를 [  ]하여 스스로를 방어한다.",
+      "question": "우리 몸은 병원체가 들어오는 것을 막거나 들어온 병원체를 [  ]하여 스스로를 방어한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "병원체",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "제거",
-          "alt_answers": []
+          "alt_answers": [
+            "없앰",
+            "없애",
+            "제거하여"
+          ]
         }
       ],
       "order_flexible": false,
@@ -3783,21 +3754,19 @@
       "page": 96,
       "tier": 3,
       "importance": 1,
-      "question": "눈, 콧속, [  ], 호흡기관의 내벽은 주위 [  ]과 지속적으로 상호작용을 하는 부위이다.",
+      "question": "눈, 콧속, 소화기관, 호흡기관의 내벽은 주위 [  ]과 지속적으로 [  ]을 하는 부위이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "소화기관",
-          "alt_answers": [
-            "소화 기관"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "환경",
           "alt_answers": [
             "외부 환경"
           ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "상호작용",
+          "alt_answers": []
         }
       ],
       "order_flexible": false,
@@ -3831,12 +3800,22 @@
       "page": 96,
       "tier": 2,
       "importance": 2,
-      "question": "[  ], 침, 점액 분비물은 미생물을 씻어 내 세균이 증식하는 것을 막는다.",
+      "question": "눈물, 침, 점액 분비물은 미생물을 [  ] 세균이 [  ]하는 것을 막는다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "눈물",
-          "alt_answers": []
+          "primary_answer": "씻어 내",
+          "alt_answers": [
+            "씻어 냄",
+            "씻어내"
+          ]
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "증식",
+          "alt_answers": [
+            "번식"
+          ]
         }
       ],
       "order_flexible": false,
@@ -4274,19 +4253,13 @@
       "page": 97,
       "tier": 2,
       "importance": 2,
-      "question": "식세포작용과 [  ] 과정에는 병원체, 항원, 식포, [  ], 항원 조각이 관련된다.",
+      "question": "식세포작용 이후 큰포식세포가 분해한 병원체의 조각(항원)을 세포 표면에 제시하는 과정을 [  ]라고 한다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "항원 제시",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "라이소솜",
           "alt_answers": [
-            "리소솜",
-            "리소좀"
+            "항원제시"
           ]
         }
       ],
@@ -4377,16 +4350,16 @@
       "page": 97,
       "tier": 2,
       "importance": 2,
-      "question": "백혈구는 과립백혈구, [  ], [  ]로 구분한다.",
+      "question": "백혈구는 [  ], [  ], 림프구로 구분한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "비과립백혈구",
+          "primary_answer": "과립백혈구",
           "alt_answers": []
         },
         {
           "blank_id": 2,
-          "primary_answer": "림프구",
+          "primary_answer": "비과립백혈구",
           "alt_answers": []
         }
       ],
@@ -5315,21 +5288,17 @@
       "page": 98,
       "tier": 1,
       "importance": 3,
-      "question": "B림프구는 항체를 생성하는 [  ](plasma cell)와 항원을 기억하는 [  ](memory cell)로 분화한다.",
+      "question": "B림프구는 항체를 생성하는 [  ]와 항원을 기억하는 [  ]로 분화한다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "형질세포",
-          "alt_answers": [
-            "plasma cell"
-          ]
+          "alt_answers": []
         },
         {
           "blank_id": 2,
           "primary_answer": "기억세포",
-          "alt_answers": [
-            "memory cell"
-          ]
+          "alt_answers": []
         }
       ],
       "order_flexible": false,
@@ -5341,7 +5310,7 @@
       "page": 98,
       "tier": 1,
       "importance": 3,
-      "question": "T림프구는 [  ](helper T cell)와 [  ](cytotoxic T cell)로 분화한다.",
+      "question": "T림프구는 [  ]와 [  ]로 분화한다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -5349,8 +5318,7 @@
           "alt_answers": [
             "도움 T림프구",
             "보조 T세포",
-            "헬퍼 T세포",
-            "helper T cell"
+            "헬퍼 T세포"
           ]
         },
         {
@@ -5358,12 +5326,11 @@
           "primary_answer": "세포독성 T림프구",
           "alt_answers": [
             "세포독성 T세포",
-            "킬러 T세포",
-            "cytotoxic T cell"
+            "킬러 T세포"
           ]
         }
       ],
-      "order_flexible": false,
+      "order_flexible": true,
       "source_sentence": "T림프구는 보조 T림프구(helper T cell)와 세포독성 T림프구(cytotoxic T cell)로 분화한다."
     },
     {
@@ -5393,7 +5360,7 @@
       "page": 98,
       "tier": 2,
       "importance": 2,
-      "question": "[  ](Bone marrow)에서 성숙하면 [  ]라고 한다.",
+      "question": "림프구가 [  ]에서 성숙하면 [  ]라고 한다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -5417,7 +5384,7 @@
       "page": 98,
       "tier": 2,
       "importance": 2,
-      "question": "[  ](Thymus gland)에서 성숙하면 [  ]라고 한다.",
+      "question": "림프구가 [  ]에서 성숙하면 [  ]라고 한다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -5523,12 +5490,14 @@
       "page": 99,
       "tier": 2,
       "importance": 2,
-      "question": "림프구의 생성 및 성숙 과정에서 [  ]는 골수에서 미성숙한 [  ]를 만든다.",
+      "question": "면역세포의 생성 및 성숙 과정에서 [  ]는 골수에서 미성숙한 [  ]를 만든다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "조혈 모세포",
-          "alt_answers": []
+          "alt_answers": [
+            "조혈모세포"
+          ]
         },
         {
           "blank_id": 2,
@@ -5654,14 +5623,12 @@
       "page": 99,
       "tier": 1,
       "importance": 3,
-      "question": "항원은 우리 몸에 침입하여 B림프구나 T림프구의 반응을 유발하는 [  ]이다.",
+      "question": "우리 몸에 침입하여 B림프구나 T림프구의 반응을 유발하는 물질을 [  ]이라고 한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "물질",
-          "alt_answers": [
-            "이물질"
-          ]
+          "primary_answer": "항원",
+          "alt_answers": []
         }
       ],
       "order_flexible": false,
@@ -6109,12 +6076,14 @@
       "page": 100,
       "tier": 3,
       "importance": 3,
-      "question": "B림프구의 항원 수용체는 [  ]과 직접 결합할 수 있다.",
+      "question": "B림프구의 [  ]는 항원과 직접 결합할 수 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "항원",
-          "alt_answers": []
+          "primary_answer": "항원 수용체",
+          "alt_answers": [
+            "BCR"
+          ]
         }
       ],
       "order_flexible": false,
@@ -6126,12 +6095,14 @@
       "page": 100,
       "tier": 3,
       "importance": 2,
-      "question": "B림프구도 큰포식세포처럼 식세포작용을 하여 항원을 제시하는 [  ] 중 하나이다.",
+      "question": "B림프구도 큰포식세포처럼 [  ]을 하여 항원을 제시하는 항원 제시 세포 중 하나이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "항원 제시 세포",
-          "alt_answers": []
+          "primary_answer": "식세포작용",
+          "alt_answers": [
+            "식균작용"
+          ]
         }
       ],
       "order_flexible": false,
@@ -6143,17 +6114,14 @@
       "page": 100,
       "tier": 3,
       "importance": 1,
-      "question": "림프가 흐르는 통로인 [  ]의 중간중간에는 [  ]이 위치한다.",
+      "question": "림프가 흐르는 통로인 림프관의 중간중간에는 [  ]이 위치한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "림프관",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "림프절",
-          "alt_answers": []
+          "alt_answers": [
+            "림프샘"
+          ]
         }
       ],
       "order_flexible": false,
@@ -6307,16 +6275,15 @@
       "page": 100,
       "tier": 3,
       "importance": 2,
-      "question": "[  ]가 증식할 때 기억 보조 T림프구와 활성화된 보조 T림프구로 분화한다.",
+      "question": "보조 T림프구가 증식할 때 [  ]와 활성화된 보조 T림프구로 분화한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "보조 T림프구",
+          "primary_answer": "기억 보조 T림프구",
           "alt_answers": [
-            "도움 T림프구",
-            "보조 T세포",
-            "헬퍼 T세포",
-            "helper T cell"
+            "기억 도움 T림프구",
+            "기억 보조 T세포",
+            "기억 헬퍼 T세포"
           ]
         }
       ],
@@ -6329,15 +6296,14 @@
       "page": 100,
       "tier": 3,
       "importance": 2,
-      "question": "[  ]가 증식할 때에도 기억 세포독성 T림프구와 활성화된 세포독성 T림프구로 분화한다.",
+      "question": "세포독성 T림프구가 증식할 때에도 [  ]와 활성화된 세포독성 T림프구로 분화한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "세포독성 T림프구",
+          "primary_answer": "기억 세포독성 T림프구",
           "alt_answers": [
-            "세포독성 T세포",
-            "킬러 T세포",
-            "cytotoxic T cell"
+            "기억 세포독성 T세포",
+            "기억 킬러 T세포"
           ]
         }
       ],
@@ -6463,12 +6429,14 @@
       "page": 101,
       "tier": 2,
       "importance": 3,
-      "question": "형질세포는 항체를 분비하며, 분비된 [  ]는 항원에 특이적으로 결합하여 병원체를 무력화한다.",
+      "question": "[  ]는 항체를 분비하며, 분비된 항체는 항원에 특이적으로 결합하여 병원체를 무력화한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "항체",
-          "alt_answers": []
+          "primary_answer": "형질세포",
+          "alt_answers": [
+            "plasma cell"
+          ]
         }
       ],
       "order_flexible": false,
@@ -6865,9 +6833,9 @@
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "수용체",
+          "primary_answer": "항원 수용체",
           "alt_answers": [
-            "항원 수용체"
+            "수용체"
           ]
         },
         {
@@ -6959,19 +6927,19 @@
       "page": 101,
       "tier": 2,
       "importance": 3,
-      "question": "클론 선택 그림에서 다양한 B림프구 중 [  ]가 항원과 맞는 [  ]가 활성화된다.",
+      "question": "클론 선택 그림에서 다양한 B림프구 중 [  ]가 항원과 맞는 B림프구가 [  ]된다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "항원 수용체",
-          "alt_answers": []
+          "alt_answers": [
+            "수용체"
+          ]
         },
         {
           "blank_id": 2,
-          "primary_answer": "B림프구",
-          "alt_answers": [
-            "B세포"
-          ]
+          "primary_answer": "활성화",
+          "alt_answers": []
         }
       ],
       "order_flexible": false,

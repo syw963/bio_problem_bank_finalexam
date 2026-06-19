@@ -147,18 +147,10 @@
       "page": 60,
       "tier": 2,
       "importance": 1,
-      "question": "갈라파고스 제도의 한 땅거북은 목이 [  ] 등딱지가 불룩한 [  ]형이다.",
+      "question": "갈라파고스 제도의 한 땅거북은 목이 짧고 등딱지가 불룩한 [  ]형이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "짧고",
-          "alt_answers": [
-            "짧다",
-            "짧은"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "돔",
           "alt_answers": []
         }
@@ -172,18 +164,10 @@
       "page": 60,
       "tier": 2,
       "importance": 1,
-      "question": "갈라파고스 제도의 다른 땅거북은 목이 [  ] 등딱지 앞부분이 [  ]처럼 말려 있다.",
+      "question": "갈라파고스 제도의 다른 땅거북은 목이 길고 등딱지 앞부분이 [  ]처럼 말려 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "길고",
-          "alt_answers": [
-            "길다",
-            "긴"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "말안장",
           "alt_answers": []
         }
@@ -246,18 +230,10 @@
       "page": 60,
       "tier": 2,
       "importance": 2,
-      "question": "키가 큰 선인장이 주된 먹이인 섬에서는 목이 [  ] 등딱지 앞이 열린 형태를 가진 땅거북이 [  ]에 유리하다.",
+      "question": "키가 큰 선인장이 주된 먹이인 섬에서는 목이 길고 등딱지 앞이 열린 형태를 가진 땅거북이 [  ]에 유리하다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "길고",
-          "alt_answers": [
-            "길다",
-            "긴"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "생존",
           "alt_answers": []
         }
@@ -310,15 +286,10 @@
       "page": 60,
       "tier": 2,
       "importance": 2,
-      "question": "다윈은 갈라파고스 제도의 여러 섬에 다양한 종의 [  ]이/가 살고 있으며 종에 따라 핀치의 [  ] 형태가 다르게 나타나는 것을 발견하였다.",
+      "question": "다윈은 갈라파고스 제도의 여러 섬에 다양한 종의 핀치가 살고 있으며 종에 따라 핀치의 [  ] 형태가 다르게 나타나는 것을 발견하였다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "핀치",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "부리",
           "alt_answers": []
         }
@@ -908,19 +879,23 @@
       "page": 61,
       "tier": 2,
       "importance": 1,
-      "question": "변이는 서로 다른 종 사이에 나타나는 형질의 차이를 말한다는 설명은 [  ].",
+      "question": "변이는 같은 [  ]에 속하는 [  ] 사이에 나타나는 형질의 차이를 말한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "옳지 않다",
+          "primary_answer": "종",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 2,
+          "primary_answer": "개체",
           "alt_answers": [
-            "틀리다",
-            "옳지 않음"
+            "개체들"
           ]
         }
       ],
       "order_flexible": false,
-      "source_sentence": "변이는 서로 다른 종 사이에 나타나는 형질의 차이를 말한다는 설명은 옳지 않다."
+      "source_sentence": "변이는 같은 종의 개체들 사이에서 형태, 습성, 기능 등의 형질 차이가 나타나는 것이다."
     },
     {
       "pid": "05-043-Q1",
@@ -950,7 +925,7 @@
       "page": 62,
       "tier": 2,
       "importance": 2,
-      "question": "다윈은 개체 사이에서 [  ]이/가 발생하고 그 변이가 자손에게 [  ]되는 원리를 과학적으로 설명하지 못하였다.",
+      "question": "다윈은 개체 사이에서 [  ]이/가 발생하고 그것이 자손에게 [  ]되는 원리를 과학적으로 설명하지 못하였다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -1319,14 +1294,12 @@
       "page": 62,
       "tier": 2,
       "importance": 2,
-      "question": "세대가 거듭됨에 따라 대립유전자 A의 빈도는 낮아지고 a의 빈도는 [  ].",
+      "question": "세대가 거듭됨에 따라 대립유전자 A의 빈도는 낮아지고 [  ]의 빈도는 높아진다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "높아진다",
-          "alt_answers": [
-            "증가한다"
-          ]
+          "primary_answer": "a",
+          "alt_answers": []
         }
       ],
       "order_flexible": false,
@@ -1729,7 +1702,7 @@
       "page": 64,
       "tier": 2,
       "importance": 2,
-      "question": "눈 색을 결정하는 유전자에 [  ]이/가 발생하여 야생형 초파리의 눈 색과 다른 [  ] 눈의 돌연변이 초파리가 나타났다.",
+      "question": "눈 색을 결정하는 유전자에 [  ]이/가 발생하여 야생형 초파리의 눈 색과 다른 [  ] 눈의 초파리가 나타났다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -1778,12 +1751,14 @@
       "page": 64,
       "tier": 2,
       "importance": 2,
-      "question": "적혈구를 구성하는 [  ] 유전자에 돌연변이가 발생하면 정상 헤모글로빈 대립유전자와는 다른 새로운 [  ]이/가 나타난다.",
+      "question": "적혈구를 구성하는 [  ] 유전자에 돌연변이가 발생하면 기존과는 다른 새로운 [  ]이/가 나타난다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "헤모글로빈",
-          "alt_answers": []
+          "alt_answers": [
+            "혈색소"
+          ]
         },
         {
           "blank_id": 2,
@@ -1802,7 +1777,7 @@
       "page": 64,
       "tier": 2,
       "importance": 2,
-      "question": "돌연변이가 발생한 DNA로부터 합성된 [  ]의 유전정보가 정상 아미노산과 다른 [  ](으)로 번역되어 돌연변이 헤모글로빈이 합성된다.",
+      "question": "돌연변이가 발생한 DNA로부터 합성된 [  ]의 유전정보가 정상과 다른 [  ](으)로 번역되어 돌연변이 헤모글로빈이 합성된다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -1846,16 +1821,19 @@
       "page": 64,
       "tier": 3,
       "importance": 1,
-      "question": "헤모글로빈 유전자의 돌연변이 그림에서 정상 헤모글로빈은 아미노산 프롤린, [  ], 글루탐산으로 표시된다.",
+      "question": "헤모글로빈 유전자의 돌연변이 그림에서 정상 헤모글로빈은 아미노산 프롤린, 글루탐산, 글루탐산 순이지만, 돌연변이형에서는 두 번째 아미노산이 [  ](으)로 바뀌어 낫모양적혈구가 나타난다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "글루탐산",
-          "alt_answers": []
+          "primary_answer": "발린",
+          "alt_answers": [
+            "발린(Val)",
+            "valine"
+          ]
         }
       ],
       "order_flexible": false,
-      "source_sentence": "헤모글로빈 유전자의 돌연변이 그림에서 정상 헤모글로빈은 아미노산 프롤린, 글루탐산, 글루탐산으로 표시된다."
+      "source_sentence": "헤모글로빈 유전자의 돌연변이 그림에서 돌연변이 헤모글로빈은 아미노산 프롤린, 발린, 글루탐산으로 표시된다."
     },
     {
       "pid": "05-086-Q1",
@@ -1921,19 +1899,12 @@
       "page": 64,
       "tier": 3,
       "importance": 1,
-      "question": "낫모양적혈구는 낫 모양이며 [  ] 운반 능력이 정상 적혈구보다 [  ].",
+      "question": "낫모양적혈구는 낫 모양이며 [  ] 운반 능력이 정상 적혈구보다 떨어진다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "산소",
           "alt_answers": []
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "떨어진다",
-          "alt_answers": [
-            "낮다"
-          ]
         }
       ],
       "order_flexible": false,
@@ -1945,7 +1916,7 @@
       "page": 64,
       "tier": 3,
       "importance": 1,
-      "question": "낫모양적혈구 돌연변이를 가진 사람은 [  ]에 걸리지 않기 때문에 말라리아 위험 지역에서 살아남기에 유리하다.",
+      "question": "낫모양적혈구 돌연변이를 가진 사람은 [  ]에 걸리지 않기 때문에 그 병이 유행하는 지역에서 살아남기에 유리하다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -2034,7 +2005,7 @@
       "page": 64,
       "tier": 2,
       "importance": 2,
-      "question": "생존에 유리한 형질을 나타내는 [  ]을/를 가진 개체가 그렇지 않은 개체보다 많이 살아남아 자신의 대립유전자를 [  ]을/를 통해 다음 세대에 더 많이 전달한다.",
+      "question": "생존에 유리한 형질을 나타내는 [  ]을/를 가진 개체가 그렇지 않은 개체보다 많이 살아남아 그 유전자를 [  ]을/를 통해 다음 세대에 더 많이 전달한다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -2080,15 +2051,10 @@
       "page": 64,
       "tier": 2,
       "importance": 2,
-      "question": "어떤 개체군에서 환경이 변한 뒤 대립유전자 A를 가진 개체는 모두 살아남았지만 대립유전자 a를 가진 개체는 생존하지 못하고 제거되었다. 이 모형에서 생존에 유리한 대립유전자 [  ]이/가 [  ]되었다.",
+      "question": "어떤 개체군에서 환경이 변한 뒤 대립유전자 A를 가진 개체는 모두 살아남았지만 대립유전자 a를 가진 개체는 생존하지 못하고 제거되었다. 이 모형에서 생존에 유리한 대립유전자 A가 [  ]되었다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "A",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "자연선택",
           "alt_answers": []
         }
@@ -2209,20 +2175,12 @@
       "page": 65,
       "tier": 3,
       "importance": 2,
-      "question": "생존에 [  ]하게 작용하는 돌연변이는 [  ] 수 있다.",
+      "question": "생존에 [  ]하게 작용하는 돌연변이는 자연선택에 의해 개체군에서 사라질 수 있다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "불리",
           "alt_answers": []
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "사라질",
-          "alt_answers": [
-            "제거될",
-            "없어질"
-          ]
         }
       ],
       "order_flexible": false,
@@ -2309,17 +2267,14 @@
       "page": 65,
       "tier": 2,
       "importance": 2,
-      "question": "유전적 부동에서는 대립유전자빈도가 [  ]할 수 없는 방향으로 급격히 [  ]하거나 감소한다.",
+      "question": "유전적 부동에서는 [  ]이/가 예측할 수 없는 방향으로 급격히 증가하거나 감소한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "예측",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "증가",
-          "alt_answers": []
+          "primary_answer": "대립유전자빈도",
+          "alt_answers": [
+            "대립유전자 빈도"
+          ]
         }
       ],
       "order_flexible": false,
@@ -2442,17 +2397,14 @@
       "page": 66,
       "tier": 2,
       "importance": 2,
-      "question": "창시자효과 모형에서 일부 개체가 원래의 개체군에서 다른 지역으로 [  ]되어 새로운 [  ]을/를 형성한다.",
+      "question": "창시자효과 모형에서 일부 개체가 원래의 개체군에서 다른 지역으로 [  ]되어 새로운 개체군을 형성한다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "분리",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "개체군",
-          "alt_answers": []
+          "alt_answers": [
+            "격리"
+          ]
         }
       ],
       "order_flexible": false,
@@ -2541,7 +2493,7 @@
       "page": 66,
       "tier": 2,
       "importance": 2,
-      "question": "병목효과 모형은 원래의 개체군에서 [  ] 제거가 일어난 뒤 새로운 [  ]이/가 형성되는 과정을 나타낸다.",
+      "question": "병목효과 모형은 원래의 개체군에서 [  ] 제거가 일어난 뒤 새로운 개체군이 형성되는 과정을 나타낸다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -2549,11 +2501,6 @@
           "alt_answers": [
             "임의"
           ]
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "개체군",
-          "alt_answers": []
         }
       ],
       "order_flexible": false,
@@ -2609,14 +2556,12 @@
       "page": 66,
       "tier": 3,
       "importance": 1,
-      "question": "보호되면서 북방코끼리물범 개체수가 회복되었지만, 24개 유전자를 대상으로 조사한 결과 단 [  ] 종류의 대립유전자만 남아 있었다.",
+      "question": "보호되면서 북방코끼리물범 개체수가 회복되었지만, 24개 유전자를 대상으로 조사한 결과 단 한 종류의 [  ]만 남아 있어 유전적 다양성이 매우 낮았다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "한",
-          "alt_answers": [
-            "1"
-          ]
+          "primary_answer": "대립유전자",
+          "alt_answers": []
         }
       ],
       "order_flexible": false,
@@ -2628,13 +2573,13 @@
       "page": 66,
       "tier": 3,
       "importance": 1,
-      "question": "병목효과는 병의 좁은 부분, 즉 [  ]을/를 통과하는 것에 비유하여 붙여진 이름이다.",
+      "question": "[  ]은/는 병의 좁은 부분, 즉 병목을 통과하는 것에 비유하여 붙여진 이름이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "병목",
+          "primary_answer": "병목효과",
           "alt_answers": [
-            "목"
+            "병목 효과"
           ]
         }
       ],
@@ -2696,17 +2641,15 @@
       "page": 67,
       "tier": 2,
       "importance": 2,
-      "question": "유전자의 이동은 개체군 간의 유전적 [  ]을/를 줄이고, 개체군에 새로운 [  ]이/가 도입되도록 하여 유전자풀의 구성을 변화시킨다.",
+      "question": "유전자의 이동은 개체군 간의 유전적 [  ]을/를 줄이고, 개체군에 새로운 유전자가 도입되도록 하여 유전자풀의 구성을 변화시킨다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "차이",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "유전자",
-          "alt_answers": []
+          "alt_answers": [
+            "변이",
+            "다양성"
+          ]
         }
       ],
       "order_flexible": false,
@@ -2838,17 +2781,14 @@
       "page": 67,
       "tier": 2,
       "importance": 1,
-      "question": "유전자흐름에 따른 유전자풀의 변화 모형에서 대립유전자 [  ]이/가 개체군 안으로 들어오고 대립유전자 [  ]이/가 개체군 밖으로 나갔다.",
+      "question": "한 개체군에 다른 개체군의 대립유전자가 들어오거나 빠져나가 유전자풀이 변하는 현상을 [  ](이)라고 한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "B",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "A",
-          "alt_answers": []
+          "primary_answer": "유전자흐름",
+          "alt_answers": [
+            "유전자 흐름"
+          ]
         }
       ],
       "order_flexible": false,
@@ -2877,15 +2817,20 @@
       "page": 67,
       "tier": 3,
       "importance": 2,
-      "question": "유전자흐름이 광범위하게 일어나면 인접한 두 개체군이 공통적인 하나의 [  ]을/를 가지는 단일 [  ](으)로 합쳐질 수 있다.",
+      "question": "유전자흐름이 광범위하게 일어나면 인접한 두 [  ]이 공통적인 하나의 [  ]을/를 가지는 단일 [  ](으)로 합쳐질 수 있다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "유전자풀",
+          "primary_answer": "개체군",
           "alt_answers": []
         },
         {
           "blank_id": 2,
+          "primary_answer": "유전자풀",
+          "alt_answers": []
+        },
+        {
+          "blank_id": 3,
           "primary_answer": "개체군",
           "alt_answers": []
         }
@@ -2921,14 +2866,13 @@
       "page": 67,
       "tier": 3,
       "importance": 2,
-      "question": "유전자흐름은 집단 사이의 [  ] 연결을 유지하는 역할을 한다.",
+      "question": "집단 사이의 생물학적(유전적) 연결을 유지하여 개체군들이 비슷한 유전적 특성을 공유하게 하는 진화 요인은 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "생물학적",
+          "primary_answer": "유전자흐름",
           "alt_answers": [
-            "유전적",
-            "유전자"
+            "유전자 흐름"
           ]
         }
       ],
@@ -2941,7 +2885,7 @@
       "page": 67,
       "tier": 2,
       "importance": 1,
-      "question": "고대 인류인 [  ]의 유전자를 분석한 결과, 유라시아 대륙에 사는 현생 인류의 DNA 중 약 [  ]%는 네안데르탈인으로부터 유래한 것으로 밝혀졌다.",
+      "question": "고대 인류인 [  ]의 유전자를 분석한 결과, 유라시아 대륙에 사는 현생 인류의 DNA 중 약 [  ]%는 이들로부터 유래한 것으로 밝혀졌다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -2966,11 +2910,11 @@
       "page": 67,
       "tier": 2,
       "importance": 1,
-      "question": "현생 인류와 네안데르탈인은 완전히 [  ]된 종이었다.",
+      "question": "현생 인류와 네안데르탈인은 완전히 분리되어 유전자 교환이 전혀 일어나지 않은 별개의 [  ](으)로 여겨져 왔다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "분리",
+          "primary_answer": "종",
           "alt_answers": []
         }
       ],
@@ -3017,46 +2961,18 @@
       "source_sentence": "현생 인류와 네안데르탈인이 유전자를 교환한 것으로 추정된다."
     },
     {
-      "pid": "05-141-Q1",
-      "sid": "05-141",
-      "page": 67,
-      "tier": 3,
-      "importance": 1,
-      "question": "현생 인류의 이주와 유전자 교환 지도는 현생 인류 [  ] 경로와 이종 교배 감소를 나타낸다.",
-      "blanks": [
-        {
-          "blank_id": 1,
-          "primary_answer": "확산",
-          "alt_answers": [
-            "이주",
-            "이동"
-          ]
-        }
-      ],
-      "order_flexible": false,
-      "source_sentence": "현생 인류의 이주와 유전자 교환 지도는 현생 인류 확산 경로와 이종 교배 감소를 나타낸다."
-    },
-    {
       "pid": "05-142-Q1",
       "sid": "05-142",
       "page": 67,
       "tier": 3,
       "importance": 1,
-      "question": "[  ]의 이주와 유전자 교환을 나타낸 지도에서는 초기 확산과 후기 확산을 시기에 따라 구분하여 표시하며, 이는 인류가 서로 다른 집단과 [  ]을 하며 여러 지역으로 퍼져 나갔음을 보여 준다.",
+      "question": "현생 인류의 이주와 유전자 교환을 나타낸 지도에서는 [  ] 확산과 후기 확산을 시기에 따라 구분하여 표시하며, 이는 인류가 여러 지역으로 퍼져 나갔음을 보여 준다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "현생 인류",
+          "primary_answer": "초기",
           "alt_answers": [
-            "현생인류",
-            "현생 인류(호모 사피엔스)"
-          ]
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "유전자 교환",
-          "alt_answers": [
-            "유전자교환"
+            "전기"
           ]
         }
       ],
@@ -3633,7 +3549,7 @@
       "page": 68,
       "tier": 3,
       "importance": 2,
-      "question": "방사성 동위원소는 불안정하여 자연 상태에서 [  ]을/를 방출하면서 [  ]된 상태로 변한다.",
+      "question": "방사성 동위원소는 자연 상태에서 [  ]을/를 방출하면서 [  ]된 상태로 변한다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -3847,21 +3763,13 @@
       "page": 69,
       "tier": 2,
       "importance": 3,
-      "question": "상사기관은 생물이 비슷한 환경에 적응하면서 [  ]이/가 다른 기관이 [  ]한 형질을 갖도록 진화하였음을 보여 준다.",
+      "question": "상사기관은 생물이 비슷한 환경에 적응하면서 [  ]이/가 다른 기관이 유사한 형질을 갖도록 진화하였음을 보여 준다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "발생 기원",
           "alt_answers": [
             "발생기원"
-          ]
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "유사",
-          "alt_answers": [
-            "비슷",
-            "닮은"
           ]
         }
       ],
@@ -3988,13 +3896,13 @@
       "page": 69,
       "tier": 2,
       "importance": 2,
-      "question": "흔적기관은 과거 생물의 구조와 생활 방식이 현재의 생물과 [  ]을 보여 주는 증거이다.",
+      "question": "과거 생물의 구조와 생활 방식이 현재의 생물과 달랐음을 보여 주는 진화의 증거가 되는 기관을 [  ](이)라고 한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "달랐음",
+          "primary_answer": "흔적기관",
           "alt_answers": [
-            "다름"
+            "흔적 기관"
           ]
         }
       ],
@@ -4048,14 +3956,12 @@
       "page": 69,
       "tier": 3,
       "importance": 2,
-      "question": "꼬리뼈는 진화 과정에서 기능이 퇴화하여 흔적만 남은 기관으로, 사람의 대표적인 [  ]의 예에 해당한다.",
+      "question": "꼬리뼈는 진화 과정에서 기능이 [  ]하여 흔적만 남은 기관으로, 사람의 대표적인 흔적기관의 예에 해당한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "흔적기관",
-          "alt_answers": [
-            "흔적 기관"
-          ]
+          "primary_answer": "퇴화",
+          "alt_answers": []
         }
       ],
       "order_flexible": false,
@@ -4091,7 +3997,7 @@
       "page": 70,
       "tier": 2,
       "importance": 2,
-      "question": "생물종이 [  ](으)로 격리된 이후 각각의 환경에서 오랜 세월 동안 독자적인 [  ] 과정을 거쳐 분화한 결과 생물의 지리적 분포 차이가 나타난다.",
+      "question": "생물종이 [  ](으)로 격리된 이후 각각의 환경에서 오랜 세월 동안 독자적인 [  ] 과정을 거쳐 분화한 결과 생물 분포의 차이가 나타난다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -4317,7 +4223,7 @@
       "page": 70,
       "tier": 3,
       "importance": 1,
-      "question": "월리스선 지도에서 발리섬과 롬복섬 사이를 지나며 동남아시아구와 [  ]을/를 구분하는 생물지리학적 경계선을 [  ](이)라고 한다.",
+      "question": "발리섬과 롬복섬 사이를 지나며 동남아시아구와 [  ]을/를 구분하는 생물지리학적 경계선을 [  ](이)라고 한다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -4550,7 +4456,7 @@
       "page": 70,
       "tier": 3,
       "importance": 2,
-      "question": "[  ]의 발생 초기 배아를 비교하면 그 형태가 서로 [  ]을 확인할 수 있는데, 이는 여러 종이 공통 조상에서 유래했음을 보여 주는 진화의 비교발생학적 증거가 된다.",
+      "question": "[  ]의 발생 초기 배아를 비교하면 그 형태가 서로 비슷함을 확인할 수 있는데, 이는 여러 종이 [  ]에서 유래했음을 보여 주는 진화의 [  ] 증거가 된다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -4559,11 +4465,17 @@
         },
         {
           "blank_id": 2,
-          "primary_answer": "유사함",
+          "primary_answer": "공통 조상",
           "alt_answers": [
-            "비슷함",
-            "닮음",
-            "유사성을 가짐"
+            "공통조상"
+          ]
+        },
+        {
+          "blank_id": 3,
+          "primary_answer": "비교발생학적",
+          "alt_answers": [
+            "비교 발생학적",
+            "발생학적"
           ]
         }
       ],
@@ -4717,7 +4629,7 @@
       "page": 71,
       "tier": 3,
       "importance": 2,
-      "question": "사람의 유전체는 침팬지의 유전체와 약 98%, 생쥐의 유전체와 약 85% 일치한다. 따라서 사람과 진화적으로 더 가까운 종은 [  ]이며, 이는 두 종 사이의 근연 관계가 가까울수록 유전체의 [  ]이/가 높기 때문이다.",
+      "question": "사람의 유전체는 어떤 종의 유전체와는 약 98%, 또 다른 종의 유전체와는 약 85% 일치한다. 두 종 중 약 98% 일치하는 종이 사람과 진화적으로 더 가까운 [  ]이며, 이는 두 종 사이의 근연 관계가 가까울수록 유전체의 [  ]이/가 높기 때문이다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -4743,17 +4655,27 @@
       "page": 71,
       "tier": 2,
       "importance": 2,
-      "question": "사람은 생쥐보다 [  ]와/과 공유하는 유전자가 많으므로 사람과 침팬지는 비교적 [  ]이/가 가까우며, 최근에 공통조상으로부터 분화하였음을 보여 준다.",
+      "question": "사람은 생쥐보다 침팬지와 [  ]가 많으므로 사람과 침팬지는 비교적 [  ]이/가 가까우며, 최근에 [  ](으)로부터 분화하였음을 보여 준다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "침팬지",
-          "alt_answers": []
+          "primary_answer": "공유하는 유전자",
+          "alt_answers": [
+            "공유 유전자",
+            "공통된 유전자"
+          ]
         },
         {
           "blank_id": 2,
           "primary_answer": "유연관계",
           "alt_answers": []
+        },
+        {
+          "blank_id": 3,
+          "primary_answer": "공통조상",
+          "alt_answers": [
+            "공통 조상"
+          ]
         }
       ],
       "order_flexible": false,

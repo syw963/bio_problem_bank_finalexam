@@ -405,16 +405,11 @@
       "page": 26,
       "tier": 2,
       "importance": 2,
-      "question": "[  ]은/는 포자낭에서 만들어진 [  ]이/가 새로운 개체로 발달하는 방법이다.",
+      "question": "[  ]은/는 포자낭에서 만들어진 포자가 새로운 개체로 발달하는 방법이다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "포자생식",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "포자",
           "alt_answers": []
         }
       ],
@@ -747,24 +742,15 @@
       "page": 27,
       "tier": 2,
       "importance": 2,
-      "question": "동물의 유성생식에서 자손은 [  ]와/과 [  ]의 염색체를 모두 가진다.",
+      "question": "동물의 유성생식에서 자손은 모와 부의 [  ]을/를 모두 가진다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "모",
-          "alt_answers": [
-            "어머니"
-          ]
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "부",
-          "alt_answers": [
-            "아버지"
-          ]
+          "primary_answer": "염색체",
+          "alt_answers": []
         }
       ],
-      "order_flexible": true,
+      "order_flexible": false,
       "source_sentence": "동물의 유성생식에서 자손은 모와 부의 염색체를 모두 가진다."
     },
     {
@@ -911,16 +897,18 @@
       "page": 27,
       "tier": 1,
       "importance": 2,
-      "question": "암수의 생식세포가 결합하는 [  ]은/는 그렇지 않은 [  ]에 비해 자손을 만드는 데 시간과 에너지가 많이 소모된다.",
+      "question": "암수의 생식세포가 결합하는 유성생식은 그렇지 않은 [  ]에 비해 자손을 만드는 데 시간과 [  ]이/가 많이 소모된다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "유성생식",
-          "alt_answers": []
+          "primary_answer": "무성생식",
+          "alt_answers": [
+            "무성 생식"
+          ]
         },
         {
           "blank_id": 2,
-          "primary_answer": "무성생식",
+          "primary_answer": "에너지",
           "alt_answers": []
         }
       ],
@@ -2091,17 +2079,20 @@
       "page": 29,
       "tier": 3,
       "importance": 2,
-      "question": "방추사는 동원체에 있는 [  ]에 부착하여 [  ]이/가 정확하게 분리되도록 한다.",
+      "question": "방추사는 [  ]에 있는 방추사 부착점에 부착하여 [  ]이/가 정확하게 분리되도록 한다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "방추사 부착점",
+          "primary_answer": "동원체",
           "alt_answers": []
         },
         {
           "blank_id": 2,
           "primary_answer": "염색체",
-          "alt_answers": []
+          "alt_answers": [
+            "염색 분체",
+            "염색분체"
+          ]
         }
       ],
       "order_flexible": false,
@@ -2330,20 +2321,13 @@
       "page": 29,
       "tier": 1,
       "importance": 3,
-      "question": "[  ]은/는 핵분열 말기의 뒷부분에 시작하여 완전한 [  ]개의 딸세포가 형성되는 시기이다.",
+      "question": "[  ]은/는 핵분열 말기의 뒷부분에 시작하여 완전한 2개의 딸세포가 형성되는 시기이다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "세포질분열",
           "alt_answers": [
             "세포질 분열"
-          ]
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "2",
-          "alt_answers": [
-            "두"
           ]
         }
       ],
@@ -3095,12 +3079,16 @@
         {
           "blank_id": 2,
           "primary_answer": "부계",
-          "alt_answers": []
+          "alt_answers": [
+            "모계"
+          ]
         },
         {
           "blank_id": 3,
           "primary_answer": "모계",
-          "alt_answers": []
+          "alt_answers": [
+            "부계"
+          ]
         }
       ],
       "order_flexible": false,
@@ -3775,7 +3763,7 @@
       "page": 31,
       "tier": 2,
       "importance": 2,
-      "question": "생식세포를 만드는 [  ] 과정에서 상동 염색체와 자매 염색 분체의 정확한 [  ]는 매우 중요하다.",
+      "question": "[  ] 과정에서 [  ]의 정확한 분리는 매우 중요하다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -3787,10 +3775,8 @@
         },
         {
           "blank_id": 2,
-          "primary_answer": "분리",
-          "alt_answers": [
-            "분배"
-          ]
+          "primary_answer": "염색체",
+          "alt_answers": []
         }
       ],
       "order_flexible": false,
@@ -3887,24 +3873,16 @@
       "page": 31,
       "tier": 2,
       "importance": 2,
-      "question": "감수분열 과정에서 염색체가 세포 중앙(적도면)에 일렬로 배열되는 시기 중, 상동 염색체가 아닌 자매 염색 분체가 나뉘기 직전인 것은 감수 [  ] [  ] 단계이다.",
+      "question": "감수분열 과정에서 염색체가 세포 중앙(적도면)에 일렬로 배열되며 자매 염색 분체가 나뉘기 직전인 시기는 감수 2분열 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "2분열",
-          "alt_answers": [
-            "제2분열",
-            "이분열",
-            "2"
-          ]
-        },
-        {
-          "blank_id": 2,
           "primary_answer": "중기 II",
           "alt_answers": [
             "중기2",
             "중기II",
-            "중기 2"
+            "중기 2",
+            "중기"
           ]
         }
       ],
@@ -4283,14 +4261,16 @@
       "page": 32,
       "tier": 2,
       "importance": 2,
-      "question": "체세포분열과 감수분열 비교 그림에서 모세포는 DNA 복제 전 2n=4 상태이다. DNA 복제가 일어나면 DNA양은 2배가 되지만 염색체 수는 변하지 않으므로, 복제 후 모세포의 염색체 수 표기는 [  ]이다.",
+      "question": "체세포분열과 감수분열 비교 그림에서 모세포는 DNA 복제 전 2n=4 상태이다. DNA가 복제되면 핵 1개당 DNA양은 2배가 되지만 [  ]는 변하지 않는다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "2n=4",
+          "primary_answer": "염색체 수",
           "alt_answers": [
-            "2n = 4",
-            "2n=4(4개)"
+            "염색체수",
+            "핵상",
+            "핵상(2n)",
+            "핵상(2n=4)"
           ]
         }
       ],
@@ -4573,16 +4553,19 @@
       "page": 33,
       "tier": 2,
       "importance": 3,
-      "question": "2가 염색체의 [  ]에 따라 각 생식세포에 서로 다른 조합의 [  ]이/가 전달된다.",
+      "question": "2가 염색체의 [  ]에 따라 각 생식세포에 서로 다른 [  ]의 염색체가 전달된다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "배열",
-          "alt_answers": []
+          "alt_answers": [
+            "배열 방식",
+            "무작위 배열"
+          ]
         },
         {
           "blank_id": 2,
-          "primary_answer": "염색체",
+          "primary_answer": "조합",
           "alt_answers": []
         }
       ],
@@ -4688,7 +4671,7 @@
       "page": 33,
       "tier": 3,
       "importance": 3,
-      "question": "암수의 생식세포가 무작위로 결합하여 다양한 유전자 조합의 자손이 만들어지는 [  ]은/는 유전적 다양성을 증가시키는 요인이다.",
+      "question": "암수의 생식세포가 우연히 결합하여 다양한 유전자 조합의 자손이 만들어지는 [  ]은/는 유전적 다양성을 증가시키는 요인이다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -4834,17 +4817,23 @@
       "page": 33,
       "tier": 2,
       "importance": 2,
-      "question": "AaBb인 모세포에서 두 쌍의 상동염색체(대립유전자 A/a, B/b)가 감수 1분열 중기에 A와 b가 같은 쪽, a와 B가 같은 쪽에 배열되는 경우, 만들어지는 두 종류의 생식세포의 유전자형은 [  ]와/과 [  ]이다.",
+      "question": "AaBb인 모세포에서 두 쌍의 상동염색체(대립유전자 A/a, B/b)가 감수분열하여 유전자형이 Ab인 생식세포와 aB인 생식세포가 만들어졌다. 이때 감수 1분열 중기에 같은 쪽 극으로 배열되어 함께 이동한 대립유전자 조합은 [  ]와/과 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "Ab",
-          "alt_answers": []
+          "primary_answer": "A와 b",
+          "alt_answers": [
+            "A, b",
+            "Ab"
+          ]
         },
         {
           "blank_id": 2,
-          "primary_answer": "aB",
-          "alt_answers": []
+          "primary_answer": "a와 B",
+          "alt_answers": [
+            "a, B",
+            "aB"
+          ]
         }
       ],
       "order_flexible": true,
@@ -4951,12 +4940,14 @@
       "page": 33,
       "tier": 2,
       "importance": 1,
-      "question": "AaBb인 모세포에서 두 쌍의 상동염색체(대립유전자 A/a, B/b)가 감수 1분열 중기에 A와 B가 같은 쪽에 배열될 때, 만들어지는 생식세포 중 우성 대립유전자만 가진 것의 유전자형은 [  ]이다.",
+      "question": "AaBb인 모세포에서 감수분열로 만들어진 생식세포 중, 두 형질의 대립유전자가 모두 우성인 것의 유전자형은 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "AB",
-          "alt_answers": []
+          "alt_answers": [
+            "BA"
+          ]
         }
       ],
       "order_flexible": false,
@@ -5007,12 +4998,14 @@
       "page": 33,
       "tier": 2,
       "importance": 1,
-      "question": "AaBb인 모세포에서 두 쌍의 상동염색체(대립유전자 A/a, B/b)가 감수 1분열 중기에 A와 b가 같은 쪽에 배열될 때, 만들어지는 생식세포 중 A를 가진 것의 유전자형은 [  ]이다.",
+      "question": "AaBb인 모세포에서 두 쌍의 상동염색체(대립유전자 A/a, B/b)가 감수 1분열 중기에 A와 b가 같은 쪽에 배열될 때, 만들어지는 생식세포 중 A를 가지지 않은 것의 유전자형은 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "Ab",
-          "alt_answers": []
+          "primary_answer": "aB",
+          "alt_answers": [
+            "Ba"
+          ]
         }
       ],
       "order_flexible": false,
@@ -5024,12 +5017,14 @@
       "page": 33,
       "tier": 2,
       "importance": 1,
-      "question": "AaBb인 모세포에서 두 쌍의 상동염색체(대립유전자 A/a, B/b)가 감수 1분열 중기에 a와 B가 같은 쪽에 배열될 때, 만들어지는 생식세포 중 a를 가진 것의 유전자형은 [  ]이다.",
+      "question": "AaBb인 모세포에서 두 쌍의 상동염색체(대립유전자 A/a, B/b)가 감수 1분열 중기에 a와 B가 같은 쪽에 배열될 때, 만들어지는 생식세포 중 a를 가지지 않은 것의 유전자형은 [  ]이다.",
       "blanks": [
         {
           "blank_id": 1,
-          "primary_answer": "aB",
-          "alt_answers": []
+          "primary_answer": "Ab",
+          "alt_answers": [
+            "bA"
+          ]
         }
       ],
       "order_flexible": false,
@@ -5127,16 +5122,11 @@
       "page": 33,
       "tier": 1,
       "importance": 2,
-      "question": "[  ] 결과 염색체 수와 DNA양이 모세포와 [  ]한 딸세포가 형성된다.",
+      "question": "[  ] 결과 염색체 수와 DNA양이 모세포와 동일한 딸세포가 형성된다.",
       "blanks": [
         {
           "blank_id": 1,
           "primary_answer": "체세포분열",
-          "alt_answers": []
-        },
-        {
-          "blank_id": 2,
-          "primary_answer": "동일",
           "alt_answers": []
         }
       ],

@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=1024, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>생명과학 문제은행</title>
   <style>
     :root {
@@ -51,7 +51,6 @@
 
     html,
     body {
-      min-width: 1024px;
       margin: 0;
       background: var(--bg);
       color: var(--text);
@@ -418,11 +417,17 @@
     }
 
     .scroll-list {
-      display: grid;
-      gap: 12px;
       max-height: calc(100vh - 165px);
       overflow: auto;
       padding-right: 6px;
+    }
+
+    .scroll-list .question-card {
+      margin-bottom: 12px;
+    }
+
+    .vspacer {
+      width: 100%;
     }
 
     .question-card {
@@ -743,10 +748,80 @@
     .hidden {
       display: none !important;
     }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .mcq-state-text {
+      margin-left: auto;
+      font-size: 12px;
+      font-weight: 720;
+    }
+    .mcq-choice.correct .mcq-state-text { color: var(--good); }
+    .mcq-choice.incorrect .mcq-state-text { color: var(--bad); }
+
+    @media (max-width: 820px) {
+      .layout {
+        width: min(100%, calc(100vw - 28px));
+        padding: 18px 0 36px;
+      }
+      .home-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+      .checkbox-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .quiz-toolbar {
+        grid-template-columns: 1fr;
+        top: 0;
+      }
+      .quiz-toolbar .segmented,
+      .quiz-toolbar .top-actions {
+        flex-wrap: wrap;
+      }
+      .toast {
+        right: 12px;
+        left: 12px;
+        bottom: 12px;
+        max-width: none;
+      }
+      /* 터치 타깃 최소 크기 확보 */
+      button.icon,
+      .segmented button,
+      .mcq-choice {
+        min-height: 44px;
+      }
+      .check-card,
+      .inline-check {
+        min-height: 44px;
+      }
+      .check-card input,
+      .inline-check input {
+        width: 18px;
+        height: 18px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .checkbox-grid {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
   <div id="app" class="app-shell"></div>
+  <div id="liveRegion" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
   <input id="jsonFileInput" class="file-input" type="file" accept="application/json,.json">
 
   <script>
@@ -858,6 +933,13 @@
         AppState.gradingResults = saved.gradingResults && typeof saved.gradingResults === "object" ? saved.gradingResults : {};
         AppState.manualOverrides = saved.manualOverrides && typeof saved.manualOverrides === "object" ? saved.manualOverrides : {};
         AppState.revealed = saved.revealed && typeof saved.revealed === "object" ? saved.revealed : {};
+        AppState.displayMode = ["one", "scroll"].includes(saved.displayMode) ? saved.displayMode : "one";
+        AppState.inputMode = ["typing", "flashcard"].includes(saved.inputMode) ? saved.inputMode : "typing";
+        AppState.shuffle = Boolean(saved.shuffle);
+        AppState.exportOptions = {
+          wrong: saved.exportOptions ? Boolean(saved.exportOptions.wrong) : true,
+          flagged: saved.exportOptions ? Boolean(saved.exportOptions.flagged) : true
+        };
       } catch (error) {
         console.warn("저장된 상태를 불러오지 못했습니다.", error);
       }
@@ -876,7 +958,21 @@
         problemMeta: {},
         toast: ""
       };
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot));
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot));
+      } catch (error) {
+        console.warn("상태 저장에 실패했습니다(저장공간 초과 등).", error);
+      }
+    }
+
+    let persistTimer = null;
+    function schedulePersist() {
+      window.clearTimeout(persistTimer);
+      persistTimer = window.setTimeout(persistState, 400);
+    }
+    function flushPersist() {
+      window.clearTimeout(persistTimer);
+      persistState();
     }
 
     function commit(renderAfter = true) {
@@ -934,10 +1030,24 @@
 
     async function loadInitialBanks() {
       const tasks = UNIT_FILES.map(async (unit) => {
-        const response = await fetch(`${unit}_problem.json`, { cache: "no-store" });
+        let response;
+        try {
+          response = await fetch(`${unit}_problem.json`, { cache: "no-store" });
+        } catch (error) {
+          throw new Error(`${unit}단원 네트워크 오류`);
+        }
         if (!response.ok) throw new Error(`${unit}_problem.json 없음`);
-        const json = await response.json();
-        return normalizeBank(json, `${unit}_problem.json`);
+        let json;
+        try {
+          json = await response.json();
+        } catch (error) {
+          throw new Error(`${unit}_problem.json 파싱 실패`);
+        }
+        try {
+          return normalizeBank(json, `${unit}_problem.json`);
+        } catch (error) {
+          throw new Error(`${unit}_problem.json 형식 오류: ${error.message}`);
+        }
       });
 
       const results = await Promise.allSettled(tasks);
@@ -970,10 +1080,24 @@
 
     async function loadMcqBanks() {
       const tasks = UNIT_FILES.map(async (unit) => {
-        const response = await fetch(`${unit}_mcq.json`, { cache: "no-store" });
+        let response;
+        try {
+          response = await fetch(`${unit}_mcq.json`, { cache: "no-store" });
+        } catch (error) {
+          throw new Error(`${unit}단원 네트워크 오류`);
+        }
         if (!response.ok) throw new Error(`${unit}_mcq.json 없음`);
-        const json = await response.json();
-        return normalizeMcqBank(json, `${unit}_mcq.json`);
+        let json;
+        try {
+          json = await response.json();
+        } catch (error) {
+          throw new Error(`${unit}_mcq.json 파싱 실패`);
+        }
+        try {
+          return normalizeMcqBank(json, `${unit}_mcq.json`);
+        } catch (error) {
+          throw new Error(`${unit}_mcq.json 형식 오류: ${error.message}`);
+        }
       });
       const results = await Promise.allSettled(tasks);
       AppState.mcqBanks = [];
@@ -1074,10 +1198,14 @@
         problem.blanks.forEach((blank, blankIndex) => {
           const blankLabel = `${label} 빈칸 ${blankIndex + 1}`;
           if (!blank || typeof blank !== "object") throw new Error(`${blankLabel} 형식이 올바르지 않습니다.`);
-          if (!Number.isFinite(Number(blank.blank_id))) throw new Error(`${blankLabel}: blank_id 값이 없습니다.`);
+          if (!Number.isInteger(Number(blank.blank_id)) || Number(blank.blank_id) < 1) throw new Error(`${blankLabel}: blank_id는 1 이상의 정수여야 합니다.`);
           if (typeof blank.primary_answer !== "string") throw new Error(`${blankLabel}: primary_answer 값이 없습니다.`);
           if (!Array.isArray(blank.alt_answers)) throw new Error(`${blankLabel}: alt_answers 배열이 없습니다.`);
         });
+        const markerCount = parseQuestionSegments(problem.question).length - 1;
+        if (markerCount !== problem.blanks.length) {
+          throw new Error(`${label}: 빈칸 표시 개수(${markerCount})와 blanks 개수(${problem.blanks.length})가 일치하지 않습니다.`);
+        }
       });
     }
 
@@ -1175,24 +1303,32 @@
       if (total === 0) AppState.currentIndex = 0;
     }
 
+    function buildFilterContext() {
+      return {
+        units: new Set(AppState.filters.units),
+        tiers: new Set(AppState.filters.tiers.map(Number)),
+        importances: new Set(AppState.filters.importances.map(Number)),
+        onlyUnsolved: Boolean(AppState.filters.onlyUnsolved),
+        onlyWrong: Boolean(AppState.filters.onlyWrong),
+        onlyFlagged: Boolean(AppState.filters.onlyFlagged),
+        solved: new Set(AppState.solvedPids),
+        wrong: new Set(AppState.wrongPids),
+        flagged: new Set(AppState.flaggedPids)
+      };
+    }
+
+    function matchesFilters(problem, ctx) {
+      return ctx.units.has(problem._unit) &&
+        ctx.tiers.has(Number(problem.tier)) &&
+        (AppState.problemType !== "blank" || ctx.importances.has(Number(problem.importance))) &&
+        (!ctx.onlyUnsolved || !ctx.solved.has(problem.pid)) &&
+        (!ctx.onlyWrong || ctx.wrong.has(problem.pid)) &&
+        (!ctx.onlyFlagged || ctx.flagged.has(problem.pid));
+    }
+
     function getFilteredProblems() {
-      const selectedUnits = new Set(AppState.filters.units);
-      const selectedTiers = new Set(AppState.filters.tiers.map(Number));
-      const selectedImportances = new Set(AppState.filters.importances.map(Number));
-      const onlyUnsolved = Boolean(AppState.filters.onlyUnsolved);
-      const onlyWrong = Boolean(AppState.filters.onlyWrong);
-      const onlyFlagged = Boolean(AppState.filters.onlyFlagged);
-      const solved = new Set(AppState.solvedPids);
-      const wrong = new Set(AppState.wrongPids);
-      const flagged = new Set(AppState.flaggedPids);
-      return AppState.allProblems.filter((problem) =>
-        selectedUnits.has(problem._unit) &&
-        selectedTiers.has(Number(problem.tier)) &&
-        (AppState.problemType !== "blank" || selectedImportances.has(Number(problem.importance))) &&
-        (!onlyUnsolved || !solved.has(problem.pid)) &&
-        (!onlyWrong || wrong.has(problem.pid)) &&
-        (!onlyFlagged || flagged.has(problem.pid))
-      );
+      const ctx = buildFilterContext();
+      return AppState.allProblems.filter((problem) => matchesFilters(problem, ctx));
     }
 
     function markSolved(pids) {
@@ -1309,6 +1445,7 @@
       AppState.currentIndex = 0;
       AppState.screen = "quiz";
       resetProblemProgress(ids);
+      resetVirtualScroll();
       commit();
       focusCurrentAnswerInput("first", true);
     }
@@ -1365,10 +1502,14 @@
       delete AppState.gradingResults[pid];
       delete AppState.manualOverrides[pid];
       delete AppState.revealed[pid];
-      commit(false);
       if (hadFeedback) {
+        // 채점/공개 피드백이 떠 있던 상태에서 다시 입력하면 피드백을 즉시 제거하고 포커스 복원
+        commit(false);
         render();
         focusBlankInput(pid, blankId);
+      } else {
+        // 일반 타이핑은 재렌더 없이 메모리만 갱신하고 저장은 디바운스
+        schedulePersist();
       }
     }
 
@@ -1586,10 +1727,12 @@
       const result = AppState.gradingResults[pid];
       if (!result || !result.graded) return null;
       const hasOverride = Object.prototype.hasOwnProperty.call(AppState.manualOverrides, pid);
+      const correct = hasOverride ? Boolean(AppState.manualOverrides[pid]) : Boolean(result.autoCorrect);
       return {
         ...result,
-        correct: hasOverride ? Boolean(AppState.manualOverrides[pid]) : Boolean(result.autoCorrect),
-        overridden: hasOverride
+        correct,
+        // 자동 채점 결과와 실제로 달라졌을 때만 '수동'으로 표시(플래시카드 자가채점은 제외)
+        overridden: hasOverride && correct !== Boolean(result.autoCorrect)
       };
     }
 
@@ -1669,6 +1812,7 @@
         sid: problem.sid,
         page: problem.page,
         tier: problem.tier,
+        importance: problem.importance,
         question: problem.question,
         blanks: problem.blanks.map((blank) => ({
           blank_id: blank.blank_id,
@@ -1760,13 +1904,11 @@
 
     function appendLoadedQuestionsToSession(bank) {
       const existing = new Set(AppState.sessionProblemIds);
-      const selectedUnits = new Set(AppState.filters.units);
-      const selectedTiers = new Set(AppState.filters.tiers.map(Number));
-      const selectedImportances = new Set(AppState.filters.importances.map(Number));
+      const ctx = buildFilterContext();
       const additions = bank.problems
         .map((problem) => AppState.allProblems.find((candidate) => candidate.pid === problem.pid))
         .filter(Boolean)
-        .filter((problem) => selectedUnits.has(problem._unit) && selectedTiers.has(Number(problem.tier)) && selectedImportances.has(Number(problem.importance)))
+        .filter((problem) => matchesFilters(problem, ctx))
         .filter((problem) => !existing.has(problem.pid))
         .map((problem) => problem.pid);
       const ordered = AppState.shuffle ? shuffleWithSeed(additions, Date.now()) : additions;
@@ -1775,12 +1917,18 @@
 
     function showToast(message, renderNow = true) {
       AppState.toast = message;
+      const live = document.getElementById("liveRegion");
+      if (live) {
+        // 같은 문구라도 재announce되도록 비웠다가 채운다
+        live.textContent = "";
+        window.setTimeout(() => { live.textContent = message; }, 30);
+      }
       if (renderNow) render();
       window.clearTimeout(showToast.timer);
       showToast.timer = window.setTimeout(() => {
         AppState.toast = "";
         render();
-      }, 2600);
+      }, 3600);
     }
 
     function unitTitle(unit) {
@@ -1807,8 +1955,9 @@
         <main class="layout">
           ${AppState.loading ? renderLoading() : (AppState.screen === "quiz" ? renderQuiz() : renderHome())}
         </main>
-        ${AppState.toast ? `<div class="toast">${escapeHtml(AppState.toast)}</div>` : ""}
+        ${AppState.toast ? `<div class="toast" role="status">${escapeHtml(AppState.toast)}</div>` : ""}
       `;
+      afterRender();
     }
 
     function renderLoading() {
@@ -1842,21 +1991,21 @@
                 </div>
               </div>
               <div class="filter-block">
-                <p class="section-title">단원</p>
-                <div class="checkbox-grid">
+                <p class="section-title" id="filter-unit-label">단원</p>
+                <div class="checkbox-grid" role="group" aria-labelledby="filter-unit-label">
                   ${UNIT_FILES.map((unit) => renderUnitCheckbox(unit)).join("")}
                 </div>
               </div>
               <div class="filter-block">
-                <p class="section-title">난이도</p>
-                <div class="checkbox-grid">
+                <p class="section-title" id="filter-tier-label">난이도</p>
+                <div class="checkbox-grid" role="group" aria-labelledby="filter-tier-label">
                   ${[1, 2, 3].map((tier) => renderTierCheckbox(tier)).join("")}
                 </div>
               </div>
               ${AppState.problemType === "blank" ? `
               <div class="filter-block">
-                <p class="section-title">중요도</p>
-                <div class="checkbox-grid">
+                <p class="section-title" id="filter-importance-label">중요도</p>
+                <div class="checkbox-grid" role="group" aria-labelledby="filter-importance-label">
                   ${[3, 2, 1].map((level) => renderImportanceCheckbox(level)).join("")}
                 </div>
               </div>` : ""}
@@ -1896,8 +2045,8 @@
                   플래그한 문제만 출제
                 </label>
                 <div class="toggle-line" style="display: flex; align-items: center; gap: 10px;">
-                  <span>문제 수</span>
-                  <input type="number" min="1" inputmode="numeric" data-action="random-count" value="${AppState.randomCount || ""}" placeholder="전체" style="width: 110px; height: 34px; border: 1px solid var(--border-strong); border-radius: 6px; padding: 0 9px; background: var(--surface); color: var(--text);">
+                  <span id="random-count-label">문제 수</span>
+                  <input type="number" min="1" inputmode="numeric" data-action="random-count" aria-labelledby="random-count-label" value="${AppState.randomCount || ""}" placeholder="전체" style="width: 110px; height: 34px; border: 1px solid var(--border-strong); border-radius: 6px; padding: 0 9px; background: var(--surface); color: var(--text);">
                   <span class="unit-title">비우면 전체를 출제합니다.</span>
                 </div>
               </div>
@@ -2117,12 +2266,104 @@
       `;
     }
 
+    // ===== 스크롤 모드 가상 스크롤(윈도잉) =====
+    // 보이는 영역 근처의 카드만 렌더하고, 위/아래는 spacer로 전체 높이를 유지한다.
+    const V_GAP = 12;            // 카드 간격(px) — 높이 측정 보정용
+    const V_ESTIMATE = 170;      // 아직 측정 안 된 카드의 추정 높이(px)
+    const V_BUFFER = 800;        // 뷰포트 위아래로 미리 렌더할 여유(px)
+    const V_MIN_VIRTUALIZE = 40; // 이 개수 이하 세션은 전부 렌더(가상화 생략)
+    let vScrollTop = 0;
+    let vRafPending = false;
+    let vScrollPids = [];
+    let vSessionProblems = [];
+    const vCardHeights = Object.create(null);
+
+    function resetVirtualScroll() {
+      vScrollTop = 0;
+      vRafPending = false;
+      vLastStart = -1;
+      vLastEnd = -1;
+      for (const key in vCardHeights) delete vCardHeights[key];
+    }
+
+    function vHeightOf(pid) {
+      return vCardHeights[pid] || V_ESTIMATE;
+    }
+
+    function vViewportHeight() {
+      const list = app.querySelector(".scroll-list");
+      if (list && list.clientHeight) return list.clientHeight;
+      return Math.max(320, window.innerHeight - 165);
+    }
+
+    function computeVWindow(pids, scrollTop, viewportH) {
+      const n = pids.length;
+      const offsets = new Array(n + 1);
+      offsets[0] = 0;
+      for (let i = 0; i < n; i += 1) offsets[i + 1] = offsets[i] + vHeightOf(pids[i]);
+      const total = offsets[n];
+      const topEdge = Math.max(0, scrollTop - V_BUFFER);
+      const bottomEdge = scrollTop + viewportH + V_BUFFER;
+      let start = 0;
+      while (start < n && offsets[start + 1] <= topEdge) start += 1;
+      let end = start;
+      while (end < n && offsets[end] < bottomEdge) end += 1;
+      if (end <= start) end = Math.min(n, start + 1);
+      return { start, end, padTop: offsets[start], padBottom: total - offsets[end] };
+    }
+
+    function measureVCards(list) {
+      list.querySelectorAll(".question-card").forEach((card) => {
+        const pid = card.dataset.pid;
+        if (pid) vCardHeights[pid] = card.offsetHeight + V_GAP;
+      });
+    }
+
+    let vLastStart = -1;
+    let vLastEnd = -1;
+
+    function buildVWindowHtml(problems, win) {
+      const total = problems.length;
+      let cards = "";
+      for (let i = win.start; i < win.end; i += 1) cards += renderQuestionCard(problems[i], i, total);
+      vLastStart = win.start;
+      vLastEnd = win.end;
+      return `<div class="vspacer" style="height:${win.padTop}px"></div>${cards}<div class="vspacer" style="height:${win.padBottom}px"></div>`;
+    }
+
     function renderScrollMode(problems) {
-      return `
-        <div class="scroll-list">
-          ${problems.map((problem, index) => renderQuestionCard(problem, index, problems.length)).join("")}
-        </div>
-      `;
+      vScrollPids = problems.map((problem) => problem.pid);
+      vSessionProblems = problems;
+      const total = problems.length;
+      if (total <= V_MIN_VIRTUALIZE) {
+        return `<div class="scroll-list" data-vscroll="off">${problems.map((problem, index) => renderQuestionCard(problem, index, total)).join("")}</div>`;
+      }
+      const win = computeVWindow(vScrollPids, vScrollTop, vViewportHeight());
+      return `<div class="scroll-list" data-vscroll="on">${buildVWindowHtml(problems, win)}</div>`;
+    }
+
+    function onVScroll(event) {
+      vScrollTop = event.currentTarget.scrollTop;
+      if (vRafPending) return;
+      vRafPending = true;
+      requestAnimationFrame(() => {
+        vRafPending = false;
+        const list = app.querySelector('.scroll-list[data-vscroll="on"]');
+        if (!list) return;
+        const win = computeVWindow(vScrollPids, vScrollTop, list.clientHeight || vViewportHeight());
+        if (win.start === vLastStart && win.end === vLastEnd) return;
+        list.innerHTML = buildVWindowHtml(vSessionProblems, win);
+        measureVCards(list);
+      });
+    }
+
+    // render()가 app.innerHTML을 통째로 교체한 직후 호출 — 스크롤 위치 복원/측정/리스너 부착
+    function afterRender() {
+      const list = app.querySelector(".scroll-list");
+      if (!list || list.dataset.vscroll !== "on") return;
+      list.scrollTop = vScrollTop;
+      measureVCards(list);
+      list.addEventListener("scroll", onVScroll, { passive: true });
     }
 
     function renderQuestionCard(problem, index, total) {
@@ -2141,9 +2382,9 @@
               <span class="pid">${escapeHtml(problem.pid)}</span>
               <span class="badge">${index + 1} / ${total}</span>
               <span class="badge">${escapeHtml(problem._unit)}단원</span>
-              <span class="badge">Tier ${problem.tier} · ${TIER_LABELS[problem.tier]}</span>
+              <span class="badge">Tier ${problem.tier} · ${TIER_LABELS[problem.tier] || "기타"}</span>
               ${[1, 2, 3].includes(Number(problem.importance)) ? `<span class="badge">중요도 ${Number(problem.importance)} · ${IMPORTANCE_LABELS[Number(problem.importance)]}</span>` : ""}
-              <span class="badge">${problem.page}쪽</span>
+              <span class="badge">${Number.isFinite(Number(problem.page)) ? problem.page : "?"}쪽</span>
               ${problem.order_flexible ? `<span class="badge">순서 무관</span>` : ""}
               ${result ? `<span class="badge ${result.correct ? "good" : "bad"}">${result.correct ? "정답" : "오답"}${result.overridden ? " · 수동" : ""}</span>` : ""}
             </div>
@@ -2198,10 +2439,15 @@
         } else if (isSelected) {
           stateClass.push("chosen");
         }
+        const stateText = graded ? (isAnswer ? "정답" : (isSelected ? "내 선택" : "")) : "";
+        const ariaLabel = `${number}번. ${choice}` +
+          (graded && isAnswer ? " (정답)" : "") +
+          (graded && isSelected && !isAnswer ? " (내가 고른 오답)" : "");
         return `
-          <button class="mcq-choice ${stateClass.join(" ")}" data-action="mcq-select" data-pid="${escapeHtml(problem.pid)}" data-choice="${number}" ${graded ? "disabled" : ""}>
-            <span class="mcq-mark">${MCQ_CHOICE_MARKS[index]}</span>
+          <button class="mcq-choice ${stateClass.join(" ")}" data-action="mcq-select" data-pid="${escapeHtml(problem.pid)}" data-choice="${number}" ${graded ? "disabled" : ""} aria-label="${escapeHtml(ariaLabel)}">
+            <span class="mcq-mark" aria-hidden="true">${MCQ_CHOICE_MARKS[index]}</span>
             <span class="mcq-choice-text">${escapeHtml(choice)}</span>
+            ${stateText ? `<span class="mcq-state-text">${stateText}</span>` : ""}
           </button>
         `;
       }).join("");
@@ -2224,10 +2470,16 @@
           const value = getBlankValue(problem.pid, blank.blank_id);
           const status = getBlankStatus(problem, blank, index);
           const hintClass = status || "";
+          const ariaInvalid = status === "incorrect" ? ` aria-invalid="true"` : (status === "correct" ? ` aria-invalid="false"` : "");
+          const hintText = status
+            ? (problem.order_flexible
+                ? `정답(순서 무관): ${escapeHtml(problem.blanks.map((b) => b.primary_answer).join(" / "))}`
+                : `정답: ${escapeHtml(blank.primary_answer)}`)
+            : "";
           html += `
             <span class="blank-wrap">
-              <input class="blank-input ${status}" data-action="answer-input" data-pid="${escapeHtml(problem.pid)}" data-blank="${blank.blank_id}" value="${escapeHtml(value)}" autocomplete="off" spellcheck="false">
-              <span class="answer-hint ${hintClass}">${status ? `정답: ${escapeHtml(blank.primary_answer)}` : ""}</span>
+              <input class="blank-input ${status}" data-action="answer-input" data-pid="${escapeHtml(problem.pid)}" data-blank="${blank.blank_id}" value="${escapeHtml(value)}" autocomplete="off" spellcheck="false" aria-label="빈칸 ${blank.blank_id}"${ariaInvalid}>
+              <span class="answer-hint ${hintClass}">${hintText}</span>
             </span>
           `;
         }
@@ -2249,7 +2501,7 @@
       });
       questionHtml += `</div>`;
       return `
-        <div class="flashcard" data-action="reveal" data-pid="${escapeHtml(problem.pid)}">
+        <div class="flashcard" data-action="reveal" data-pid="${escapeHtml(problem.pid)}" role="button" tabindex="0" aria-expanded="${revealed ? "true" : "false"}" aria-label="플래시카드. ${revealed ? "정답이 표시되었습니다." : "Enter 또는 클릭으로 정답을 표시합니다."}">
           ${questionHtml}
           ${revealed ? `
             <div class="flash-answers">
@@ -2278,6 +2530,7 @@
       if (action === "home") returnHome();
       if (action === "display-mode") {
         AppState.displayMode = target.dataset.value;
+        if (target.dataset.value === "scroll") resetVirtualScroll();
         commit();
         if (AppState.screen === "quiz" && AppState.displayMode === "one") focusCurrentAnswerInput("first", true);
       }
@@ -2306,29 +2559,17 @@
       const target = event.target;
       const action = target.dataset.action;
       if (!action) return;
-      if (action === "unit-filter") {
-        const units = new Set(AppState.filters.units);
-        if (target.checked) units.add(target.dataset.unit);
-        else units.delete(target.dataset.unit);
-        AppState.filters.units = Array.from(units).sort();
+      function toggleSetFilter(key, rawValue, numeric) {
+        const set = new Set(AppState.filters[key].map(numeric ? Number : String));
+        const value = numeric ? Number(rawValue) : String(rawValue);
+        if (target.checked) set.add(value);
+        else set.delete(value);
+        AppState.filters[key] = Array.from(set).sort(numeric ? (a, b) => a - b : undefined);
         commit();
       }
-      if (action === "tier-filter") {
-        const tiers = new Set(AppState.filters.tiers.map(Number));
-        const tier = Number(target.dataset.tier);
-        if (target.checked) tiers.add(tier);
-        else tiers.delete(tier);
-        AppState.filters.tiers = Array.from(tiers).sort();
-        commit();
-      }
-      if (action === "importance-filter") {
-        const importances = new Set(AppState.filters.importances.map(Number));
-        const level = Number(target.dataset.importance);
-        if (target.checked) importances.add(level);
-        else importances.delete(level);
-        AppState.filters.importances = Array.from(importances).sort();
-        commit();
-      }
+      if (action === "unit-filter") toggleSetFilter("units", target.dataset.unit, false);
+      if (action === "tier-filter") toggleSetFilter("tiers", target.dataset.tier, true);
+      if (action === "importance-filter") toggleSetFilter("importances", target.dataset.importance, true);
       if (action === "shuffle") {
         AppState.shuffle = target.checked;
         commit();
@@ -2369,6 +2610,12 @@
       if (target && target.dataset.action === "home" && (event.key === "Enter" || event.key === " ")) {
         event.preventDefault();
         returnHome();
+        return;
+      }
+      if (target && target.dataset.action === "reveal" && (event.key === "Enter" || event.key === " ")) {
+        event.preventDefault();
+        event.stopPropagation();
+        toggleReveal(target.dataset.pid);
         return;
       }
       if (!target || target.dataset.action !== "answer-input") return;
@@ -2439,6 +2686,12 @@
         }
       });
     }
+
+    // 디바운스로 미뤄둔 입력 저장을 탭 종료/백그라운드 전환 시 즉시 반영
+    window.addEventListener("beforeunload", flushPersist);
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "hidden") flushPersist();
+    });
 
     hydrateState();
     applyTheme();

@@ -2283,6 +2283,7 @@
     let vRafPending = false;
     let vScrollPids = [];
     let vSessionProblems = [];
+    let vPendingIndex = null;   // 스크롤 진입 시 이 문항이 보이도록 맞춤
     const vCardHeights = Object.create(null);
 
     function resetVirtualScroll() {
@@ -2295,6 +2296,24 @@
 
     function vHeightOf(pid) {
       return vCardHeights[pid] || V_ESTIMATE;
+    }
+
+    // 인덱스 카드의 누적 상단 오프셋(px)
+    function vOffsetOfIndex(idx) {
+      let off = 0;
+      for (let i = 0; i < idx && i < vScrollPids.length; i += 1) off += vHeightOf(vScrollPids[i]);
+      return off;
+    }
+
+    // 현재 스크롤 위치에서 뷰포트 상단에 걸친 카드 인덱스(= 보고 있는 문제)
+    function vTopIndex(scrollTop) {
+      let off = 0;
+      for (let i = 0; i < vScrollPids.length; i += 1) {
+        const h = vHeightOf(vScrollPids[i]);
+        if (off + h > scrollTop + 1) return i;
+        off += h;
+      }
+      return Math.max(0, vScrollPids.length - 1);
     }
 
     function vViewportHeight() {
@@ -2342,6 +2361,10 @@
       vScrollPids = problems.map((problem) => problem.pid);
       vSessionProblems = problems;
       const total = problems.length;
+      if (vPendingIndex !== null) {
+        vScrollTop = vOffsetOfIndex(Math.max(0, Math.min(total - 1, vPendingIndex)));
+        vPendingIndex = null;
+      }
       if (total <= V_MIN_VIRTUALIZE) {
         return `<div class="scroll-list" data-vscroll="off">${problems.map((problem, index) => renderQuestionCard(problem, index, total)).join("")}</div>`;
       }
@@ -2355,8 +2378,12 @@
       vRafPending = true;
       requestAnimationFrame(() => {
         vRafPending = false;
-        const list = app.querySelector('.scroll-list[data-vscroll="on"]');
+        const list = app.querySelector(".scroll-list");
         if (!list) return;
+        // 현재 보고 있는 문제를 기록(모드 전환·새로고침 시 유지에 사용), 저장은 디바운스
+        AppState.currentIndex = vTopIndex(vScrollTop);
+        schedulePersist();
+        if (list.dataset.vscroll !== "on") return;
         const win = computeVWindow(vScrollPids, vScrollTop, list.clientHeight || vViewportHeight());
         if (win.start === vLastStart && win.end === vLastEnd) return;
         list.innerHTML = buildVWindowHtml(vSessionProblems, win);
@@ -2367,7 +2394,7 @@
     // render()가 app.innerHTML을 통째로 교체한 직후 호출 — 스크롤 위치 복원/측정/리스너 부착
     function afterRender() {
       const list = app.querySelector(".scroll-list");
-      if (!list || list.dataset.vscroll !== "on") return;
+      if (!list) return;
       list.scrollTop = vScrollTop;
       measureVCards(list);
       list.addEventListener("scroll", onVScroll, { passive: true });
@@ -2572,7 +2599,7 @@
       if (action === "home") returnHome();
       if (action === "display-mode") {
         AppState.displayMode = target.dataset.value;
-        if (target.dataset.value === "scroll") resetVirtualScroll();
+        if (target.dataset.value === "scroll") vPendingIndex = AppState.currentIndex;
         commit();
         if (AppState.screen === "quiz" && AppState.displayMode === "one") focusCurrentAnswerInput("first", true);
       }
@@ -2757,6 +2784,7 @@
 
     hydrateState();
     applyTheme();
+    if (AppState.screen === "quiz" && AppState.displayMode === "scroll") vPendingIndex = AppState.currentIndex;
     render();
     loadInitialBanks();
   </script>

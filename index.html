@@ -1599,6 +1599,8 @@
     }
 
     function isAttempted(problem) {
+      // 플래시카드 자가채점 등 수동 처리한 문항은 '푼 문제'로 간주
+      if (Object.prototype.hasOwnProperty.call(AppState.manualOverrides, problem.pid)) return true;
       if (problem._mode === "mcq") return getMcqSelection(problem.pid) !== null;
       return problem.blanks.some((blank) => getBlankValue(problem.pid, blank.blank_id).trim() !== "");
     }
@@ -1709,6 +1711,8 @@
     }
 
     function gradeSession(includeUnattempted) {
+      // 플래시카드 모드: 정답처리하지 않은 문항은 모두 오답으로 채점
+      if (AppState.problemType === "blank" && AppState.inputMode === "flashcard") includeUnattempted = true;
       const problems = getSessionProblems();
       problems.forEach((problem) => {
         const result = autoGradeProblem(problem, includeUnattempted);
@@ -2656,13 +2660,9 @@
         event.preventDefault();
         toggleReveal(problem.pid);
       }
-      if (event.key === "Enter" && AppState.inputMode === "flashcard" && AppState.displayMode === "one") {
+      if (event.key === "Enter" && AppState.inputMode === "flashcard") {
         event.preventDefault();
         setFlashcardResult(problem.pid, true);
-      }
-      if (event.key === "Enter" && AppState.inputMode === "flashcard" && AppState.displayMode !== "one") {
-        event.preventDefault();
-        toggleReveal(problem.pid);
       }
       if (event.key.toLowerCase() === "f") {
         event.preventDefault();

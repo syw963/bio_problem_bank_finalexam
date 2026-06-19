@@ -430,6 +430,11 @@
       width: 100%;
     }
 
+    .flashcard:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
     .question-card {
       border: 1px solid var(--border);
       border-radius: var(--radius);
@@ -2368,6 +2373,41 @@
       list.addEventListener("scroll", onVScroll, { passive: true });
     }
 
+    // 렌더 직후 같은 카드에 포커스 복원
+    function refocusScrollCard(pid) {
+      const card = app.querySelector('.flashcard[data-pid="' + CSS.escape(pid) + '"]');
+      if (card) card.focus({ preventScroll: true });
+    }
+
+    // 스크롤 모드에서 특정 카드를 화면에 보이게 하고 포커스(가상화면 동기 재구성 포함)
+    function focusScrollCard(pid) {
+      const list = app.querySelector(".scroll-list");
+      if (!list) return;
+      const idx = vScrollPids.indexOf(pid);
+      if (idx < 0) return;
+      AppState.currentIndex = idx;
+      if (list.dataset.vscroll === "on") {
+        let off = 0;
+        for (let i = 0; i < idx; i += 1) off += vHeightOf(vScrollPids[i]);
+        const h = vHeightOf(pid);
+        const viewH = list.clientHeight || vViewportHeight();
+        const margin = 24;
+        if (off < list.scrollTop + margin) list.scrollTop = Math.max(0, off - margin);
+        else if (off + h > list.scrollTop + viewH - margin) list.scrollTop = off + h - viewH + margin;
+        vScrollTop = list.scrollTop;
+        const win = computeVWindow(vScrollPids, vScrollTop, viewH);
+        if (win.start !== vLastStart || win.end !== vLastEnd) {
+          list.innerHTML = buildVWindowHtml(vSessionProblems, win);
+          measureVCards(list);
+        }
+      }
+      const card = list.querySelector('.flashcard[data-pid="' + CSS.escape(pid) + '"]');
+      if (card) {
+        if (list.dataset.vscroll !== "on") card.scrollIntoView({ block: "nearest" });
+        card.focus({ preventScroll: true });
+      }
+    }
+
     function renderQuestionCard(problem, index, total) {
       const result = getQuestionResult(problem.pid);
       const flagged = isFlagged(problem.pid);
@@ -2614,10 +2654,28 @@
         returnHome();
         return;
       }
-      if (target && target.dataset.action === "reveal" && (event.key === "Enter" || event.key === " ")) {
-        event.preventDefault();
-        event.stopPropagation();
-        toggleReveal(target.dataset.pid);
+      // 플래시카드: 포커스된(현재 위치한) 카드 기준으로 키 동작
+      const focusedCard = target && target.closest ? target.closest(".flashcard") : null;
+      if (focusedCard && AppState.inputMode === "flashcard") {
+        const pid = focusedCard.dataset.pid;
+        if (event.key === " ") { event.preventDefault(); event.stopPropagation(); toggleReveal(pid); refocusScrollCard(pid); return; }
+        if (event.key === "Enter" || event.key === "1") { event.preventDefault(); event.stopPropagation(); setFlashcardResult(pid, true); refocusScrollCard(pid); return; }
+        if (event.key === "2") { event.preventDefault(); event.stopPropagation(); setFlashcardResult(pid, false); refocusScrollCard(pid); return; }
+      }
+      // 스크롤 모드 플래시카드: Tab/Shift+Tab으로 다음·이전 카드로 이동
+      if (event.key === "Tab" && AppState.screen === "quiz" && AppState.inputMode === "flashcard" && AppState.displayMode === "scroll" && vScrollPids.length) {
+        const inList = target && target.closest ? target.closest(".scroll-list [data-pid]") : null;
+        const dir = event.shiftKey ? -1 : 1;
+        if (!inList) {
+          event.preventDefault();
+          focusScrollCard(vScrollPids[Math.max(0, Math.min(vScrollPids.length - 1, AppState.currentIndex))]);
+          return;
+        }
+        const next = vScrollPids.indexOf(inList.dataset.pid) + dir;
+        if (next >= 0 && next < vScrollPids.length) {
+          event.preventDefault();
+          focusScrollCard(vScrollPids[next]);
+        }
         return;
       }
       if (!target || target.dataset.action !== "answer-input") return;
@@ -2656,11 +2714,11 @@
         event.preventDefault();
         focusCurrentAnswerInput("first", true);
       }
-      if (event.key === " " && AppState.inputMode === "flashcard") {
+      if (event.key === " " && AppState.inputMode === "flashcard" && AppState.displayMode === "one") {
         event.preventDefault();
         toggleReveal(problem.pid);
       }
-      if (event.key === "Enter" && AppState.inputMode === "flashcard") {
+      if (event.key === "Enter" && AppState.inputMode === "flashcard" && AppState.displayMode === "one") {
         event.preventDefault();
         setFlashcardResult(problem.pid, true);
       }
@@ -2672,11 +2730,11 @@
         event.preventDefault();
         gradeSession(false);
       }
-      if (AppState.inputMode === "flashcard" && AppState.revealed[problem.pid] && event.key === "1") {
+      if (AppState.inputMode === "flashcard" && AppState.displayMode === "one" && AppState.revealed[problem.pid] && event.key === "1") {
         event.preventDefault();
         setFlashcardResult(problem.pid, true);
       }
-      if (AppState.inputMode === "flashcard" && AppState.revealed[problem.pid] && event.key === "2") {
+      if (AppState.inputMode === "flashcard" && AppState.displayMode === "one" && AppState.revealed[problem.pid] && event.key === "2") {
         event.preventDefault();
         setFlashcardResult(problem.pid, false);
       }

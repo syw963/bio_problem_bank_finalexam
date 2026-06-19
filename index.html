@@ -759,6 +759,11 @@
       2: "본문개념",
       3: "심화/날개"
     };
+    const IMPORTANCE_LABELS = {
+      1: "보조",
+      2: "중요",
+      3: "필수"
+    };
     const ROMAN_MAP = {
       I: "1",
       II: "2",
@@ -786,6 +791,7 @@
       filters: {
         units: ["01", "02", "03", "04", "05", "06"],
         tiers: [1, 2, 3],
+        importances: [1, 2, 3],
         onlyUnsolved: false,
         onlyWrong: false,
         onlyFlagged: false
@@ -835,6 +841,7 @@
         AppState.filters = {
           units: normalizeUnitList(saved.filters && saved.filters.units),
           tiers: normalizeTierList(saved.filters && saved.filters.tiers),
+          importances: normalizeImportanceList(saved.filters && saved.filters.importances),
           onlyUnsolved: Boolean(saved.filters && saved.filters.onlyUnsolved),
           onlyWrong: Boolean(saved.filters && saved.filters.onlyWrong),
           onlyFlagged: Boolean(saved.filters && saved.filters.onlyFlagged)
@@ -887,6 +894,11 @@
     function normalizeTierList(value) {
       const tiers = Array.isArray(value) ? value.map(Number).filter((tier) => [1, 2, 3].includes(tier)) : [1, 2, 3];
       return tiers.length ? Array.from(new Set(tiers)) : [1, 2, 3];
+    }
+
+    function normalizeImportanceList(value) {
+      const list = Array.isArray(value) ? value.map(Number).filter((v) => [1, 2, 3].includes(v)) : [1, 2, 3];
+      return list.length ? Array.from(new Set(list)) : [1, 2, 3];
     }
 
     function applyTheme() {
@@ -1030,6 +1042,7 @@
           sid: String(problem.sid),
           page: Number(problem.page),
           tier: Number(problem.tier),
+          importance: [1, 2, 3].includes(Number(problem.importance)) ? Number(problem.importance) : 2,
           question: String(problem.question),
           blanks: problem.blanks.map((blank) => ({
             blank_id: Number(blank.blank_id),
@@ -1165,6 +1178,7 @@
     function getFilteredProblems() {
       const selectedUnits = new Set(AppState.filters.units);
       const selectedTiers = new Set(AppState.filters.tiers.map(Number));
+      const selectedImportances = new Set(AppState.filters.importances.map(Number));
       const onlyUnsolved = Boolean(AppState.filters.onlyUnsolved);
       const onlyWrong = Boolean(AppState.filters.onlyWrong);
       const onlyFlagged = Boolean(AppState.filters.onlyFlagged);
@@ -1174,6 +1188,7 @@
       return AppState.allProblems.filter((problem) =>
         selectedUnits.has(problem._unit) &&
         selectedTiers.has(Number(problem.tier)) &&
+        (AppState.problemType !== "blank" || selectedImportances.has(Number(problem.importance))) &&
         (!onlyUnsolved || !solved.has(problem.pid)) &&
         (!onlyWrong || wrong.has(problem.pid)) &&
         (!onlyFlagged || flagged.has(problem.pid))
@@ -1747,10 +1762,11 @@
       const existing = new Set(AppState.sessionProblemIds);
       const selectedUnits = new Set(AppState.filters.units);
       const selectedTiers = new Set(AppState.filters.tiers.map(Number));
+      const selectedImportances = new Set(AppState.filters.importances.map(Number));
       const additions = bank.problems
         .map((problem) => AppState.allProblems.find((candidate) => candidate.pid === problem.pid))
         .filter(Boolean)
-        .filter((problem) => selectedUnits.has(problem._unit) && selectedTiers.has(Number(problem.tier)))
+        .filter((problem) => selectedUnits.has(problem._unit) && selectedTiers.has(Number(problem.tier)) && selectedImportances.has(Number(problem.importance)))
         .filter((problem) => !existing.has(problem.pid))
         .map((problem) => problem.pid);
       const ordered = AppState.shuffle ? shuffleWithSeed(additions, Date.now()) : additions;
@@ -1837,6 +1853,13 @@
                   ${[1, 2, 3].map((tier) => renderTierCheckbox(tier)).join("")}
                 </div>
               </div>
+              ${AppState.problemType === "blank" ? `
+              <div class="filter-block">
+                <p class="section-title">중요도</p>
+                <div class="checkbox-grid">
+                  ${[3, 2, 1].map((level) => renderImportanceCheckbox(level)).join("")}
+                </div>
+              </div>` : ""}
               <div class="filter-block">
                 <p class="section-title">표시 방식</p>
                 <div class="mode-grid">
@@ -1943,6 +1966,20 @@
           <span class="unit-meta">
             <span class="unit-code">Tier ${tier}</span>
             <span class="unit-title">${TIER_LABELS[tier]} · ${count}문제</span>
+          </span>
+        </label>
+      `;
+    }
+
+    function renderImportanceCheckbox(level) {
+      const checked = AppState.filters.importances.includes(level);
+      const count = AppState.allProblems.filter((problem) => Number(problem.importance) === level).length;
+      return `
+        <label class="check-card ${checked ? "checked" : ""}">
+          <input type="checkbox" data-action="importance-filter" data-importance="${level}" ${checked ? "checked" : ""}>
+          <span class="unit-meta">
+            <span class="unit-code">중요도 ${level}</span>
+            <span class="unit-title">${IMPORTANCE_LABELS[level]} · ${count}문제</span>
           </span>
         </label>
       `;
@@ -2105,6 +2142,7 @@
               <span class="badge">${index + 1} / ${total}</span>
               <span class="badge">${escapeHtml(problem._unit)}단원</span>
               <span class="badge">Tier ${problem.tier} · ${TIER_LABELS[problem.tier]}</span>
+              ${[1, 2, 3].includes(Number(problem.importance)) ? `<span class="badge">중요도 ${Number(problem.importance)} · ${IMPORTANCE_LABELS[Number(problem.importance)]}</span>` : ""}
               <span class="badge">${problem.page}쪽</span>
               ${problem.order_flexible ? `<span class="badge">순서 무관</span>` : ""}
               ${result ? `<span class="badge ${result.correct ? "good" : "bad"}">${result.correct ? "정답" : "오답"}${result.overridden ? " · 수동" : ""}</span>` : ""}
@@ -2281,6 +2319,14 @@
         if (target.checked) tiers.add(tier);
         else tiers.delete(tier);
         AppState.filters.tiers = Array.from(tiers).sort();
+        commit();
+      }
+      if (action === "importance-filter") {
+        const importances = new Set(AppState.filters.importances.map(Number));
+        const level = Number(target.dataset.importance);
+        if (target.checked) importances.add(level);
+        else importances.delete(level);
+        AppState.filters.importances = Array.from(importances).sort();
         commit();
       }
       if (action === "shuffle") {

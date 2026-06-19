@@ -2257,9 +2257,7 @@
           ${renderQuestionCard(problem, AppState.currentIndex, problems.length)}
           <div class="nav-row">
             <button data-action="prev" ${AppState.currentIndex === 0 ? "disabled" : ""}>이전</button>
-            <div class="row-actions">
-              ${renderExportChecks()}
-            </div>
+            <span class="metric">${AppState.currentIndex + 1} / ${problems.length}</span>
             <button data-action="next" ${AppState.currentIndex >= problems.length - 1 ? "disabled" : ""}>다음</button>
           </div>
         </div>
@@ -2635,6 +2633,12 @@
 
       const problem = getCurrentProblem();
       if (!problem) return;
+
+      if (AppState.problemType === "mcq" && AppState.displayMode === "one" && ["1", "2", "3", "4"].includes(event.key)) {
+        event.preventDefault();
+        if (!getQuestionResult(problem.pid)) setMcqSelection(problem.pid, Number(event.key));
+        return;
+      }
 
       if (event.key === "ArrowLeft" && AppState.displayMode === "one") {
         event.preventDefault();

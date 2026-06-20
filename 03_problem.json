@@ -2588,7 +2588,7 @@
       "page": 13,
       "tier": 3,
       "importance": 3,
-      "question": "핵상이 [  ]인 세포를 [  ] 세포라고 한다.",
+      "question": "사람의 체세포와 같이 핵상이 [  ]인 세포를 [  ] 세포라고 한다.",
       "blanks": [
         {
           "blank_id": 1,
@@ -2614,7 +2614,7 @@
       "page": 13,
       "tier": 3,
       "importance": 3,
-      "question": "핵상이 [  ]인 세포를 [  ] 세포라고 한다.",
+      "question": "정자와 난자처럼 핵상이 [  ]인 세포를 [  ] 세포라고 한다.",
       "blanks": [
         {
           "blank_id": 1,

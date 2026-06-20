@@ -51,7 +51,7 @@
       "sid": "01-003",
       "page": 90,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "감염성질환의 원인이 되는 [  ]에는 세균, 바이러스, 원생생물, 곰팡이 등이 있다.",
       "blanks": [
         {
@@ -90,7 +90,7 @@
       "sid": "01-005",
       "page": 90,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "[  ]은/는 유전적 요인, 생활 방식, 환경요인 등 여러 가지 원인이 복합적으로 작용하여 발생하는 질병이다.",
       "blanks": [
         {
@@ -107,7 +107,7 @@
       "sid": "01-006",
       "page": 90,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "비감염성질환은 [  ]이/가 관여하지 않으므로 타인에게 전염되지 않는다.",
       "blanks": [
         {
@@ -167,7 +167,7 @@
       "sid": "01-008",
       "page": 90,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "감염성질환은 [  ]에 감염되어 발생하는 질병이다.",
       "blanks": [
         {
@@ -359,7 +359,7 @@
       "sid": "01-016",
       "page": 90,
       "tier": 1,
-      "importance": 2,
+      "importance": 3,
       "question": "세균은 스스로 물질대사를 하는 데 필요한 [  ]을/를 가지고 있다.",
       "blanks": [
         {
@@ -401,7 +401,7 @@
       "sid": "01-018",
       "page": 90,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "일부 세균은 세포벽 바깥쪽에 다당류와 단백질로 구성된 [  ]이/가 있어서 음식물이나 피부 등에 붙거나 세포를 보호하는 데 유리하다.",
       "blanks": [
         {
@@ -421,7 +421,7 @@
       "sid": "01-019",
       "page": 90,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "세균의 [  ]은/는 진핵생물에 비해 크기가 작고 단백질과 RNA 성분에 차이가 있다.",
       "blanks": [
         {
@@ -440,7 +440,7 @@
       "sid": "01-020",
       "page": 90,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "세균은 [  ]이/가 없어 하나로 연결된 원형의 [  ](DNA)이/가 세포질에 있다.",
       "blanks": [
         {
@@ -479,7 +479,7 @@
       "sid": "01-022",
       "page": 90,
       "tier": 2,
-      "importance": 1,
+      "importance": 3,
       "question": "일부 세균은 [  ]이/가 있어서 다른 세포에 잘 달라붙을 수 있다.",
       "blanks": [
         {
@@ -538,7 +538,7 @@
       "sid": "01-025",
       "page": 90,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "세균은 털처럼 생긴 [  ]을/를 통해 세균끼리 서로 부착하여 [  ]을/를 주고받는다.",
       "blanks": [
         {
@@ -560,7 +560,7 @@
       "sid": "01-026",
       "page": 90,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "세균은 세포의 구조나 [  ] 방식에 따라 분류한다.",
       "blanks": [
         {
@@ -676,7 +676,7 @@
       "sid": "01-031",
       "page": 90,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "세균의 [  ]은/는 [  ] 바깥쪽에 위치한다.",
       "blanks": [
         {
@@ -762,7 +762,7 @@
       "sid": "01-036",
       "page": 90,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "펩티도글리칸은 [  ] 사슬에 비교적 짧은 [  ] 사슬이 결합한 화합물이다.",
       "blanks": [
         {
@@ -922,7 +922,7 @@
       "sid": "01-045",
       "page": 91,
       "tier": 1,
-      "importance": 2,
+      "importance": 1,
       "question": "인체에 미치는 영향에 따라 구분할 때, 대부분의 세균은 인체에 질병을 일으키지 않아 [  ]하다고 한다.",
       "blanks": [
         {
@@ -939,7 +939,7 @@
       "sid": "01-046",
       "page": 91,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "일부 세균은 [  ]을 파괴하거나 물질대사를 방해하는 [  ]를 방출하여 질병을 일으킨다.",
       "blanks": [
         {
@@ -1063,7 +1063,7 @@
       "sid": "01-052",
       "page": 91,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "항생제 남용으로 [  ]이 생겨서 항생제에 죽지 않는 세균이 나타났는데, 이러한 세균을 [  ]라고 한다.",
       "blanks": [
         {
@@ -1085,7 +1085,7 @@
       "sid": "01-053",
       "page": 91,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "항생제를 넣은 세균 배지에서 투명한 원형 구역이 넓을수록 [  ]이 강한 것이다.",
       "blanks": [
         {
@@ -1122,7 +1122,7 @@
       "sid": "01-055",
       "page": 91,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "페니실린은 세균이 펩티도글리칸을 형성할 때 교차 연결을 촉진하는 효소인 [  ]에 결합하여 펩티도글리칸의 합성을 방해한다.",
       "blanks": [
         {
@@ -1143,7 +1143,7 @@
       "sid": "01-056",
       "page": 91,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "세포벽이 약화된 세균은 [  ] 변화를 이기지 못하고 파열되어 죽게 된다.",
       "blanks": [
         {
@@ -1160,7 +1160,7 @@
       "sid": "01-057",
       "page": 91,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "바이러스는 지름이 80 nm 정도로 [  ]보다 크기가 작다.",
       "blanks": [
         {
@@ -1257,7 +1257,7 @@
       "sid": "01-062",
       "page": 91,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "바이러스의 종류에 따라 단백질 껍질 안에 [  ] 또는 [  ]가 있다.",
       "blanks": [
         {
@@ -1303,7 +1303,7 @@
       "sid": "01-064",
       "page": 91,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "바이러스는 자신의 [  ]을 [  ]하여 증식할 수 있다.",
       "blanks": [
         {
@@ -1349,7 +1349,7 @@
       "sid": "01-066",
       "page": 91,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "바이러스의 구조에는 [  ]과 [  ]이 포함된다.",
       "blanks": [
         {
@@ -1373,7 +1373,7 @@
       "sid": "01-067",
       "page": 92,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "바이러스는 공장에서 자동차가 [  ]되는 것과 매우 유사한 방식으로 증식한다.",
       "blanks": [
         {
@@ -1463,7 +1463,7 @@
       "sid": "01-071",
       "page": 92,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "바이러스 증식 과정에서 새로 만들어진 바이러스가 숙주세포 밖으로 나가는 단계를 [  ](이)라고 한다.",
       "blanks": [
         {
@@ -1525,7 +1525,7 @@
       "sid": "01-074",
       "page": 92,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "바이러스의 유전물질은 [  ] 또는 [  ]이다.",
       "blanks": [
         {
@@ -1547,7 +1547,7 @@
       "sid": "01-075",
       "page": 92,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "숙주세포의 [  ]는 바이러스 유전물질 [  ]에 이용된다.",
       "blanks": [
         {
@@ -1591,7 +1591,7 @@
       "sid": "01-077",
       "page": 92,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "바이러스 [  ]과 단백질은 [  ]되어 새로운 바이러스를 형성한다.",
       "blanks": [
         {
@@ -1688,7 +1688,7 @@
       "sid": "01-081",
       "page": 92,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "바이러스는 [  ]의 종류에 따라 식물성 바이러스, 동물성 바이러스, [  ] 바이러스로 구분하기도 한다.",
       "blanks": [
         {
@@ -2137,7 +2137,7 @@
       "sid": "01-104",
       "page": 93,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "세균은 [  ]에 비해 크기가 크다.",
       "blanks": [
         {
@@ -2171,7 +2171,7 @@
       "sid": "01-106",
       "page": 93,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "세균성 질환은 [  ]로 치료한다.",
       "blanks": [
         {
@@ -2227,7 +2227,7 @@
       "sid": "01-109",
       "page": 93,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "바이러스성 질환은 [  ]로 치료한다.",
       "blanks": [
         {
@@ -2366,7 +2366,7 @@
       "sid": "01-116",
       "page": 93,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "말라리아, 수면병, 아메바성 이질, 아메바성 수막뇌염 등은 모두 [  ]에 의해 일어나는 대표적인 질병이다.",
       "blanks": [
         {
@@ -2804,7 +2804,7 @@
       "sid": "01-141",
       "page": 95,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "병원체에 감염되는 경로는 병원체의 종류와 [  ]에 따라 다르다.",
       "blanks": [
         {
@@ -2823,7 +2823,7 @@
       "sid": "01-142",
       "page": 95,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "병원체의 감염 경로를 이해하고 그 경로를 차단하면 [  ]을 예방할 수 있다.",
       "blanks": [
         {
@@ -2842,7 +2842,7 @@
       "sid": "01-143",
       "page": 95,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "결핵, 감기, 독감, 코로나바이러스감염증-19 등에 걸린 환자가 [  ](이)나 [  ]을/를 할 때 공기 중으로 병원체가 방출된다.",
       "blanks": [
         {
@@ -2881,7 +2881,7 @@
       "sid": "01-145",
       "page": 95,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "마스크를 착용하고 손을 자주 씻으면 [  ]을 통한 질병을 예방할 수 있다.",
       "blanks": [
         {
@@ -2940,7 +2940,7 @@
       "sid": "01-148",
       "page": 95,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "물과 음식물을 끓이면 [  ] 등 세균에 의한 질병을 어느 정도 예방할 수 있다.",
       "blanks": [
         {
@@ -2957,7 +2957,7 @@
       "sid": "01-149",
       "page": 95,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "세균성 식중독은 [  ]과 [  ]으로 세분화된다.",
       "blanks": [
         {
@@ -3018,7 +3018,7 @@
       "sid": "01-152",
       "page": 95,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "무좀과 같은 피부 질환은 감염된 피부와의 [  ]을 피해서 예방할 수 있다.",
       "blanks": [
         {
@@ -3035,7 +3035,7 @@
       "sid": "01-153",
       "page": 95,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "후천성면역결핍증(AIDS)과 같이 [  ]을 통해 감염되는 질병은 사용한 [  ]를 재사용하지 않는 등의 방법으로 예방할 수 있다.",
       "blanks": [
         {
@@ -3074,7 +3074,7 @@
       "sid": "01-155",
       "page": 95,
       "tier": 3,
-      "importance": 2,
+      "importance": 1,
       "question": "배지를 뒤집어서 37 ℃ 배양기에서 하루 이상 배양한 뒤 [  ]를 관찰한다.",
       "blanks": [
         {
@@ -3091,7 +3091,7 @@
       "sid": "01-156",
       "page": 95,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "배지마다 모양과 색깔이 다양한 [  ]가 관찰된다.",
       "blanks": [
         {
@@ -3152,7 +3152,7 @@
       "sid": "01-159",
       "page": 95,
       "tier": 3,
-      "importance": 2,
+      "importance": 1,
       "question": "유해 세균과 곰팡이에 의한 감염을 예방하려면 손을 자주 씻고 물건을 [  ]해야 한다.",
       "blanks": [
         {
@@ -3169,7 +3169,7 @@
       "sid": "01-162",
       "page": 95,
       "tier": 3,
-      "importance": 3,
+      "importance": 2,
       "question": "콜로니는 세균, 곰팡이 등을 고체 배지에서 배양할 때 육안으로 관찰되는 [  ]이다.",
       "blanks": [
         {
@@ -3301,7 +3301,7 @@
       "sid": "01-169",
       "page": 96,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "우리 몸은 병원체가 들어오는 것을 막거나 들어온 병원체를 [  ]하여 스스로를 방어한다.",
       "blanks": [
         {
@@ -3382,7 +3382,7 @@
       "sid": "01-173",
       "page": 96,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "[  ]은 모든 종류의 병원체에 대해 동일한 방식으로 일어난다.",
       "blanks": [
         {
@@ -3401,7 +3401,7 @@
       "sid": "01-174",
       "page": 96,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "선천면역은 병원체를 물리적으로 차단하는 [  ]과 침입한 병원체에 대한 [  ]로 구분할 수 있다.",
       "blanks": [
         {
@@ -3440,7 +3440,7 @@
       "sid": "01-176",
       "page": 96,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "후천면역은 특정 병원체에 [  ]으로 작동한다.",
       "blanks": [
         {
@@ -3523,7 +3523,7 @@
       "sid": "01-180",
       "page": 96,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "선천면역의 방어벽에는 [  ]와/과 [  ]이/가 포함된다.",
       "blanks": [
         {
@@ -3545,7 +3545,7 @@
       "sid": "01-181",
       "page": 96,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "선천면역의 내부 방어에는 [  ]과 [  ]이 포함된다.",
       "blanks": [
         {
@@ -3569,7 +3569,7 @@
       "sid": "01-182",
       "page": 96,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "후천면역에는 [  ]과 [  ]이 포함된다.",
       "blanks": [
         {
@@ -3591,7 +3591,7 @@
       "sid": "01-183",
       "page": 96,
       "tier": 3,
-      "importance": 2,
+      "importance": 3,
       "question": "[  ]은 병원체에 공통으로 존재하는 특징을 인식하여 병원체의 종류를 구분하지 않고 일어난다.",
       "blanks": [
         {
@@ -3610,7 +3610,7 @@
       "sid": "01-184",
       "page": 96,
       "tier": 3,
-      "importance": 2,
+      "importance": 3,
       "question": "선천면역은 [  ] 방어작용이라고도 한다.",
       "blanks": [
         {
@@ -3627,7 +3627,7 @@
       "sid": "01-185",
       "page": 96,
       "tier": 3,
-      "importance": 2,
+      "importance": 3,
       "question": "[  ]은 특정 병원체에만 존재하는 특정 부위를 인식하여 일어난다.",
       "blanks": [
         {
@@ -3646,7 +3646,7 @@
       "sid": "01-186",
       "page": 96,
       "tier": 3,
-      "importance": 2,
+      "importance": 3,
       "question": "후천면역은 [  ] 방어작용이라고도 한다.",
       "blanks": [
         {
@@ -3663,7 +3663,7 @@
       "sid": "01-187",
       "page": 96,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "피부는 우리 몸을 둘러싸고 있는 가장 넓은 [  ] 장벽이다.",
       "blanks": [
         {
@@ -3719,7 +3719,7 @@
       "sid": "01-190",
       "page": 96,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "점막에서는 끈끈한 [  ]을 분비하여 미생물이나 작은 입자를 잡아 가둔다.",
       "blanks": [
         {
@@ -3826,7 +3826,7 @@
       "sid": "01-195",
       "page": 96,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "점액에 포함되어 있는 [  ]은 침입한 세균의 [  ]을 분해하는 작용을 하여 세균을 터트린다.",
       "blanks": [
         {
@@ -3850,7 +3850,7 @@
       "sid": "01-196",
       "page": 96,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "위 안쪽의 점막에서 분비되는 [  ]은 음식물을 통해 위로 들어온 병원체를 제거한다.",
       "blanks": [
         {
@@ -3920,7 +3920,7 @@
       "sid": "01-200",
       "page": 96,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "라이소자임은 세균의 세포벽 성분인 [  ]을 분해하는 효소이다.",
       "blanks": [
         {
@@ -4177,7 +4177,7 @@
       "sid": "01-213",
       "page": 97,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "백혈구의 일종인 [  ]와 [  ]가 병원체를 감싸서 식포를 형성한 뒤 내부로 끌어들인다.",
       "blanks": [
         {
@@ -4252,7 +4252,7 @@
       "sid": "01-216",
       "page": 97,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "식세포작용 이후 큰포식세포가 분해한 병원체의 조각(항원)을 세포 표면에 제시하는 과정을 [  ]라고 한다.",
       "blanks": [
         {
@@ -4296,7 +4296,7 @@
       "sid": "01-218",
       "page": 97,
       "tier": 3,
-      "importance": 3,
+      "importance": 2,
       "question": "호중구는 혈액을 따라 이동하다가 감염 부위로 이동하여 [  ]을 한다.",
       "blanks": [
         {
@@ -4371,7 +4371,7 @@
       "sid": "01-222",
       "page": 97,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "과립백혈구에는 호염구, 호산구, 호중구, [  ]가 있다.",
       "blanks": [
         {
@@ -4489,7 +4489,7 @@
       "sid": "01-228",
       "page": 97,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "호염구는 히스타민 분비와 [  ] 분화 촉진을 담당한다.",
       "blanks": [
         {
@@ -4508,7 +4508,7 @@
       "sid": "01-229",
       "page": 97,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "호산구는 항체와 결합한 [  ]을 치사시킨다.",
       "blanks": [
         {
@@ -4578,7 +4578,7 @@
       "sid": "01-233",
       "page": 97,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "큰포식세포는 식세포작용과 [  ]를 담당한다.",
       "blanks": [
         {
@@ -4614,7 +4614,7 @@
       "sid": "01-236",
       "page": 97,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "[  ]는 감염된 세포 파괴와 다른 백혈구 활성 조절을 담당한다.",
       "blanks": [
         {
@@ -4633,7 +4633,7 @@
       "sid": "01-237",
       "page": 97,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "자연 살해 세포는 바이러스에 감염된 세포나 [  ]를 파괴한다.",
       "blanks": [
         {
@@ -4689,7 +4689,7 @@
       "sid": "01-240",
       "page": 97,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "감염된 세포를 직접 파괴하는 선천 면역의 림프구인 [  ]의 활성은 20세에 최고에 달하고, 이후 나이가 들수록 점차 떨어진다.",
       "blanks": [
         {
@@ -4728,7 +4728,7 @@
       "sid": "01-242",
       "page": 98,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "병원체 감염 부위에서 일어나는 비특이적 방어 작용인 [  ]에서는 흔히 통증을 느끼게 된다.",
       "blanks": [
         {
@@ -4748,7 +4748,7 @@
       "sid": "01-243",
       "page": 98,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "염증 반응은 상처 부위의 손상된 세포와 면역 세포가 분비하는 [  ], [  ] 등의 화학 신호 물질에 의해 진행된다.",
       "blanks": [
         {
@@ -4787,7 +4787,7 @@
       "sid": "01-245",
       "page": 98,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "염증 반응 후 [  ]은 [  ]으로 흡수되어 제거된다.",
       "blanks": [
         {
@@ -4831,7 +4831,7 @@
       "sid": "01-247",
       "page": 98,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "상처 부위에서 [  ]는 호중구를 끌어당기는 [  ]을 분비한다.",
       "blanks": [
         {
@@ -4855,7 +4855,7 @@
       "sid": "01-248",
       "page": 98,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "염증 반응에서 [  ] 확장과 물질 투과성 증가가 일어난다.",
       "blanks": [
         {
@@ -4872,7 +4872,7 @@
       "sid": "01-249",
       "page": 98,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "염증 반응에서 [  ]와 항미생물 펩타이드가 포함된 [  ]이 조직으로 유입된다.",
       "blanks": [
         {
@@ -4915,7 +4915,7 @@
       "sid": "01-251",
       "page": 98,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "비만세포는 백혈구의 일종으로 외부 환경과 접하는 [  ]에 주로 분포한다.",
       "blanks": [
         {
@@ -5022,7 +5022,7 @@
       "sid": "01-257",
       "page": 98,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "[  ]은 부상 후 감염을 예방하는 과정으로 며칠 동안 지속된다.",
       "blanks": [
         {
@@ -5073,7 +5073,7 @@
       "sid": "01-260",
       "page": 98,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "패혈증은 심각한 조직 손상이나 감염으로 [  ]을 보이는 증상이다.",
       "blanks": [
         {
@@ -5359,7 +5359,7 @@
       "sid": "01-274",
       "page": 98,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "림프구가 [  ]에서 성숙하면 [  ]라고 한다.",
       "blanks": [
         {
@@ -5383,7 +5383,7 @@
       "sid": "01-275",
       "page": 98,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "림프구가 [  ]에서 성숙하면 [  ]라고 한다.",
       "blanks": [
         {
@@ -5409,7 +5409,7 @@
       "sid": "01-276",
       "page": 98,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "B림프구의 항원 수용체는 [  ]자형이다.",
       "blanks": [
         {
@@ -5426,7 +5426,7 @@
       "sid": "01-277",
       "page": 98,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "항체(B림프구의 항원 수용체)가 Y자형인 것과 달리, T림프구의 항원 수용체는 [  ]자형이다.",
       "blanks": [
         {
@@ -5443,7 +5443,7 @@
       "sid": "01-278",
       "page": 98,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "B림프구의 표면에는 항원과 결합하는 [  ]자 모양의 항원 [  ]가 존재한다.",
       "blanks": [
         {
@@ -5469,7 +5469,7 @@
       "sid": "01-279",
       "page": 98,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "T림프구의 항원 수용체는 [  ] 모양이다.",
       "blanks": [
         {
@@ -5513,7 +5513,7 @@
       "sid": "01-281",
       "page": 99,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "골수에 남은 미성숙한 림프구는 성숙하고 분화하여 [  ]가 된다.",
       "blanks": [
         {
@@ -5532,7 +5532,7 @@
       "sid": "01-282",
       "page": 99,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "혈액을 따라 이동한 미성숙한 림프구는 [  ]에서 성숙하고 분화하여 [  ]가 된다.",
       "blanks": [
         {
@@ -5558,7 +5558,7 @@
       "sid": "01-283",
       "page": 99,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "항체와 결합하는 항원 부위를 [  ]라고 한다.",
       "blanks": [
         {
@@ -5597,7 +5597,7 @@
       "sid": "01-285",
       "page": 99,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "병원체 표면에서 항체가 인식하는 부분을 [  ](이)라 하고, 이 부분과 결합하는 항체의 부분을 [  ](이)라고 한다.",
       "blanks": [
         {
@@ -5656,7 +5656,7 @@
       "sid": "01-288",
       "page": 99,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "대부분의 [  ]은 외래 세포나 바이러스 표면에 돌출되어 있다.",
       "blanks": [
         {
@@ -5673,7 +5673,7 @@
       "sid": "01-289",
       "page": 99,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "항원의 일부분은 B림프구와 T림프구의 세포막에 있는 [  ]와 결합한다.",
       "blanks": [
         {
@@ -5707,7 +5707,7 @@
       "sid": "01-291",
       "page": 99,
       "tier": 2,
-      "importance": 1,
+      "importance": 3,
       "question": "항체의 주성분은 [  ]이며, [  ]이라고 한다.",
       "blanks": [
         {
@@ -5734,7 +5734,7 @@
       "sid": "01-292",
       "page": 99,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "B림프구가 활성화하면 [  ]를 분비한다.",
       "blanks": [
         {
@@ -5751,7 +5751,7 @@
       "sid": "01-293",
       "page": 99,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "분비된 [  ]는 체액에 있는 [  ]과 결합한다.",
       "blanks": [
         {
@@ -5807,7 +5807,7 @@
       "sid": "01-296",
       "page": 99,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "[  ]가 항원의 종류를 인식하고 빠르게 증식한다.",
       "blanks": [
         {
@@ -5935,7 +5935,7 @@
       "sid": "01-303",
       "page": 100,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "큰포식세포의 식세포작용은 병원체를 제거하는 동시에 침입한 병원체의 정보를 제공함으로써 [  ]이 시작되게 한다.",
       "blanks": [
         {
@@ -6007,7 +6007,7 @@
       "sid": "01-307",
       "page": 100,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "항원을 제시한 큰포식세포가 [  ]로 이동하면 이 항원에 특이적으로 결합하는 항원 수용체가 있는 [  ]가 결합하여 항원을 인식한다.",
       "blanks": [
         {
@@ -6075,7 +6075,7 @@
       "sid": "01-310",
       "page": 100,
       "tier": 3,
-      "importance": 3,
+      "importance": 2,
       "question": "B림프구의 [  ]는 항원과 직접 결합할 수 있다.",
       "blanks": [
         {
@@ -6094,7 +6094,7 @@
       "sid": "01-311",
       "page": 100,
       "tier": 3,
-      "importance": 2,
+      "importance": 3,
       "question": "B림프구도 큰포식세포처럼 [  ]을 하여 항원을 제시하는 항원 제시 세포 중 하나이다.",
       "blanks": [
         {
@@ -6113,7 +6113,7 @@
       "sid": "01-312",
       "page": 100,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "림프가 흐르는 통로인 림프관의 중간중간에는 [  ]이 위치한다.",
       "blanks": [
         {
@@ -6151,7 +6151,7 @@
       "sid": "01-314",
       "page": 100,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "목, 겨드랑이, 사타구니와 같이 몸통과 연결되는 부위에 특히 많이 분포하는 림프계의 구조는 [  ]이다.",
       "blanks": [
         {
@@ -6339,7 +6339,7 @@
       "sid": "01-323",
       "page": 100,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "형질세포는 항체를 생산하여 분비하므로 세포소기관 중 [  ]와 골지체가 매우 발달한다.",
       "blanks": [
         {
@@ -6466,7 +6466,7 @@
       "sid": "01-329",
       "page": 101,
       "tier": 3,
-      "importance": 3,
+      "importance": 2,
       "question": "능동면역은 항원에 노출된 후 신체가 스스로 [  ]를 생산하는 것을 의미한다.",
       "blanks": [
         {
@@ -6483,7 +6483,7 @@
       "sid": "01-330",
       "page": 101,
       "tier": 3,
-      "importance": 3,
+      "importance": 2,
       "question": "능동면역에는 질병에 의해 만들어지는 자연적 능동면역과 질병 없이 [  ]에 의해 기억세포를 형성하는 인공적 능동면역이 있다.",
       "blanks": [
         {
@@ -6541,7 +6541,7 @@
       "sid": "01-333",
       "page": 101,
       "tier": 3,
-      "importance": 3,
+      "importance": 2,
       "question": "수동면역은 다른 개체로부터 [  ]를 얻는 면역이다.",
       "blanks": [
         {
@@ -6558,7 +6558,7 @@
       "sid": "01-334",
       "page": 101,
       "tier": 3,
-      "importance": 3,
+      "importance": 2,
       "question": "수동면역은 [  ]를 생성하지 않는다.",
       "blanks": [
         {
@@ -6577,7 +6577,7 @@
       "sid": "01-335",
       "page": 101,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "혈장에는 기억세포는 없고 [  ]가 있으므로 혈장을 주사하는 것도 [  ]에 해당한다.",
       "blanks": [
         {
@@ -6643,7 +6643,7 @@
       "sid": "01-338",
       "page": 101,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "항체는 병원체의 [  ]에 결합하여 병원체를 감싼다.",
       "blanks": [
         {
@@ -6660,7 +6660,7 @@
       "sid": "01-339",
       "page": 101,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "항체는 병원체와 응집하거나 용해된 항원을 침전시킴으로써 큰포식세포나 호중구의 [  ]을 촉진한다.",
       "blanks": [
         {
@@ -6713,7 +6713,7 @@
       "sid": "01-342",
       "page": 101,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "항체는 병원체와 결합하여 병원체를 [  ]시킨다.",
       "blanks": [
         {
@@ -6766,7 +6766,7 @@
       "sid": "01-345",
       "page": 101,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "항체에 의한 병원체 표면 항원 결합, 병원체 응집, 항원 침전은 [  ]을 촉진한다.",
       "blanks": [
         {
@@ -6828,7 +6828,7 @@
       "sid": "01-348",
       "page": 101,
       "tier": 3,
-      "importance": 3,
+      "importance": 2,
       "question": "우리 몸에서는 [  ]가 서로 다른 다양한 [  ]를 만든다.",
       "blanks": [
         {
@@ -6926,7 +6926,7 @@
       "sid": "01-352",
       "page": 101,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "클론 선택 그림에서 다양한 B림프구 중 [  ]가 항원과 맞는 B림프구가 [  ]된다.",
       "blanks": [
         {

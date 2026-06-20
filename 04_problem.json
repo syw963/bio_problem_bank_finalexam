@@ -24,7 +24,7 @@
       "sid": "04-002",
       "page": 26,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "자손은 부모의 [  ]을/를 물려받아 생물종으로서의 독특한 특성을 나타내고 부모를 닮게 된다.",
       "blanks": [
         {
@@ -147,7 +147,7 @@
       "sid": "04-008",
       "page": 26,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "무성생식 결과 형성된 자손은 모체와 [  ]이/가 같고 유전적으로 [  ]하다.",
       "blanks": [
         {
@@ -249,7 +249,7 @@
       "sid": "04-015",
       "page": 26,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "[  ]을 하는 생물은 자손의 수를 빠르게 늘려 일부 개체가 살아남는 방식으로 적응해 왔다.",
       "blanks": [
         {
@@ -268,7 +268,7 @@
       "sid": "04-016",
       "page": 26,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "해캄은 [  ](이)라는 방법으로 [  ]을/를 높인다.",
       "blanks": [
         {
@@ -292,7 +292,7 @@
       "sid": "04-017",
       "page": 26,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "해캄은 두 세포의 [  ] 부위에서 [  ]을/를 교환한다.",
       "blanks": [
         {
@@ -314,7 +314,7 @@
       "sid": "04-018",
       "page": 26,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "해캄은 환경 조건이 좋아지면 [  ]을/를 하여 새로운 개체를 형성할 수도 있다.",
       "blanks": [
         {
@@ -528,7 +528,7 @@
       "sid": "04-030",
       "page": 27,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "암수 생식세포가 수정하여 자손을 만드는 생식 방식을 [  ](이)라고 하며, 사람을 비롯한 대부분의 동물과 많은 식물이 이 방식으로 번식한다.",
       "blanks": [
         {
@@ -612,7 +612,7 @@
       "sid": "04-034",
       "page": 27,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "자손은 부모 양쪽에서 각각 유전자를 전달받으므로 [  ]이/가 부모나 형제자매들과 다르다.",
       "blanks": [
         {
@@ -631,7 +631,7 @@
       "sid": "04-035",
       "page": 27,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "유성생식을 통해 새로운 [  ]와/과 [  ]을/를 가진 개체가 나타난다.",
       "blanks": [
         {
@@ -676,7 +676,7 @@
       "sid": "04-037",
       "page": 27,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "동물의 유성생식에서 모의 세포는 [  ]을/를 통해 [  ]을/를 형성한다.",
       "blanks": [
         {
@@ -700,7 +700,7 @@
       "sid": "04-038",
       "page": 27,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "동물의 유성생식에서 부의 세포는 [  ]을/를 통해 [  ]을/를 형성한다.",
       "blanks": [
         {
@@ -857,7 +857,7 @@
       "sid": "04-047",
       "page": 27,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "유성생식을 하는 생물은 유전적으로 다양한 자손을 만들어 환경의 변화에 적응하며 [  ]해 왔다.",
       "blanks": [
         {
@@ -896,7 +896,7 @@
       "sid": "04-051",
       "page": 27,
       "tier": 1,
-      "importance": 2,
+      "importance": 3,
       "question": "암수의 생식세포가 결합하는 유성생식은 그렇지 않은 [  ]에 비해 자손을 만드는 데 시간과 [  ]이/가 많이 소모된다.",
       "blanks": [
         {
@@ -944,7 +944,7 @@
       "sid": "04-053",
       "page": 27,
       "tier": 1,
-      "importance": 1,
+      "importance": 2,
       "question": "한 생물에서 무성생식과 유성생식 중 한 가지 형태만 나타나는 것은 아니며, 두 가지 생식 방법을 [  ] 나타내는 생물도 있다.",
       "blanks": [
         {
@@ -965,7 +965,7 @@
       "sid": "04-055",
       "page": 28,
       "tier": 1,
-      "importance": 1,
+      "importance": 2,
       "question": "[  ]은/는 일반적으로 일정한 크기가 되면 성장을 멈춘다.",
       "blanks": [
         {
@@ -1006,7 +1006,7 @@
       "sid": "04-057",
       "page": 28,
       "tier": 1,
-      "importance": 2,
+      "importance": 3,
       "question": "세포분열로 만들어진 딸세포는 성장하고 다시 분열하는 과정을 반복함으로써 딸세포에 [  ]을/를 전달하고 세포의 수를 늘린다.",
       "blanks": [
         {
@@ -1082,7 +1082,7 @@
       "sid": "04-061",
       "page": 28,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "세포주기의 각 단계에 소요되는 시간은 [  ]와/과 세포가 처한 [  ]에 따라 달라질 수 있다.",
       "blanks": [
         {
@@ -1106,7 +1106,7 @@
       "sid": "04-062",
       "page": 28,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "세포주기에 이상이 생기면 [  ]와/과 같은 질병이 발생할 수 있다.",
       "blanks": [
         {
@@ -1148,7 +1148,7 @@
       "sid": "04-064",
       "page": 28,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "세포주기에서 간기는 [  ], [  ], [  ](으)로 이루어진다.",
       "blanks": [
         {
@@ -1179,7 +1179,7 @@
       "sid": "04-065",
       "page": 28,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "세포주기에서 DNA 복제 직전 시기인 [  ]에는 세포 성장이 일어난다.",
       "blanks": [
         {
@@ -1223,7 +1223,7 @@
       "sid": "04-067",
       "page": 28,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "세포주기에서 [  ]에는 세포 성장과 [  ]이/가 일어난다.",
       "blanks": [
         {
@@ -1249,7 +1249,7 @@
       "sid": "04-068",
       "page": 28,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "세포주기에서 [  ]에는 [  ]와/과 세포질분열이 일어난다.",
       "blanks": [
         {
@@ -1274,7 +1274,7 @@
       "sid": "04-069",
       "page": 28,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "세포주기에서 [  ]이/가 [  ]보다 더 긴 구간을 차지한다.",
       "blanks": [
         {
@@ -1299,7 +1299,7 @@
       "sid": "04-070",
       "page": 28,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "[  ]은/는 세포분열이 끝난 뒤부터 다음 세포분열이 일어나기 전까지의 시기이다.",
       "blanks": [
         {
@@ -1316,7 +1316,7 @@
       "sid": "04-071",
       "page": 28,
       "tier": 1,
-      "importance": 2,
+      "importance": 1,
       "question": "[  ]은/는 세포주기의 [  ] 이상을 차지한다.",
       "blanks": [
         {
@@ -1360,7 +1360,7 @@
       "sid": "04-073",
       "page": 28,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "간기에 [  ]은/는 핵 속에 실처럼 풀어져 있다.",
       "blanks": [
         {
@@ -1377,7 +1377,7 @@
       "sid": "04-074",
       "page": 28,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "[  ]은/는 세포분열이 끝난 직후부터 [  ]이/가 시작되기 전까지의 시기이다.",
       "blanks": [
         {
@@ -1474,7 +1474,7 @@
       "sid": "04-078",
       "page": 28,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "세포 주기에서 S기에는 [  ]가 일어나며, 이와 함께 [  ]도 계속 일어난다.",
       "blanks": [
         {
@@ -1502,7 +1502,7 @@
       "sid": "04-079",
       "page": 28,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "[  ]은/는 DNA 복제가 완료된 뒤부터 [  ]이/가 시작되기 전까지의 시기이다.",
       "blanks": [
         {
@@ -1632,7 +1632,7 @@
       "sid": "04-085",
       "page": 28,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "분열기에는 [  ]된 형태의 [  ]이/가 관찰된다.",
       "blanks": [
         {
@@ -1654,7 +1654,7 @@
       "sid": "04-086",
       "page": 28,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "분열기에는 핵과 세포질이 나누어져 하나의 세포로부터 [  ]개의 [  ]이/가 형성된다.",
       "blanks": [
         {
@@ -1699,7 +1699,7 @@
       "sid": "04-088",
       "page": 28,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "분열기는 일반적으로 [  ]와/과 [  ] 두 단계로 나뉜다.",
       "blanks": [
         {
@@ -1768,7 +1768,7 @@
       "sid": "04-092",
       "page": 29,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "[  ]의 무성생식 과정에서도 [  ]이/가 일어난다.",
       "blanks": [
         {
@@ -1874,7 +1874,7 @@
       "sid": "04-097",
       "page": 29,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "동물 세포의 중심체는 [  ]개의 [  ](으)로 구성되어 있다.",
       "blanks": [
         {
@@ -1944,7 +1944,7 @@
       "sid": "04-100",
       "page": 29,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "전기에는 [  ]와/과 [  ]이/가 사라지면서 염색체가 세포질로 퍼지고 응축된 염색체가 나타난다.",
       "blanks": [
         {
@@ -1966,7 +1966,7 @@
       "sid": "04-101",
       "page": 29,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "전기의 각 염색체는 [  ]개의 [  ](으)로 이루어져 있다.",
       "blanks": [
         {
@@ -1990,7 +1990,7 @@
       "sid": "04-102",
       "page": 29,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "전기에는 세포의 양극으로 이동한 [  ]에서 [  ]이/가 형성되어 [  ]에 결합한다.",
       "blanks": [
         {
@@ -2039,7 +2039,7 @@
       "sid": "04-104",
       "page": 29,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "방추사는 [  ](으)로 구성되어 있다.",
       "blanks": [
         {
@@ -2103,7 +2103,7 @@
       "sid": "04-107",
       "page": 29,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "[  ]에는 염색체가 세포 중앙인 [  ]에 배열된다.",
       "blanks": [
         {
@@ -2125,7 +2125,7 @@
       "sid": "04-108",
       "page": 29,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "중기에는 염색체가 가장 [  ]되어 뚜렷하게 관찰되므로 [  ]을/를 할 때 이 시기의 염색체를 사용한다.",
       "blanks": [
         {
@@ -2232,7 +2232,7 @@
       "sid": "04-113",
       "page": 29,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "후기에는 [  ]이/가 짧아지면서 [  ]이/가 세포의 양극으로 이동한다.",
       "blanks": [
         {
@@ -2254,7 +2254,7 @@
       "sid": "04-114",
       "page": 29,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "말기에는 [  ]와/과 [  ]이/가 다시 나타나고 2개의 [  ]이/가 형성된다.",
       "blanks": [
         {
@@ -2320,7 +2320,7 @@
       "sid": "04-117",
       "page": 29,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "[  ]은/는 핵분열 말기의 뒷부분에 시작하여 완전한 2개의 딸세포가 형성되는 시기이다.",
       "blanks": [
         {
@@ -2363,7 +2363,7 @@
       "sid": "04-119",
       "page": 29,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "세포벽의 유무 차이로 인해 [  ] 세포에서는 [  ]이/가 형성된다.",
       "blanks": [
         {
@@ -2385,7 +2385,7 @@
       "sid": "04-120",
       "page": 29,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "세포벽의 유무 차이로 인해 [  ] 세포에서는 [  ]이/가 형성된다.",
       "blanks": [
         {
@@ -2494,7 +2494,7 @@
       "sid": "04-124",
       "page": 29,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "동물 세포의 세포질분열에는 [  ]이/가 관여한다.",
       "blanks": [
         {
@@ -2511,7 +2511,7 @@
       "sid": "04-125",
       "page": 29,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "식물 세포의 세포질분열에는 [  ]이/가 형성된다.",
       "blanks": [
         {
@@ -2579,7 +2579,7 @@
       "sid": "04-129",
       "page": 29,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "전기에는 [  ]이/가 [  ]에 부착되고 [  ]이/가 응축되어 나타난다.",
       "blanks": [
         {
@@ -2606,7 +2606,7 @@
       "sid": "04-130",
       "page": 29,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "체세포분열 과정의 [  ]에는 염색체가 세포 중앙에 배열된다.",
       "blanks": [
         {
@@ -2669,7 +2669,7 @@
       "sid": "04-133",
       "page": 30,
       "tier": 1,
-      "importance": 2,
+      "importance": 1,
       "question": "사람의 생식세포 중 암컷(여성)의 생식세포는 [  ]이고, 수컷(남성)의 생식세포는 [  ]이다.",
       "blanks": [
         {
@@ -2869,7 +2869,7 @@
       "sid": "04-142",
       "page": 30,
       "tier": 3,
-      "importance": 2,
+      "importance": 3,
       "question": "감수분열에서는 간기에 DNA 복제가 [  ]회 일어난 후 연속해서 [  ]회의 분열이 일어나며, 분열이 끝난 생식세포는 다시 세포 주기를 [  ].",
       "blanks": [
         {
@@ -3065,7 +3065,7 @@
       "sid": "04-150",
       "page": 30,
       "tier": 3,
-      "importance": 2,
+      "importance": 3,
       "question": "[  ]은/는 감수 1분열 전기에 [  ]와/과 [  ]의 상동염색체가 접합한 것이다.",
       "blanks": [
         {
@@ -3099,7 +3099,7 @@
       "sid": "04-151",
       "page": 30,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "2가 염색체는 [  ]개의 염색분체로 이루어져 있어 [  ]이라고도 한다.",
       "blanks": [
         {
@@ -3125,7 +3125,7 @@
       "sid": "04-152",
       "page": 30,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "2가 염색체는 감수 1분열 [  ]부터 [  ]까지 관찰된다.",
       "blanks": [
         {
@@ -3198,7 +3198,7 @@
       "sid": "04-155",
       "page": 30,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "감수 1분열 [  ]에는 2가 염색체가 방추사에 이끌려 세포의 [  ]에 배열한다.",
       "blanks": [
         {
@@ -3285,7 +3285,7 @@
       "sid": "04-159",
       "page": 30,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "감수 1분열 [  ]에는 핵막이 다시 나타나고 [  ]이 일어난다.",
       "blanks": [
         {
@@ -3324,7 +3324,7 @@
       "sid": "04-161",
       "page": 30,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "몇몇 종의 경우 감수 1분열 말기에 염색체가 풀어지고 [  ]이/가 형성되기도 한다.",
       "blanks": [
         {
@@ -3341,7 +3341,7 @@
       "sid": "04-162",
       "page": 30,
       "tier": 1,
-      "importance": 3,
+      "importance": 1,
       "question": "감수 1분열의 세포질분열이 완료되면 [  ]개의 홑배수체(n) 딸세포가 형성된다.",
       "blanks": [
         {
@@ -3360,7 +3360,7 @@
       "sid": "04-163",
       "page": 30,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "감수 1분열 결과 형성된 두 딸세포의 [  ]은 서로 다르다.",
       "blanks": [
         {
@@ -3439,7 +3439,7 @@
       "sid": "04-167",
       "page": 30,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "감수 1분열 중기 I에는 [  ]가 세포 중앙에 배열한다.",
       "blanks": [
         {
@@ -3481,7 +3481,7 @@
       "sid": "04-169",
       "page": 30,
       "tier": 2,
-      "importance": 3,
+      "importance": 1,
       "question": "감수 1분열 말기 I에는 핵막이 형성되고 세포질분열이 일어나 [  ]개의 딸세포(n)가 만들어진다.",
       "blanks": [
         {
@@ -3563,7 +3563,7 @@
       "sid": "04-173",
       "page": 31,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "감수 2분열 [  ]에는 핵막이 사라지고 양극에서 뻗어 나온 방추사가 염색체의 [  ]에 붙는다.",
       "blanks": [
         {
@@ -3585,7 +3585,7 @@
       "sid": "04-174",
       "page": 31,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "감수 2분열 [  ]에는 염색체가 방추사에 이끌려 세포의 [  ]에 배열된다.",
       "blanks": [
         {
@@ -3633,7 +3633,7 @@
       "sid": "04-176",
       "page": 31,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "감수 2분열 [  ]에는 방추사는 사라지고 염색체가 풀어진다.",
       "blanks": [
         {
@@ -3650,7 +3650,7 @@
       "sid": "04-177",
       "page": 31,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "감수 2분열 말기에는 [  ]이 다시 나타나고 [  ]이 일어난다.",
       "blanks": [
         {
@@ -3672,7 +3672,7 @@
       "sid": "04-178",
       "page": 31,
       "tier": 1,
-      "importance": 3,
+      "importance": 1,
       "question": "감수 2분열의 세포질분열이 완료되면 [  ]개의 홑배수체(n) 딸세포가 형성된다.",
       "blanks": [
         {
@@ -3718,7 +3718,7 @@
       "sid": "04-180",
       "page": 31,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "[  ]은 감수분열 과정에서 상동염색체나 염색분체가 제대로 분리되지 않아 염색체 수가 정상보다 많거나 적은 [  ]가 형성되는 현상이다.",
       "blanks": [
         {
@@ -3787,7 +3787,7 @@
       "sid": "04-183",
       "page": 31,
       "tier": 2,
-      "importance": 3,
+      "importance": 1,
       "question": "감수 1분열에서 염색체비분리가 일어나면 [  ] 생식세포와 [  ] 생식세포가 형성될 수 있다.",
       "blanks": [
         {
@@ -3809,7 +3809,7 @@
       "sid": "04-184",
       "page": 31,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "감수 2분열에서 [  ]가 일어나면 n, n-1, n+1 생식세포가 형성될 수 있다.",
       "blanks": [
         {
@@ -3850,7 +3850,7 @@
       "sid": "04-186",
       "page": 31,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "감수 2분열 전기 II에는 [  ]과 인이 사라지고 방추사가 형성되어 염색체의 [  ]에 결합한다.",
       "blanks": [
         {
@@ -3938,7 +3938,7 @@
       "sid": "04-190",
       "page": 31,
       "tier": 2,
-      "importance": 3,
+      "importance": 1,
       "question": "감수 2분열 말기 II에는 세포질분열이 일어나 [  ]개의 딸세포(n)가 만들어진다.",
       "blanks": [
         {
@@ -4147,7 +4147,7 @@
       "sid": "04-199",
       "page": 32,
       "tier": 1,
-      "importance": 2,
+      "importance": 1,
       "question": "감수분열은 [  ], [  ]와 같은 생식기관에서 생식세포를 만들 때 일어난다.",
       "blanks": [
         {
@@ -4192,7 +4192,7 @@
       "sid": "04-201",
       "page": 32,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "동물의 생식기관 중 수컷의 생식기관은 [  ]이고, 암컷의 생식기관은 [  ]이다.",
       "blanks": [
         {
@@ -4216,7 +4216,7 @@
       "sid": "04-202",
       "page": 32,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "식물의 생식기관은 [  ]와/과 [  ]이다.",
       "blanks": [
         {
@@ -4238,7 +4238,7 @@
       "sid": "04-203",
       "page": 32,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "꽃이 피지 않는 식물의 [  ]에서 [  ]이/가 형성될 때에도 감수분열이 일어난다.",
       "blanks": [
         {
@@ -4260,7 +4260,7 @@
       "sid": "04-204",
       "page": 32,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "체세포분열과 감수분열 비교 그림에서 모세포는 DNA 복제 전 2n=4 상태이다. DNA가 복제되면 핵 1개당 DNA양은 2배가 되지만 [  ]는 변하지 않는다.",
       "blanks": [
         {
@@ -4282,7 +4282,7 @@
       "sid": "04-205",
       "page": 32,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "체세포분열에서는 DNA 복제 뒤 [  ]이/가 분리되어 2n=4인 딸세포 [  ]개가 형성된다.",
       "blanks": [
         {
@@ -4327,7 +4327,7 @@
       "sid": "04-209",
       "page": 32,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "감수분열 결과 [  ]인 딸세포 [  ]개가 형성된다.",
       "blanks": [
         {
@@ -4352,7 +4352,7 @@
       "sid": "04-210",
       "page": 32,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "체세포분열 과정에서 핵 1개당 DNA 상대량은 G1기에 [  ], G2기와 전기ㆍ중기ㆍ후기ㆍ말기에 [  ]로 나타난다.",
       "blanks": [
         {
@@ -4374,7 +4374,7 @@
       "sid": "04-211",
       "page": 32,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "감수분열 과정에서 핵 1개당 DNA 상대량은 감수 2분열 전기ㆍ중기ㆍ후기ㆍ말기에 [  ], 감수분열 이후 [  ]로 나타난다.",
       "blanks": [
         {
@@ -4396,7 +4396,7 @@
       "sid": "04-212",
       "page": 32,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "DNA양은 [  ]의 수로 계산한다.",
       "blanks": [
         {
@@ -4413,7 +4413,7 @@
       "sid": "04-213",
       "page": 32,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "세포의 DNA양은 절대적인 양 대신 핵 1개당 [  ]으로 나타내는 경우가 많다.",
       "blanks": [
         {
@@ -4481,7 +4481,7 @@
       "sid": "04-217",
       "page": 33,
       "tier": 1,
-      "importance": 2,
+      "importance": 3,
       "question": "유성생식을 하는 생물은 [  ]의 형성과 [  ](으)로 생명의 연속성을 유지한다.",
       "blanks": [
         {
@@ -4503,7 +4503,7 @@
       "sid": "04-218",
       "page": 33,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "[  ]은/는 감수 1분열 중기가 되면 세포 중앙에 [  ](으)로 배열한다.",
       "blanks": [
         {
@@ -4577,7 +4577,7 @@
       "sid": "04-221",
       "page": 33,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "하나의 [  ](으)로부터 다양한 염색체 조합을 가진 [  ]이/가 형성된다.",
       "blanks": [
         {
@@ -4712,7 +4712,7 @@
       "sid": "04-227",
       "page": 33,
       "tier": 3,
-      "importance": 3,
+      "importance": 2,
       "question": "감수 분열 시 상동 염색체가 무작위로 배열되어 생식세포로 나뉘므로, 자손에게 나타나는 [  ]은/는 매우 다양하다.",
       "blanks": [
         {
@@ -4755,7 +4755,7 @@
       "sid": "04-229",
       "page": 33,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "정자(n)와 난자(n)는 [  ]되어 자손([  ])을/를 형성한다.",
       "blanks": [
         {
@@ -4794,7 +4794,7 @@
       "sid": "04-231",
       "page": 33,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "AaBb인 모세포에서 두 쌍의 상동염색체(대립유전자 A/a, B/b)가 감수 1분열 중기에 A와 B가 같은 쪽, a와 b가 같은 쪽에 배열되는 경우, 만들어지는 두 종류의 생식세포의 유전자형은 [  ]와/과 [  ]이다.",
       "blanks": [
         {
@@ -4816,7 +4816,7 @@
       "sid": "04-232",
       "page": 33,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "AaBb인 모세포에서 두 쌍의 상동염색체(대립유전자 A/a, B/b)가 감수분열하여 유전자형이 Ab인 생식세포와 aB인 생식세포가 만들어졌다. 이때 감수 1분열 중기에 같은 쪽 극으로 배열되어 함께 이동한 대립유전자 조합은 [  ]와/과 [  ]이다.",
       "blanks": [
         {
@@ -4861,7 +4861,7 @@
       "sid": "04-234",
       "page": 33,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "각각의 모세포에서 [  ] 쌍이 [  ](으)로 배열한다.",
       "blanks": [
         {
@@ -4885,7 +4885,7 @@
       "sid": "04-235",
       "page": 33,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "감수분열이 완료되면 생식기관 내에는 유전자형이 [  ], [  ], [  ], [  ]인 생식세포가 모두 발견될 수 있다.",
       "blanks": [
         {
@@ -5035,7 +5035,7 @@
       "sid": "04-242",
       "page": 33,
       "tier": 3,
-      "importance": 3,
+      "importance": 1,
       "question": "n쌍의 상동염색체가 있는 모세포로부터 만들어질 수 있는 생식세포의 염색체 조합은 [  ]가지이다.",
       "blanks": [
         {
@@ -5054,7 +5054,7 @@
       "sid": "04-243",
       "page": 33,
       "tier": 3,
-      "importance": 2,
+      "importance": 1,
       "question": "사람의 체세포에는 23쌍의 염색체가 있으며, 이를 쌍이 아닌 낱개로 세면 모두 [  ]개의 염색체가 있다.",
       "blanks": [
         {
@@ -5073,7 +5073,7 @@
       "sid": "04-244",
       "page": 33,
       "tier": 3,
-      "importance": 2,
+      "importance": 1,
       "question": "한 사람에게서 형성될 수 있는 생식세포의 조합 수는 [  ], 약 [  ]가지이다.",
       "blanks": [
         {
@@ -5121,7 +5121,7 @@
       "sid": "04-248",
       "page": 33,
       "tier": 1,
-      "importance": 2,
+      "importance": 3,
       "question": "[  ] 결과 염색체 수와 DNA양이 모세포와 동일한 딸세포가 형성된다.",
       "blanks": [
         {

@@ -34,7 +34,7 @@
       "sid": "02-003",
       "page": 114,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "혈액형을 판정할 때에도 [  ]의 원리가 적용된다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "항원항체반응", "alt_answers": ["항원-항체 반응", "항원·항체 반응"] }
@@ -76,7 +76,7 @@
       "sid": "02-006",
       "page": 114,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "2개의 긴 사슬과 2개의 짧은 사슬은 각각 [  ]하다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "동일", "alt_answers": ["동등", "같다", "일정"] }
@@ -89,7 +89,7 @@
       "sid": "02-007",
       "page": 114,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "항체의 구조에는 항원 결합 부위, 짧은 사슬, 긴 사슬, [  ] 부위, [  ] 부위가 포함된다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "가변", "alt_answers": [] },
@@ -103,7 +103,7 @@
       "sid": "02-008",
       "page": 114,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "항체의 [  ] 부위는 Y자 모양 항체의 두 끝에 위치한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "항원 결합", "alt_answers": [] }
@@ -130,7 +130,7 @@
       "sid": "02-010",
       "page": 114,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "항체의 [  ] 부위는 항체 사슬의 아래쪽 줄기 부분을 이룬다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "불변", "alt_answers": [] }
@@ -143,7 +143,7 @@
       "sid": "02-011",
       "page": 114,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "가변 부위가 같은 항체도 [  ] 부위의 차이에 따라 IgG, IgM, IgD, IgA, IgE의 [  ]가지 동형이 있다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "불변", "alt_answers": [] },
@@ -262,7 +262,7 @@
       "sid": "02-020",
       "page": 114,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "B림프구가 성숙하는 과정에서 각 유전자군으로부터 DNA가 절단되어 재배열된 뒤 다시 연결되는 [  ]이 일어난다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "DNA 재조합", "alt_answers": ["디엔에이 재조합"] }
@@ -437,7 +437,7 @@
       "sid": "02-034",
       "page": 115,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "ABO식 혈액형의 [  ]은 A, B 두 종류가 있다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "응집원", "alt_answers": [] }
@@ -450,7 +450,7 @@
       "sid": "02-035",
       "page": 115,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "ABO식 혈액형의 [  ]는 α, β 두 종류가 있다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "응집소", "alt_answers": [] }
@@ -463,7 +463,7 @@
       "sid": "02-036",
       "page": 115,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "응집원 A는 응집소 [  ]와 항원항체반응을 한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "α", "alt_answers": ["알파"] }
@@ -476,7 +476,7 @@
       "sid": "02-037",
       "page": 115,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "응집원 B는 응집소 [  ]와 항원항체반응을 한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "β", "alt_answers": ["베타"] }
@@ -650,7 +650,7 @@
       "sid": "02-050",
       "page": 115,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "응집원 A, B는 음식이나 세균, 바이러스, 식물 등의 항원과 유사한 [  ] 부위를 가지고 있다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "항원 결정", "alt_answers": [] }
@@ -676,7 +676,7 @@
       "sid": "02-052",
       "page": 115,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "[  ] α, β는 적혈구 응집원에 직접 노출되지 않아도 외부 환경의 항원에 노출되어 생후 [  ]년 전후로 자연 생성된다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "응집소", "alt_answers": [] },
@@ -826,7 +826,7 @@
       "sid": "02-063",
       "page": 115,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "Rh식 혈액형 판정 과정에서 토끼의 혈액을 채취한 뒤 [  ]을 분리한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "항Rh 혈청", "alt_answers": ["항 Rh 혈청", "항-Rh 혈청"] }
@@ -839,7 +839,7 @@
       "sid": "02-064",
       "page": 115,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "Rh식 혈액형 판정 과정에서 사람의 혈액과 토끼의 [  ]을 섞는다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "항Rh 혈청", "alt_answers": ["항 Rh 혈청", "항-Rh 혈청"] }
@@ -908,7 +908,7 @@
       "sid": "02-069",
       "page": 115,
       "tier": 3,
-      "importance": 3,
+      "importance": 2,
       "question": "Rh-형인 여성이 Rh+형 태아를 임신, 출산하면서 Rh 응집원에 노출되면 모체의 혈장에 Rh [  ]가 형성된다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "응집소", "alt_answers": [] }
@@ -921,7 +921,7 @@
       "sid": "02-070",
       "page": 115,
       "tier": 3,
-      "importance": 3,
+      "importance": 2,
       "question": "이후 Rh+형인 둘째 아이를 임신하면 모체의 Rh 응집소가 [  ]을 통해 태아에게 전달되어 태아의 [  ]가 파괴된다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "태반", "alt_answers": [] },
@@ -935,7 +935,7 @@
       "sid": "02-071",
       "page": 115,
       "tier": 3,
-      "importance": 3,
+      "importance": 2,
       "question": "모체의 Rh 응집소가 태반을 통해 태아에게 전달되어 태아의 적혈구가 파괴되는 현상을 [  ]이라고 한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "태아적혈모구증", "alt_answers": ["태아 적혈모구증", "신생아 용혈성 질환"] }
@@ -975,7 +975,7 @@
       "sid": "02-074",
       "page": 116,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "진단 키트마다 차이가 있지만, 일반적으로 3가지 [  ]가 사용된다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "항체", "alt_answers": [] }
@@ -1027,7 +1027,7 @@
       "sid": "02-078",
       "page": 116,
       "tier": 2,
-      "importance": 1,
+      "importance": 3,
       "question": "진단 키트에 사용하는 항체의 특징 그림에서 항체 1은 [  ]과 결합하며 붉은색 색소 입자가 부착되어 있다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "항원", "alt_answers": [] }
@@ -1054,7 +1054,7 @@
       "sid": "02-080",
       "page": 116,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "진단 키트에 사용하는 항체의 특징 그림에서 대조군 항체는 [  ](C)에 고정되며 항체 1의 항원 결합 부위가 아닌 다른 부위에 결합한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "대조선", "alt_answers": [] }
@@ -1067,7 +1067,7 @@
       "sid": "02-081",
       "page": 116,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "진단 키트 구조에는 시료 투입 부위, [  ], [  ], 시료의 이동 방향이 포함된다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "검사선", "alt_answers": [] },
@@ -1081,7 +1081,7 @@
       "sid": "02-082",
       "page": 116,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "진단 키트 구조에서 타액 시료는 [  ]에서 [  ]과 대조선 방향으로 이동한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "시료 투입 부위", "alt_answers": [] },
@@ -1095,7 +1095,7 @@
       "sid": "02-083",
       "page": 116,
       "tier": 3,
-      "importance": 2,
+      "importance": 1,
       "question": "수정란이 자궁에 착상하면 태반에서 [  ](HCG)이 분비된다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "사람융모성생식샘자극호르몬", "alt_answers": ["HCG", "융모성생식샘자극호르몬", "사람 융모성 생식샘 자극 호르몬"] }
@@ -1121,7 +1121,7 @@
       "sid": "02-085",
       "page": 116,
       "tier": 3,
-      "importance": 2,
+      "importance": 1,
       "question": "임신 진단 키트에는 [  ]를 항원으로 인지하는 항체가 사용된다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "HCG", "alt_answers": ["사람융모성생식샘자극호르몬"] }
@@ -1201,7 +1201,7 @@
       "sid": "02-091",
       "page": 116,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "항원이 있을 때는 항체 1과 결합한 항원이 [  ]에 고정되어 있는 [  ]와 결합하여 띠가 나타난다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "검사선", "alt_answers": [] },
@@ -1268,7 +1268,7 @@
       "sid": "02-096",
       "page": 116,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "바이오센서에는 항원항체반응을 [  ]로 변환하는 장치가 내장되어 있어 극소량의 [  ]을 간편하게 검출할 수 있다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "전기 신호", "alt_answers": [] },
@@ -1282,7 +1282,7 @@
       "sid": "02-097",
       "page": 116,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "바이오센서는 단백질, 핵산, 세균 등 다양한 [  ]를 검출하여 질병의 진단과 치료, 각종 임상 연구 등에 광범위하게 활용된다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "바이오마커", "alt_answers": ["생체표지자", "생체 지표"] }
@@ -1295,7 +1295,7 @@
       "sid": "02-098",
       "page": 116,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "핵산은 뉴클레오타이드가 길게 연결되어 만들어진 물질로, [  ]와 RNA가 있다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "DNA", "alt_answers": ["디엔에이"] }
@@ -1308,7 +1308,7 @@
       "sid": "02-099",
       "page": 116,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "하나의 항체에는 동일한 2개의 [  ] 부위가 있다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "항원 결합", "alt_answers": [] }
@@ -1321,7 +1321,7 @@
       "sid": "02-101",
       "page": 116,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "AB형인 사람은 응집원 A가 있는 적혈구와 응집원 B가 있는 적혈구가 각각 따로 있는 것이 아니라, [  ]의 적혈구에 응집원 A와 B가 함께 있다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "하나", "alt_answers": ["동일한", "같은"] }
@@ -1467,7 +1467,7 @@
       "sid": "02-112",
       "page": 117,
       "tier": 3,
-      "importance": 2,
+      "importance": 3,
       "question": "[  ]에 의한 면역 기억은 장기간 지속될 수 있다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "기억세포", "alt_answers": ["기억 세포"] }
@@ -1493,7 +1493,7 @@
       "sid": "02-114",
       "page": 117,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "1차 면역반응과 2차 면역반응 그래프의 세로축은 [  ](상댓값)이다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "항체 농도", "alt_answers": [] }
@@ -1506,7 +1506,7 @@
       "sid": "02-116",
       "page": 117,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "그래프에서 처음 항원 X에 노출되면 B림프구, 형질세포, 항체, 기억세포가 관여하는 항원 X에 대한 [  ]이 나타난다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "1차 면역반응", "alt_answers": ["일차 면역반응"] }
@@ -1519,7 +1519,7 @@
       "sid": "02-117",
       "page": 117,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "그래프에서 항원 X, Y에 다시 노출되면 항원 X에 대한 [  ]이 크게 나타난다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "2차 면역반응", "alt_answers": ["이차 면역반응"] }
@@ -1545,7 +1545,7 @@
       "sid": "02-119",
       "page": 117,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "그래프에서 항원 X에 대한 2차 면역반응은 항원 X에 대한 1차 면역반응보다 [  ]가 높고 빠르게 나타난다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "항체 농도", "alt_answers": ["항체량", "항체의 농도"] }
@@ -1612,7 +1612,7 @@
       "sid": "02-124",
       "page": 117,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "백신의 작용 원리 그림에서 [  ]가 [  ]를 활성화한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "큰포식세포", "alt_answers": ["대식세포", "큰 포식 세포"] },
@@ -1626,7 +1626,7 @@
       "sid": "02-125",
       "page": 117,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "백신의 작용 원리 그림에서 [  ]는 [  ]를 활성화한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "보조 T림프구", "alt_answers": ["도움 T림프구", "보조 T 림프구", "보조 T세포", "헬퍼 T세포"] },
@@ -1654,7 +1654,7 @@
       "sid": "02-128",
       "page": 117,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "백신 접종 후 병원체 감염 시 [  ]가 [  ]을 인식한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "기억세포", "alt_answers": ["기억 세포"] },
@@ -1751,7 +1751,7 @@
       "sid": "02-135",
       "page": 118,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "도시 집중화 사회에서 백신 접종으로 [  ]을 획득하면 감염병 확산의 위험을 줄일 수 있다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "집단 면역", "alt_answers": ["집단면역", "무리 면역"] }
@@ -1777,7 +1777,7 @@
       "sid": "02-137",
       "page": 118,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "한 집단에서 면역력을 가진 사람의 비율이 충분히 높으면 면역력이 없는 사람도 대부분 감염되지 않는데, 이러한 현상을 [  ](이)라고 한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "집단 면역", "alt_answers": ["집단면역"] }
@@ -1790,7 +1790,7 @@
       "sid": "02-138",
       "page": 118,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "[  ] 그림에서 회색으로 표시된 사람은 건강하지만 [  ]이 없는 사람을 뜻한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "집단 면역", "alt_answers": ["집단면역"] },
@@ -1818,7 +1818,7 @@
       "sid": "02-140",
       "page": 118,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "집단 면역에서 감염된 사람은 해당 병원체에 대한 [  ]이 없는 사람을 뜻한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "면역력", "alt_answers": ["면역"] }
@@ -1858,7 +1858,7 @@
       "sid": "02-143",
       "page": 118,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "백신 접종 후 [  ] 및 [  ] 수가 크게 감소했다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "사망자", "alt_answers": [] },
@@ -1901,7 +1901,7 @@
       "sid": "02-152",
       "page": 118,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "코로나바이러스감염증-19 백신 접종 유무에 따른 사망률 그래프에서 [  ]의 사망률은 [  ]의 사망률보다 높다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "미접종자", "alt_answers": [] },
@@ -1929,7 +1929,7 @@
       "sid": "02-154",
       "page": 118,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "백신으로 활용하는 물질은 접종한 뒤에 효과적으로 [  ]와 [  ]가 형성되도록 해야 한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "기억세포", "alt_answers": ["기억 세포"] },
@@ -1971,7 +1971,7 @@
       "sid": "02-157",
       "page": 118,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "첨단 [  ] 기술을 활용하면 병원체의 유전정보로부터 병원체를 구성하는 거의 모든 단백질 항원의 [  ]와 특성을 빠르고 정확하게 예측할 수 있다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "인공지능", "alt_answers": ["AI"] },
@@ -1985,7 +1985,7 @@
       "sid": "02-158",
       "page": 118,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "첨단 인공지능 기술을 활용하면 가상의 [  ] 테스트를 수행하여 임상 시험의 [  ]을 높일 수도 있다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "시뮬레이션", "alt_answers": ["모의실험"] },
@@ -2013,7 +2013,7 @@
       "sid": "02-160",
       "page": 118,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "백신 개발 과정 그림은 병원체의 [  ] 분석에서 시작한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "유전체 데이터", "alt_answers": [] }
@@ -2068,7 +2068,7 @@
       "sid": "02-167",
       "page": 119,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "약독화 백신은 [  ] 전체의 [  ]을 약화하여 만든 것이다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "병원체", "alt_answers": [] },
@@ -2082,7 +2082,7 @@
       "sid": "02-168",
       "page": 119,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "약독화 백신은 효과가 확실하여 [  ]회 접종만으로도 효력이 유지된다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "1", "alt_answers": ["한", "일"] }
@@ -2137,7 +2137,7 @@
       "sid": "02-172",
       "page": 119,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "비활성화 백신(사백신)은 열이나 화학 약품으로 처리하여 [  ]한 병원체를 이용하여 만든 것이다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "사멸", "alt_answers": [] }
@@ -2203,7 +2203,7 @@
       "sid": "02-177",
       "page": 119,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "비활성화 백신에는 전 세포 불활성화 백신, 병원체의 독소를 이용하는 [  ] 백신, 병원체를 이루는 긴 사슬 형태의 당 분자로 만드는 [  ] 백신 등이 있다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "톡소이드", "alt_answers": ["변성 독소"] },
@@ -2231,7 +2231,7 @@
       "sid": "02-179",
       "page": 119,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "재조합 백신은 생명공학기술(유전자재조합기술)로 만든 [  ]을 이용한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "항원", "alt_answers": [] }
@@ -2257,7 +2257,7 @@
       "sid": "02-181",
       "page": 119,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "바이러스 유사 입자 백신은 바이러스의 [  ] 단백질을 바이러스와 유사한 모양으로 조립하여 만든다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "표면 항원", "alt_answers": [] }
@@ -2284,7 +2284,7 @@
       "sid": "02-183",
       "page": 119,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "핵산 백신은 병원체의 유전정보가 있는 핵산을 체내에 주입하여 발현하게 함으로써 [  ]를 생성하게 하는 백신이다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "항체", "alt_answers": [] }
@@ -2337,7 +2337,7 @@
       "sid": "02-188",
       "page": 119,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "약독화 백신은 병원성이 없도록 독성을 약화한 [  ] 병원체를 사용한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "살아 있는", "alt_answers": ["살아있는"] }
@@ -2350,7 +2350,7 @@
       "sid": "02-189",
       "page": 119,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "사백신은 항원의 특성은 유지한 채 [  ] 상태로 만든 병원체를 사용한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "비활성화", "alt_answers": ["불활성화"] }
@@ -2363,7 +2363,7 @@
       "sid": "02-190",
       "page": 119,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "재조합 백신은 병원체 전체가 아니라 항원이나 [  ] 부위만 사용한다.",
       "blanks": [
         { "blank_id": 1, "primary_answer": "항원 결정", "alt_answers": ["항원결정", "에피토프"] }

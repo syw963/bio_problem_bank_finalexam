@@ -7,7 +7,7 @@
       "sid": "06-002",
       "page": 84,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "생물다양성을 이해하고 다양한 생물 사이의 관계를 알기 위해서는 각 생물의 이름을 지어 주고, 상호 간의 [  ] 관계를 밝히는 과정이 필요하다.",
       "blanks": [
         {
@@ -94,7 +94,7 @@
       "sid": "06-007",
       "page": 84,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "일반적으로 통용되는 종의 정의에는 [  ]와/과 [  ]이/가 있다.",
       "blanks": [
         {
@@ -152,7 +152,7 @@
       "sid": "06-010",
       "page": 84,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "형태학적 종의 개념은 주로 [  ]와/과 [  ]의 분류에 사용한다.",
       "blanks": [
         {
@@ -233,7 +233,7 @@
       "sid": "06-014",
       "page": 84,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "생물의 [  ] 특징으로 정의하는 종의 개념은 주로 [  ]의 분류에 사용한다.",
       "blanks": [
         {
@@ -388,7 +388,7 @@
       "sid": "06-022",
       "page": 85,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "린네는 [  ], [  ], 과, 목, 강, 문, 계라는 분류계급을 확립하여 각 계급에 공통의 특징을 가지는 생물을 무리지었다.",
       "blanks": [
         {
@@ -456,7 +456,7 @@
       "sid": "06-025",
       "page": 85,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "분류계급에서 각 계급의 어두에 '아'를 붙여 [  ], 아속, 아과 등으로 상세 분류할 수 있다.",
       "blanks": [
         {
@@ -473,7 +473,7 @@
       "sid": "06-026",
       "page": 85,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "종보다 하위 계급으로 아종 외에 [  ], [  ]이/가 있다.",
       "blanks": [
         {
@@ -495,7 +495,7 @@
       "sid": "06-027",
       "page": 85,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "분류 단계가 낮은 [  ]에 속하는 생물은 그보다 높은 [  ]에도 속한다.",
       "blanks": [
         {
@@ -565,7 +565,7 @@
       "sid": "06-030",
       "page": 85,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "[  ]은/는 같은 종이지만 형태나 지리적 분포가 다른 생물집단이다.",
       "blanks": [
         {
@@ -688,7 +688,7 @@
       "sid": "06-036",
       "page": 85,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "품종은 자연 상태에서 일어나는 변이로 인해 만들어지는 것으로, 인위적으로 개량한 [  ]와/과는 다른 개념이다.",
       "blanks": [
         {
@@ -727,7 +727,7 @@
       "sid": "06-038",
       "page": 85,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "생물의 세부 분류계급에는 아종, 아속, 아과, [  ], [  ], 아문, 아계가 있다.",
       "blanks": [
         {
@@ -790,7 +790,7 @@
       "sid": "06-041",
       "page": 85,
       "tier": 3,
-      "importance": 3,
+      "importance": 2,
       "question": "조류의 깃털은 척추동물 집단 안에서는 조류에서만 나타나므로 [  ]이다.",
       "blanks": [
         {
@@ -807,7 +807,7 @@
       "sid": "06-042",
       "page": 85,
       "tier": 3,
-      "importance": 3,
+      "importance": 2,
       "question": "조류의 깃털은 조류 집단 안에서는 [  ]이다.",
       "blanks": [
         {
@@ -841,7 +841,7 @@
       "sid": "06-044",
       "page": 86,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "[  ]은/는 국제적으로 통용되는 종의 이름으로, 린네가 창안한 [  ]에 기초하여 만든다.",
       "blanks": [
         {
@@ -885,7 +885,7 @@
       "sid": "06-046",
       "page": 86,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "속명과 종소명은 [  ] 또는 그것을 변형한 형태의 단어를 사용하고, [  ](으)로 표기하거나 밑줄을 그어 표시한다.",
       "blanks": [
         {
@@ -911,7 +911,7 @@
       "sid": "06-047",
       "page": 86,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "속명의 첫 글자는 [  ](으)로, 속명의 나머지 글자와 종소명은 [  ](으)로 표기한다.",
       "blanks": [
         {
@@ -993,7 +993,7 @@
       "sid": "06-051",
       "page": 86,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "학명을 알면 명명한 [  ]의 이름이나 서식지 등에 관한 정보를 얻을 수 있다.",
       "blanks": [
         {
@@ -1056,7 +1056,7 @@
       "sid": "06-054",
       "page": 86,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "학명에는 생물이 처음 [  ]된 [  ]을 나타내는 단어가 사용되기도 한다.",
       "blanks": [
         {
@@ -1187,7 +1187,7 @@
       "sid": "06-061",
       "page": 86,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "벵갈호랑이의 학명 Panthera tigris tigris L.에서 맨 앞의 Panthera는 [  ]에 해당하고, 그 다음의 tigris는 [  ]에 해당한다.",
       "blanks": [
         {
@@ -1213,7 +1213,7 @@
       "sid": "06-062",
       "page": 86,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "시베리아호랑이의 학명은 Panthera tigris altaica이다. 이처럼 생물의 이름을 두 개의 단어로 나타내는 학명 표기 방법을 [  ]이라고 하며, 이때 맨 앞에 오는 단어 Panthera는 [  ]에 해당한다.",
       "blanks": [
         {
@@ -1340,7 +1340,7 @@
       "sid": "06-068",
       "page": 86,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "마쓰무라일본단풍나무는 일본단풍나무의 [  ]이며 학명은 Acer palmatum subsp. matsumurae Koidz.이다.",
       "blanks": [
         {
@@ -1383,7 +1383,7 @@
       "sid": "06-070",
       "page": 86,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "찰벼는 벼의 [  ]이며 학명은 Oryza sativa var. glutinosa Blanco이다.",
       "blanks": [
         {
@@ -1428,7 +1428,7 @@
       "sid": "06-072",
       "page": 86,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "야생고추(들고추)는 고추의 [  ]이며 학명은 Capsicum annuum for. glabriusculum이다.",
       "blanks": [
         {
@@ -1467,7 +1467,7 @@
       "sid": "06-077",
       "page": 87,
       "tier": 1,
-      "importance": 2,
+      "importance": 1,
       "question": "[  ]은 지구의 모든 생물이 [  ]으로부터 유래하였다고 생각하였다.",
       "blanks": [
         {
@@ -1506,7 +1506,7 @@
       "sid": "06-079",
       "page": 87,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "다윈이 표현한 [  ]는 생물의 계통을 하나의 뿌리에서 기원한 나뭇가지 형태로 나타낸다.",
       "blanks": [
         {
@@ -1547,7 +1547,7 @@
       "sid": "06-081",
       "page": 87,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "[  ]은(는) 생물이 진화해 온 유연관계의 갈래를 밝혀 무리 짓는 것이다.",
       "blanks": [
         {
@@ -1668,7 +1668,7 @@
       "sid": "06-088",
       "page": 87,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "계통수를 분석하면 생물 간의 [  ] 및 [  ]를 파악할 수 있다.",
       "blanks": [
         {
@@ -1736,7 +1736,7 @@
       "sid": "06-093",
       "page": 87,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "생물 간의 진화적 유연관계를 나뭇가지 모양으로 나타낸 [  ]은/는 가지를 중심에서 사방으로 뻗는 원형으로 나타낼 수도 있다.",
       "blanks": [
         {
@@ -1828,7 +1828,7 @@
       "sid": "06-098",
       "page": 88,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "계통수의 가장 아래쪽 또는 왼쪽에는 계통수에 제시된 모든 종의 [  ]이 위치한다.",
       "blanks": [
         {
@@ -1845,7 +1845,7 @@
       "sid": "06-099",
       "page": 88,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "계통수의 각 가지의 끝 쪽에는 하나의 [  ] 또는 [  ]이 위치한다.",
       "blanks": [
         {
@@ -1996,7 +1996,7 @@
       "sid": "06-106",
       "page": 88,
       "tier": 3,
-      "importance": 1,
+      "importance": 3,
       "question": "하나의 [  ]은/는 여러 가지 형태로 변형하여 나타낼 수 있다.",
       "blanks": [
         {
@@ -2030,7 +2030,7 @@
       "sid": "06-108",
       "page": 88,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "계통수에서 분기점을 [  ]에 맞춰 작성하면 가지의 길이를 진화상 변화의 양이나 특정 사건이 일어난 시간에 비례하도록 그릴 수도 있다.",
       "blanks": [
         {
@@ -2100,7 +2100,7 @@
       "sid": "06-117",
       "page": 88,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "계통수의 특징과 해석 분석에서 [  ] (가)를 기준으로 같은 가지에 속하는 생물집단인 A, B, C는 다른 가지의 생물집단인 D, E와 구별되는 공통적인 특징을 공유하고 있다.",
       "blanks": [
         {
@@ -2175,7 +2175,7 @@
       "sid": "06-126",
       "page": 89,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "생명과학의 발달과 함께 생물분류체계는 생물 사이의 [  ]을/를 더 명확하게 반영하는 방향으로 발전해 왔다.",
       "blanks": [
         {
@@ -2192,7 +2192,7 @@
       "sid": "06-127",
       "page": 89,
       "tier": 1,
-      "importance": 2,
+      "importance": 1,
       "question": "[  ] 분류체계는 18세기 초에 [  ]이/가 제안한 분류체계이다.",
       "blanks": [
         {
@@ -2238,7 +2238,7 @@
       "sid": "06-129",
       "page": 89,
       "tier": 1,
-      "importance": 2,
+      "importance": 1,
       "question": "[  ] 분류체계는 현미경의 발달로 미생물이 발견되면서 [  ]이/가 제안하였다.",
       "blanks": [
         {
@@ -2359,7 +2359,7 @@
       "sid": "06-135",
       "page": 89,
       "tier": 1,
-      "importance": 2,
+      "importance": 1,
       "question": "[  ] 분류체계는 20세기 초에 [  ]이/가 제안하였다.",
       "blanks": [
         {
@@ -2405,7 +2405,7 @@
       "sid": "06-137",
       "page": 89,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "5계 분류체계는 생물을 원핵생물계, 원생생물계, [  ], 동물계, 식물계로 구분하였다.",
       "blanks": [
         {
@@ -2497,7 +2497,7 @@
       "sid": "06-142",
       "page": 89,
       "tier": 1,
-      "importance": 2,
+      "importance": 3,
       "question": "오늘날에는 많은 생명과학자가 [  ] 분류체계를 사용하고 있다.",
       "blanks": [
         {
@@ -2516,7 +2516,7 @@
       "sid": "06-144",
       "page": 89,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "헤켈은 1866년에 최초로 [  ]을/를 작성하였다.",
       "blanks": [
         {
@@ -2567,7 +2567,7 @@
       "sid": "06-148",
       "page": 89,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "라이보솜은 rRNA가 [  ]과/와 결합하여 구성된다.",
       "blanks": [
         {
@@ -2586,7 +2586,7 @@
       "sid": "06-149",
       "page": 89,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "어떤 RNA는 여러 단백질과 결합하여, 단백질 합성이 일어나는 장소인 세포 소기관 [  ](을)를 구성한다.",
       "blanks": [
         {
@@ -2605,7 +2605,7 @@
       "sid": "06-150",
       "page": 89,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "[  ]은/는 생명활동에 필수적인 물질대사이므로, 라이보솜 RNA 염기서열은 모든 생물에서 발견된다.",
       "blanks": [
         {
@@ -2644,7 +2644,7 @@
       "sid": "06-152",
       "page": 89,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "생물분류체계의 변화 그림에서 2계 분류체계는 [  ]와/과 [  ]을/를 포함한다.",
       "blanks": [
         {
@@ -2666,7 +2666,7 @@
       "sid": "06-153",
       "page": 89,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "생물분류체계의 변화 그림에서 3계 분류체계는 식물계, [  ], 동물계를 포함한다.",
       "blanks": [
         {
@@ -2683,7 +2683,7 @@
       "sid": "06-154",
       "page": 89,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "생물분류체계의 변화 그림에서 4계 분류체계는 식물계, 원생생물계, 동물계, [  ]을/를 포함한다.",
       "blanks": [
         {
@@ -2700,7 +2700,7 @@
       "sid": "06-155",
       "page": 89,
       "tier": 2,
-      "importance": 3,
+      "importance": 1,
       "question": "생물분류체계의 변화 그림에서 5계 분류체계는 원핵생물계, 원생생물계, [  ], 식물계, 동물계를 포함한다.",
       "blanks": [
         {
@@ -2717,7 +2717,7 @@
       "sid": "06-156",
       "page": 89,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "생물분류체계의 변화 그림에서 3역 6계 분류체계는 세균역 진정세균계, 고균역 고균계, 진핵생물역의 [  ], 균계, 식물계, 동물계를 포함한다.",
       "blanks": [
         {
@@ -2734,7 +2734,7 @@
       "sid": "06-157",
       "page": 90,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "3역의 주요 특징 분석에서 고균역의 생물은 세균역의 생물과 달리 [  ] 성분의 세포벽이 없다.",
       "blanks": [
         {
@@ -2807,7 +2807,7 @@
       "sid": "06-161",
       "page": 90,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "3역의 주요 특징 표에서 세균역은 [  ]와/과 막성 세포소기관이 없다.",
       "blanks": [
         {
@@ -2841,7 +2841,7 @@
       "sid": "06-163",
       "page": 90,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "3역의 주요 특징 표에서 [  ]은/는 핵막과 막성 세포소기관이 있다.",
       "blanks": [
         {
@@ -2858,7 +2858,7 @@
       "sid": "06-164",
       "page": 90,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "3역의 주요 특징 표에서 [  ]은/는 펩티도글리칸이 있다.",
       "blanks": [
         {
@@ -2979,7 +2979,7 @@
       "sid": "06-172",
       "page": 90,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "막성 세포소기관에는 [  ], 마이토콘드리아, 엽록체, 소포체, [  ] 등이 있다.",
       "blanks": [
         {
@@ -3023,7 +3023,7 @@
       "sid": "06-174",
       "page": 90,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "펩티도글리칸은 변형된 당의 중합체가 [  ](으)로 연결되어 [  ] 모양의 구조를 이룬다.",
       "blanks": [
         {
@@ -3047,7 +3047,7 @@
       "sid": "06-175",
       "page": 90,
       "tier": 3,
-      "importance": 2,
+      "importance": 3,
       "question": "펩티도글리칸은 [  ] 생물과 [  ] 생물의 세포벽에는 없다.",
       "blanks": [
         {
@@ -3120,7 +3120,7 @@
       "sid": "06-179",
       "page": 90,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "3역 6계 분류체계 그림에서 [  ]에는 원생생물, 균류, 식물, 동물이 포함된다.",
       "blanks": [
         {
@@ -3137,7 +3137,7 @@
       "sid": "06-180",
       "page": 90,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "분류체계의 변화 그림에서 5계 분류체계의 원핵생물계는 3역 6계 분류체계의 [  ]와/과 [  ](으)로 나뉜다.",
       "blanks": [
         {
@@ -3159,7 +3159,7 @@
       "sid": "06-181",
       "page": 90,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "분류체계의 변화 그림에서 5계 분류체계의 원생생물계, 균계, 식물계, 동물계는 3역 6계 분류체계의 [  ]에 포함된다.",
       "blanks": [
         {
@@ -3176,7 +3176,7 @@
       "sid": "06-182",
       "page": 90,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "고균은 [  ]이/가 없어 5계 분류체계에서 [  ](으)로 분류되었다.",
       "blanks": [
         {
@@ -3220,7 +3220,7 @@
       "sid": "06-184",
       "page": 90,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "분자생물학적 지식이 쌓이면서 5계 분류체계의 원핵생물계는 세균역인 [  ]와/과 고균역인 [  ](으)로 분리되었다.",
       "blanks": [
         {
@@ -3242,7 +3242,7 @@
       "sid": "06-185",
       "page": 90,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "원생생물계, 식물계, 균계, 동물계가 [  ](으)로 분류되어 [  ] 분류체계가 완성되었다.",
       "blanks": [
         {
@@ -3266,7 +3266,7 @@
       "sid": "06-188",
       "page": 90,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "[  ]은/는 생물을 동물계와 식물계로 분류하였다.",
       "blanks": [
         {
@@ -3283,7 +3283,7 @@
       "sid": "06-189",
       "page": 90,
       "tier": 2,
-      "importance": 3,
+      "importance": 1,
       "question": "[  ]은/는 [  ]의 염기서열을 분석하여 고균이 세균보다 [  ]에 더 가깝다는 것을 발견하였다.",
       "blanks": [
         {
@@ -3359,7 +3359,7 @@
       "sid": "06-192",
       "page": 91,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "세균역의 진정세균계는 막으로 둘러싸인 [  ]이/가 없어 DNA가 세포질 내의 [  ]에 있다.",
       "blanks": [
         {
@@ -3422,7 +3422,7 @@
       "sid": "06-195",
       "page": 91,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "세균역의 진정세균계는 대부분 유전체가 1개의 [  ](으)로 구성되어 있다.",
       "blanks": [
         {
@@ -3439,7 +3439,7 @@
       "sid": "06-196",
       "page": 91,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "세균역의 진정세균계는 유전체 DNA와는 별개로 작은 원형 DNA인 [  ]을/를 가지는 경우도 있다.",
       "blanks": [
         {
@@ -3555,7 +3555,7 @@
       "sid": "06-202",
       "page": 91,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "세균의 [  ] 바깥쪽에는 그물망 구조의 [  ]이/가 있다.",
       "blanks": [
         {
@@ -3662,7 +3662,7 @@
       "sid": "06-208",
       "page": 91,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "원핵세포의 구조 중 단백질 합성을 담당하는 세포소기관은 [  ]이고, 주염색체와 별개로 존재하며 독립적으로 복제되는 작은 고리 모양의 DNA는 [  ]이다.",
       "blanks": [
         {
@@ -3703,7 +3703,7 @@
       "sid": "06-210",
       "page": 91,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "원핵세포의 [  ]은/는 단백질합성에 관여한다.",
       "blanks": [
         {
@@ -3722,7 +3722,7 @@
       "sid": "06-211",
       "page": 91,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "원핵세포의 [  ]은/는 유전정보를 저장한다.",
       "blanks": [
         {
@@ -3739,7 +3739,7 @@
       "sid": "06-212",
       "page": 91,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "원핵세포의 [  ]은/는 염색체 DNA와 별개인 작은 [  ] DNA이다.",
       "blanks": [
         {
@@ -3846,7 +3846,7 @@
       "sid": "06-218",
       "page": 91,
       "tier": 3,
-      "importance": 2,
+      "importance": 1,
       "question": "플라스미드는 유전자재조합기술과 클로닝에서 특정 DNA의 [  ]로 사용된다.",
       "blanks": [
         {
@@ -3865,7 +3865,7 @@
       "sid": "06-219",
       "page": 91,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "[  ]에 원하는 유전자를 삽입하고 대량 생산하면 특정 유전자의 기능을 확인하거나 발현을 조절할 수 있다.",
       "blanks": [
         {
@@ -3950,7 +3950,7 @@
       "sid": "06-223",
       "page": 91,
       "tier": 3,
-      "importance": 2,
+      "importance": 3,
       "question": "사람의 세포에는 [  ] 성분이 없어 페니실린계 항생제가 큰 영향을 미치지 않는다.",
       "blanks": [
         {
@@ -4001,7 +4001,7 @@
       "sid": "06-226",
       "page": 92,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "[  ]은/는 여러 개가 세포 표면에 퍼져 있거나 한쪽 또는 양쪽 끝에 뭉쳐 있다.",
       "blanks": [
         {
@@ -4035,7 +4035,7 @@
       "sid": "06-228",
       "page": 92,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "세균은 유성생식을 하지 않고 대부분 [  ](으)로 빠르게 증식한다.",
       "blanks": [
         {
@@ -4259,7 +4259,7 @@
       "sid": "06-240",
       "page": 92,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "고균의 [  ] 크기는 세균역의 생물과 비슷하다.",
       "blanks": [
         {
@@ -4278,7 +4278,7 @@
       "sid": "06-241",
       "page": 92,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "고균은 유전물질로 [  ] DNA를 가진다.",
       "blanks": [
         {
@@ -4312,7 +4312,7 @@
       "sid": "06-243",
       "page": 92,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "고균은 진핵생물역의 생물처럼 DNA에 [  ]이/가 있다.",
       "blanks": [
         {
@@ -4350,7 +4350,7 @@
       "sid": "06-245",
       "page": 92,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "DNA의 비암호화 부위는 [  ] 이후에 제거된다.",
       "blanks": [
         {
@@ -4386,7 +4386,7 @@
       "sid": "06-247",
       "page": 92,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "고균의 세포벽은 [  ], 단백질, 당단백질 등으로 구성된다.",
       "blanks": [
         {
@@ -4437,7 +4437,7 @@
       "sid": "06-250",
       "page": 92,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "고균은 대부분 다른 생물이 생존할 수 없는 [  ]의 환경에서 서식한다.",
       "blanks": [
         {
@@ -4454,7 +4454,7 @@
       "sid": "06-251",
       "page": 92,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "[  ]은 약 90~120 ℃의 매우 뜨거운 환경에서 살아가는 고균이다.",
       "blanks": [
         {
@@ -4513,7 +4513,7 @@
       "sid": "06-253",
       "page": 92,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "[  ]은 염분의 농도가 높은 염전이나 소금 호수와 같은 곳에서 서식하는 고균이다.",
       "blanks": [
         {
@@ -4530,7 +4530,7 @@
       "sid": "06-254",
       "page": 92,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "일부 극호염균은 고농도의 염분 환경에 적응하여 염분의 농도가 [  ] 이하로 떨어지면 [  ]이 분해되어 생존하지 못하기도 한다.",
       "blanks": [
         {
@@ -4554,7 +4554,7 @@
       "sid": "06-255",
       "page": 92,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "[  ]은 이산화 탄소를 이용하여 수소를 산화시키는 과정에서 노폐물로 [  ] 가스를 생성하는 고균이다.",
       "blanks": [
         {
@@ -4580,7 +4580,7 @@
       "sid": "06-256",
       "page": 92,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "메테인 생성균은 산소 노출에 치명적인 피해를 받는 [  ] 생물이다.",
       "blanks": [
         {
@@ -4636,7 +4636,7 @@
       "sid": "06-259",
       "page": 92,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "Taq 중합효소는 [  ](PCR) 시 DNA 중합효소로 사용되며 이 기술의 실용화에 기여하였다.",
       "blanks": [
         {
@@ -4721,7 +4721,7 @@
       "sid": "06-264",
       "page": 93,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "진핵생물은 핵 안에 [  ]의 DNA가 있다.",
       "blanks": [
         {
@@ -4760,7 +4760,7 @@
       "sid": "06-266",
       "page": 93,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "진핵생물은 [  ]이 발달하여 복잡한 세포 내 구조를 이루고 있다.",
       "blanks": [
         {
@@ -4809,7 +4809,7 @@
       "sid": "06-268",
       "page": 93,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "식물계 생물은 다세포생물이며 [  ] 성분의 [  ]이 있다.",
       "blanks": [
         {
@@ -4834,7 +4834,7 @@
       "sid": "06-269",
       "page": 93,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "식물계 생물은 대부분 [  ]을 하는 [  ]이다.",
       "blanks": [
         {
@@ -4936,7 +4936,7 @@
       "sid": "06-275",
       "page": 93,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "이팝나무가 속한 [  ]의 생물은 핵막으로 둘러싸인 핵을 가진 진핵생물이며, [  ]을 통해 스스로 양분을 만드는 독립영양 생물이다.",
       "blanks": [
         {
@@ -4982,7 +4982,7 @@
       "sid": "06-277",
       "page": 93,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "균계 생물은 [  ]로 이루어진 [  ]을 가지고 있다.",
       "blanks": [
         {
@@ -5006,7 +5006,7 @@
       "sid": "06-278",
       "page": 93,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "균계 생물은 [  ]이다.",
       "blanks": [
         {
@@ -5023,7 +5023,7 @@
       "sid": "06-279",
       "page": 93,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "균계 생물은 다른 생물의 사체나 배설물을 분해하여 생태계에서 [  ]의 역할을 한다.",
       "blanks": [
         {
@@ -5074,7 +5074,7 @@
       "sid": "06-282",
       "page": 93,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "식물과 균류의 공생에서 균류는 식물의 뿌리에 [  ]을 형성하여 양분을 서로 교환하기도 한다.",
       "blanks": [
         {
@@ -5108,7 +5108,7 @@
       "sid": "06-284",
       "page": 93,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "균계 생물의 몸은 실 모양의 [  ]로 이루어져 있다.",
       "blanks": [
         {
@@ -5355,7 +5355,7 @@
       "sid": "06-297",
       "page": 94,
       "tier": 1,
-      "importance": 3,
+      "importance": 2,
       "question": "동물계 생물은 다세포생물이며 [  ]이 없다.",
       "blanks": [
         {
@@ -5372,7 +5372,7 @@
       "sid": "06-298",
       "page": 94,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "동물계 생물은 다른 생물을 먹이로 하는 [  ]이다.",
       "blanks": [
         {
@@ -5450,7 +5450,7 @@
       "sid": "06-302",
       "page": 94,
       "tier": 3,
-      "importance": 2,
+      "importance": 1,
       "question": "노루는 5계 분류 체계의 [  ]에 속하는 생물의 예이다. 이 계의 생물은 다세포 진핵생물이며, 영양 방식은 [  ]에 해당한다.",
       "blanks": [
         {
@@ -5533,7 +5533,7 @@
       "sid": "06-306",
       "page": 94,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "원생생물계 생물은 대부분 [  ]이지만 군체를 형성하거나 [  ]인 것도 있다.",
       "blanks": [
         {
@@ -5576,7 +5576,7 @@
       "sid": "06-309",
       "page": 94,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "원생생물계 생물은 [  ], 다분법, [  ], 포자법 등 다양한 방식으로 번식한다.",
       "blanks": [
         {
@@ -5598,7 +5598,7 @@
       "sid": "06-310",
       "page": 94,
       "tier": 2,
-      "importance": 1,
+      "importance": 2,
       "question": "원생생물계 생물은 세포 골격의 활동에 의한 [  ] 운동 또는 [  ]와/과 편모를 이용하여 이동한다.",
       "blanks": [
         {
@@ -5658,7 +5658,7 @@
       "sid": "06-313",
       "page": 94,
       "tier": 3,
-      "importance": 2,
+      "importance": 1,
       "question": "5계 분류 체계에서 미역은 다세포 생물이지만 식물계가 아니라 [  ]에 속하는 대표적인 예이다.",
       "blanks": [
         {
@@ -5699,7 +5699,7 @@
       "sid": "06-315",
       "page": 94,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "3역 6계 분류체계의 계통수에서 세균역에는 [  ]이/가 포함된다.",
       "blanks": [
         {
@@ -5738,7 +5738,7 @@
       "sid": "06-317",
       "page": 94,
       "tier": 2,
-      "importance": 3,
+      "importance": 2,
       "question": "3역 6계 분류체계에서 메테인 생성균, 극호열균, 극호염균과 같이 극한 환경에 사는 원핵생물은 [  ](으)로 분류된다.",
       "blanks": [
         {
@@ -5832,7 +5832,7 @@
       "sid": "06-322",
       "page": 94,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "3역 6계 분류체계의 계통수에서 [  ] 예에는 효모, 푸른곰팡이, 흰주름버섯이 있다.",
       "blanks": [
         {
@@ -5849,7 +5849,7 @@
       "sid": "06-323",
       "page": 94,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "3역 6계 분류체계의 계통수에서 [  ] 예에는 짚신벌레, 다시마, 규조류가 있다.",
       "blanks": [
         {
@@ -5922,7 +5922,7 @@
       "sid": "06-327",
       "page": 95,
       "tier": 2,
-      "importance": 2,
+      "importance": 3,
       "question": "3역의 특징 비교 표에서 세균역과 고균역의 염색체 모양은 [  ]이고 진핵생물역의 염색체 모양은 [  ]이다.",
       "blanks": [
         {
@@ -5944,7 +5944,7 @@
       "sid": "06-328",
       "page": 95,
       "tier": 3,
-      "importance": 1,
+      "importance": 2,
       "question": "3역의 특징 비교 표에서 [  ]의 DNA 비암호화 부위는 매우 드물고, 고균역은 일부 있으며, 진핵생물역은 있다.",
       "blanks": [
         {
@@ -5961,7 +5961,7 @@
       "sid": "06-329",
       "page": 95,
       "tier": 2,
-      "importance": 2,
+      "importance": 1,
       "question": "3역의 특징 비교 표에서 세균역과 고균역의 라이보솜 크기는 [  ]이고 진핵생물역의 라이보솜 크기는 [  ]이다.",
       "blanks": [
         {
@@ -5987,7 +5987,7 @@
       "sid": "06-330",
       "page": 95,
       "tier": 3,
-      "importance": 2,
+      "importance": 1,
       "question": "3역의 특징 비교 표에서 단백질합성을 개시하는 아미노산(코돈)은 세균역이 [  ](AUG)이고, 고균역과 진핵생물역이 [  ](AUG)이다.",
       "blanks": [
         {
@@ -6099,7 +6099,7 @@
       "sid": "06-336",
       "page": 95,
       "tier": 3,
-      "importance": 2,
+      "importance": 1,
       "question": "3역의 특징 비교 표에서 100 ℃ 이상에서 살 수 있는 생물은 세균역과 진핵생물역에는 없고 [  ]에는 있다.",
       "blanks": [
         {
@@ -6116,7 +6116,7 @@
       "sid": "06-337",
       "page": 95,
       "tier": 3,
-      "importance": 2,
+      "importance": 1,
       "question": "라이보솜은 크기에 따라 30 S와 50 S 소단위체로 구성된 [  ], 40 S와 60 S 소단위체로 구성된 [  ](으)로 구분된다.",
       "blanks": [
         {

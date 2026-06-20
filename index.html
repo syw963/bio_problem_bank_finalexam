@@ -2386,8 +2386,15 @@
         if (list.dataset.vscroll !== "on") return;
         const win = computeVWindow(vScrollPids, vScrollTop, list.clientHeight || vViewportHeight());
         if (win.start === vLastStart && win.end === vLastEnd) return;
+        // 윈도우 재구성으로 DOM이 교체되면 포커스가 사라지므로, 포커스된 카드가 새 윈도우에도 있으면 복원
+        const focusedCard = document.activeElement && document.activeElement.closest ? document.activeElement.closest(".flashcard") : null;
+        const focusedPid = focusedCard ? focusedCard.dataset.pid : null;
         list.innerHTML = buildVWindowHtml(vSessionProblems, win);
         measureVCards(list);
+        if (focusedPid) {
+          const keep = list.querySelector('.flashcard[data-pid="' + CSS.escape(focusedPid) + '"]');
+          if (keep) keep.focus({ preventScroll: true });
+        }
       });
     }
 
@@ -2414,23 +2421,32 @@
       if (idx < 0) return;
       AppState.currentIndex = idx;
       if (list.dataset.vscroll === "on") {
-        let off = 0;
-        for (let i = 0; i < idx; i += 1) off += vHeightOf(vScrollPids[i]);
-        const h = vHeightOf(pid);
         const viewH = list.clientHeight || vViewportHeight();
-        const margin = 24;
-        if (off < list.scrollTop + margin) list.scrollTop = Math.max(0, off - margin);
-        else if (off + h > list.scrollTop + viewH - margin) list.scrollTop = off + h - viewH + margin;
-        vScrollTop = list.scrollTop;
-        const win = computeVWindow(vScrollPids, vScrollTop, viewH);
-        if (win.start !== vLastStart || win.end !== vLastEnd) {
+        // 이동한 카드가 화면 세로 중앙에 오는 scrollTop(카드가 화면보다 크면 상단 정렬)
+        const centeredTop = () => {
+          let off = 0;
+          for (let i = 0; i < idx; i += 1) off += vHeightOf(vScrollPids[i]);
+          return Math.max(0, off - Math.max(0, (viewH - vHeightOf(pid)) / 2));
+        };
+        // 측정 높이로 윈도우·중앙 위치가 수렴할 때까지 보정.
+        // 최종 scrollTop과 일치하는 윈도우로 끝나야 onVScroll이 다시 렌더(=포커스 소실)하지 않는다.
+        let targetTop = centeredTop();
+        for (let pass = 0; pass < 3; pass += 1) {
+          const win = computeVWindow(vScrollPids, targetTop, viewH);
+          if (win.start === vLastStart && win.end === vLastEnd) break;
           list.innerHTML = buildVWindowHtml(vSessionProblems, win);
           measureVCards(list);
+          const next = centeredTop();
+          if (next === targetTop) break;
+          targetTop = next;
         }
+        // innerHTML 교체가 scrollTop을 0으로 되돌리므로 반드시 마지막에 적용
+        list.scrollTop = targetTop;
+        vScrollTop = list.scrollTop;
       }
       const card = list.querySelector('.flashcard[data-pid="' + CSS.escape(pid) + '"]');
       if (card) {
-        if (list.dataset.vscroll !== "on") card.scrollIntoView({ block: "nearest" });
+        if (list.dataset.vscroll !== "on") card.scrollIntoView({ block: "center" });
         card.focus({ preventScroll: true });
       }
     }
@@ -2686,13 +2702,22 @@
       if (focusedCard && AppState.inputMode === "flashcard") {
         const pid = focusedCard.dataset.pid;
         if (event.key === " ") { event.preventDefault(); event.stopPropagation(); toggleReveal(pid); refocusScrollCard(pid); return; }
-        if (event.key === "Enter" || event.key === "1") { event.preventDefault(); event.stopPropagation(); setFlashcardResult(pid, true); refocusScrollCard(pid); return; }
+        if (event.key === "Enter" || event.key === "1") {
+          event.preventDefault(); event.stopPropagation();
+          setFlashcardResult(pid, true);
+          // 정답 처리 후 스크롤 모드면 자동으로 다음 문제로 이동(마지막이면 현재 카드 유지)
+          const nextIdx = vScrollPids.indexOf(pid) + 1;
+          if (AppState.displayMode === "scroll" && nextIdx > 0 && nextIdx < vScrollPids.length) focusScrollCard(vScrollPids[nextIdx]);
+          else refocusScrollCard(pid);
+          return;
+        }
         if (event.key === "2") { event.preventDefault(); event.stopPropagation(); setFlashcardResult(pid, false); refocusScrollCard(pid); return; }
       }
-      // 스크롤 모드 플래시카드: Tab/Shift+Tab으로 다음·이전 카드로 이동
-      if (event.key === "Tab" && AppState.screen === "quiz" && AppState.inputMode === "flashcard" && AppState.displayMode === "scroll" && vScrollPids.length) {
+      // 스크롤 모드 플래시카드: Tab/Shift+Tab · 아래/위 화살표로 다음·이전 카드로 이동
+      const isCardNavKey = event.key === "Tab" || event.key === "ArrowDown" || event.key === "ArrowUp";
+      if (isCardNavKey && AppState.screen === "quiz" && AppState.inputMode === "flashcard" && AppState.displayMode === "scroll" && vScrollPids.length) {
         const inList = target && target.closest ? target.closest(".scroll-list [data-pid]") : null;
-        const dir = event.shiftKey ? -1 : 1;
+        const dir = (event.key === "ArrowUp" || (event.key === "Tab" && event.shiftKey)) ? -1 : 1;
         if (!inList) {
           event.preventDefault();
           focusScrollCard(vScrollPids[Math.max(0, Math.min(vScrollPids.length - 1, AppState.currentIndex))]);

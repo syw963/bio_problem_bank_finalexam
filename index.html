@@ -2284,6 +2284,7 @@
     let vScrollPids = [];
     let vSessionProblems = [];
     let vPendingIndex = null;   // 스크롤 진입 시 이 문항이 보이도록 맞춤
+    let suppressInputCenter = false; // 윈도우 재구성이 포커스를 복원할 때 focusin 중앙정렬 재진입 방지
     const vCardHeights = Object.create(null);
 
     function resetVirtualScroll() {
@@ -2386,15 +2387,11 @@
         if (list.dataset.vscroll !== "on") return;
         const win = computeVWindow(vScrollPids, vScrollTop, list.clientHeight || vViewportHeight());
         if (win.start === vLastStart && win.end === vLastEnd) return;
-        // 윈도우 재구성으로 DOM이 교체되면 포커스가 사라지므로, 포커스된 카드가 새 윈도우에도 있으면 복원
-        const focusedCard = document.activeElement && document.activeElement.closest ? document.activeElement.closest(".flashcard") : null;
-        const focusedPid = focusedCard ? focusedCard.dataset.pid : null;
+        // 윈도우 재구성으로 DOM이 교체되면 포커스(입력 캐럿/카드)가 사라지므로, 새 윈도우에도 있으면 복원
+        const snap = captureListFocus(list);
         list.innerHTML = buildVWindowHtml(vSessionProblems, win);
         measureVCards(list);
-        if (focusedPid) {
-          const keep = list.querySelector('.flashcard[data-pid="' + CSS.escape(focusedPid) + '"]');
-          if (keep) keep.focus({ preventScroll: true });
-        }
+        restoreListFocus(list, snap);
       });
     }
 
@@ -2413,12 +2410,47 @@
       if (card) card.focus({ preventScroll: true });
     }
 
-    // 스크롤 모드에서 특정 카드를 화면에 보이게 하고 포커스(가상화면 동기 재구성 포함)
-    function focusScrollCard(pid) {
+    // 윈도우 재구성으로 DOM이 교체돼도 포커스(입력 캐럿/플래시카드)를 유지하기 위한 스냅샷/복원
+    function captureListFocus(list) {
+      const a = document.activeElement;
+      if (!a || !list.contains(a)) return null;
+      if (a.classList && a.classList.contains("blank-input")) {
+        return { type: "input", pid: a.dataset.pid, blank: a.dataset.blank, start: a.selectionStart, end: a.selectionEnd };
+      }
+      const fc = a.closest ? a.closest(".flashcard") : null;
+      if (fc) return { type: "flashcard", pid: fc.dataset.pid };
+      return null;
+    }
+
+    function restoreListFocus(list, snap) {
+      if (!snap) return;
+      suppressInputCenter = true;
+      if (snap.type === "input") {
+        const el = list.querySelector('.blank-input[data-pid="' + CSS.escape(snap.pid) + '"][data-blank="' + CSS.escape(String(snap.blank)) + '"]');
+        if (el) { el.focus({ preventScroll: true }); try { el.setSelectionRange(snap.start, snap.end); } catch (e) {} }
+      } else if (snap.type === "flashcard") {
+        const el = list.querySelector('.flashcard[data-pid="' + CSS.escape(snap.pid) + '"]');
+        if (el) el.focus({ preventScroll: true });
+      }
+      suppressInputCenter = false;
+    }
+
+    // DOM에 렌더된 카드를 .scroll-list 안에서만 세로 중앙으로(윈도우 무관, 창 스크롤 없음)
+    function centerCardInList(list, card) {
+      const lr = list.getBoundingClientRect();
+      const cr = card.getBoundingClientRect();
+      const cardTopInContent = (cr.top - lr.top) + list.scrollTop;
+      const viewH = list.clientHeight || vViewportHeight();
+      list.scrollTop = Math.max(0, cardTopInContent - Math.max(0, (viewH - cr.height) / 2));
+      vScrollTop = list.scrollTop;
+    }
+
+    // 스크롤 모드에서 특정 문제 카드를 화면 세로 중앙으로(가상화면 동기 재구성 포함). 포커스는 바꾸지 않음.
+    function scrollProblemToCenter(pid) {
       const list = app.querySelector(".scroll-list");
-      if (!list) return;
+      if (!list) return null;
       const idx = vScrollPids.indexOf(pid);
-      if (idx < 0) return;
+      if (idx < 0) return null;
       AppState.currentIndex = idx;
       if (list.dataset.vscroll === "on") {
         const viewH = list.clientHeight || vViewportHeight();
@@ -2443,12 +2475,41 @@
         // innerHTML 교체가 scrollTop을 0으로 되돌리므로 반드시 마지막에 적용
         list.scrollTop = targetTop;
         vScrollTop = list.scrollTop;
+      } else {
+        const cardEl = list.querySelector('.question-card[data-pid="' + CSS.escape(pid) + '"]');
+        if (cardEl) cardEl.scrollIntoView({ block: "center" });
       }
+      return list;
+    }
+
+    // 플래시카드: 문제를 중앙으로 옮기고 카드에 포커스
+    function focusScrollCard(pid) {
+      const list = scrollProblemToCenter(pid);
+      if (!list) return;
       const card = list.querySelector('.flashcard[data-pid="' + CSS.escape(pid) + '"]');
-      if (card) {
-        if (list.dataset.vscroll !== "on") card.scrollIntoView({ block: "center" });
-        card.focus({ preventScroll: true });
-      }
+      if (card) card.focus({ preventScroll: true });
+    }
+
+    // 직접 입력: 문제를 중앙으로 옮기고 첫 빈칸 입력란에 포커스
+    function focusProblemFirstInput(pid) {
+      const list = scrollProblemToCenter(pid);
+      if (!list) return;
+      const input = list.querySelector('.question-card[data-pid="' + CSS.escape(pid) + '"] .blank-input');
+      if (input) { input.focus({ preventScroll: true }); input.select(); }
+    }
+
+    // 스크롤 모드: ↑/↓로 이전·다음 문제 포커스(플래시카드=카드, 직접입력=첫 입력란)
+    function moveScrollFocus(dir) {
+      if (!vScrollPids.length) return;
+      const a = document.activeElement;
+      const card = a && a.closest ? a.closest(".question-card") : null;
+      const curPid = card ? card.dataset.pid : null;
+      // 아직 아무 문제도 포커스 안 됐으면 현재 보고 있는(맨 위) 문제부터, 이미 포커스됐으면 그 문제 기준 이동
+      const baseIdx = curPid === null ? AppState.currentIndex : vScrollPids.indexOf(curPid) + dir;
+      const targetIdx = Math.max(0, Math.min(vScrollPids.length - 1, baseIdx));
+      const pid = vScrollPids[targetIdx];
+      if (AppState.inputMode === "flashcard") focusScrollCard(pid);
+      else focusProblemFirstInput(pid);
     }
 
     function renderQuestionCard(problem, index, total) {
@@ -2690,6 +2751,17 @@
       setBlankValue(target.dataset.pid, target.dataset.blank, target.value);
     });
 
+    // 스크롤 모드 직접 입력: 현재 입력 중인 문제(빈칸 포커스)를 화면 세로 중앙으로 유지
+    app.addEventListener("focusin", (event) => {
+      if (suppressInputCenter) return;
+      if (AppState.screen !== "quiz" || AppState.displayMode !== "scroll") return;
+      const input = event.target;
+      if (!input || !input.classList || !input.classList.contains("blank-input")) return;
+      const list = app.querySelector(".scroll-list");
+      const card = input.closest(".question-card");
+      if (list && card) centerCardInList(list, card);
+    });
+
     app.addEventListener("keydown", (event) => {
       const target = event.target;
       if (target && target.dataset.action === "home" && (event.key === "Enter" || event.key === " ")) {
@@ -2704,6 +2776,8 @@
         if (event.key === " ") { event.preventDefault(); event.stopPropagation(); toggleReveal(pid); refocusScrollCard(pid); return; }
         if (event.key === "Enter" || event.key === "1") {
           event.preventDefault(); event.stopPropagation();
+          // 가려진 상태면 정답을 먼저 펼친다(엔터 = 정답 보이기 + 정답 처리 + 다음 문제)
+          if (!AppState.revealed[pid]) AppState.revealed[pid] = true;
           setFlashcardResult(pid, true);
           // 정답 처리 후 스크롤 모드면 자동으로 다음 문제로 이동(마지막이면 현재 카드 유지)
           const nextIdx = vScrollPids.indexOf(pid) + 1;
@@ -2713,11 +2787,10 @@
         }
         if (event.key === "2") { event.preventDefault(); event.stopPropagation(); setFlashcardResult(pid, false); refocusScrollCard(pid); return; }
       }
-      // 스크롤 모드 플래시카드: Tab/Shift+Tab · 아래/위 화살표로 다음·이전 카드로 이동
-      const isCardNavKey = event.key === "Tab" || event.key === "ArrowDown" || event.key === "ArrowUp";
-      if (isCardNavKey && AppState.screen === "quiz" && AppState.inputMode === "flashcard" && AppState.displayMode === "scroll" && vScrollPids.length) {
+      // 스크롤 모드 플래시카드: Tab/Shift+Tab으로 다음·이전 카드로 이동(↑/↓는 window 핸들러에서 처리)
+      if (event.key === "Tab" && AppState.screen === "quiz" && AppState.inputMode === "flashcard" && AppState.displayMode === "scroll" && vScrollPids.length) {
         const inList = target && target.closest ? target.closest(".scroll-list [data-pid]") : null;
-        const dir = (event.key === "ArrowUp" || (event.key === "Tab" && event.shiftKey)) ? -1 : 1;
+        const dir = event.shiftKey ? -1 : 1;
         if (!inList) {
           event.preventDefault();
           focusScrollCard(vScrollPids[Math.max(0, Math.min(vScrollPids.length - 1, AppState.currentIndex))]);
@@ -2742,8 +2815,16 @@
 
     window.addEventListener("keydown", (event) => {
       if (AppState.screen !== "quiz") return;
-      if (event.target && ["INPUT", "TEXTAREA", "SELECT"].includes(event.target.tagName)) return;
       if (event.metaKey || event.ctrlKey || event.altKey) return;
+
+      // 스크롤 모드: ↑/↓로 이전·다음 문제 포커스(입력 중이어도 스크롤 대신 문제 이동)
+      if (AppState.displayMode === "scroll" && (event.key === "ArrowDown" || event.key === "ArrowUp") && vScrollPids.length) {
+        event.preventDefault();
+        moveScrollFocus(event.key === "ArrowDown" ? 1 : -1);
+        return;
+      }
+
+      if (event.target && ["INPUT", "TEXTAREA", "SELECT"].includes(event.target.tagName)) return;
 
       const problem = getCurrentProblem();
       if (!problem) return;

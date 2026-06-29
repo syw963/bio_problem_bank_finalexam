@@ -2955,7 +2955,14 @@
       }
       if (event.key === "Enter" && AppState.inputMode === "flashcard" && AppState.displayMode === "one") {
         event.preventDefault();
-        setFlashcardResult(problem.pid, true);
+        if (!AppState.revealed[problem.pid]) {
+          // 가려진 상태: 먼저 정답을 펼친다
+          toggleReveal(problem.pid);
+        } else {
+          // 펼쳐진 상태: 정답처리 후 다음 문제로 넘어간다
+          setFlashcardResult(problem.pid, true);
+          navigateQuestion(1);
+        }
       }
       if (event.key.toLowerCase() === "f") {
         event.preventDefault();
